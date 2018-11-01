@@ -1,0 +1,28 @@
+if %RACE
+    setCursor 250, 470
+    setAlign #CENTER, #MIDDLE
+    setFontFamily con_fontSystem
+	setFontSize %VIDHEIGHT / 50
+
+    if %TIME_SELF == #NOTSET
+        setColor 0 0 0 1
+        drawTimer %TIME_BEST
+        moveCursor -1 -2
+        setColor 0 1 1 1
+        drawTimer %TIME_BEST
+        moveCursor 0 -20
+        setColor 0.2 0.6 0.8 1
+        drawString "Personal best:"
+        
+        moveCursor 300, 20
+        setColor 0 0 0 1
+        drawTimer %TIME_RECORD
+        moveCursor -1 -2
+        setColor .96 .76 .24 1
+        drawTimer %TIME_RECORD
+        moveCursor 0 -20
+        setColor .65 .5 .13 1
+        drawString "Server record:"
+    endif
+
+endif // %RACE

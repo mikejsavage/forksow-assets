@@ -1,0 +1,964 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-04-03 16:14+0000\n"
+"PO-Revision-Date: 2016-04-03 16:14+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+
+msgid "Restart race"
+msgstr "Cursă de repornire"
+
+msgid "Enter practice mode"
+msgstr "Intra în modul de practică"
+
+msgid "Leave practice mode"
+msgstr "Lasă un modul de practică"
+
+msgid "Enable noclip mode"
+msgstr "Activați modul de noclip"
+
+msgid "Disable noclip mode"
+msgstr "Dezactiva modul de noclip"
+
+msgid "Save position"
+msgstr "Poziţia salvați"
+
+msgid "Load saved position"
+msgstr "Poziția de încărcare salvată"
+
+msgid "Clear saved position"
+msgstr "Clar poziția salvată"
+
+msgid "View match info"
+msgstr "Info vizualizare meci"
+
+#. UI slider for video brightness
+msgid "Brightness"
+msgstr "Luminozitate"
+
+msgid "Open in browser"
+msgstr "Deschide în browser"
+
+#. HUD option
+msgid "Match timer"
+msgstr "Cronometru meci"
+
+#. Match timer option
+msgid "count down"
+msgstr "scade timp"
+
+#. Match timer option
+msgid "count up"
+msgstr "adaugă timp"
+
+#. Start page in UI
+msgid "Home"
+msgstr "Știri"
+
+#. Quit confirmation
+msgid "Are you sure you want to quit?"
+msgstr "Ești sigur că vrei să renunți?"
+
+#. Graphics profile's name
+msgid "contrast"
+msgstr "contrast"
+
+#. Graphics profile's name
+msgid "high"
+msgstr "detaliat"
+
+#. Graphics profile's name
+msgid "high+"
+msgstr "extrem"
+
+#. Graphics profile's name
+msgid "low"
+msgstr "simplist"
+
+#. Graphics profile's name / Bots' skill
+msgid "medium"
+msgstr "mediu"
+
+#. Graphics profile's name
+msgid "stream"
+msgstr "stream"
+
+msgid "Accuracy details"
+msgstr "Detalii precizie"
+
+msgid "View awards"
+msgstr "Afișează premiile"
+
+#. Logout from warsow.gg
+msgid "Logout"
+msgstr "Deconectare"
+
+msgid "Weapon"
+msgstr "Armă"
+
+#. Weapon use percentage, it should as short as possible, 6 symbols max!
+msgid "Use"
+msgstr "Utilizare"
+
+msgid "Accuracy"
+msgstr "Precizie"
+
+msgid "Wins"
+msgstr "Victorii"
+
+msgid "Losses / quits"
+msgstr "Înfrânger / Abandonuri"
+
+msgid "Frags / deaths"
+msgstr "Asasinări / Decesuri"
+
+msgid "Friends"
+msgstr "Prieteni"
+
+#. Friend status
+msgid "Offline"
+msgstr "Deconectat"
+
+#. Short form of "Accuracy", it should 6 symbols max!
+msgid "Acc"
+msgstr "Precizie"
+
+msgid "Time played:"
+msgstr "Timp jucat:"
+
+msgid "Awards"
+msgstr "Medalii"
+
+#. Bots' skill
+msgid "easy"
+msgstr "novice"
+
+#. Bots' skill
+msgid "hard"
+msgstr "veteran"
+
+msgid "Suggested servers"
+msgstr "Servere sugerate"
+
+msgid "Less than an hour"
+msgstr "Mai puțin de 1 oră"
+
+msgid "1 hour"
+msgstr "1 oră"
+
+msgid "%s hours"
+msgstr "%s ore"
+
+msgid "%s days, %s hours"
+msgstr "%s zile, %s ore"
+
+msgid "Last seen %s days ago"
+msgstr "Ultima conectare - în urmă cu %s zile"
+
+msgid "No data yet"
+msgstr "Lipsă date"
+
+msgid "No friends yet"
+msgstr "Niciun prieten existent"
+
+msgid "Connected to"
+msgstr "Conectat la"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Demo filename"
+msgstr "Nume reluare"
+
+#. Please use as short form as possible, 8 symbols max! It's a server browser column header displaying whether the server is ranked (sends your stats to warsow.gg).
+msgid "Ranked"
+msgstr "Rang"
+
+#. UI bind for making screenshots
+msgid "Screenshot"
+msgstr "Captură de ecran"
+
+#. Key binding - hold to show the scoreboard
+msgid "Scoreboard"
+msgstr "Tabelă de Scor"
+
+msgid "Join"
+msgstr " Alăturăte"
+
+#. cg_chatBeep
+msgid "Chat message sound"
+msgstr "Sunet mesaj discuţie"
+
+#. Toggles possibility to play ingame sounds while its window is unfocused or minimized
+msgid "Keep playing sounds in background"
+msgstr "Redă sunetul în fundal"
+
+#. Bots' number
+msgid "Bots: %s"
+msgstr "Boţi: %s"
+
+#. Back to the previous menu
+msgid "Back"
+msgstr "Spate"
+
+msgid "Welcome to Warsow!"
+msgstr "Bine ai venit în Warsow!"
+
+#. "Race" tab in the server browser
+msgid "Race"
+msgstr "Cursă"
+
+msgid "News"
+msgstr "Ştiri"
+
+msgid "New Game"
+msgstr "Joacă"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Chat"
+msgstr "Discută"
+
+msgid "Options"
+msgstr "Setări"
+
+msgid "Quit"
+msgstr "Ieşire"
+
+msgid "Player"
+msgstr "Jucător"
+
+msgid "Teams"
+msgstr "Echipe"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Input"
+msgstr "Tastatură / Mouse"
+
+#. Use short form as possible, alternatively you can translate it from "Apply"
+msgid "Save changes"
+msgstr "Salvează"
+
+msgid "Cancel"
+msgstr "Renunţă"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Clan"
+msgstr "Clan"
+
+msgid "Misc"
+msgstr "Altele"
+
+msgid "Spectator HUD"
+msgstr "Interfaţă Spectator"
+
+msgid "Crosshair"
+msgstr "Model ţintă"
+
+msgid "Weapon handedness"
+msgstr "Poziţionarea armei"
+
+msgid "default"
+msgstr "standard"
+
+msgid "right"
+msgstr "dreapta"
+
+#. gun position
+msgid "left"
+msgstr "stânga"
+
+msgid "center"
+msgstr "centrată"
+
+msgid "FOV"
+msgstr "Unghi vedere periferică (FOV)"
+
+msgid "FOV while using zoom"
+msgstr "Unghi vedere periferică (FOV) pentru lunetă"
+
+msgid "Simple items"
+msgstr "Obiecte simple"
+
+msgid "Show teammates' names"
+msgstr "Afișează numele coechipierilor"
+
+msgid "Show help"
+msgstr "Afișează mesaje ajutătoare"
+
+msgid "Show weapon model"
+msgstr "Afișează arma pe ecran"
+
+msgid "Show minimap"
+msgstr "Afișează radarul"
+
+msgid "Show FPS counter"
+msgstr "Activează afișajul pentru FPS"
+
+msgid "Show speed meter"
+msgstr "Afișează indicatorul de viteză"
+
+msgid "Show damage indicator"
+msgstr "Semnalează loviturile încasate"
+
+msgid "Automatically record demos"
+msgstr "Înregistrează automat meciurile"
+
+msgid "Endmatch screenshot"
+msgstr "Captură de ecran la finalul meciului"
+
+msgid "Save match stats"
+msgstr "Salvează statisticile meciurilor"
+
+msgid "Alpha"
+msgstr "Alfa"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Players"
+msgstr "Neutri"
+
+msgid "Team model options"
+msgstr "Opţiuni modele echipe"
+
+msgid "Fullbright skin"
+msgstr "Costume fosforescente"
+
+msgid "Force your team as ALPHA"
+msgstr "Forţează echipa ta să fie mereu ALFA"
+
+msgid "Graphics profile"
+msgstr "Profil video rapid"
+
+msgid "Fullscreen"
+msgstr "Afişare pe tot ecranul"
+
+msgid "Vertical sync"
+msgstr "Sincronizare verticală (V-Sync)"
+
+msgid "Screen resolution"
+msgstr "Rezoluţie"
+
+msgid "desktop"
+msgstr "desktop"
+
+msgid "Texture quality"
+msgstr "Calitate texturi"
+
+msgid "Anisotropic filtering"
+msgstr "Filtrare anisotropică"
+
+msgid "Lighting quality"
+msgstr "Calitate iluminare"
+
+msgid "vertex lighting"
+msgstr "vertex"
+
+msgid "lightmaps"
+msgstr "lightmaps"
+
+msgid "per-pixel lighting"
+msgstr "per-pixel"
+
+msgid "Shadows"
+msgstr "Umbre"
+
+msgid "off"
+msgstr "dezactivate"
+
+msgid "simple shadows"
+msgstr "simple"
+
+msgid "shadowmaps"
+msgstr "shadowmaps"
+
+msgid "Greyscale lighting"
+msgstr "Iluminare greyscale"
+
+msgid "Use solid colors for world"
+msgstr "Foloseşte culori \"solide\" pentru niveluri"
+
+msgid "Sound module"
+msgstr "Modul sunet"
+
+msgid "no sound"
+msgstr "sunet dezactivat"
+
+msgid "Sound volume"
+msgstr "Volum sunet"
+
+msgid "Music volume"
+msgstr "Volum muzică"
+
+msgid "Players volume"
+msgstr "Volum jucători"
+
+msgid "Effects volume"
+msgstr "Volum efecte"
+
+msgid "Announcer volume"
+msgstr "Volum crainic"
+
+msgid "Voice chat volume"
+msgstr "Volum mesaje audio"
+
+msgid "Hit sounds volume"
+msgstr "Volum lovituri"
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Movement"
+msgstr "Deplasare"
+
+msgid "Actions"
+msgstr "Acţiuni"
+
+msgid "Weapons"
+msgstr "Arme"
+
+msgid "Voice chat"
+msgstr "Mesaje audio"
+
+msgid "Saved"
+msgstr "Salvat"
+
+msgid "Mouse sensitivity"
+msgstr "Sensitivitate mouse"
+
+msgid "Mouse acceleration"
+msgstr "Accelerare mouse"
+
+msgid "Mouse filter"
+msgstr "Filtrare mouse"
+
+msgid "Invert mouse"
+msgstr "Inversare mouse"
+
+msgid "Forward"
+msgstr "Înainte"
+
+#. bind for "move back"
+msgid "Backward"
+msgstr "Înapoi"
+
+msgid "Left"
+msgstr "Pas lateral stânga"
+
+msgid "Right"
+msgstr "Pas lateral dreapta"
+
+msgid "Up / jump"
+msgstr "Sus / Săritură"
+
+msgid "Down / crouch"
+msgstr "Jos / Ghemuire"
+
+msgid "Dash / walljump"
+msgstr "Fentă / Salt special"
+
+msgid "Run / walk"
+msgstr "Alergare / Păşire"
+
+msgid "Attack"
+msgstr "Atac standard"
+
+msgid "Previous weapon"
+msgstr "Arma precedentă"
+
+msgid "Next weapon"
+msgstr "Următoarea armă"
+
+msgid "Last weapon"
+msgstr "Ultima armă folosită"
+
+msgid "Zoom"
+msgstr "Lunetă"
+
+msgid "Drop weapon"
+msgstr "Aruncă arma"
+
+msgid "Drop bomb / flag"
+msgstr "Aruncă bombă / steagul"
+
+msgid "Class action 1"
+msgstr "Clasă jucător - acţiune 1"
+
+msgid "Class action 2"
+msgstr "Clasă jucător - acţiune 2"
+
+msgid "Team chat"
+msgstr "Mesaj pentru echipă"
+
+msgid "Login to warsow.gg"
+msgstr "Autentifică-te pe warsow.gg"
+
+msgid "Login with your warsow.gg account to save your statistics and match results."
+msgstr "Autentifică-te cu informaţiile de pe warsow.gg pentru a-ţi salva statisticile şi rezultatele meciurilor."
+
+msgid "Don't have an account?"
+msgstr "Nu ai un cont?"
+
+msgid "Register for a free account here."
+msgstr "Creează aici gratis unul!"
+
+msgid "Username"
+msgstr "Utilizator"
+
+msgid "Password"
+msgstr "Parolă"
+
+msgid "Remember login"
+msgstr "Reţine autentificarea"
+
+msgid "Login"
+msgstr "Autentificare"
+
+msgid "Normal weapons"
+msgstr "Arme standard"
+
+msgid "Instagib"
+msgstr "Instagib"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Watch on TV"
+msgstr "Urmăreşte pe TV"
+
+msgid "Favorites"
+msgstr "Preferate"
+
+msgid "Ping"
+msgstr "Ping"
+
+msgid "Hostname"
+msgstr "Nume server"
+
+msgid "Gametype"
+msgstr "Mod de joc"
+
+msgid "Match browser"
+msgstr "Navigator meciuri"
+
+msgid "Local game"
+msgstr "Meci local"
+
+msgid "Demo browser"
+msgstr "Navigator reluări"
+
+msgid "Stop"
+msgstr "Oprește actualizarea"
+
+msgid "Refresh"
+msgstr "Actualizează lista"
+
+msgid "Map"
+msgstr "Hartă"
+
+msgid "Title"
+msgstr "Titlu"
+
+msgid "Mapname"
+msgstr "Nume hartă"
+
+msgid "Start game"
+msgstr "Porneşte"
+
+msgid "Server name"
+msgstr "Nume server"
+
+msgid "Public server"
+msgstr "Server public"
+
+msgid "Score limit"
+msgstr "Limită scor"
+
+msgid "Max players"
+msgstr "Nr. jucători"
+
+msgid "Time limit"
+msgstr "Limită de timp"
+
+msgid "min."
+msgstr "min."
+
+msgid "Bot skill level"
+msgstr "Dificultate Boţi"
+
+msgid "Number of bots"
+msgstr "Număr de boţi"
+
+msgid "Remove from favorites"
+msgstr "Şterge din preferate"
+
+msgid "Add to favorites"
+msgstr "Adaugă la preferate"
+
+msgid "Map: %s"
+msgstr "Hartă: %s"
+
+msgid "Players: %s"
+msgstr "Nr. jucători: %s"
+
+msgid "Gametype: %s"
+msgstr "Mod de joc: %s"
+
+msgid "Mod: %s"
+msgstr "Mod: %s"
+
+msgid "Ping: %s"
+msgstr "Ping: %s"
+
+msgid "Address: %s"
+msgstr "Adresă: %s"
+
+msgid "IRC server connection"
+msgstr "Conexiune server IRC"
+
+msgid "Server port"
+msgstr "Port server"
+
+msgid "Nickname"
+msgstr "Poreclă"
+
+msgid "Channels"
+msgstr "Canale"
+
+msgid "Connect"
+msgstr "Conectare"
+
+msgid "Disconnect"
+msgstr "Deconectare"
+
+msgid "Send"
+msgstr "Trimite"
+
+msgid "Date: %s"
+msgstr "Dată: %s"
+
+msgid "Match: %s"
+msgstr "Meci: %s"
+
+msgid "Score: %s"
+msgstr "Scor: %s"
+
+msgid "Duration: %s"
+msgstr "Durată: %s"
+
+msgid "Ready!"
+msgstr "Sunt pregătit!"
+
+msgid "Not ready!"
+msgstr "Nu sunt pregătit!"
+
+msgid "Join challengers queue"
+msgstr "Alătură-te listei de competitori"
+
+msgid "Leave challengers queue"
+msgstr "Părăşeşte lista de competitori"
+
+msgid "Join the game"
+msgstr "Alătură-te meciului"
+
+msgid "Join any team"
+msgstr "Alătură-te oricărei echipe"
+
+msgid "Join %s"
+msgstr "Alăturăte %s"
+
+msgid "Spectate"
+msgstr "Spectator"
+
+msgid "Game menu"
+msgstr "Meniu de joc"
+
+msgid "Call a vote"
+msgstr "Solicită o votare"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam"
+msgstr "Chasecam"
+
+msgid "Main menu"
+msgstr "Meniu principal"
+
+msgid "Return to game"
+msgstr "Întoarce-te în meci"
+
+msgid "\"%s\" options"
+msgstr "Setări \"%s\""
+
+msgid "Refused: %s"
+msgstr "Refuzat: %s"
+
+msgid "Press ESC to cancel"
+msgstr "Apasă ESC pentru anulare"
+
+msgid "Downloading %s from %s at %s k/s"
+msgstr "%s este transferat de pe %s cu %s k/s"
+
+msgid "Owner left the listen server"
+msgstr "Gazda a părăsit serverul releu"
+
+msgid "Server was killed"
+msgstr "Serverul a fost oprit"
+
+msgid "Server restarted"
+msgstr "Serverul a fost repornit"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam mode"
+msgstr "Mod chasecam"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Objectives"
+msgstr "Obiective"
+
+msgid "Powerups"
+msgstr "Amplificatori"
+
+msgid "Fraggers"
+msgstr "Fraggers"
+
+msgid "Highest score"
+msgstr "Cel mai bun scor"
+
+msgid "Enable"
+msgstr "Activat"
+
+msgid "Disable"
+msgstr "Dezactivat"
+
+msgid "Watch"
+msgstr "Urmăreşte"
+
+msgid "Viewers"
+msgstr "Spectatori"
+
+msgid "Reconnect"
+msgstr "Reconectare"
+
+msgid "Votes"
+msgstr "Voturi"
+
+msgid "Primary weapons"
+msgstr "Arme primare"
+
+msgid "Secondary weapons"
+msgstr "Arme secundare"
+
+#. "Bomb" gametype related option, means "I want to carry bomb"
+msgid "Carrier opt-in"
+msgstr "Carrier opt-in"
+
+#. "Bomb" gametype related option, means "I DON'T want to carry bomb"
+msgid "Carrier opt-out"
+msgstr "Carrier opt-out"
+
+msgid "Select class"
+msgstr "Alege clasa"
+
+msgid "Grunt"
+msgstr "Soldat"
+
+msgid "Medic"
+msgstr "Medic"
+
+msgid "Runner"
+msgstr "Alergător"
+
+msgid "Engineer"
+msgstr "Inginer"
+
+msgid "Connection failed"
+msgstr "Conexiune eşuată"
+
+msgid "Connection terminated"
+msgstr "Conexiune încheiată"
+
+msgid "Connection error"
+msgstr "Eroare conectare"
+
+msgid "Couldn't connect to %s"
+msgstr "Nu s-a putut stabili o conexiune la %s"
+
+msgid "Connection was terminated by %s"
+msgstr "Conexiune închisă de %s"
+
+msgid "Error connecting to %s"
+msgstr "Eroare conectare la %s"
+
+msgid "Reason: %s"
+msgstr "Motiv: %s"
+
+msgid "Fullscreen anti-aliasing"
+msgstr "Anti-aliasing"
+
+msgid "Soft particles"
+msgstr "Particule îmbunătăţite"
+
+msgid "Weapon opacity"
+msgstr "Opacitate armei"
+
+msgid "Vote yes"
+msgstr "Votează da"
+
+msgid "Vote no"
+msgstr "Votează nu"
+
+msgid "Vote \"%s\" has been called"
+msgstr "Votarea \"%s\" a fost solicitată"
+
+msgid "Changes map"
+msgstr "Schimbă harta"
+
+msgid "Restarts current map"
+msgstr "Reporneşte harta curentă"
+
+msgid "Jumps to the next map"
+msgstr "Trece la următoarea hartă"
+
+msgid "Specify 0 to disable"
+msgstr "Specifică 0 pentru dezactivare"
+
+msgid "Sets the number of frags or caps needed to win the match"
+msgstr "Stabileşte numărul de frag-uri sau puncte capturate pentru câştigarea meciului"
+
+msgid "Sets number of minutes after which the match ends"
+msgstr "Stabileşte numărul de minute după care se va încheia meciul"
+
+msgid "Changes the gametype"
+msgstr "Schimbă modul de joc"
+
+msgid "Sets the number of minutes after which the warmup ends"
+msgstr "Stabileşte numărul de minute pentru încălzire"
+
+msgid "Sets the length of the overtime"
+msgstr "Stabileşte durata prelungirilor"
+
+msgid "Specify 0 to enable sudden death mode"
+msgstr "Specifică 0 pentru eliminare instantanee"
+
+msgid "Sets the maximum number of players in one team"
+msgstr "Stabileşte numărul maxim de jucători per echipă"
+
+msgid "Locks teams to disallow players joining in mid-game"
+msgstr "Blochează echipele pentru ca jucătorii să nu se poată alătura în mijlocul meciului"
+
+msgid "Unlocks teams to allow players joining in mid-game"
+msgstr "Deblochează echipele pentru ca jucătorii să se poată alătura în mijlocul meciului"
+
+msgid "Sets all players as ready so the match can start"
+msgstr "Setează toți jucătorii ca fiind \"pregătiți\" pentru ca meciul să poată începe"
+
+msgid "Forces player back to spectator mode"
+msgstr "Forțează toți jucătorii să intre în modul Spectator"
+
+msgid "Removes player from the server"
+msgstr "Elimină toți jucătorii de pe server"
+
+msgid "Removes player from the server and bans his IP-address for 15 minutes"
+msgstr "Elimină jucătorul de pe server și îi blochează adresa IP timp de 15 minute"
+
+msgid "Disallows chat messages from the muted player"
+msgstr "Refuză mesajele trimise de jucători pedepsiți"
+
+msgid "Disallows voice chat messages from the muted player"
+msgstr "Refuză comunicarea audio de la jucători pedepsiți"
+
+msgid "Reallows chat messages from the unmuted player"
+msgstr "Permite mesajele trimise de jucători pedepsiți"
+
+msgid "Reallows voice chat messages from the unmuted player"
+msgstr "Permite comunicarea audio de la jucători pedepsiți"
+
+msgid "Sets the number of bots to play on the server"
+msgstr "Stabilește numărul de boţi prezenţi pe server"
+
+msgid "Toggles whether shooting teammates will do damage to them"
+msgstr "Stabilește dacă atacarea coechipierilor îi va răni sau nu"
+
+msgid "Toggles whether instagun can be used for weapon jumping"
+msgstr "Stabilește dacă Instagun-ul poate fi utilizat pentru salturi speciale"
+
+msgid "Toggles the availability of instashield in instagib"
+msgstr "Setează disponibilitatea scutului instant în modul instagib"
+
+msgid "Toggles whether falling long distances deals damage"
+msgstr "Stabilește dacă salturile de la înălțimi mari rănesc jucătorii"
+
+msgid "Toggles whether weapon splashes can damage self"
+msgstr "Stabilește dacă armele pot răni jucătorul care le folosește (splash damage)"
+
+msgid "Pauses the game"
+msgstr "Întrerupe meciul"
+
+msgid "Resumes the game if in timeout"
+msgstr "Continuă meciul dacă pauza este activată"
+
+msgid "Toggles the challenging spectators queue line"
+msgstr "Activează coada de așteptare pentru concurenții spectatori"
+
+msgid "Toggles whether uneven teams is allowed"
+msgstr "Stabileşte dacă sunt permise echipe cu număr inegal de jucători"
+
+msgid "Enables or disables the dropping of powerups at dying"
+msgstr "Activează sau dezactivează apariţia amplificatorilor după eliminarea unui jucător"
+
+msgid "Enables or disables instant flag captures and unlocks"
+msgstr "Activează sau dezactivează deblocările și capturările instante ale steagului"
+
+msgid "Enables or disables the spawning of powerups"
+msgstr "Activează sau dezactivează apariția amplificatorilor"
+
+msgid "If enabled, tag fragger will become new tag automatically"
+msgstr "Dacă este activă, cine omoară jucătorul marcat va deveni automat noua țintă"
+
+msgid "Sets the speed at which the capture points heal their owners"
+msgstr "Setează viteza cu care un punct de capturat își vindecă aliații"
+
+msgid "Sets the time in seconds between reinforcement respawn waves"
+msgstr "Setează (în secunde) timpul scurs între două valuri de întăriri"
+
+msgid "Downloading %s from server at %s k/s"
+msgstr "%s este transferat de pe server cu viteza de %s k/s"
+
+msgid "Downloading %s from the web at %s k/s"
+msgstr "%s este transferat de pe Internet cu viteza de %s k/s"
+
+msgid "Play"
+msgstr "Joacă"
+
+msgid "Reload"
+msgstr "Reîncarcă"
+
+msgid "Logging in, hold on..."
+msgstr "Te rugăm să aștepți autentificarea..."
+
+msgid "Searching for game servers..."
+msgstr "Sunt căutate servere..."
+
+msgid "Browse servers manually"
+msgstr "Caută manual servere"
+

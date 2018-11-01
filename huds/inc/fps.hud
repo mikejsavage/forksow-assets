@@ -1,0 +1,13 @@
+if %SHOW_FPS
+	setSpecialFontFamily Virtue
+	setFontSize %VIDHEIGHT / 50
+	setAlign #RIGHT, #TOP
+	setCursor #WIDTH - 4, 4
+	setColor 0 0 0 0.9
+	drawStringNum %FPS
+	
+	moveCursor -1, -1
+	setColor 1 1 1 0.95
+	drawStringNum %FPS
+
+endif

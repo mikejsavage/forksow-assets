@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-03-06 16:08+0000\n"
+"PO-Revision-Date: 2016-03-06 16:08+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "welcome_to_tutorial"
+msgstr "¡Bienvenido al tutorial de Warsow!\nPuedes mirar ^3a tu alrededor^7 con el ^2mouse^7 y moverte con las ^3teclas de movimiento^7 (^2WSAD^7.)\nCamina hacía los ^3dos símbolos^7 que hay en la habitación para aprender acerca de lo que significan y luego pasa a través de la puerta para continuar."
+
+msgid "welcome_to_tutorial_nokeyboard"
+msgstr "Welcome to the Warsow Tutorial!\n\nWarsow is a fast-paced game with advanced movement and uses gamepad-like touch controls.\nHold your device as shown on the screen so you can control the player with four fingers at once.\nYou can walk with your left thumb and look around with your right thumb.\n\nOn a gamepad, you can use the Left Stick to walk and the Right Stick to look around.\n\nWalk to the two symbols in this room to learn about what they mean and then go through the door to proceed."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "special_explanation"
+msgstr "Este icono muestra el uso de la  ^3Tecla especial^7 (^2{B+special}^7.)\nSe usa para trucos especiales de movimientos. En el uso te ayuda a hacer ^3Deslizamientos^7. ¡Inténtalo!\n(Consejo: El ^3deslizamiento^7 puede usarse junto con las ^3teclas de movimiento^7).\n¡Además, recuerda que las ^3teclas especiales^7 tienen un ^3enfriamiento^7 y el recibir daño provoca un ^3aturdimiento^7 que desactiva el ^3deslizarse^7!"
+
+msgid "jump_explanation"
+msgstr "Este icono muestra el uso de la ^3tecla de Salto^7 (^2{B+moveup}^7).\nSaltar es muy importante en Warsow, como aprenderás."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "jumping_tutorial"
+msgstr "Tanto como estés ^3saltando^7 mantendrás tu ^3velocidad^7 (el número que hay abajo).\nPara obtener algo de velocidad, debe ^3deslizarse^7 (^2{B+special}^7) hasta el ^3Sïmbolo especial^7\ny a continuación, ^3saltar^7(^2{B+moveup}^7) desde el símbolo de la tecla de salto hasta el final.\nEsto se llama ^3Bunnyhopping^7. (Consejo: puedes mantener la tecla de salto presionada.)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "walljumping_tutorial"
+msgstr "Además del ^3Deslizamiento^7. la ^3tecla especial^7 te permite hacer ^3saltos por la pared^7.\nPara llegar a la puerta, salta contra la pared y después presiona la ^3tecla especial^7 (^2{B+special}^7) para rebotar.\n¡Esto te empujará por encima un poco para que llegues a las plataformas!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "wallsliding_tutorial"
+msgstr "Las ^3rampas^7 pueden también usarse para algunos trucos, ¡prueba a ^3deslizarte^7 contra ellas para que te empujen por encima de la pared!\nEn el punto más alto, tendrás que usar un ^3Salto de pared^7 y las ^3teclas de movimiento^7 para llegar hasta la puerta.\n(Consejo: también puedes presionar la tecla de ^3Salto^7 para subirte encima de las rampas cuando tengas la suficiente velocidad)."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "doublejump_tutorial"
+msgstr "En todas los bordes normales puedes hacer un truco de ^3Doble salto^7.\nPara esto tendrás que ^3saltar^7 contra la caja.\ndespués en el borde, presiona ^3la tecla de salto^7 otra vez para coger más altura de la que cogerías saltando dos veces.\n¡Usa la altura conseguida y añade un ^3salto de pared^7 para llegar hasta la puerta!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "strafejumping_tuto"
+msgstr "!^3Deslizarte^7 solamente te da un incremento inicial de velocidad, pero usando el ^3Salto de ataque^7 seguirás llendo más rápido!\nPara esto haz un ^3bunnyhop^7 normalmente mientras tienes presionada la ^3Tecla de avance^7 (^2{B+forward}^7),\ny mientras estás en el aire presiona la ^3Izquierda^7 (^2{B+moveleft}^7) y ^3mueve el mouse^7 algunos grados a la izquierda.\nEn le siguiente salto vuelve el mouse al centro,\ndespués presiona la tecla de la ^3Derecha^7(^2{B+moveright}^7) y ^3mueve el mouse^7 a la derecha.\n¡Vigila el ^3velocímetro^7 e intenta llegar por encima de los ^3550^7!\nVe hacía la puerta cuando te sientas preparado."
+
+msgid "strafejumping_tuto_nokeyboard"
+msgstr "Dashing only gives an initial speedboost, but by Strafe Jumping you keep going faster!\nFor this bunnyhop normally while moving forward,\nand while in the air move left and look some degrees to the left.\nAt the next jump, move right and look to the right.\nCheck your speedmeter and try to get above 550!\nIf you are unable to do so, skip this lesson, as it is one of the hardest.\nGo to the door when you feel ready."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "badass_jumping"
+msgstr "En esta fase probaremos tus ^3habilidades adquiridas^7.\nIntenta llegar ^3hasta el final^7 bien siguiendo los consejos de los símbolos que hay de la ruta o ^3buscando tu propio camino!^7\n¡Buena suerte y diviértete!"
+
+msgid "badass_jumping_dash"
+msgstr "¡Necesitas mucha más ^3velocidad^7 para superar ese abismo!\nUsa el ^3Deslizamiento^7 antes de saltar para tener un buen ^3lanzamiento inicial^7\n¡Esto te ayudará a llegar a la pared y al otro lado fácilmente!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "rampsliding_tutorial"
+msgstr "Cuando estés en una rampa  no muy pronunciada como este rail, también puedes ^3deslizarte^7 sobre ella para hacer un ^3deslizamiento de rampa^7.\n¡Pruébalo! Para resumir, la ^3tecla especial^7 te permite ^3deslizarte^7, ^3saltar paredes^7, ^3saltar rampas^7 y ^3deslizarte por las rampas^7\nUsa ^3La tecla de deslizamiento^7 para obtener un ^3incremento de velocidad inicial^7 o ^3para cambiar la direccion^7 y ^3esquivar proyectiles^7"
+
+msgid "red_button_1"
+msgstr "¡Presiona el ^1botón rojo^7 para abrir la ^3puerta^7!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_intro"
+msgstr "Siempre empiezas con el ^5Sable-pistola^7(de forma reducida ^5GB^7) en tus manos, que funciona como un arma de combate cercano y puede disparar.\nMira este suelo para encontrar más acerca de cada arma en Warsow.\nUsa el ^3elevador^7 para aprender de los útiles objetos, y entra en el ^3teletransportador^7 que está cerca de la ventana para jugar una partida fácil contra un bot.\n(Consejo: puedes ^3cambiar armas^7 con la ^3rueda del mouse^7, ^31-8Teclas^7 o el ^3D-pad^7.)\""
+
+msgid "weapon_intro_nokeyboard"
+msgstr "You always start with the ^5Gunblade^7 (short ^5GB^7) in your hands, which works in melee and has a charged shot.\nCheck out this floor to find out about the other weapons of Warsow.\nUse the ^3elevator^7 to learn about useful items, and enter the ^3teleporter^7 near the window to play an easy botmatch!\n(Hint: You can ^3switch weapons^7 by ^3tapping their icons^7 or using the ^3D-pad^7)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_eb"
+msgstr "La ^5pistola de electrícidad^7 (^5EB^7) es un arma de ^3largo alcance^7 que dispara un rayo ^3instantáneo y muy dañino^7 y tiene un ^3gran tiempo de recarga^7.\nSe usa mejor en distancias grandes y requiere de una buena puntería para que se pueda usar."
+
+msgid "weapon_eb_nokeyboard"
+msgstr "The Electrobolt (EB) is a long-ranged weapon which shoots an instant high-damage rail and has a long reload time.\nIt is used best on great distances and requires good aim to use!\n(Hint: You can zoom by double-tapping with your right thumb or by holding {B+zoom})"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_lg"
+msgstr "La ^5pistola láser^7 (^5LG^7) dispara un rayo láser costante que alcanza ^3distancias medias^7 y tabién pued ^3golpear a los enemigos atrás^7\nLa pistola ^3no tiene tiempo de recarga^7 pero ^3hace daño de forma costante^7, siempre y cuando resistas con tu enemigo delante."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_mg"
+msgstr "La ^5Ametralladora^7 (^5MG^7) dispara ^3rápidas, e instantáneamente atravesantes balas^7 y tiene un ^3tiempo de recarga bajo^7.\nNo es tan poderosa como la ^5Pistola de rayos^7 pero puede hacer un ^3buen daño^7 incluso en ^3distancias largas^7!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_gl"
+msgstr "El ^5Lanzagranadas^7 (^5GL^7)^3 dispara granadas en un arco^7 que o explotan cuando impactan contra un enemigo o un tiempo después.\nTiene un^3tiempo de recarga medio^7 y se usan mejor en ^3rangos medios^7 para crear pequeñas entradas o estorbar la libertad de otros jugadores."
+
+msgid "weapon_pg"
+msgstr "La ^5Pistola de plasma^7 (^5PG^7) dispara ^3proyectiles de plasma muy rápido^7 y se usa mejor para disparar rápidamente por el pasillo\npara parar a otros jugadores de acercarse mucho o a un rango cercano, es por lo tanto muy efectiva en ^3todos los rangos^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_rg"
+msgstr "La ^5Escopeta^7 (^5RG^7) dispara ^3cartuchos que impactan de forma instantánea^7 y se dispersan tan lejos como el objetivo esté.\nEsta arma tiene un ^3tiempo de recarga medio^7 y es más efectiva en ^3rangos pequeños^7 pero puede también usarse en ^3rangos medios^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_rl"
+msgstr "El ^5Lanzador del cohete^7 (^5RL^7) dispara ^3cohetes^7 que explotan al entrar en contacto y producen una ^3explosión^7 que daña alrededor del impacto.\nTiene un ^3tiempo de recarga media^7 y se usa mejor en ^3cortos y medios alcances^7.\nAlcanzar a un jugador con el cohete puede ser devastador."
+
+msgid "enter_tele_when_ready"
+msgstr "¿Has aprendido suficiente?\nCuando estés preparado, entra en el ^3teletransportador^7 para llegar al campo de batalla y ^3retar a un bot (fácil)^7.\n¡Ahora veremos si tienes lo que hay que tener para Warsow!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "powerup_quad"
+msgstr "El ^8Aumentador del daño de terremoto^3 te permite hacer cuatro veces el daño^7 por un ^3tiempo limitado^7.\nSe usa en modos de juego como ^3Batalla a muerte por equipos^7, ^3Libre para todos^7 y ^3Captura la bandera^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "powerup_warshell"
+msgstr "El ^5aumento de protección^3 reduce 4 veces el daño^7 que puedes recibir por ^3un tiempo limitado^7. \nSe usa en partidas como ^3Batalla por equipos^7, ^3Libre para todos^7 y ^3Captura la bandera^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. Proper source: "^3Yellow^7 and ^8orange^7"
+msgid "health"
+msgstr "^2Los objetos de Salud^7 rellenan tus puntos de vida.\nmientras que ^3las pequeñas burbujas de salud(verdes, amarillas y naranjas)^7 solo te dan vida hasta el máximo por defecto,\nlas ^3Mega y Ultra burbujas (violetas y azules)^7 te incrementan tu vida hasta doblar esa cantidad!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "armor"
+msgstr "La ^1Armadura^7 es muy importante, pues reduce el daño recibido.\nEl pequeño ^3trozos de armadura^7 es el más débil, el peto ^3verde^7 te da una cantidad baja.\nEl peto ^3amarillo^7 y la ^3rojo^7  te dan una media y gran cantidad de armadura.\n¡Ten en mente que hay un ^3máximo de la cantidad de armadura^7 de cada tipo que puedes tener!"
+

@@ -1,0 +1,26 @@
+if %RACE == 0
+	setFontFamily con_fontSystem
+	setFontSize %VIDHEIGHT / 50
+	if %WEAPON_ITEM
+		setColor 1 1 1 1
+		setSize 64 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 64
+		setAlign #RIGHT #MIDDLE
+		setCursor 765, 570
+		drawWeaponIcon
+	endif
+
+	if %INSTAGIB == 0
+		if %WEAPON_ITEM != #WEAP_GUNBLADE
+			if %AMMO
+				setColor 1 1 1 1
+				if %AMMO < %LOW_AMMO
+					setColor 0.5 0.5 0.5 1
+				endif
+				setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
+				setAlign #CENTER, #RIGHT
+				setCursor 750, 575
+				drawNum %AMMO
+			endif
+		endif
+	endif
+endif

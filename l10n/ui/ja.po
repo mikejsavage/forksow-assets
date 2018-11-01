@@ -1,0 +1,1128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-04-03 16:14+0000\n"
+"PO-Revision-Date: 2016-04-03 16:14+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Enter practice mode"
+msgstr "プラクティスモードに入る"
+
+msgid "Leave practice mode"
+msgstr "プラクティスモードを出る"
+
+msgid "Enable noclip mode"
+msgstr "noclipモードにする"
+
+msgid "Disable noclip mode"
+msgstr "noclipモードを外す"
+
+msgid "Save position"
+msgstr "位置をセーブする"
+
+msgid "Load saved position"
+msgstr "セーブした位置をロードする"
+
+msgid "Clear saved position"
+msgstr "セーブした位置を解除する"
+
+#. Award: On Fire!
+msgid "Get 5 frags in a row without getting fragged"
+msgstr "フラグを取られずに続けて５フラグ取る"
+
+#. Award: God Mode!
+msgid "Get 25 frags in a row without getting fragged"
+msgstr "フラグを取られずに続けて２５フラグ取る"
+
+#. Award: Direct Grenade Hit!
+msgid "Hit an opponent directly with a grenade a few times"
+msgstr "グレネードを使って数回敵に直接当てる"
+
+#. Award: Last Call Defuse!
+msgid "Defuse the bomb at the last second"
+msgstr "最後数秒で爆弾を除去する"
+
+#. Award: Extermination!
+msgid "Get 20 frags in a row without getting fragged"
+msgstr "フラグを取られずに続けて２０フラグ取る"
+
+#. Award: Raging!
+msgid "Get 10 frags in a row without getting fragged"
+msgstr "フラグを取られずに続けて１０フラグ取る"
+
+#. Award: Win 1000 matches
+msgid "Congratulations! You have won 1000 matches!"
+msgstr "おめでとう！あなたは1000勝しました！"
+
+#. Award: Flag Defense!
+msgid "Defend your flag or flag carrier"
+msgstr "あなたのフラグまたはフラグの運び手を守る"
+
+#. Award: Player of the Match!
+msgid "Score more points than other players and receive the \"Fair Play\" award in a single match"
+msgstr "他のプレイヤーよりも多くのポイントを入れてシングルマッチで\"Fair Play\"実績を受け取る"
+
+#. Award: Bomb Planted!
+msgid "Plant the bomb at a bomb site"
+msgstr "爆弾サイトに爆弾を設置する"
+
+#. Award: Win 100 matches
+msgid "Wow! You have won 100 matches!"
+msgstr "わぁっ！あなたは100勝しました！"
+
+#. Award: Play 1000 matches
+msgid "Wow! You have played 1000 matches!"
+msgstr "わぁっ！あなたは1000戦行いました！"
+
+#. Award: Play 500 matches
+msgid "Wow! You have played 500 matches!"
+msgstr "わぁっ！あなたは500戦行いました！"
+
+#. Award: Ninja Defuse!
+msgid "Defuse the bomb without being seen by the opponent"
+msgstr "敵に見られずに爆弾を除去する"
+
+#. Award: Direct Rocket Hit!
+msgid "Hit an opponent directly with a rocket a few times"
+msgstr "ロケットを使って数回敵に直接当てる"
+
+#. Award: Win 250 matches
+msgid "Congratulations! You have won 250 matches!"
+msgstr "おめでとう！あなたは250勝しました！"
+
+#. Award: Fast Plant!
+msgid "Plant the bomb within 10 seconds"
+msgstr "１０秒以内に爆弾を設置する"
+
+msgid "View match info"
+msgstr "対戦情報を見る"
+
+#. Award: Fraglord!
+msgid "Get 15 frags in a row without getting fragged"
+msgstr "フラグを取られずに続けて１５フラグ取る"
+
+#. UI slider for video brightness
+msgid "Brightness"
+msgstr "明るさ"
+
+#. Award: Win 500 matches
+msgid "Congratulations! You have won 500 matches!"
+msgstr "おめでとう！あなたは500勝しました！"
+
+#. UI option cg_gunbob
+msgid "Enable weapon animation"
+msgstr "weapon animationを有効にする"
+
+#. Award: Play 100 matches
+msgid "Wow! You have played 100 matches!"
+msgstr "Wow！あなたは100戦行いました！"
+
+msgid "Quick menu"
+msgstr "クイックメニュー"
+
+#. Award: Play 250 matches
+msgid "Wow! You have played 250 matches!"
+msgstr "Wow！あなたは250戦行いました！"
+
+msgid "Version %s of %s is available."
+msgstr "%sのバージョン%sが使用可能です。"
+
+#. Award: Bomb Defused!
+msgid "Defuse the bomb"
+msgstr "爆弾を除去する"
+
+msgid "Open in browser"
+msgstr "ブラウザーで開く"
+
+#. HUD option
+msgid "Match timer"
+msgstr "時間表記"
+
+#. Match timer option
+msgid "count down"
+msgstr "カウントダウン"
+
+#. Match timer option
+msgid "count up"
+msgstr "カウントアップ"
+
+#. Start page in UI
+msgid "Home"
+msgstr "ホーム"
+
+#. Quit confirmation
+msgid "Are you sure you want to quit?"
+msgstr "本当にゲームを終了しますか？"
+
+#. Graphics profile's name
+msgid "contrast"
+msgstr "コントラスト"
+
+#. Graphics profile's name
+msgid "high"
+msgstr "high"
+
+#. Graphics profile's name
+msgid "high+"
+msgstr "high+"
+
+#. Graphics profile's name
+msgid "low"
+msgstr "low"
+
+#. Graphics profile's name / Bots' skill
+msgid "medium"
+msgstr "medium"
+
+msgid "View awards"
+msgstr "実績を見る"
+
+#. Logout from warsow.gg
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Weapon"
+msgstr "武器"
+
+msgid "Accuracy"
+msgstr "精度"
+
+msgid "Wins"
+msgstr "勝利数"
+
+msgid "Losses / quits"
+msgstr "敗北数 / 途中棄権"
+
+msgid "Friends"
+msgstr "フレンド"
+
+#. Friend status
+msgid "Offline"
+msgstr "オフライン"
+
+#. Short form of "Accuracy", it should 6 symbols max!
+msgid "Acc"
+msgstr "精度"
+
+msgid "Time played:"
+msgstr "プレイ時間:"
+
+msgid "Awards"
+msgstr "実績"
+
+#. Bots' skill
+msgid "easy"
+msgstr "簡単"
+
+#. Bots' skill
+msgid "hard"
+msgstr "難しい"
+
+msgid "Less than an hour"
+msgstr "1時間以内"
+
+msgid "1 hour"
+msgstr "1時間"
+
+msgid "%s hours"
+msgstr "%s時間"
+
+msgid "%s days, %s hours"
+msgstr "%s日 %s時間"
+
+msgid "No data yet"
+msgstr "データがありません"
+
+msgid "No friends yet"
+msgstr "フレンドがいません"
+
+msgid "Connected to"
+msgstr "接続中"
+
+#. Team overlay in HUD
+msgid "Show team locations"
+msgstr "仲間の位置を表示"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Demo filename"
+msgstr "デモ名"
+
+#. Please use as short form as possible, 8 symbols max! It's a server browser column header displaying whether the server is ranked (sends your stats to warsow.gg).
+msgid "Ranked"
+msgstr "ランクマッチ"
+
+msgid "Password required"
+msgstr "パスワード必須"
+
+#. UI bind for making screenshots
+msgid "Screenshot"
+msgstr "スクリーンショット"
+
+#. Key binding - hold to show the scoreboard
+msgid "Scoreboard"
+msgstr "スコアボード"
+
+#. UI's cg_showPressedKeys
+msgid "Show pressed keys"
+msgstr "押したキーの表示"
+
+msgid "Join"
+msgstr "入る"
+
+#. "Clan Arena" description
+msgid "Team game mode where you aim to eliminate the entire other team before your team dies. Clan Arena has no item pickups, you spawn with all weapons."
+msgstr "アイテムとリスポーンはなし、最初から全武器を所持。自チームが全員撃破される前に相手を撃破する、実力重視の本気マッチ。"
+
+#. "Capture the Flag" description
+msgid "Team game mode where the goal is to acquire the enemy teams flag and return it to your base."
+msgstr "相手チームのフラッグを奪取し、自チームの拠点まで持ち帰れ。"
+
+#. "Duel Arena" description
+msgid "Defeat most opponents in 1-on-1 combats. Your arsenal is fully replenished before each round. The winner of the round is challenged by the next player in the queue."
+msgstr "1vs1で己の実力を見せつけろ。次ラウンドに行くたびに自身の装備は全て補充される。マッチに勝利した者は、次のチャレンジャーと立て続けに勝負を行う。"
+
+#. "Deathmatch" description
+msgid "The goal of a deathmatch game is to frag as many other players as possible until the time or frag limit is reached."
+msgstr "時間切れ、もしくはフラグ上限に達するまでの間に可能な限りの人数を撃破しろ。"
+
+#. "Duel" description
+msgid "Duel is a 1vs1 game mode. The standard match lasts 10 minutes, if there's a draw there will be added 120 seconds overtime. The player who does the most frags wins the map."
+msgstr "デュエルは1vs1のゲームモードだ。通常は10分だが、タイムリミット超過時にスコアが引き分けだった場合は120秒のオーバータイムが追加される。時間内で１でも多くのフラグを取った者が勝者だ。"
+
+#. "Race" description
+msgid "The goal of the race game mode is to finish the map or sector as quickly as possible!"
+msgstr "可能な限り素早くマップまたはセクターを終わらせろ!"
+
+#. "Team Deathmatch" description
+msgid "Team-vs-team game mode. The goal of a team deathmatch game is to frag as many players of the opposing team as possible until the time or frag limit is reached."
+msgstr "チーム対チームのゲームモードだ。時間切れ、もしくはフラグ上限に達するまで可能な限り相手チームのプレイヤーを倒せ。"
+
+msgid "Open chat"
+msgstr "チャットを開く"
+
+#. This option enables movement with +forward bunny hopping aka newmovement
+msgid "Acceleration on forward jumping"
+msgstr "前進ジャンプで加速"
+
+#. Toggles autohop possibility while pressing +moveup
+msgid "Disable autohop"
+msgstr "autohopを無効"
+
+#. Gamepad setting
+msgid "Horizontal stick sensitivity"
+msgstr "左右スティックの感度"
+
+#. Gamepad setting
+msgid "Vertical stick sensitivity"
+msgstr "上下スティックの感度"
+
+#. cg_chatBeep
+msgid "Chat message sound"
+msgstr "チャットメッセージ音"
+
+#. Toggles possibility to play ingame sounds while its window is unfocused or minimized
+msgid "Keep playing sounds in background"
+msgstr "非アクティブ時でも音を鳴らす"
+
+#. Bots' number
+msgid "Bots: %s"
+msgstr "Bots: %s"
+
+msgid "The selected HUD may not be optimized for touchscreen input."
+msgstr "選択されたHUDはタッチ入力に最適化できません。"
+
+#. UI option for cl_maxfps
+msgid "Framerate (FPS) limit"
+msgstr "フレームレート制限"
+
+#. Back to the previous menu
+msgid "Back"
+msgstr "戻る"
+
+msgid "Use the selected model for all players"
+msgstr "全てのプレイヤーに選択したモデルを使う"
+
+msgid "Use the selected color for all players"
+msgstr "全てのプレイヤーに選択した色を使う"
+
+msgid "Don't ask me again"
+msgstr "次回から尋ねない"
+
+#. Button that manually starts tutorial map
+msgid "Gameplay tutorial"
+msgstr "ゲームプレイチュートリアル"
+
+msgid "You are about to launch the tutorial stage of Warsow. Continue?"
+msgstr "Warsowのチュートリアルステージを始めます。続けますか？"
+
+msgid "Welcome to Warsow!"
+msgstr "Warsowへようこそ！"
+
+#. Callvote option "shuffle"
+msgid "Shuffles teams"
+msgstr "チームをシャッフルする"
+
+#. Password reset link
+msgid "Forgot your password?"
+msgstr "パスワードを忘れた？"
+
+#. "Race" tab in the server browser
+msgid "Race"
+msgstr "レース"
+
+msgid "News"
+msgstr "ニュース"
+
+msgid "New Game"
+msgstr "新規ゲーム"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "Chat"
+msgstr "チャット"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Player"
+msgstr "プレイヤー"
+
+msgid "Teams"
+msgstr "チーム"
+
+msgid "Video"
+msgstr "グラフィック"
+
+msgid "Audio"
+msgstr "オーディオ"
+
+msgid "Input"
+msgstr "入力"
+
+#. Use short form as possible, alternatively you can translate it from "Apply"
+msgid "Save changes"
+msgstr "変更を保存"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Model"
+msgstr "モデル"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Clan"
+msgstr "クラン"
+
+msgid "Misc"
+msgstr "その他"
+
+msgid "Spectator HUD"
+msgstr "観戦者HUD"
+
+msgid "Crosshair"
+msgstr "クロスヘア"
+
+msgid "Weapon handedness"
+msgstr "武器の持ち手"
+
+msgid "default"
+msgstr "既定"
+
+msgid "right"
+msgstr "右"
+
+#. gun position
+msgid "left"
+msgstr "左"
+
+msgid "center"
+msgstr "中央"
+
+msgid "FOV"
+msgstr "FOV(視野角)"
+
+msgid "FOV while using zoom"
+msgstr "ズーム中のFOV"
+
+msgid "Simple items"
+msgstr "アイテムをシンプルにする"
+
+msgid "Show teammates' names"
+msgstr "チームメイトの名前を表示する"
+
+msgid "Show help"
+msgstr "ヘルプを表示"
+
+msgid "Show weapon model"
+msgstr "銃のモデルを表示"
+
+msgid "Show minimap"
+msgstr "ミニマップを表示"
+
+msgid "Show FPS counter"
+msgstr "FPSを表示"
+
+msgid "Show speed meter"
+msgstr "スピードメーターを表示"
+
+msgid "Show damage indicator"
+msgstr "ダメージインジケーターを表示"
+
+msgid "Automatically record demos"
+msgstr "自動的にデモを録画"
+
+msgid "Endmatch screenshot"
+msgstr "試合終了後にスクリーンショットを撮影"
+
+msgid "Save match stats"
+msgstr "試合の結果を保存"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Players"
+msgstr "プレイヤー"
+
+msgid "Team model options"
+msgstr "チームモデルオプション"
+
+msgid "Fullbright skin"
+msgstr "蛍光スキン"
+
+msgid "Force your team as ALPHA"
+msgstr "自分のチームを\"Alpha\"にする"
+
+msgid "Graphics profile"
+msgstr "グラフィックプロファイル"
+
+msgid "Fullscreen"
+msgstr "フルスクリーン"
+
+msgid "Vertical sync"
+msgstr "垂直同期"
+
+msgid "Screen resolution"
+msgstr "画面解像度"
+
+msgid "desktop"
+msgstr "デスクトップ"
+
+msgid "Texture quality"
+msgstr "テクスチャ品質"
+
+msgid "Anisotropic filtering"
+msgstr "異方性フィルタリング"
+
+msgid "Lighting quality"
+msgstr "ライトの品質"
+
+msgid "vertex lighting"
+msgstr "暗いライト"
+
+msgid "lightmaps"
+msgstr "明るいライト"
+
+msgid "per-pixel lighting"
+msgstr "繊細なライト"
+
+msgid "Shadows"
+msgstr "影"
+
+msgid "off"
+msgstr "無し"
+
+msgid "simple shadows"
+msgstr "シンプルな影"
+
+msgid "shadowmaps"
+msgstr "リアルな影"
+
+msgid "Greyscale lighting"
+msgstr "灰色のライト"
+
+msgid "Use solid colors for world"
+msgstr "マップの縁に黒線を表示"
+
+msgid "Sound module"
+msgstr "サウンドモジュール"
+
+msgid "no sound"
+msgstr "音無し"
+
+msgid "Sound volume"
+msgstr "サウンド音量"
+
+msgid "Music volume"
+msgstr "音楽音量"
+
+msgid "Players volume"
+msgstr "プレイヤー音量"
+
+msgid "Effects volume"
+msgstr "効果音音量"
+
+msgid "Announcer volume"
+msgstr "アナウンサー音量"
+
+msgid "Voice chat volume"
+msgstr "ボイスチャット音量"
+
+msgid "Hit sounds volume"
+msgstr "ヒットサウンド音量"
+
+msgid "Mouse"
+msgstr "マウス"
+
+msgid "Movement"
+msgstr "移動"
+
+msgid "Actions"
+msgstr "行動"
+
+msgid "Weapons"
+msgstr "武器"
+
+msgid "Voice chat"
+msgstr "ボイスチャット"
+
+msgid "Saved"
+msgstr "保存しました"
+
+msgid "Mouse sensitivity"
+msgstr "マウス感度"
+
+msgid "Mouse acceleration"
+msgstr "マウス加速"
+
+msgid "Mouse filter"
+msgstr "マウスの直線補正"
+
+msgid "Invert mouse"
+msgstr "マウスの上下を反転"
+
+msgid "Forward"
+msgstr "進む"
+
+#. bind for "move back"
+msgid "Backward"
+msgstr "戻る"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Up / jump"
+msgstr "上 / ジャンプ"
+
+msgid "Down / crouch"
+msgstr "下 / しゃがむ"
+
+msgid "Dash / walljump"
+msgstr "ダッシュ / 壁蹴り"
+
+msgid "Run / walk"
+msgstr "走る / 歩く"
+
+msgid "Attack"
+msgstr "攻撃"
+
+msgid "Previous weapon"
+msgstr "前の武器"
+
+msgid "Next weapon"
+msgstr "次の武器"
+
+msgid "Last weapon"
+msgstr "以前の武器"
+
+msgid "Zoom"
+msgstr "ズーム"
+
+msgid "Drop weapon"
+msgstr "武器を落とす"
+
+msgid "Drop bomb / flag"
+msgstr "旗を落とす"
+
+msgid "Class action 1"
+msgstr "クラスアクション1"
+
+msgid "Class action 2"
+msgstr "クラスアクション2"
+
+msgid "Team chat"
+msgstr "チームチャット"
+
+msgid "Login to warsow.gg"
+msgstr "warsow.ggにログイン"
+
+msgid "Login with your warsow.gg account to save your statistics and match results."
+msgstr "warsow.ggにログインするとあなたの試合結果と統計を保存できます."
+
+msgid "Don't have an account?"
+msgstr "アカウントを持っていませんか?"
+
+msgid "Register for a free account here."
+msgstr "ここから無料で登録できます."
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Remember login"
+msgstr "ログインを継続"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Normal weapons"
+msgstr "通常武器"
+
+msgid "Instagib"
+msgstr "インスタギブ(一撃必殺)"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Watch on TV"
+msgstr "TVで見る"
+
+msgid "Favorites"
+msgstr "お気に入り"
+
+msgid "Ping"
+msgstr "Ping"
+
+msgid "Hostname"
+msgstr "ホスト名"
+
+msgid "Gametype"
+msgstr "ゲームタイプ"
+
+msgid "Match browser"
+msgstr "マッチブラウザー"
+
+msgid "Local game"
+msgstr "ローカルゲーム"
+
+msgid "Demo browser"
+msgstr "デモブラウザー"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Refresh"
+msgstr "更新"
+
+msgid "Map"
+msgstr "マップ"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Mapname"
+msgstr "マップ名"
+
+msgid "Start game"
+msgstr "ゲーム開始"
+
+msgid "Server name"
+msgstr "サーバー名"
+
+msgid "Public server"
+msgstr "公開サーバー"
+
+msgid "Score limit"
+msgstr "スコアリミット"
+
+msgid "Max players"
+msgstr "最大プレイヤー数"
+
+msgid "Time limit"
+msgstr "タイムリミット"
+
+msgid "min."
+msgstr "分"
+
+msgid "Bot skill level"
+msgstr "BOTの強さ"
+
+msgid "Number of bots"
+msgstr "BOTの数"
+
+msgid "Remove from favorites"
+msgstr "お気に入りから削除"
+
+msgid "Add to favorites"
+msgstr "お気に入りに追加"
+
+msgid "Map: %s"
+msgstr "マップ: %s"
+
+msgid "Players: %s"
+msgstr "プレイヤー数: %s"
+
+msgid "Gametype: %s"
+msgstr "ゲームタイプ: %s"
+
+msgid "Mod: %s"
+msgstr "Mod: %s"
+
+msgid "Ping: %s"
+msgstr "Ping: %s"
+
+msgid "Address: %s"
+msgstr "アドレス: %s"
+
+msgid "IRC server connection"
+msgstr "IRCサーバー接続"
+
+msgid "Server port"
+msgstr "サーバーポート"
+
+msgid "Nickname"
+msgstr "ニックネーム"
+
+msgid "Channels"
+msgstr "チャンネル"
+
+msgid "Connect"
+msgstr "接続"
+
+msgid "Disconnect"
+msgstr "切断"
+
+msgid "Send"
+msgstr "送信"
+
+msgid "Date: %s"
+msgstr "日付: %s"
+
+msgid "Match: %s"
+msgstr "試合: %s"
+
+msgid "Score: %s"
+msgstr "スコア: %s"
+
+msgid "Duration: %s"
+msgstr "時間: %s"
+
+msgid "Ready!"
+msgstr "準備完了!"
+
+msgid "Not ready!"
+msgstr "準備中!"
+
+msgid "Join challengers queue"
+msgstr "チャレンジャーキューに参加"
+
+msgid "Leave challengers queue"
+msgstr "チャレンジャーキューを離れる"
+
+msgid "Join the game"
+msgstr "ゲームに参加"
+
+msgid "Join any team"
+msgstr "いずれかのチームに参加"
+
+msgid "Join %s"
+msgstr "%s に参加"
+
+msgid "Spectate"
+msgstr "観戦"
+
+msgid "Game menu"
+msgstr "ゲームメニュー"
+
+msgid "Call a vote"
+msgstr "投票の呼びかけ"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam"
+msgstr "チェイスカム"
+
+msgid "Main menu"
+msgstr "メインメニュー"
+
+msgid "Return to game"
+msgstr "ゲームに戻る"
+
+msgid "\"%s\" options"
+msgstr "\"%s\" オプション"
+
+msgid "Refused: %s"
+msgstr "拒否されました: %s"
+
+msgid "Press ESC to cancel"
+msgstr "ESCでキャンセル"
+
+msgid "Downloading %s from %s at %s k/s"
+msgstr "%s を %s からダウンロード中 ( %s k/s )"
+
+msgid "Owner left the listen server"
+msgstr "オーナーがListenサーバーから抜けました"
+
+msgid "Server was killed"
+msgstr "サーバーが落ちました"
+
+msgid "Server restarted"
+msgstr "サーバーが再起動しました"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam mode"
+msgstr "チェイスカムモード"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "Objectives"
+msgstr "オブジェクティブ"
+
+msgid "Powerups"
+msgstr "パワーアップ"
+
+msgid "Fraggers"
+msgstr "旗持ち"
+
+msgid "Highest score"
+msgstr "最高スコア"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid "Disable"
+msgstr "無効"
+
+msgid "Watch"
+msgstr "見る"
+
+msgid "Viewers"
+msgstr "観戦者"
+
+msgid "Reconnect"
+msgstr "再接続"
+
+msgid "Votes"
+msgstr "投票"
+
+msgid "Primary weapons"
+msgstr "プライマリ武器"
+
+msgid "Secondary weapons"
+msgstr "セカンダリ武器"
+
+#. "Bomb" gametype related option, means "I want to carry bomb"
+msgid "Carrier opt-in"
+msgstr "キャリアオプトイン"
+
+#. "Bomb" gametype related option, means "I DON'T want to carry bomb"
+msgid "Carrier opt-out"
+msgstr "キャリアオプトアウト"
+
+msgid "Select class"
+msgstr "クラスの選択"
+
+msgid "Grunt"
+msgstr "グラント"
+
+msgid "Medic"
+msgstr "メディック"
+
+msgid "Runner"
+msgstr "ランナー"
+
+msgid "Engineer"
+msgstr "エンジニア"
+
+msgid "Connection failed"
+msgstr "接続に失敗しました"
+
+msgid "Connection terminated"
+msgstr "接続が中断されました"
+
+msgid "Connection error"
+msgstr "接続エラー"
+
+msgid "Couldn't connect to %s"
+msgstr "%s に接続できませんでした"
+
+msgid "Connection was terminated by %s"
+msgstr "%s によって接続が中断されました"
+
+msgid "Error connecting to %s"
+msgstr "%s へ接続中にエラーが発生しました"
+
+msgid "Reason: %s"
+msgstr "理由: %s"
+
+msgid "Fullscreen anti-aliasing"
+msgstr "フルスクリーンアンチエイリアス"
+
+msgid "Soft particles"
+msgstr "ソフトパーティクル"
+
+msgid "Weapon opacity"
+msgstr "武器を半透明化"
+
+msgid "Vote yes"
+msgstr "Yesに投票"
+
+msgid "Vote no"
+msgstr "Noに投票"
+
+msgid "Vote \"%s\" has been called"
+msgstr "投票 \"%s\" が開始されました"
+
+msgid "Changes map"
+msgstr "マップ変更"
+
+msgid "Restarts current map"
+msgstr "現在のマップをリスタート"
+
+msgid "Jumps to the next map"
+msgstr "次のマップへスキップ"
+
+msgid "Specify 0 to disable"
+msgstr "0に指定すると無効"
+
+msgid "Sets the number of frags or caps needed to win the match"
+msgstr "試合に勝利するためのフラグ数もしくはキャップ数を指定"
+
+msgid "Sets number of minutes after which the match ends"
+msgstr "試合が終了するまでの時間(分)を指定"
+
+msgid "Changes the gametype"
+msgstr "ゲームタイプを変更"
+
+msgid "Sets the number of minutes after which the warmup ends"
+msgstr "ウォームアップが終了するまでの時間(分)を指定"
+
+msgid "Sets the length of the overtime"
+msgstr "延長戦の時間を指定"
+
+msgid "Specify 0 to enable sudden death mode"
+msgstr "0に指定でサドンデスモード"
+
+msgid "Sets the maximum number of players in one team"
+msgstr "1チームに入れる最大プレイヤー数を指定"
+
+msgid "Locks teams to disallow players joining in mid-game"
+msgstr "ゲーム中にほかのプレイヤーが参加できないようにする"
+
+msgid "Unlocks teams to allow players joining in mid-game"
+msgstr "ゲーム中でもほかのプレイヤーが参加できるようにする"
+
+msgid "Sets all players as ready so the match can start"
+msgstr "全プレイヤーをReadyにして試合が開始できるようにする"
+
+msgid "Forces player back to spectator mode"
+msgstr "プレイヤーを観戦者に戻す"
+
+msgid "Removes player from the server"
+msgstr "サーバーからプレイヤーを退去"
+
+msgid "Removes player from the server and bans his IP-address for 15 minutes"
+msgstr "サーバーからプレイヤーを退去させ、IPアドレスを15分間BAN"
+
+msgid "Disallows chat messages from the muted player"
+msgstr "ミュートしたプレイヤーからのチャットを拒否する"
+
+msgid "Disallows voice chat messages from the muted player"
+msgstr "ミュートしたプレイヤーからのボイスチャットを拒否する"
+
+msgid "Reallows chat messages from the unmuted player"
+msgstr "ミュートを外したプレイヤーからのチャットを許可する"
+
+msgid "Reallows voice chat messages from the unmuted player"
+msgstr "ミュートを外したプレイヤーからのボイスチャットを許可する"
+
+msgid "Sets the number of bots to play on the server"
+msgstr "サーバーでプレイするBOTの数を指定"
+
+msgid "Toggles whether shooting teammates will do damage to them"
+msgstr "チームメイトを撃ってダメージを与えられるかどうか(FF)を切り替える"
+
+msgid "Toggles whether instagun can be used for weapon jumping"
+msgstr "インスタガンをジャンプに使えるかどうかを切り替える"
+
+msgid "Toggles the availability of instashield in instagib"
+msgstr "インスタギブモードでシールドが使えるかどうかを切り替える"
+
+msgid "Toggles whether falling long distances deals damage"
+msgstr "長距離の落下でダメージを受けるかどうかを切り替える"
+
+msgid "Toggles whether weapon splashes can damage self"
+msgstr "自爆ダメージを受けるかどうかを切り替える"
+
+msgid "Pauses the game"
+msgstr "ゲームを一時停止"
+
+msgid "Resumes the game if in timeout"
+msgstr "ゲーム停止中ならゲームを再開する"
+
+msgid "Toggles the challenging spectators queue line"
+msgstr "観戦者が挑戦者キューに入れるか切り替える"
+
+msgid "Toggles whether uneven teams is allowed"
+msgstr "アンイーブンなチームを許可するか切り替える"
+
+msgid "Enables or disables the dropping of powerups at dying"
+msgstr "死亡時にパワーアップを落とすかどうか"
+
+msgid "Enables or disables instant flag captures and unlocks"
+msgstr "即時に旗をキャプチャーできたりするか"
+
+msgid "Enables or disables the spawning of powerups"
+msgstr "パワーアップを出現させるかどうか"
+
+msgid "If enabled, tag fragger will become new tag automatically"
+msgstr "もし有効なら, タグ持ちを倒すと自動的に新しいタグ持ちになる"
+
+msgid "Sets the speed at which the capture points heal their owners"
+msgstr "そのキャプチャーポイントを持っているチームの回復速度を指定する"
+
+msgid "Sets the time in seconds between reinforcement respawn waves"
+msgstr "リスポーンで増援がくる秒数を指定する"
+
+msgid "Downloading %s from server at %s k/s"
+msgstr "ダウンロード中: %s (%s k/s)"
+
+msgid "Downloading %s from the web at %s k/s"
+msgstr "ダウンロード中: %s (%s k/s)"
+
+msgid "Play"
+msgstr "プレイ"
+
+msgid "Reload"
+msgstr "リロード"
+
+msgid "Logging in, hold on..."
+msgstr "ログインしています..."
+
+msgid "Searching for game servers..."
+msgstr "サーバーを探しています..."
+
+msgid "Browse servers manually"
+msgstr "手動でサーバーを探す"
+

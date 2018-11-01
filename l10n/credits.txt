@@ -1,0 +1,18 @@
+Russian localization by Vic, adem & SiPlus
+Japanese localization by Philmist
+French localization by kinezana
+Polish localization by Warfront
+Chinese localization by CopyCat
+Dutch localization by marie-jo, murK & SolidFake
+Spanish localization by Herrsheimer
+Hungarian localization by medve a maci
+German localization by VectorVanDoom and others
+Turkish localization by STIVVIS
+Italian localization by Spitzkrug
+Finnish localization by Juha Lehtonen aka milkflow
+Romanian localization by BossmanCG
+Brazilian localization by Muleke_Trairao
+Belarusian localization by CrustY
+Bulgarian localization by breakf
+
+And thanks to all contributors from https://warsow.oneskyapp.com

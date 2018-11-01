@@ -1,0 +1,28 @@
+if %SHOW_PICKUP
+if %PICKUP_ITEM
+	setFontFamily con_fontSystem
+	setFontSize %VIDHEIGHT / 45
+	setAlign #RIGHT, #TOP
+	
+	setColor 0, 0, 0, 1
+	setCursor #WIDTH - 10, 520
+	drawItemName %PICKUP_ITEM
+
+	setColor 1, 1, 0.6, 1
+	moveCursor -1, -1
+	drawItemName %PICKUP_ITEM
+
+	// don't draw "picked up:" string in racemode
+	// (overlaps the timer, this is a cheap hack :P)
+	if %RACE == 0
+		setAlign #RIGHT, #TOP
+		moveCursor 0, -15
+		setColor 0, 0, 0, 1
+		drawString "Picked up:"
+
+		setColor 1, 1, 1, 1
+		moveCursor -1, -1
+		drawString "Picked up:"
+	endif
+endif
+endif

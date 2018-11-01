@@ -1,0 +1,301 @@
+# Translators:
+# Translators:
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-12-06 11:03+0000\n"
+"PO-Revision-Date: 2017-01-22 11:56+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Swedish (http://www.transifex.com/qfusion/l10n/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. "Personal spectators", a list of spectators who watch the same POV, or
+#. watching you playing.
+msgid "Chasers"
+msgstr "Följare"
+
+msgid ""
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue."
+msgstr "Du är i utmanarkön i väntan på din tur att spela.\nAnvänd spelmenyn för att lämna kön."
+
+msgid ""
+"Use the in-game menu to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner."
+msgstr "Använd spelmenyn för att gå med i utmanarkön.\nEndast spelare i kön kommer att få sin tur att spela mot den sista vinnaren."
+
+msgid "Set yourself READY using the in-game menu to start the match!"
+msgstr "Gör dig själv REDO i spelmenyn för att starta matchen!"
+
+msgid "Waiting for players."
+msgstr "Väntar på spelare."
+
+#. User has entered practice mode in Race
+msgid "Entered practice mode"
+msgstr "Gick in i övningsläget"
+
+#. User has left practice mode in Race
+msgid "Left practice mode"
+msgstr "Lämnade övningsläget"
+
+#. TDM scoreboard column, try to make it as short as possible, 5 symbols max!
+#. Net = Frags - Deaths - Team Kills, see
+#. https://en.wikipedia.org/wiki/Net_(economics)
+msgid "Net"
+msgstr "Net"
+
+msgid "Teams are uneven. Please switch into another team."
+msgstr "Lagen är ojämna. Var vänlig byt till ett annat lag."
+
+msgid "PROTECT THE BOMB SITES!"
+msgstr "SKYDDA BOMBPLATSERNA!"
+
+msgid "TEAMDAMAGE PUNISHMENT!"
+msgstr "LAGSKADESTRAFF!"
+
+msgid "DO NOT DAMAGE TEAMMATES!"
+msgstr "SKADA INTE LAGMEDLEMMAR"
+
+msgid "The bomb carrier has been fragged!"
+msgstr "Bombbäraren har blivit krossad!"
+
+msgid "OFFENSE WINS!"
+msgstr "ANFALLET VANN!"
+
+msgid "DEFENSE WINS!"
+msgstr "FÖRSVARET VANN!"
+
+msgid "You are shooting at your team-mates!"
+msgstr "Du skjuter på dina lagmedlemmar!"
+
+msgid "Don't shoot at members of your team!"
+msgstr "Skjut inte på medlemmar av ditt lag!"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU TEAMFRAGGED %s"
+msgstr "DU LAGKROSSADE %s"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU FRAGGED %s"
+msgstr "DU KROSSADE %s"
+
+#. For Race gametype - "no record", "no best time"
+msgid "no time"
+msgstr "ingen tid"
+
+#. race
+msgid "Time"
+msgstr "Tid"
+
+msgid "DESTROY THE TARGETS!"
+msgstr "FÖRSTÖR MÅLEN!"
+
+msgid "Timelimit hit!"
+msgstr "Tiden är slut!"
+
+msgid "The attacking team has lost the bomb!!!"
+msgstr "Det anfallande laget har tappat bomben!"
+
+msgid "MATCH ABORTED"
+msgstr "MATCH AVBRUTEN"
+
+msgid "COUNTDOWN ABORTED"
+msgstr "NEDRÄKNING AVBRUTEN"
+
+#. center print if there is sudden death overtime needed
+msgid "SUDDEN DEATH"
+msgstr "SUDDEN DEATH"
+
+#. Default location name, when there is none of them presented on the map
+msgid "someplace"
+msgstr "någonstans"
+
+msgid ""
+"Set yourself READY to start the match!\n"
+"You can use the in-game menu or simply press 'F4'.\n"
+"'ESC' for in-game menu or 'ENTER' for in-game chat."
+msgstr "Gör dig själv REDO att starta matchen!\nDu kan använda spelmenyn eller eller helt enkelt trycka 'F4'.\n'ESC' för spelmenyn eller 'ENTER' för in-game chatt."
+
+msgid "Waiting... %s"
+msgstr "Väntar... %s"
+
+msgid "Match will resume in %s seconds"
+msgstr "Matchen återupptas om %s sekunder"
+
+msgid "Match will resume in 1 second"
+msgstr "Matchen återupptas om 1 sekund"
+
+msgid "Match paused"
+msgstr "Matchen pausad"
+
+msgid "Match resumed"
+msgstr "Matchen återupptagen"
+
+msgid "%s has the bomb!"
+msgstr "%s har bomben!"
+
+msgid "Bomb planted at %s!"
+msgstr "Bomb apterad på %s!"
+
+#. chase = spectate
+msgid "No one to chase"
+msgstr "Ingen att följa"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Mouse buttons for switching spectator modes.\n"
+"This message can be hidden by disabling 'help' in player setup menu."
+msgstr "'ESC' för spelmenyn eller 'ENTER' för in-game chatt.\nMusknapparna för att växla åskådarlägen.\nDetta meddelande kan döljas genom att avaktivera 'hjälp' i menyn för spelare-inställningar."
+
+msgid "Bomb defused!"
+msgstr "Bomb desarmerad!"
+
+msgid "Clan"
+msgstr "Klan"
+
+msgid "Score"
+msgstr "Poäng"
+
+#. Short form of "Score"
+msgid "Sco"
+msgstr "Poä"
+
+#. Short form of "Frags", please, don't use "kill/death" for the translation
+msgid "Fra"
+msgstr "Kro"
+
+#. Short form of "Suicides"
+msgid "Sui"
+msgstr "Sjä"
+
+#. Short form of "Deaths"
+msgid "De"
+msgstr "Dö"
+
+msgid "Ping"
+msgstr "Ping"
+
+#. It is for "headhunt", one player is tagged and all other players attempt to
+#. frag the tagged player. Tagged player gets score for each second he/she
+#. stays alive. So tag time is time of him being tagged.
+msgid "Tagtime"
+msgstr "Tagtid"
+
+msgid "Racing"
+msgstr "Racing"
+
+msgid "Spectators"
+msgstr "Åskådare"
+
+msgid "Challengers"
+msgstr "Utmanare"
+
+msgid "Weapon stats"
+msgstr "Vapenstatistik"
+
+#. Race time
+msgid "Time:"
+msgstr "Tid:"
+
+#. Race
+msgid "Best:"
+msgstr "Bästa:"
+
+#. Race
+msgid "Srv Best:"
+msgstr "Bästa på servern:"
+
+#. Race
+msgid "Alpha time:"
+msgstr "Alfatid:"
+
+#. Race
+msgid "Beta time:"
+msgstr "Betatid:"
+
+#. When some Items get picked up
+msgid "Picked up:"
+msgstr "Plockade upp:"
+
+msgid "Points:"
+msgstr "Poäng:"
+
+#. Difference of the scores/points
+msgid "Spread:"
+msgstr "Spridning:"
+
+msgid "Download:"
+msgstr "Nedladdning:"
+
+msgid "Download progress:"
+msgstr "Nedladdning pågår:"
+
+#. HUD indicator of stun
+msgid "STUNNED"
+msgstr "CHOCKAD"
+
+#. Race
+msgid "Personal best:"
+msgstr "Personbästa:"
+
+#. Race
+msgid "Server record:"
+msgstr "Serverrekord:"
+
+msgid "Warmup"
+msgstr "Uppvärmning"
+
+msgid "Low Ammo"
+msgstr "Låg Ammunition"
+
+msgid "Out Of Ammo"
+msgstr "Ingen Ammunition"
+
+msgid ""
+"Waiting for players.\n"
+"'ESC' for in-game menu."
+msgstr "Väntar på spelare.\n'ESC' för spelmeny."
+
+msgid "Message of the day:"
+msgstr "Dagens meddelande:"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "'ESC' för spelmenyn eller 'ENTER' för in-game chatt.\nDu är i utmanarkön väntandes på din tur att spela.\nAnvänd spelmenyn för att gå ur kön.\n\nAnvänd musknapparna för att växla mellanåskådarlägen."
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Use the in-game menu or press 'F3' to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "'ESC' för spelmenyn eller 'ENTER' för in-game chatt.\nAnvänd spelmenyn eller tryck 'F3' för att gå med i utmanarkön.\nEndast spelare i kön får en chans att spela mot den sista vinnaren.\n\nAnvänd musknapparna för att växla mellan åskådarlägen."
+
+msgid "1 minute left. Hurry up!"
+msgstr ""
+
+msgid "Fight!"
+msgstr ""
+
+msgid "FIGHT!"
+msgstr ""
+
+msgid "%s MINUTE OVERTIME\n"
+msgstr ""
+
+msgid "Overtime"
+msgstr ""

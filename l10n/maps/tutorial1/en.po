@@ -1,0 +1,101 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-06 16:13+0000\n"
+"PO-Revision-Date: 2017-01-23 17:04+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: English (http://www.transifex.com/qfusion/l10n/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "welcome_to_tutorial"
+msgstr "Welcome to the Warsow Tutorial!\nYou can ^3look around^7 with the ^2Mouse^7 and ^3walk^7 with the ^3Movement keys^7 (^2WSAD^7).\nWalk to the ^3two symbols^7 in this room to learn about what they mean and then go through the door to proceed."
+
+msgid "welcome_to_tutorial_nokeyboard"
+msgstr "Welcome to the Warsow Tutorial!\n\nWarsow is a fast-paced game with advanced movement and uses ^3gamepad-like touch controls^7.\nHold your device ^2as shown on the screen^7 so you can control the player with ^2four fingers at once^7.\nYou can ^3walk^7 with your ^2left thumb^7 and ^3look around^7 with your ^2right thumb^7.\n\nOn a ^3gamepad^7, you can use the ^2Left Stick^7 to ^3walk^7 and the ^2Right Stick^7 to ^3look around^7.\n\nWalk to the ^3two symbols^7 in this room to learn about what they mean and then go through the door to proceed."
+
+msgid "special_explanation"
+msgstr "This icon shows usage of the ^3Special button^7 (^2{B+special}^7).\nIt is used for special movement tricks. On the ground it lets you make a ^3Dash^7, try it out!\n(Hint: ^3Dash^7 can be used together with ^3movement^7)\nAlso keep in mind that the ^3Special button^7 has a ^3cooldown^7 and taking damage gives you a ^3stun^7 that disables ^3Dashing^7!"
+
+msgid "jump_explanation"
+msgstr "This icon shows usage of the ^3Jump button^7 (^2{B+moveup}^7).\nJumping is very important in Warsow as you'll learn."
+
+msgid "jumping_tutorial"
+msgstr "As long as you're ^3Jumping^7 you will keep your ^3speed^7 (the number at the bottom).\nTo get some easy speed, use a ^3Dash^7 (^2{B+special}^7) at the ^3Special^7 symbol\nand then ^3jump^7 (^2{B+moveup}^7) at the ^3Jump button^7 symbols to get to the end.\nThis is called ^3Bunnyhopping^7. (Hint: you can keep the ^3Jump button^7 pressed)"
+
+msgid "walljumping_tutorial"
+msgstr "Besides ^3Dashing^7, the ^3Special button^7 allows you to make ^3Walljumps^7.\nTo get to the door, jump against the wall, then press the ^3Special button^7 (^2{B+special}^7) to bounce off of it.\nThis pushes you upwards a bit to get onto the platforms!"
+
+msgid "wallsliding_tutorial"
+msgstr "^3Ramps^7 can also be used for some tricks, try to ^3Dash^7 against them to get pushed upwards the wall!\nAt the highest point, you will have to use a ^3Walljump^7 and ^3move forward^7 to get to the door.\n(Hint: you can also press ^3Jump^7 to get upwards ramps when you have enough speed)"
+
+msgid "doublejump_tutorial"
+msgstr "At all normal edges you can make a ^3Doublejump^7 trick.\nFor this you have to ^3jump^7 against the box,\nthen at the edge press ^3Jump^7 again to get more height than you'd get by jumping twice.\nUse the gained leverage and add a ^3Walljump^7 to get to the door!"
+
+msgid "strafejumping_tuto"
+msgstr "^3Dashing^7 only gives an initial speedboost, but by ^3Strafe Jumping^7 you keep going faster!\nFor this ^3bunnyhop^7 normally while pressing the ^3Forward key^7 (^2{B+forward}^7),\nand while in the air press ^3Left^7 (^2{B+moveleft}^7) and ^3move the mouse^7 some degrees to the left.\nAt the next jump return the mouse back to middle,\nthen press ^3Right^7 (^2{B+moveright}^7) and ^3move the mouse^7 to the right.\nCheck your ^3speedmeter^7 and try to get above ^3550^7!\nIf you are unable to do so, skip this lesson, as it is one of the hardest.\nGo to the door when you feel ready."
+
+msgid "strafejumping_tuto_nokeyboard"
+msgstr "^3Dashing^7 only gives an initial speedboost, but by ^3Strafe Jumping^7 you keep going faster!\nFor this ^3bunnyhop^7 normally while ^3moving forward^7,\nand while in the air ^3move left^7 and ^3look^7 some degrees to the left.\nAt the next jump, ^3move right^7 and ^3look^7 to the right.\nCheck your ^3speedmeter^7 and try to get above ^3550^7!\nIf you are unable to do so, skip this lesson, as it is one of the hardest.\nGo to the door when you feel ready."
+
+msgid "badass_jumping"
+msgstr "This stage will now test your ^3earned skills^7.\nTry to ^3get to the end^7 either by following the advised route given by the symbols or ^3find your own pace!^7\nGood luck and have fun!"
+
+msgid "badass_jumping_dash"
+msgstr "You need more ^3speed^7 to get over that pit!\nUse the ^3Dash^7 before you jump off to get a nice ^3initial boost^7.\nThis will let you reach the wall and the other side easier!"
+
+msgid "rampsliding_tutorial"
+msgstr "When you are on a not-too steep ramp like this rail, you can also ^3Dash^7 on it to make a ^3Rampslide^7.\nTry it out! So let's resume, the ^3Special button^7 lets you ^3Dash^7, ^3Walljump^7, ^3Rampjump^7 and ^3Rampslide^7.\nUse the ^3Dash^7 to get an ^3initial speedboost^7, or to ^3change directions^7 and ^3dodge projectiles^7."
+
+msgid "red_button_1"
+msgstr "Press the ^1red button^7 to open the ^3door^7!"
+
+msgid "weapon_intro"
+msgstr "You always start with the ^5Gunblade^7 (short ^5GB^7) in your hands, which works in melee and has a charged shot.\nCheck out this floor to find out about the other weapons of Warsow.\nUse the ^3elevator^7 to learn about useful items, and enter the ^3teleporter^7 near the window to play an easy botmatch!\n(Hint: You can ^3switch weapons^7 with the ^3Mousewheel^7, ^31-8 keys^7 or the ^3D-pad^7)"
+
+msgid "weapon_intro_nokeyboard"
+msgstr "You always start with the ^5Gunblade^7 (short ^5GB^7) in your hands, which works in melee and has a charged shot.\nCheck out this floor to find out about the other weapons of Warsow.\nUse the ^3elevator^7 to learn about useful items, and enter the ^3teleporter^7 near the window to play an easy botmatch!\n(Hint: You can ^3switch weapons^7 by ^3tapping their icons^7 or using the ^3D-pad^7)"
+
+msgid "weapon_eb"
+msgstr "The ^5Electrobolt^7 (^5EB^7) is a ^3long-ranged^7 weapon which shoots an ^3instant high-damage^7 rail and has a ^3long reload time^7.\nIt is used best on great distances and requires good aim to use!"
+
+msgid "weapon_eb_nokeyboard"
+msgstr "The ^5Electrobolt^7 (^5EB^7) is a ^3long-ranged^7 weapon which shoots an ^3instant high-damage^7 rail and has a ^3long reload time^7.\nIt is used best on great distances and requires good aim to use!\n(Hint: You can ^3zoom^7 by ^2double-tapping^7 with your ^2right thumb^7 or by holding ^2{B+zoom}^7)"
+
+msgid "weapon_lg"
+msgstr "The ^5Lasergun^7 (^5LG^7) shoots a constant laserbeam that reaches a ^3medium distance^7 and also ^3knocks enemies back^7.\nThe gun has ^3no reload^7 but ^3deals damage constantly^7, as long as you are able to stay on your enemy with it!"
+
+msgid "weapon_mg"
+msgstr "The ^5Machinegun^7 (^5MG^7) fires ^3fast, instant hitting bullets^7 and has a ^3low reload^7.\nIt isn't as powerful the ^5Electrobolt^7 but can deal ^3good damage^7 even over ^3long ranges^7!"
+
+msgid "weapon_gl"
+msgstr "The ^5Grenade Launcher^7 (^5GL^7)^3 fires Grenades in an arc^7 that either explode when hitting an enemy or after some time.\nIt has a ^3medium reload^7 and is best used on ^3mid-range^7 to spam small entrances and hinder other players freedom."
+
+msgid "weapon_pg"
+msgstr "The ^5Plasmagun^7 (^5PG^7) fires ^3fast Plasma projectiles^7 and is best used to quickly fire some shots down a hallway\nto stop other players from approaching or at very close ranges, it is therefore effective on ^3all ranges^7."
+
+msgid "weapon_rg"
+msgstr "The ^5Riotgun^7 (^5RG^7) fires ^3instant hitting Pellets^7 that spray the further away the target is.\nThe weapon has a ^3medium reload^7 and is most effective on ^3close range^7 but can also be used on ^3medium range^7."
+
+msgid "weapon_rl"
+msgstr "The ^5Rocket Launcher^7 (^5RL^7) fires ^3rockets^7 that explode on contact and deal ^3splash damage^7 around the impact.\nIt has a ^3medium reload^7 and is best used on ^3close to medium-ranges^7.\nHitting a player directly with a rocket can be devastating."
+
+msgid "enter_tele_when_ready"
+msgstr "Learned enough already?\nWhen you are prepared, enter this ^3teleporter^7 to get to the battlearena and ^3duel an easy bot player^7.\nNow we will see if you have the guts for Warsow!"
+
+msgid "powerup_quad"
+msgstr "The ^8Quad Damage powerup^3 lets you deal four times the damage^7 for a ^3limited time^7.\nIt is used in game modes like ^3Team Deathmatch^7, ^3Free for All^7 and ^3Capture the Flag^7."
+
+msgid "powerup_warshell"
+msgstr "The ^5Warshell powerup^3 decreases four times the damage^7 you take for a ^3limited time^7.\nIt is used in game modes like ^3Team Deathmatch^7, ^3Free for All^7 and ^3Capture the Flag^7."
+
+msgid "health"
+msgstr "^2Health items^7 replenish your health points.\n^2Green^7 bubbles restore a small amount of health and may give you a short boost over the normal level.\n^3Yellow^7 and ^8orange^7 bubbles restore a quarter or a half of your health.\nThe ^6Megahealth^7 and ^5Ultrahealth^7 can increase your health up to double the normal amount!"
+
+msgid "armor"
+msgstr "^1Armor^7 is important as it reduces the damage taken.\nThe small ^2armor shards^7 are the weakest, the ^2green armor^7 chestplate gives a weak amount.\n^3Yellow^7 and ^1red^7 chestplates give you a medium or great amount of armor.\nMind that there is a ^3maximum amount of armor value^7 you can get with each armor type!"

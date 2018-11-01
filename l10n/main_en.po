@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-23 17:04+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: English (http://www.transifex.com/qfusion/l10n/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr "Need offense"
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr "Need help"
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr "Armor free"
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr "Area secured"
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr "No problem"
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr "Defend!"
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr "Defend A!"
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr "Defend B!"
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr "Attack!"
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr "Attack A!"
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr "Attack B!"
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr "Need backup"
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr "Need defense"
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr "Roger"
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr "Negative"
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr "Go to quad"
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr "Go to powerup"
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr "Need health"
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr "Need weapon"
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr "Need armor"
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr "On defense"
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr "On offense"
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr "Yes"
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr "No"
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr "Oops"
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr "Sorry"
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr "Thanks"
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr "Yeehaa"
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr "Good game"
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr "Booo"
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr "Affirmative"
+
+msgid "MM Login: Password error"
+msgstr "MM Login: Password error"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "MM Login: Can't login to MM while connected to server"
+
+msgid "Frags"
+msgstr "Frags"
+
+msgid "say (to all):"
+msgstr "say (to all):"
+
+msgid "say (to team):"
+msgstr "say (to team):"
+
+msgid "Connection timed out"
+msgstr "Connection timed out"
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr "Strong Gunblade"
+
+msgid "MM Login: authentication timeout"
+msgstr "MM Login: authentication timeout"
+
+msgid "MM Logout: not logged in"
+msgstr "MM Logout: not logged in"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "MM Logout: can't logout from MM while connected to server"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "MM Logout: Failed to force logout"
+
+msgid "MM Login: StatQuery error"
+msgstr "MM Login: StatQuery error"
+
+msgid "MM Login: Failed, no session id"
+msgstr "MM Login: Failed, no session id"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "MM Login: Failed to parse data at step %d"
+
+msgid "%s or %s"
+msgstr "%s or %s"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "no"
+msgstr "no"
+
+msgid "Gunblade"
+msgstr "Gunblade"
+
+msgid "Machinegun"
+msgstr "Machinegun"
+
+msgid "Riotgun"
+msgstr "Riotgun"
+
+msgid "Grenade Launcher"
+msgstr "Grenade Launcher"
+
+msgid "Rocket Launcher"
+msgstr "Rocket Launcher"
+
+msgid "Plasmagun"
+msgstr "Plasmagun"
+
+msgid "Lasergun"
+msgstr "Lasergun"
+
+msgid "Electrobolt"
+msgstr "Electrobolt"
+
+msgid "Instagun"
+msgstr "Instagun"
+
+msgid "Cells"
+msgstr "Cells"
+
+msgid "Shells"
+msgstr "Shells"
+
+msgid "Bullets"
+msgstr "Bullets"
+
+msgid "Grenades"
+msgstr "Grenades"
+
+msgid "Rockets"
+msgstr "Rockets"
+
+msgid "Plasma"
+msgstr "Plasma"
+
+msgid "Lasers"
+msgstr "Lasers"
+
+msgid "Bolts"
+msgstr "Bolts"
+
+msgid "Instas"
+msgstr "Instas"
+
+msgid "Blades"
+msgstr "Blades"
+
+msgid "Weak bullets"
+msgstr "Weak bullets"
+
+msgid "Weak Shells"
+msgstr "Weak Shells"
+
+msgid "Weak Grenades"
+msgstr "Weak Grenades"
+
+msgid "Weak Rockets"
+msgstr "Weak Rockets"
+
+msgid "Weak Plasma"
+msgstr "Weak Plasma"
+
+msgid "Weak Lasers"
+msgstr "Weak Lasers"
+
+msgid "Weak Bolts"
+msgstr "Weak Bolts"
+
+msgid "Weak Instas"
+msgstr "Weak Instas"
+
+msgid "Green Armor"
+msgstr "Green Armor"
+
+msgid "Yellow Armor"
+msgstr "Yellow Armor"
+
+msgid "Red Armor"
+msgstr "Red Armor"
+
+msgid "Armor Shard"
+msgstr "Armor Shard"
+
+msgid "5 Health"
+msgstr "5 Health"
+
+msgid "25 Health"
+msgstr "25 Health"
+
+msgid "50 Health"
+msgstr "50 Health"
+
+msgid "Mega Health"
+msgstr "Mega Health"
+
+msgid "Ultra Health"
+msgstr "Ultra Health"
+
+msgid "Quad Damage"
+msgstr "Quad Damage"
+
+msgid "WarShell"
+msgstr "WarShell"
+
+msgid "Regeneration"
+msgstr "Regeneration"
+
+msgid "Ammo Pack Weak"
+msgstr "Ammo Pack Weak"
+
+msgid "Ammo Pack Strong"
+msgstr "Ammo Pack Strong"
+
+msgid "Ammo Pack"
+msgstr "Ammo Pack"
+
+msgid "say:"
+msgstr "say:"

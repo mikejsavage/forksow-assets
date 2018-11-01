@@ -1,0 +1,24 @@
+<rml>
+<head>
+	<title>options</title>
+	<link type="text/template" href="template.rml" />
+</head>
+<body template="baseui" onshow="window.location = 'options_player.rml';">
+	<!-- divide the screen to two vertical contexts -->
+	<div id="leftside">
+		
+	</div>
+
+	<div id="sidebar">
+		<div id="sidebar2">
+			<!-- options navigation -->
+			<a href="options_player.rml">Player</a>
+			<a href="options_teams.rml">Teams</a>
+			<a href="options_video.rml">Video</a>
+			<a href="options_audio.rml">Audio</a>
+			<a href="options_input.rml">Input</a>
+		</div>
+	</div>
+
+</body>
+</rml>

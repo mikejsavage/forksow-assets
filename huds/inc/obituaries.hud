@@ -1,0 +1,6 @@
+setAlign #RIGHT #TOP
+setCursor #WIDTH - 6 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 18
+setSize 300 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 140
+setFontFamily "Virtue"
+setFontSize %VIDHEIGHT / 50
+drawObituaries #RIGHT 16 //last number is the space between the strings

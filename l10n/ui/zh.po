@@ -1,0 +1,1220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-12-05 19:41+0000\n"
+"PO-Revision-Date: 2016-12-05 19:41+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. "Personal spectators", a list of spectators who watch the same POV, or watching you playing.
+msgid "Show chasers on the scoreboard"
+msgstr "在记分牌上显示观众"
+
+msgid "Restart race"
+msgstr "重新开始比赛"
+
+msgid "Enter practice mode"
+msgstr "进入练习模式"
+
+msgid "Leave practice mode"
+msgstr "离开练习模式"
+
+msgid "Enable noclip mode"
+msgstr "使用穿墙模式"
+
+msgid "Disable noclip mode"
+msgstr "禁用穿墙模式"
+
+msgid "Save position"
+msgstr "保存位置"
+
+msgid "Load saved position"
+msgstr "载入已保存位置"
+
+msgid "Clear saved position"
+msgstr "清除已保存位置"
+
+#. Award: On Fire!
+msgid "Get 5 frags in a row without getting fragged"
+msgstr "不被击杀的情况下连续击杀对手 5 次。"
+
+#. Award: God Mode!
+msgid "Get 25 frags in a row without getting fragged"
+msgstr "不被击杀的情况下连续击杀对手 25 次。"
+
+#. Award: Mega-Health Control!
+msgid "Keep the Mega Health under your control"
+msgstr "保持 Mega Health 在你的控制下"
+
+#. Award: Triple Frag!
+msgid "Frag an opponent 3 times in a short time frame"
+msgstr "在短时间内击杀对手 3 次"
+
+#. Award: Direct Grenade Hit!
+msgid "Hit an opponent directly with a grenade a few times"
+msgstr "多次用榴弹发射器直接击杀对手"
+
+#. Award: Last Call Defuse!
+msgid "Defuse the bomb at the last second"
+msgstr "在最后一秒拆除炸弹"
+
+#. Award: Flag Recovery!
+msgid "Recover your flag from the opponent carrying it"
+msgstr "从对手那里夺回你的旗帜"
+
+#. Award: Extermination!
+msgid "Get 20 frags in a row without getting fragged"
+msgstr "不被击杀的情况下连续击杀对手 20 次"
+
+#. Award: Air Grenade!
+msgid "Frag an opponent in mid-air with a grenade"
+msgstr "使用榴弹发射器击杀在空中的对手"
+
+#. Award: Raging!
+msgid "Get 10 frags in a row without getting fragged"
+msgstr "不被击杀的情况下连续击杀对手 10 次"
+
+#. Award: Win 1000 matches
+msgid "Congratulations! You have won 1000 matches!"
+msgstr "恭喜！你已赢得了 1000 场比赛！"
+
+#. Award: Quadruple Frag!
+msgid "Frag an opponent 4 times in a short time frame"
+msgstr "在短时间内击杀对手 4 次"
+
+#. Award: Flag Defense!
+msgid "Defend your flag or flag carrier"
+msgstr "保护你的旗子或旗子争夺者"
+
+#. Award: Player of the Match!
+msgid "Score more points than other players and receive the \"Fair Play\" award in a single match"
+msgstr "在一场比赛中得分超过其他玩家并获得“公平竞赛”奖"
+
+#. Award: Air Rocket!
+msgid "Frag an opponent in mid-air with a rocke"
+msgstr "用火箭发射器击杀在空中的对手"
+
+#. Award: Bomb Planted!
+msgid "Plant the bomb at a bomb site"
+msgstr "放置炸弹在炸弹区"
+
+#. Award: Win 100 matches
+msgid "Wow! You have won 100 matches!"
+msgstr "哇！你已经赢得了 100 场比赛！"
+
+#. Award: Fair Play!
+msgid "Show respect to your opponents during the post-match intermission"
+msgstr "尊重你的对手在赛后间歇期"
+
+#. Award: Play 1000 matches
+msgid "Wow! You have played 1000 matches!"
+msgstr "哇！你已经进行了 1000 场比赛！"
+
+#. Award: Play 500 matches
+msgid "Wow! You have played 500 matches!"
+msgstr "哇！你已经进行了 500 场比赛！"
+
+#. Award: Ninja Defuse!
+msgid "Defuse the bomb without being seen by the opponent"
+msgstr "不被对手看见的情况下拆除炸弹"
+
+#. Award: Direct Rocket Hit!
+msgid "Hit an opponent directly with a rocket a few times"
+msgstr "多次用火箭发射器直接击杀对手"
+
+#. Award: Win 250 matches
+msgid "Congratulations! You have won 250 matches!"
+msgstr "恭喜！你已经赢得了 250 场比赛！"
+
+#. Award: King of Bongo!
+msgid "Frag the entire opposing team in Bomb and Defuse"
+msgstr "在炸弹模式中击杀对方整个团队。"
+
+#. Award: Fast Plant!
+msgid "Plant the bomb within 10 seconds"
+msgstr "10 秒内安放炸弹"
+
+#. Award: Bomb Carrier Frag!
+msgid "Frag the bomb-carrying opponent"
+msgstr "击杀携带炸弹的对手"
+
+#. Award: Meep Meep!
+msgid "Frag an opponent while moving at high speed"
+msgstr "在高速移动的情况下击杀对手"
+
+#. Touch devices intro text
+msgid "Warsow is a fast-paced game with advanced movement. When playing, hold your device as shown in the picture, with four of your fingers in front of the screen, to make sure you can perform movement tricks, aim and fire at the same time."
+msgstr "Warsow 是一款需要高级运动技巧的快节奏游戏。当游戏开始时，在屏幕前用四只手指按照图片所示操作你的设备，确保你可以在同一时间展现运动技巧、瞄准并开火。"
+
+#. Award: Double Frag!
+msgid "Frag an opponent 2 times in a short time frame"
+msgstr "在短时间内击杀对手 2 次"
+
+msgid "View match info"
+msgstr "查看比赛信息"
+
+#. Award: Fraglord!
+msgid "Get 15 frags in a row without getting fragged"
+msgstr "不被击杀的情况下连续击杀对手 15 次"
+
+#. UI slider for video brightness
+msgid "Brightness"
+msgstr "亮度"
+
+#. Award: Win 500 matches
+msgid "Congratulations! You have won 500 matches!"
+msgstr "恭喜！你已经赢得了 500 场比赛！"
+
+#. UI option cg_gunbob
+msgid "Enable weapon animation"
+msgstr "启动武器动作"
+
+#. Award: Coyote Wins!
+msgid "Frag a fast-moving opponent"
+msgstr "击杀高速移动的对手"
+
+#. UI option cg_viewBob, animates view camera on landing from high jumps.
+msgid "Enable view animation"
+msgstr "启用视图动画"
+
+#. Award: Play 100 matches
+msgid "Wow! You have played 100 matches!"
+msgstr "哇！你已经进行了 100 场比赛！"
+
+msgid "Quick menu"
+msgstr "快捷菜单"
+
+#. Award: Play 250 matches
+msgid "Wow! You have played 250 matches!"
+msgstr "哇！你已经进行了 250 场比赛！"
+
+msgid "Version %s of %s is available."
+msgstr "版本 %s  %s 可用。"
+
+#. Award: Bomb Defused!
+msgid "Defuse the bomb"
+msgstr "拆除炸弹"
+
+msgid "Click OK for more information."
+msgstr "点击OK来取得更多资讯。"
+
+#. Award: Quakenet Exclusive!
+msgid "Register to Warsow during QuakeNet launch event"
+msgstr "注册 Warsow 当 QuakeNet 活动开始时。"
+
+msgid "Open in browser"
+msgstr "在浏览器打开"
+
+#. Award: Accuracy!
+msgid "Hit an opponent 3 times with the Electrobolt or the Instagun without missing"
+msgstr "用电光枪或即时武器在不射空的情况下击中同一对手 3 次"
+
+#. HUD option
+msgid "Match timer"
+msgstr "计时器"
+
+#. Award: Flag Carrier Frag!
+msgid "Frag the opponent who has your flag"
+msgstr "击杀之前击杀过你的对手。"
+
+#. Match timer option
+msgid "count down"
+msgstr "倒数"
+
+#. Award: Red Armor Control!
+msgid "Keep the Red Armor under your control"
+msgstr "保持红甲在你的控制下"
+
+#. Match timer option
+msgid "count up"
+msgstr "计时"
+
+#. Award: First Frag!
+msgid "Score the first frag for your team in the match"
+msgstr "在比赛中为你的团队完成首次击杀"
+
+#. Start page in UI
+msgid "Home"
+msgstr "主页"
+
+#. Quit confirmation
+msgid "Are you sure you want to quit?"
+msgstr "你确定想要退出？"
+
+#. Graphics profile's name
+msgid "contrast"
+msgstr "对比"
+
+#. Graphics profile's name
+msgid "high"
+msgstr "高"
+
+#. Graphics profile's name
+msgid "high+"
+msgstr "非常高"
+
+#. Graphics profile's name
+msgid "low"
+msgstr "低"
+
+#. Graphics profile's name / Bots' skill
+msgid "medium"
+msgstr "普通"
+
+msgid "Accuracy details"
+msgstr "精确细节"
+
+msgid "View awards"
+msgstr "查看奖励"
+
+#. Logout from warsow.gg
+msgid "Logout"
+msgstr "登出"
+
+msgid "Weapon"
+msgstr "武器"
+
+#. Weapon use percentage, it should as short as possible, 6 symbols max!
+msgid "Use"
+msgstr "使用"
+
+msgid "Accuracy"
+msgstr "命中率"
+
+msgid "Wins"
+msgstr "胜场"
+
+msgid "Losses / quits"
+msgstr "败场 / 逃跑"
+
+msgid "Frags / deaths"
+msgstr "击杀 / 死亡"
+
+msgid "Friends"
+msgstr "朋友"
+
+#. Friend status
+msgid "Offline"
+msgstr "离线"
+
+#. Short form of "Accuracy", it should 6 symbols max!
+msgid "Acc"
+msgstr "命中率"
+
+msgid "Time played:"
+msgstr "游戏时长"
+
+msgid "Awards"
+msgstr "奖励"
+
+#. Bots' skill
+msgid "easy"
+msgstr "简单"
+
+#. Bots' skill
+msgid "hard"
+msgstr "困难"
+
+msgid "Suggested servers"
+msgstr "建议服务器"
+
+msgid "Less than an hour"
+msgstr "少于一小时"
+
+msgid "1 hour"
+msgstr "1 小时"
+
+msgid "%s hours"
+msgstr "%s 小时"
+
+msgid "%s days, %s hours"
+msgstr "%s 天, %s 小时"
+
+msgid "Last seen %s days ago"
+msgstr "最后一次看见是在 %s 天前"
+
+msgid "No data yet"
+msgstr "暂无数据"
+
+msgid "No friends yet"
+msgstr "暂无好友"
+
+msgid "Connected to"
+msgstr "连接到"
+
+#. Team overlay in HUD
+msgid "Show team locations"
+msgstr "显示团队位置"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Demo filename"
+msgstr "录像名字"
+
+#. Please use as short form as possible, 8 symbols max! It's a server browser column header displaying whether the server is ranked (sends your stats to warsow.gg).
+msgid "Ranked"
+msgstr "排名"
+
+msgid "Password required"
+msgstr "需要密码"
+
+#. UI bind for making screenshots
+msgid "Screenshot"
+msgstr "截图"
+
+#. Key binding - hold to show the scoreboard
+msgid "Scoreboard"
+msgstr "计分板"
+
+#. UI's cg_showPressedKeys
+msgid "Show pressed keys"
+msgstr "显示按键"
+
+msgid "Join"
+msgstr "加入"
+
+#. "Bomb'n'defuse" description
+msgid "Team game mode where in which players join either the attacking team or the defending team. Each team attempts to complete their mission objective, either planting the bomb or defending the bomb site, or eliminate the opposing team."
+msgstr "团队游戏模式中，玩家加入进攻方或防守方。每队努力达成他们的任务目标，或安置炸弹或防守炸弹安置点，或消灭对方团队。"
+
+#. "Clan Arena" description
+msgid "Team game mode where you aim to eliminate the entire other team before your team dies. Clan Arena has no item pickups, you spawn with all weapons."
+msgstr "团队游戏模式中，你的目标是在己方团队死亡之前消灭所有其他的团队。团队竞技中，不能拾取武器，你重生即拥有所有武器。"
+
+#. "Capture the Flag" description
+msgid "Team game mode where the goal is to acquire the enemy teams flag and return it to your base."
+msgstr "团队游戏模式中，目标是夺取敌方团队旗帜并返回到你的基地。"
+
+#. "Capture the Flag: Tactics" description
+msgid "Capture the Flag with highly specialized classes. This version of CTF needs team co-operation between the classes to win!"
+msgstr "高度专业级别的夺旗模式。此版本的 CTF 需要不同级别的团队合作以赢得胜利。"
+
+#. "Duel Arena" description
+msgid "Defeat most opponents in 1-on-1 combats. Your arsenal is fully replenished before each round. The winner of the round is challenged by the next player in the queue."
+msgstr "在 1 对 1 作战击败大多数对手。你的武器库每轮前都会重新装满。一轮的赢家接受队列中下一个玩家的挑战。"
+
+#. "Deathmatch" description
+msgid "The goal of a deathmatch game is to frag as many other players as possible until the time or frag limit is reached."
+msgstr "死亡竞赛的目标是尽可能多地击杀其他玩家直到时间结束或达到 Frag 上限。"
+
+#. "Duel" description
+msgid "Duel is a 1vs1 game mode. The standard match lasts 10 minutes, if there's a draw there will be added 120 seconds overtime. The player who does the most frags wins the map."
+msgstr "决斗是 1 对 1 的游戏模式。标准比赛持续 10 分钟，如果出现平均将进行 120 秒的加时赛。获得 Frag 最多的玩家赢得胜利。"
+
+#. "Free for All" description
+msgid "The goal of a FFA game is to frag as many other players as possible until the time or frag limit is reached. Unlike in DM, you spawn with weapons and ammunition."
+msgstr "FFA 的游戏目标是尽可能多地击杀其他玩家直到时间结束或达到 Frag 上限。不同于 DM，你重生时即拥有武器和弹药。"
+
+#. "Headhunt" description
+msgid "Game mode where one player is tagged and all other players attempt to frag the tagged player. Tagged player gets score for each second he/she stays alive. The person who frags the tagged player, becomes tagged."
+msgstr "在此游戏模式中，其中一个玩家被标记，其他玩家需击杀此被标记的玩家。被标记的玩家每存活一秒即可得分。击杀被标记者的玩家成为新的被标记玩家。"
+
+#. "Race" description
+msgid "The goal of the race game mode is to finish the map or sector as quickly as possible!"
+msgstr "赛跑游戏模式的目标是尽可能快地完成地图或区域。"
+
+#. "Team Deathmatch" description
+msgid "Team-vs-team game mode. The goal of a team deathmatch game is to frag as many players of the opposing team as possible until the time or frag limit is reached."
+msgstr "游戏模式为团队对抗团队。团队死亡竞赛模式的目标是尽可能多地击杀对方团队的玩家直到时间结束或达到 Frag 上限。"
+
+#. "Team Domination" description. Different areas = map places = objects. those areas are indicated. Once any team gets control over 3 areas - it gets a score and wins a round. Example: https://youtu.be/KAKpZUqft-w
+msgid "Team based game mode where teams attempt to gain control of three different areas in the map. The team who gains control of all three objects, wins the round."
+msgstr "此团队游戏模式中，团队要努力控制地图上三个不同的区域。控制所有三个区域的团队即赢得该回合。"
+
+msgid "Open chat"
+msgstr "开启对话"
+
+msgid "The game server is suggesting you can watch this match on WarsowTV. Do you agree?"
+msgstr "游戏服务器建议你可以在 WarsouTV 上观看这场比赛。你同意吗？"
+
+#. This option enables movement with +forward bunny hopping aka newmovement
+msgid "Acceleration on forward jumping"
+msgstr "加速向前跳跃"
+
+#. Toggles autohop possibility while pressing +moveup
+msgid "Disable autohop"
+msgstr "禁用自动跳过"
+
+#. Touch screen setting
+msgid "Touch look sensitivity"
+msgstr "触控视角灵敏度"
+
+#. Touch screen setting
+msgid "Touch look deceleration"
+msgstr "触控视角负加速度"
+
+#. Touch screen setting
+msgid "Invert touch look"
+msgstr "反转触控视角"
+
+#. Touch screen setting
+msgid "Touch controls size"
+msgstr "触控尺寸"
+
+#. Gamepad setting
+msgid "Horizontal stick sensitivity"
+msgstr "摇杆水平灵敏度"
+
+#. Gamepad setting
+msgid "Vertical stick sensitivity"
+msgstr "摇杆垂直灵敏度"
+
+#. Gamepad setting
+msgid "Invert gamepad look"
+msgstr "反转手柄视角"
+
+#. Gamepad setting
+msgid "Swap gamepad sticks"
+msgstr "交换手柄摇杆"
+
+#. cg_chatBeep
+msgid "Chat message sound"
+msgstr "\"聊天消息音效"
+
+#. Toggles possibility to play ingame sounds while its window is unfocused or minimized
+msgid "Keep playing sounds in background"
+msgstr "切换至桌面后依然播放声音"
+
+#. Bots' number
+msgid "Bots: %s"
+msgstr "电脑： %s"
+
+#. r_dynamiclight
+msgid "Dynamic lights"
+msgstr "动态光影"
+
+#. Dynamic lights' setting
+msgid "simple lights"
+msgstr "简单光影"
+
+#. Dynamic lights' setting
+msgid "per-pixel lights"
+msgstr "逐像素光"
+
+#. disable popup window with suggested server in server browser
+msgid "Don't suggest servers"
+msgstr "不要建议服务器"
+
+#. UI option for cl_maxfps
+msgid "Framerate (FPS) limit"
+msgstr "帧率（FPS）限制"
+
+#. Back to the previous menu
+msgid "Back"
+msgstr "返回"
+
+#. Similar to "Call a vote"
+msgid "Cast a vote"
+msgstr "投票"
+
+msgid "Color correction"
+msgstr "色彩校正"
+
+msgid "Use the selected model for all players"
+msgstr "为所有玩家使用选定的模型"
+
+msgid "Use the selected color for all players"
+msgstr "为所有的玩家使用选定的颜色"
+
+#. "Tutorial" gametype description
+msgid "Game mode which provides hints on basic Warsow movements and allows the player to play a duel match against an AI-controlled opponent."
+msgstr "该游戏模式中，提供 Warsow 基础动作提示并让玩家和 AI 进行一场决斗比赛。"
+
+msgid "Don't ask me again"
+msgstr "不再询问"
+
+#. Button that manually starts tutorial map
+msgid "Gameplay tutorial"
+msgstr "游戏教程"
+
+msgid "You are about to launch the tutorial stage of Warsow. Continue?"
+msgstr "你将要连接到 Warsow 的教程阶段。继续？"
+
+msgid "Welcome to Warsow!"
+msgstr "欢迎来到 Warsow！"
+
+msgid "Perhaps you would like to learn the basics of the gameplay and test your combat skills on our tutorial?"
+msgstr "也许你想学习游戏的基础知识并在我们的教程中测试作战技能？"
+
+#. Callvote option "shuffle"
+msgid "Shuffles teams"
+msgstr "更换团队"
+
+#. Password reset link
+msgid "Forgot your password?"
+msgstr "你忘记密码了？"
+
+msgid "News"
+msgstr "新闻"
+
+msgid "New Game"
+msgstr "新游戏"
+
+msgid "Profile"
+msgstr "个人档案"
+
+msgid "Chat"
+msgstr "聊天"
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Quit"
+msgstr "退出"
+
+msgid "Player"
+msgstr "玩家"
+
+msgid "Teams"
+msgstr "队伍"
+
+msgid "Video"
+msgstr "画面"
+
+msgid "Audio"
+msgstr "音频"
+
+msgid "Input"
+msgstr "输入控制"
+
+#. Use short form as possible, alternatively you can translate it from "Apply"
+msgid "Save changes"
+msgstr "保存变更"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Model"
+msgstr "模型"
+
+msgid "Name"
+msgstr "名字"
+
+msgid "Clan"
+msgstr "战队"
+
+msgid "Misc"
+msgstr "其它"
+
+msgid "Spectator HUD"
+msgstr "旁观者HUD界面"
+
+msgid "Crosshair"
+msgstr "准心"
+
+msgid "Weapon handedness"
+msgstr "武器位置"
+
+msgid "default"
+msgstr "默认"
+
+msgid "right"
+msgstr "右边"
+
+#. gun position
+msgid "left"
+msgstr "左边"
+
+msgid "center"
+msgstr "中间"
+
+msgid "FOV"
+msgstr "FOV视角"
+
+msgid "FOV while using zoom"
+msgstr "放大的FOV视角"
+
+msgid "Simple items"
+msgstr "简单物品"
+
+msgid "Show teammates' names"
+msgstr "显示队友名字"
+
+msgid "Show help"
+msgstr "显示帮助"
+
+msgid "Show weapon model"
+msgstr "显示武器模型"
+
+msgid "Show minimap"
+msgstr "显示小地图"
+
+msgid "Show FPS counter"
+msgstr "显示FPS数"
+
+msgid "Show speed meter"
+msgstr "显示速度表"
+
+msgid "Show damage indicator"
+msgstr "显示伤害指示器"
+
+msgid "Automatically record demos"
+msgstr "自动保存录像"
+
+msgid "Endmatch screenshot"
+msgstr "比赛结束截屏"
+
+msgid "Save match stats"
+msgstr "保存比赛统计"
+
+msgid "Alpha"
+msgstr "Alpha队"
+
+msgid "Beta"
+msgstr "Beta队"
+
+msgid "Players"
+msgstr "玩家"
+
+msgid "Team model options"
+msgstr "队伍模型选项"
+
+msgid "Fullbright skin"
+msgstr "高亮皮肤"
+
+msgid "Force your team as ALPHA"
+msgstr "强制已方队伍为\"Alpha\""
+
+msgid "Graphics profile"
+msgstr "图形设置"
+
+msgid "Fullscreen"
+msgstr "全屏幕"
+
+msgid "Vertical sync"
+msgstr "垂直同步"
+
+msgid "Screen resolution"
+msgstr "分辨率"
+
+msgid "desktop"
+msgstr "桌面"
+
+msgid "Texture quality"
+msgstr "纹理质量"
+
+msgid "Anisotropic filtering"
+msgstr "各向异性过滤"
+
+msgid "Lighting quality"
+msgstr "光照质量"
+
+msgid "vertex lighting"
+msgstr "顶点光照"
+
+msgid "lightmaps"
+msgstr "光照贴图"
+
+msgid "per-pixel lighting"
+msgstr "像素光照"
+
+msgid "Shadows"
+msgstr "阴影"
+
+msgid "off"
+msgstr "关闭"
+
+msgid "simple shadows"
+msgstr "简单阴影"
+
+msgid "shadowmaps"
+msgstr "阴影贴图"
+
+msgid "Greyscale lighting"
+msgstr "灰度光照"
+
+msgid "Use solid colors for world"
+msgstr "使用单色"
+
+msgid "Sound module"
+msgstr "声音模块"
+
+msgid "no sound"
+msgstr "静音"
+
+msgid "Sound volume"
+msgstr "音量"
+
+msgid "Music volume"
+msgstr "音乐音量"
+
+msgid "Players volume"
+msgstr "玩家音量"
+
+msgid "Effects volume"
+msgstr "效果音量"
+
+msgid "Announcer volume"
+msgstr "解说音量"
+
+msgid "Voice chat volume"
+msgstr "语音聊天音量"
+
+msgid "Hit sounds volume"
+msgstr "命中音音量"
+
+msgid "Mouse"
+msgstr "鼠标"
+
+msgid "Movement"
+msgstr "移动"
+
+msgid "Actions"
+msgstr "动作"
+
+msgid "Weapons"
+msgstr "武器"
+
+msgid "Voice chat"
+msgstr "语音聊天"
+
+msgid "Saved"
+msgstr "保存"
+
+msgid "Mouse sensitivity"
+msgstr "鼠标灵敏度"
+
+msgid "Mouse acceleration"
+msgstr "鼠标加速度"
+
+msgid "Mouse filter"
+msgstr "鼠标过滤"
+
+msgid "Invert mouse"
+msgstr "反转鼠标"
+
+msgid "Forward"
+msgstr "向前"
+
+#. bind for "move back"
+msgid "Backward"
+msgstr "向后"
+
+msgid "Left"
+msgstr "向左"
+
+msgid "Right"
+msgstr "向右"
+
+msgid "Up / jump"
+msgstr "向上 / 跳"
+
+msgid "Down / crouch"
+msgstr "向下 / 蹲"
+
+msgid "Dash / walljump"
+msgstr "冲刺 / 墙跳"
+
+msgid "Run / walk"
+msgstr "跑 / 走"
+
+msgid "Attack"
+msgstr "攻击"
+
+msgid "Previous weapon"
+msgstr "前一把武器"
+
+msgid "Next weapon"
+msgstr "后一把武器"
+
+msgid "Last weapon"
+msgstr "上一把武器"
+
+msgid "Zoom"
+msgstr "缩放"
+
+msgid "Drop weapon"
+msgstr "扔掉武器"
+
+msgid "Drop bomb / flag"
+msgstr "扔掉炸弹 / 旗子"
+
+msgid "Class action 1"
+msgstr "动作1"
+
+msgid "Class action 2"
+msgstr "动作2"
+
+msgid "Team chat"
+msgstr "团队聊天"
+
+msgid "Login to warsow.gg"
+msgstr "登录 warsow.gg"
+
+msgid "Login with your warsow.gg account to save your statistics and match results."
+msgstr "用你的 warsow.gg 账号登录可以保存你的统计和比赛结果。"
+
+msgid "Don't have an account?"
+msgstr "没有账号？"
+
+msgid "Register for a free account here."
+msgstr "在这里注册免费账号。"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Remember login"
+msgstr "保留登录"
+
+msgid "Login"
+msgstr "登录"
+
+msgid "Normal weapons"
+msgstr "普通武器"
+
+msgid "Instagib"
+msgstr "秒杀"
+
+msgid "TV"
+msgstr "ТV"
+
+msgid "Watch on TV"
+msgstr "在 TV 上观看"
+
+msgid "Favorites"
+msgstr "收藏"
+
+msgid "Ping"
+msgstr "网速"
+
+msgid "Hostname"
+msgstr "主机名"
+
+msgid "Gametype"
+msgstr "游戏类型"
+
+msgid "Match browser"
+msgstr "比赛浏览器"
+
+msgid "Local game"
+msgstr "本地游戏"
+
+msgid "Demo browser"
+msgstr "录像浏览器"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Map"
+msgstr "地图"
+
+msgid "Title"
+msgstr "名称"
+
+msgid "Mapname"
+msgstr "地图名"
+
+msgid "Start game"
+msgstr "开始游戏"
+
+msgid "Server name"
+msgstr "服务器名"
+
+msgid "Public server"
+msgstr "公共服务器"
+
+msgid "Score limit"
+msgstr "分数限制"
+
+msgid "Max players"
+msgstr "最大玩家数"
+
+msgid "Time limit"
+msgstr "时间限制"
+
+msgid "min."
+msgstr "最少"
+
+msgid "Bot skill level"
+msgstr "电脑等级"
+
+msgid "Number of bots"
+msgstr "电脑数量"
+
+msgid "Remove from favorites"
+msgstr "从收藏夹删除"
+
+msgid "Add to favorites"
+msgstr "添加到收藏夹"
+
+msgid "Map: %s"
+msgstr "地图： %s"
+
+msgid "Players: %s"
+msgstr "玩家： %s"
+
+msgid "Gametype: %s"
+msgstr "游戏类型： %s"
+
+msgid "Mod: %s"
+msgstr "模式： %s"
+
+msgid "Ping: %s"
+msgstr "网速： %s"
+
+msgid "Address: %s"
+msgstr "地址： %s"
+
+msgid "IRC server connection"
+msgstr "IRC服务器连接"
+
+msgid "Server port"
+msgstr "服务器端口"
+
+msgid "Nickname"
+msgstr "昵称"
+
+msgid "Channels"
+msgstr "频道"
+
+msgid "Connect"
+msgstr "连接"
+
+msgid "Disconnect"
+msgstr "断开"
+
+msgid "Send"
+msgstr "发送"
+
+msgid "Date: %s"
+msgstr "日期： %s"
+
+msgid "Match: %s"
+msgstr "比赛： %s"
+
+msgid "Score: %s"
+msgstr "分数： %s"
+
+msgid "Duration: %s"
+msgstr "时间： %s"
+
+msgid "Ready!"
+msgstr "准备!"
+
+msgid "Not ready!"
+msgstr "没有准备!"
+
+msgid "Join challengers queue"
+msgstr "加入挑战者列队"
+
+msgid "Leave challengers queue"
+msgstr "离开挑战者列队"
+
+msgid "Join the game"
+msgstr "加入游戏"
+
+msgid "Join any team"
+msgstr "加入任意队伍"
+
+msgid "Join %s"
+msgstr "加入 %s"
+
+msgid "Spectate"
+msgstr "旁观"
+
+msgid "Game menu"
+msgstr "游戏菜单"
+
+msgid "Call a vote"
+msgstr "发起投票"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam"
+msgstr "跟踪镜头"
+
+msgid "Main menu"
+msgstr "主菜单"
+
+msgid "Return to game"
+msgstr "回到游戏"
+
+msgid "\"%s\" options"
+msgstr "选项 \"%s\""
+
+msgid "Refused: %s"
+msgstr "拒绝： %s"
+
+msgid "Press ESC to cancel"
+msgstr "按 ESC 取消"
+
+msgid "Downloading %s from %s at %s k/s"
+msgstr "下载 %s 从 %s 在 %s k/s"
+
+msgid "Server restarted"
+msgstr "服务器已重新启动"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam mode"
+msgstr "跟踪镜头模式"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Objectives"
+msgstr "对象"
+
+msgid "Powerups"
+msgstr "威力"
+
+msgid "Fraggers"
+msgstr "杀手"
+
+msgid "Highest score"
+msgstr "最高分"
+
+msgid "Enable"
+msgstr "打开"
+
+msgid "Disable"
+msgstr "关闭"
+
+msgid "Watch"
+msgstr "看"
+
+msgid "Viewers"
+msgstr "观众"
+
+msgid "Reconnect"
+msgstr "重新连接"
+
+msgid "Votes"
+msgstr "投票"
+
+msgid "Primary weapons"
+msgstr "主要武器"
+
+msgid "Secondary weapons"
+msgstr "次要武器"
+
+msgid "Select class"
+msgstr "选择类别"
+
+msgid "Grunt"
+msgstr "战士"
+
+msgid "Medic"
+msgstr "医疗兵"
+
+msgid "Runner"
+msgstr "冲锋兵"
+
+msgid "Engineer"
+msgstr "工程师"
+
+msgid "Connection failed"
+msgstr "连接失败"
+
+msgid "Connection terminated"
+msgstr "连接中断"
+
+msgid "Connection error"
+msgstr "连接错误"
+
+msgid "Couldn't connect to %s"
+msgstr "无法连接到 %s"
+
+msgid "Connection was terminated by %s"
+msgstr "连接被 %s 终止"
+
+msgid "Error connecting to %s"
+msgstr "连接到 %s 错误"
+
+msgid "Reason: %s"
+msgstr "原因： %s"
+
+msgid "Fullscreen anti-aliasing"
+msgstr "全屏抗锯齿"
+
+msgid "Soft particles"
+msgstr "柔化粒子"
+
+msgid "Weapon opacity"
+msgstr "武器透明度"
+
+msgid "Vote yes"
+msgstr "投票赞成"
+
+msgid "Vote no"
+msgstr "投票反对"
+
+msgid "Vote \"%s\" has been called"
+msgstr "投票 \"%s\" 已经被发起"
+
+msgid "Changes map"
+msgstr "更改地图"
+
+msgid "Restarts current map"
+msgstr "重新启动当前地图"
+
+msgid "Jumps to the next map"
+msgstr "跳转到下个地图"
+
+msgid "Sets number of minutes after which the match ends"
+msgstr "设置比赛结束的分钟数"
+
+msgid "Changes the gametype"
+msgstr "更改游戏类型"
+
+msgid "Sets the number of minutes after which the warmup ends"
+msgstr "设置比赛热身时间的分钟数"
+
+msgid "Sets the length of the overtime"
+msgstr "设置加时赛的长度"
+
+msgid "Sets the maximum number of players in one team"
+msgstr "设置一个团队中最大玩家数"
+
+msgid "Locks teams to disallow players joining in mid-game"
+msgstr "锁定团队，不允许玩家中途加入"
+
+msgid "Unlocks teams to allow players joining in mid-game"
+msgstr "允许玩家中途加入游戏"
+
+msgid "Sets all players as ready so the match can start"
+msgstr "设置所有的玩家准备后方可开始游戏"
+
+msgid "Forces player back to spectator mode"
+msgstr "强制玩家返回观众模式"
+
+msgid "Removes player from the server"
+msgstr "从此服务器中移除玩家"
+
+msgid "Sets the number of bots to play on the server"
+msgstr "设置服务器游戏时的电脑数量"
+
+msgid "Pauses the game"
+msgstr "暂停游戏"
+
+msgid "Downloading %s from server at %s k/s"
+msgstr "正以 %s k/s 的速度从服务器下载 %s"
+
+msgid "Downloading %s from the web at %s k/s"
+msgstr "正以 %s k/s 的速度从网络下载 %s"
+
+msgid "Play"
+msgstr "开始游戏"
+
+msgid "Reload"
+msgstr "刷新"
+
+msgid "Logging in, hold on..."
+msgstr "正在登入，稍待片刻..."
+
+msgid "Searching for game servers..."
+msgstr "正在寻找服务器..."
+
+msgid "Browse servers manually"
+msgstr "手动浏览服务器"
+

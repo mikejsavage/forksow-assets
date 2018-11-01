@@ -1,0 +1,301 @@
+# Translators:
+# Translators:
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-12-06 11:03+0000\n"
+"PO-Revision-Date: 2017-01-22 11:56+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: French (http://www.transifex.com/qfusion/l10n/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. "Personal spectators", a list of spectators who watch the same POV, or
+#. watching you playing.
+msgid "Chasers"
+msgstr ""
+
+msgid ""
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue."
+msgstr "Vous êtes dans la file et attendez votre tour de jouer.\nUtilisez le menu pour sortir de la file d'attente."
+
+msgid ""
+"Use the in-game menu to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner."
+msgstr "Utilisez le menu pour entrer dans la file d'attente.\nSeuls les joueurs de la file d'attente pourront jouer à leur tour contre le dernier vainqueur."
+
+msgid "Set yourself READY using the in-game menu to start the match!"
+msgstr "Indiquez lorsque vous êtes PRÊT en utilisant le menu à commencer le match !"
+
+msgid "Waiting for players."
+msgstr "En attente de joueurs."
+
+#. User has entered practice mode in Race
+msgid "Entered practice mode"
+msgstr ""
+
+#. User has left practice mode in Race
+msgid "Left practice mode"
+msgstr ""
+
+#. TDM scoreboard column, try to make it as short as possible, 5 symbols max!
+#. Net = Frags - Deaths - Team Kills, see
+#. https://en.wikipedia.org/wiki/Net_(economics)
+msgid "Net"
+msgstr "Net"
+
+msgid "Teams are uneven. Please switch into another team."
+msgstr "Équipes déséquilibrées. Merci de changer d'équipe."
+
+msgid "PROTECT THE BOMB SITES!"
+msgstr "PROTÉGEZ LES CIBLES DE L'ATTAQUE À LA BOMBE !"
+
+msgid "TEAMDAMAGE PUNISHMENT!"
+msgstr "PUNITION POUR TIR AMI !"
+
+msgid "DO NOT DAMAGE TEAMMATES!"
+msgstr "NE BLESSEZ PAS VOS COÉQUIPIERS !"
+
+msgid "The bomb carrier has been fragged!"
+msgstr "Le porteur de la bombe a été fraggé !"
+
+msgid "OFFENSE WINS!"
+msgstr "VICTOIRE DES ATTAQUANTS !"
+
+msgid "DEFENSE WINS!"
+msgstr "VICTOIRE DES DÉFENSEURS !"
+
+msgid "You are shooting at your team-mates!"
+msgstr "Attention, vous tirez sur les membres de votre équipe !"
+
+msgid "Don't shoot at members of your team!"
+msgstr "Ne tirez pas sur les membres de votre équipe !"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU TEAMFRAGGED %s"
+msgstr "VOUS AVEZ FRAGGÉ VOTRE COÉQUIPIER %s"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU FRAGGED %s"
+msgstr "VOUS AVEZ FRAGGÉ %s"
+
+#. For Race gametype - "no record", "no best time"
+msgid "no time"
+msgstr "Pas de chrono"
+
+#. race
+msgid "Time"
+msgstr "Chrono"
+
+msgid "DESTROY THE TARGETS!"
+msgstr "DÉTRUISEZ LES CIBLES !"
+
+msgid "Timelimit hit!"
+msgstr "Fin du temps imparti !"
+
+msgid "The attacking team has lost the bomb!!!"
+msgstr "Les attaquants ont perdu la bombe !"
+
+msgid "MATCH ABORTED"
+msgstr "MATCH ANNULÉ"
+
+msgid "COUNTDOWN ABORTED"
+msgstr "DÉCOMPTE ANNULÉ"
+
+#. center print if there is sudden death overtime needed
+msgid "SUDDEN DEATH"
+msgstr "MORT SUBITE"
+
+#. Default location name, when there is none of them presented on the map
+msgid "someplace"
+msgstr "quelque part"
+
+msgid ""
+"Set yourself READY to start the match!\n"
+"You can use the in-game menu or simply press 'F4'.\n"
+"'ESC' for in-game menu or 'ENTER' for in-game chat."
+msgstr "Indiquez lorsque vous êtes PRÊT à commencer le match !\nVous pouvez utiliser le menu ou appuyer simplement sur la touche \"F4\".\n\"Echap\" pour le menu ou \"Entrée\" pour le chat."
+
+msgid "Waiting... %s"
+msgstr "En attente... %s"
+
+msgid "Match will resume in %s seconds"
+msgstr "Reprise du match dans %s secondes"
+
+msgid "Match will resume in 1 second"
+msgstr "Reprise du match dans 1 seconde"
+
+msgid "Match paused"
+msgstr "Interruption du match"
+
+msgid "Match resumed"
+msgstr "Reprise du match"
+
+msgid "%s has the bomb!"
+msgstr "%s a la bombe !"
+
+msgid "Bomb planted at %s!"
+msgstr "Bombe amorcée à %s !"
+
+#. chase = spectate
+msgid "No one to chase"
+msgstr "Il n'y a personne à suivre"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Mouse buttons for switching spectator modes.\n"
+"This message can be hidden by disabling 'help' in player setup menu."
+msgstr "\"Echap\" pour le menu ou \"Entrée\" pour le chat.\nCliquez pour alterner entre les différents points de vue du mode \"spectateur\".\nCe message peut-être caché en désactivant l'aide dans le menu des options de joueur."
+
+msgid "Bomb defused!"
+msgstr "Bombe désamorcée !"
+
+msgid "Clan"
+msgstr "Clan"
+
+msgid "Score"
+msgstr "Score"
+
+#. Short form of "Score"
+msgid "Sco"
+msgstr "Sco"
+
+#. Short form of "Frags", please, don't use "kill/death" for the translation
+msgid "Fra"
+msgstr "Fra"
+
+#. Short form of "Suicides"
+msgid "Sui"
+msgstr "Sui"
+
+#. Short form of "Deaths"
+msgid "De"
+msgstr "De"
+
+msgid "Ping"
+msgstr "Ping"
+
+#. It is for "headhunt", one player is tagged and all other players attempt to
+#. frag the tagged player. Tagged player gets score for each second he/she
+#. stays alive. So tag time is time of him being tagged.
+msgid "Tagtime"
+msgstr "Temps en mode \"marqué\""
+
+msgid "Racing"
+msgstr "En course"
+
+msgid "Spectators"
+msgstr "Spectateurs"
+
+msgid "Challengers"
+msgstr "Challengers"
+
+msgid "Weapon stats"
+msgstr "Statistiques armes"
+
+#. Race time
+msgid "Time:"
+msgstr "Chrono :"
+
+#. Race
+msgid "Best:"
+msgstr "Record :"
+
+#. Race
+msgid "Srv Best:"
+msgstr "Record serveur :"
+
+#. Race
+msgid "Alpha time:"
+msgstr "Temps Alpha :"
+
+#. Race
+msgid "Beta time:"
+msgstr "Temps Beta :"
+
+#. When some Items get picked up
+msgid "Picked up:"
+msgstr "Trouvé :"
+
+msgid "Points:"
+msgstr "Points :"
+
+#. Difference of the scores/points
+msgid "Spread:"
+msgstr "Diff :"
+
+msgid "Download:"
+msgstr "Téléchargement :"
+
+msgid "Download progress:"
+msgstr "Progression du téléchargement :"
+
+#. HUD indicator of stun
+msgid "STUNNED"
+msgstr "SONNÉ"
+
+#. Race
+msgid "Personal best:"
+msgstr "Record personnel :"
+
+#. Race
+msgid "Server record:"
+msgstr "Record serveur :"
+
+msgid "Warmup"
+msgstr "Échauffement"
+
+msgid "Low Ammo"
+msgstr "Peu de munitions"
+
+msgid "Out Of Ammo"
+msgstr "Plus de munitions"
+
+msgid ""
+"Waiting for players.\n"
+"'ESC' for in-game menu."
+msgstr "En attente de joueurs.\n\"Echap\" pour le menu."
+
+msgid "Message of the day:"
+msgstr "Message du jour :"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "\"Echap\" pour le menu ou \"Entrée\" pour le chat.\nVous êtes dans la file et attendez votre tour de jouer.\nUtilisez le menu pour sortir de la file d'attente.\n\nCliquez pour alterner entre les différents points de vue du mode \"spectateur\"."
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Use the in-game menu or press 'F3' to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "\"Echap\" pour le menu ou \"Entrée\" pour le chat.\nUtilisez le menu ou appuyez sur la touche \"F3\" pour entrer dans la file d'attente.\nSeuls les joueurs de la file d'attente pourront jouer à leur tour contre le dernier vainqueur.\n\nCliquez pour alterner entre les différents points de vue du mode \"spectateur\"."
+
+msgid "1 minute left. Hurry up!"
+msgstr ""
+
+msgid "Fight!"
+msgstr ""
+
+msgid "FIGHT!"
+msgstr ""
+
+msgid "%s MINUTE OVERTIME\n"
+msgstr ""
+
+msgid "Overtime"
+msgstr ""

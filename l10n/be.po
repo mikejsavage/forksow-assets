@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-22 11:39+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Belarusian (http://www.transifex.com/qfusion/l10n/language/be/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr "Патрэбна атака"
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr "Патрэбна дапамога"
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr "Браня вольная"
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr "Сектар чысты"
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr "Няма праблем"
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr "Абараняемся!"
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr "Абараняліся А!"
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr "Абараняліся Б!"
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr "У атаку!"
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr "Атакуючы А!"
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr "Атакуючы Б!"
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr "Трэба прыкрыццё"
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr "Патрэбна абарона"
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr "Вас зразумеў"
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr "Ніяк няма"
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr "Ідзем на квад"
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr "Ідзем на ўзмацняльнік"
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr "Патрэбна аптэчка"
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr "Трэба зброю"
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr "Патрэбна браня"
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr "У абароне"
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr "У атацы"
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr "Так"
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr "Не"
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr "Ой!"
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr "Прабачце"
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr "Дзякуй"
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr "Урааа!"
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr "Добрая гульня"
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr "Бууу"
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr "Так дакладна"
+
+msgid "MM Login: Password error"
+msgstr "Памылка ўваходу: няправільны пароль"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "Памылка ўваходу: немагчыма вырабіць уваход падчас гульні"
+
+msgid "Frags"
+msgstr "Фрагі"
+
+msgid "say (to all):"
+msgstr "казаць (ўсім):"
+
+msgid "say (to team):"
+msgstr "казаць (камандзе):"
+
+msgid "Connection timed out"
+msgstr "Сышоў час чакання спалучэння"
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr "Узмоцнены Ганблэйд"
+
+msgid "MM Login: authentication timeout"
+msgstr "Памылка ўваходу: таймаўт аўтэнтыфікацыі"
+
+msgid "MM Logout: not logged in"
+msgstr "Памылка выхаду: не быў зроблены ўваход"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "Памылка выхаду: немагчыма зрабіць выхад падчас гульні"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "Памылка выхаду: прымусовы выхад завяршыўся з памылкай"
+
+msgid "MM Login: StatQuery error"
+msgstr "Памылка ўваходу: памылка StatQuery"
+
+msgid "MM Login: Failed, no session id"
+msgstr "Памылка ўваходу: не атрымалася здабыць ідэнтыфікатар сесіі"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "Памылка ўваходу: памылка разбору дадзеных на кроку %d"
+
+msgid "%s or %s"
+msgstr "%s або %s"
+
+msgid "yes"
+msgstr "так"
+
+msgid "no"
+msgstr "не"
+
+msgid "Gunblade"
+msgstr "Ганблэйд"
+
+msgid "Machinegun"
+msgstr "Кулямёт"
+
+msgid "Riotgun"
+msgstr "Драбавік"
+
+msgid "Grenade Launcher"
+msgstr "Гранатакід"
+
+msgid "Rocket Launcher"
+msgstr "Ракетніца"
+
+msgid "Plasmagun"
+msgstr "Плазматрон"
+
+msgid "Lasergun"
+msgstr "Лазерган"
+
+msgid "Electrobolt"
+msgstr "Электраболт"
+
+msgid "Instagun"
+msgstr "Інстаган"
+
+msgid "Cells"
+msgstr "Акумулятары"
+
+msgid "Shells"
+msgstr "Карцеч"
+
+msgid "Bullets"
+msgstr "Кулі"
+
+msgid "Grenades"
+msgstr "Гранаты"
+
+msgid "Rockets"
+msgstr "Ракеты"
+
+msgid "Plasma"
+msgstr "Плазма"
+
+msgid "Lasers"
+msgstr "Лазеры"
+
+msgid "Bolts"
+msgstr "Набоі"
+
+msgid "Instas"
+msgstr "Інсты"
+
+msgid "Blades"
+msgstr "Лёзы"
+
+msgid "Weak bullets"
+msgstr "Лёгкія кулі"
+
+msgid "Weak Shells"
+msgstr "Лёгкая карцеч"
+
+msgid "Weak Grenades"
+msgstr "Лёгкія гранаты"
+
+msgid "Weak Rockets"
+msgstr "Лёгкія ракеты"
+
+msgid "Weak Plasma"
+msgstr "Лёгкая плазма"
+
+msgid "Weak Lasers"
+msgstr "Лёгкія лазеры"
+
+msgid "Weak Bolts"
+msgstr "Лёгкія набоі"
+
+msgid "Weak Instas"
+msgstr "Лёгкія інсты"
+
+msgid "Green Armor"
+msgstr "Зялёная броня"
+
+msgid "Yellow Armor"
+msgstr "Жоўтая броня"
+
+msgid "Red Armor"
+msgstr "Чырвоная броня"
+
+msgid "Armor Shard"
+msgstr "Плашка броні"
+
+msgid "5 Health"
+msgstr "5 здароўя"
+
+msgid "25 Health"
+msgstr "25 здароўя"
+
+msgid "50 Health"
+msgstr "50 здароўя"
+
+msgid "Mega Health"
+msgstr "Мегаздароўе"
+
+msgid "Ultra Health"
+msgstr "Ультраздароўя"
+
+msgid "Quad Damage"
+msgstr "Чацвярная шкода"
+
+msgid "WarShell"
+msgstr "Полаг вайны"
+
+msgid "Regeneration"
+msgstr "Рэгенерацыя"
+
+msgid "Ammo Pack Weak"
+msgstr "Лёгкія боепрыпасы"
+
+msgid "Ammo Pack Strong"
+msgstr "Цяжкія боепрыпасы"
+
+msgid "Ammo Pack"
+msgstr "Боепрыпасы"
+
+msgid "say:"
+msgstr "казаць:"

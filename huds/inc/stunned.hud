@@ -1,0 +1,11 @@
+if %STUNNED
+setFontFamily con_fontSystem
+setFontStyle Bold
+setFontSize %VIDHEIGHT / 45
+setColor 1 1 1 1
+setAlign 3 3
+setCursor #WIDTH - 5, #HEIGHT / 3
+setColor 1 0 0 1
+drawString "STUNNED"
+setFontStyle Normal
+endif

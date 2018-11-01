@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-04-03 16:14+0000\n"
+"PO-Revision-Date: 2016-04-03 16:14+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Restart race"
+msgstr "Verseny újraindítás"
+
+msgid "Enter practice mode"
+msgstr "Belépés gyakorló módba"
+
+msgid "Leave practice mode"
+msgstr "Gyakorló mód elhagyása"
+
+msgid "Enable noclip mode"
+msgstr "Noclip mód engedélyez"
+
+msgid "Disable noclip mode"
+msgstr "Noclip mód letiltás"
+
+msgid "Save position"
+msgstr "Pozíció mentése"
+
+msgid "Load saved position"
+msgstr "Mentett pozíció betöltése"
+
+msgid "Clear saved position"
+msgstr "Mentett pozíció törlése"
+
+#. UI slider for video brightness
+msgid "Brightness"
+msgstr "Fényerő"
+
+msgid "Quick menu"
+msgstr "Gyors menü"
+
+msgid "Open in browser"
+msgstr "Böngészőben megnyitás"
+
+#. HUD option
+msgid "Match timer"
+msgstr "Meccs időzítő"
+
+#. Match timer option
+msgid "count down"
+msgstr "hátralévő idő"
+
+#. Match timer option
+msgid "count up"
+msgstr "eltelt idő"
+
+#. Start page in UI
+msgid "Home"
+msgstr "Főmenü"
+
+#. Quit confirmation
+msgid "Are you sure you want to quit?"
+msgstr "Biztos ki akarsz lépni?"
+
+#. Graphics profile's name
+msgid "contrast"
+msgstr "Kontrasztos"
+
+#. Graphics profile's name
+msgid "high"
+msgstr "Magas"
+
+#. Graphics profile's name
+msgid "high+"
+msgstr "Maximális"
+
+#. Graphics profile's name
+msgid "low"
+msgstr "Alacsony"
+
+#. Graphics profile's name / Bots' skill
+msgid "medium"
+msgstr "Közepes"
+
+#. Graphics profile's name
+msgid "stream"
+msgstr "Közvetítéshez optimalizált"
+
+msgid "Accuracy details"
+msgstr "Pontosság adatai"
+
+msgid "View awards"
+msgstr "Kitüntetések megtekintése"
+
+#. Logout from warsow.gg
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+msgid "Weapon"
+msgstr "Fegyver"
+
+#. Weapon use percentage, it should as short as possible, 6 symbols max!
+msgid "Use"
+msgstr "Arány"
+
+msgid "Accuracy"
+msgstr "Pontosság"
+
+msgid "Wins"
+msgstr "Győzelmek"
+
+msgid "Losses / quits"
+msgstr "Elvesztett / kilépett"
+
+msgid "Frags / deaths"
+msgstr "Fregek / halálok"
+
+msgid "Friends"
+msgstr "Barátok"
+
+#. Friend status
+msgid "Offline"
+msgstr "Nem elérhető"
+
+#. Short form of "Accuracy", it should 6 symbols max!
+msgid "Acc"
+msgstr "Pontos"
+
+msgid "Time played:"
+msgstr "Játékban eltöltött idő:"
+
+msgid "Awards"
+msgstr "Kitüntetések"
+
+#. Bots' skill
+msgid "easy"
+msgstr "Gyenge"
+
+#. Bots' skill
+msgid "hard"
+msgstr "Nehéz"
+
+msgid "Suggested servers"
+msgstr "Ajánlott szerverek"
+
+msgid "Less than an hour"
+msgstr "Kevesebb, mint egy órája"
+
+msgid "1 hour"
+msgstr "Egy órája"
+
+msgid "%s hours"
+msgstr "%s órája"
+
+msgid "%s days, %s hours"
+msgstr "%s napja %s órája"
+
+msgid "Last seen %s days ago"
+msgstr "Utoljára %s napja játszott"
+
+msgid "No data yet"
+msgstr "Nincs információ"
+
+msgid "No friends yet"
+msgstr "Nincsenek barátok hozzáadva"
+
+msgid "Connected to"
+msgstr "Kapcsolódva"
+
+msgid "Close"
+msgstr "Bezár"
+
+msgid "Demo filename"
+msgstr "Felvétel neve"
+
+#. Please use as short form as possible, 8 symbols max! It's a server browser column header displaying whether the server is ranked (sends your stats to warsow.gg).
+msgid "Ranked"
+msgstr "Rang"
+
+#. UI bind for making screenshots
+msgid "Screenshot"
+msgstr "Képernyőmentés"
+
+#. Key binding - hold to show the scoreboard
+msgid "Scoreboard"
+msgstr "Eredménytábla"
+
+msgid "Join"
+msgstr "Csatlakozás"
+
+#. cg_chatBeep
+msgid "Chat message sound"
+msgstr "Üzenetjelző hang"
+
+#. Toggles possibility to play ingame sounds while its window is unfocused or minimized
+msgid "Keep playing sounds in background"
+msgstr "Hang az Asztalon is"
+
+#. Bots' number
+msgid "Bots: %s"
+msgstr "Botok: %s"
+
+#. Back to the previous menu
+msgid "Back"
+msgstr "Hát"
+
+msgid "Welcome to Warsow!"
+msgstr "Üdv a Warsowban!"
+
+msgid "News"
+msgstr "Нírek"
+
+msgid "New Game"
+msgstr "Új játék"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Chat"
+msgstr "Csevegés"
+
+msgid "Options"
+msgstr "Beállítások"
+
+msgid "Quit"
+msgstr "Kilépés"
+
+msgid "Player"
+msgstr "Játékos"
+
+msgid "Teams"
+msgstr "Csapatok"
+
+msgid "Video"
+msgstr "Videó"
+
+msgid "Audio"
+msgstr "Hang"
+
+msgid "Input"
+msgstr "Irányítás"
+
+#. Use short form as possible, alternatively you can translate it from "Apply"
+msgid "Save changes"
+msgstr "Alkalmaz"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Model"
+msgstr "Modell"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Clan"
+msgstr "Klán"
+
+msgid "Misc"
+msgstr "Egyéb"
+
+msgid "Spectator HUD"
+msgstr "Nézelődő HUD"
+
+msgid "Crosshair"
+msgstr "Célkereszt"
+
+msgid "Weapon handedness"
+msgstr "Fegyver pozíció"
+
+msgid "default"
+msgstr "alapbeállítás"
+
+msgid "right"
+msgstr "jobboldalt"
+
+#. gun position
+msgid "left"
+msgstr "baloldalt"
+
+msgid "center"
+msgstr "középen"
+
+msgid "FOV"
+msgstr "Látószög"
+
+msgid "FOV while using zoom"
+msgstr "Zoom látószög"
+
+msgid "Simple items"
+msgstr "Egyszerűsített tárgyak"
+
+msgid "Show teammates' names"
+msgstr "Csapattársak neveinek megjelenítése"
+
+msgid "Show help"
+msgstr "Segítség megjelenítése"
+
+msgid "Show weapon model"
+msgstr "Fegyver megjelenítése"
+
+msgid "Show minimap"
+msgstr "Radar mutatása"
+
+msgid "Show FPS counter"
+msgstr "FPS számláló"
+
+msgid "Show speed meter"
+msgstr "Sebességmérő"
+
+msgid "Show damage indicator"
+msgstr "Sebeződés mutatása"
+
+msgid "Automatically record demos"
+msgstr "Játék automatikus felvétele"
+
+msgid "Endmatch screenshot"
+msgstr "Meccs végeredményének mentése"
+
+msgid "Save match stats"
+msgstr "Meccs statisztikák mentése"
+
+msgid "Alpha"
+msgstr "Alfa"
+
+msgid "Beta"
+msgstr "Béta"
+
+msgid "Players"
+msgstr "Játékosok"
+
+msgid "Team model options"
+msgstr "Csapat kinézet beállítások"
+
+msgid "Fullbright skin"
+msgstr "Egyszínű kinézetek"
+
+msgid "Force your team as ALPHA"
+msgstr "Csapattársak mindig úgy nézzek ki, mint az Alfa"
+
+msgid "Graphics profile"
+msgstr "Grafikai profil"
+
+msgid "Fullscreen"
+msgstr "Teljes képernyő"
+
+msgid "Vertical sync"
+msgstr "Függőleges szinkronizáció"
+
+msgid "Screen resolution"
+msgstr "Felbontás"
+
+msgid "desktop"
+msgstr "asztal"
+
+msgid "Texture quality"
+msgstr "Textúra minőség"
+
+msgid "Anisotropic filtering"
+msgstr "Anizotropikus filterezés"
+
+msgid "Lighting quality"
+msgstr "Fényminőség"
+
+msgid "vertex lighting"
+msgstr "Vertex fényleképzés"
+
+msgid "lightmaps"
+msgstr "lightmapek"
+
+msgid "per-pixel lighting"
+msgstr "pixelekénti megvilágítás"
+
+msgid "Shadows"
+msgstr "árnyékok"
+
+msgid "off"
+msgstr "ki"
+
+msgid "simple shadows"
+msgstr "egyszerű árnyékok"
+
+msgid "shadowmaps"
+msgstr "shadowmapok"
+
+msgid "Greyscale lighting"
+msgstr "Egyszínű fényleképzés"
+
+msgid "Use solid colors for world"
+msgstr "Egyszínű falak"
+
+msgid "Sound module"
+msgstr "Hang modul"
+
+msgid "no sound"
+msgstr "nincs hang"
+
+msgid "Sound volume"
+msgstr "Hangerő"
+
+msgid "Music volume"
+msgstr "Zene hangereje"
+
+msgid "Players volume"
+msgstr "Játékosok hangereje"
+
+msgid "Effects volume"
+msgstr "Effektek hangereje"
+
+msgid "Announcer volume"
+msgstr "Bemondó hangereje"
+
+msgid "Voice chat volume"
+msgstr "Hangkommunikáció hangereje"
+
+msgid "Hit sounds volume"
+msgstr "Találatjelző hang ereje"
+
+msgid "Mouse"
+msgstr "Egér"
+
+msgid "Movement"
+msgstr "Mozgás"
+
+msgid "Actions"
+msgstr "Akció"
+
+msgid "Weapons"
+msgstr "Fegyverek"
+
+msgid "Voice chat"
+msgstr "Beszéd"
+
+msgid "Saved"
+msgstr "Mentve"
+
+msgid "Mouse sensitivity"
+msgstr "Egér érzékenysége"
+
+msgid "Mouse acceleration"
+msgstr "Egér gyorsítás"
+
+msgid "Mouse filter"
+msgstr "Egér filter"
+
+msgid "Invert mouse"
+msgstr "Invertált egér"
+
+msgid "Forward"
+msgstr "Előre"
+
+#. bind for "move back"
+msgid "Backward"
+msgstr "Hátra"
+
+msgid "Left"
+msgstr "Balra"
+
+msgid "Right"
+msgstr "Jobbra"
+
+msgid "Up / jump"
+msgstr "Fel / Ugrás"
+
+msgid "Down / crouch"
+msgstr "Le / Gugolás"
+
+msgid "Dash / walljump"
+msgstr "Kitérés / Falról elugrás"
+
+msgid "Run / walk"
+msgstr "Futás / Sétálás"
+
+msgid "Attack"
+msgstr "Támadás"
+
+msgid "Previous weapon"
+msgstr "Előző fegyver"
+
+msgid "Next weapon"
+msgstr "Következő fegyver"
+
+msgid "Last weapon"
+msgstr "Utoljára használt fegyver"
+
+msgid "Zoom"
+msgstr "Zoom"
+
+msgid "Drop weapon"
+msgstr "Fegyver eldobás"
+
+msgid "Drop bomb / flag"
+msgstr "Bomba / zászló eldobás"
+
+msgid "Class action 1"
+msgstr "Kaszt lehetőség #1"
+
+msgid "Class action 2"
+msgstr "Kaszt lehetőség #2"
+
+msgid "Team chat"
+msgstr "Csapaton belüli chat"
+
+msgid "Login to warsow.gg"
+msgstr "Bejelntkezés a warsow.gg-re"
+
+msgid "Login with your warsow.gg account to save your statistics and match results."
+msgstr "Lépjen be a warsow.gg fiókjával, hogy el tudja menteni a statisztikáit."
+
+msgid "Don't have an account?"
+msgstr "Nincs még fiókja?"
+
+msgid "Register for a free account here."
+msgstr "Regisztráljon ingyen itt."
+
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Remember login"
+msgstr "Bejelentkezési adatok megjegyzése"
+
+msgid "Login"
+msgstr "Bejelentkezés"
+
+msgid "Normal weapons"
+msgstr "Normál fegyverek"
+
+msgid "Instagib"
+msgstr "Egylövés-egyhalál"
+
+msgid "TV"
+msgstr "TV"
+
+msgid "Watch on TV"
+msgstr "Nézd Warsow TV-n"
+
+msgid "Favorites"
+msgstr "Kedvencek	"
+
+msgid "Ping"
+msgstr "Válaszidő"
+
+msgid "Hostname"
+msgstr "Hoszt neve"
+
+msgid "Gametype"
+msgstr "Játéktípus"
+
+msgid "Match browser"
+msgstr "Szerverkereső"
+
+msgid "Local game"
+msgstr "Helyi LAN kapcsolat"
+
+msgid "Demo browser"
+msgstr "Felvételek"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Refresh"
+msgstr "Frissítés"
+
+msgid "Map"
+msgstr "Pálya"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Mapname"
+msgstr "Pályanév"
+
+msgid "Start game"
+msgstr "Indítás"
+
+msgid "Server name"
+msgstr "Szerver név"
+
+msgid "Public server"
+msgstr "Publikus szerver"
+
+msgid "Score limit"
+msgstr "Ponthatár"
+
+msgid "Max players"
+msgstr "Létszámhatár"
+
+msgid "Time limit"
+msgstr "Időhatár"
+
+msgid "min."
+msgstr "perc"
+
+msgid "Bot skill level"
+msgstr "Botok erőssége"
+
+msgid "Number of bots"
+msgstr "Botok száma"
+
+msgid "Remove from favorites"
+msgstr "Kedvencekből való eltávolítás"
+
+msgid "Add to favorites"
+msgstr "Hozzáadás kedvencekhez"
+
+msgid "Map: %s"
+msgstr "Pálya: %s"
+
+msgid "Players: %s"
+msgstr "Játékosok: %s"
+
+msgid "Gametype: %s"
+msgstr "Játéktípus: %s"
+
+msgid "Mod: %s"
+msgstr "Mód: %s"
+
+msgid "Ping: %s"
+msgstr "Válaszidő: %s"
+
+msgid "Address: %s"
+msgstr "Cím: %s"
+
+msgid "IRC server connection"
+msgstr "IRC szerver csatlakozás"
+
+msgid "Server port"
+msgstr "Szerver port"
+
+msgid "Nickname"
+msgstr "Nick"
+
+msgid "Channels"
+msgstr "Csatornák"
+
+msgid "Connect"
+msgstr "Csatlakozás"
+
+msgid "Disconnect"
+msgstr "Lecsatlakozás"
+
+msgid "Send"
+msgstr "Küld"
+
+msgid "Date: %s"
+msgstr "Dátum: %s"
+
+msgid "Match: %s"
+msgstr "Meccs: %s"
+
+msgid "Score: %s"
+msgstr "Pont: %s"
+
+msgid "Duration: %s"
+msgstr "Időtartam: %s"
+
+msgid "Ready!"
+msgstr "Felkészült!"
+
+msgid "Not ready!"
+msgstr "Nem áll készen!"
+
+msgid "Join challengers queue"
+msgstr "Nyertes kihívása"
+
+msgid "Leave challengers queue"
+msgstr "Kihívás visszavonása"
+
+msgid "Join the game"
+msgstr "Beállás"
+
+msgid "Join any team"
+msgstr "Beállás bármely csapatba"
+
+msgid "Join %s"
+msgstr "Beállás a(z) %s csapatba"
+
+msgid "Spectate"
+msgstr "Beállás nézőként"
+
+msgid "Game menu"
+msgstr "Játék menü"
+
+msgid "Call a vote"
+msgstr "Szavazás"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam"
+msgstr "Kameraopciók"
+
+msgid "Main menu"
+msgstr "Főmenü"
+
+msgid "Return to game"
+msgstr "Visszatérés a játékba"
+
+msgid "\"%s\" options"
+msgstr "\"%s\" opciók"
+
+msgid "Refused: %s"
+msgstr "Visszautasítva: %s"
+
+msgid "Press ESC to cancel"
+msgstr "Nyomjon ESC-et a visszavonáshoz"
+
+msgid "Downloading %s from %s at %s k/s"
+msgstr "%s letöltése %s helyről. Sebesség: %s k/s"
+
+msgid "Owner left the listen server"
+msgstr "A tulajdonos elhagyta a szervert"
+
+msgid "Server was killed"
+msgstr "A szerver megszűnt"
+
+msgid "Server restarted"
+msgstr "A szerver újraindult"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam, etc.
+msgid "Chasecam mode"
+msgstr "Kameramód"
+
+msgid "Auto"
+msgstr "Automatikus"
+
+msgid "Objectives"
+msgstr "Objektívák"
+
+msgid "Powerups"
+msgstr "Powerupok"
+
+msgid "Fraggers"
+msgstr "Fregelő"
+
+msgid "Highest score"
+msgstr "Legmagasabb pontszám"
+
+msgid "Enable"
+msgstr "Bekapcsol"
+
+msgid "Disable"
+msgstr "Kikapcsol"
+
+msgid "Watch"
+msgstr "Néz"
+
+msgid "Viewers"
+msgstr "Nézők"
+
+msgid "Reconnect"
+msgstr "Újracsatlakozás"
+
+msgid "Votes"
+msgstr "Szavazatok"
+
+msgid "Primary weapons"
+msgstr "Elsődleges fegyverek"
+
+msgid "Secondary weapons"
+msgstr "Másodlagos fegyverek"
+
+#. "Bomb" gametype related option, means "I want to carry bomb"
+msgid "Carrier opt-in"
+msgstr "Jelentkezés bombavivőnek"
+
+#. "Bomb" gametype related option, means "I DON'T want to carry bomb"
+msgid "Carrier opt-out"
+msgstr "Bombavivő jelentkezés visszavonása"
+
+msgid "Select class"
+msgstr "Kaszt választás"
+
+msgid "Grunt"
+msgstr "Katona"
+
+msgid "Medic"
+msgstr "Szanitéc"
+
+msgid "Runner"
+msgstr "Felderítő"
+
+msgid "Engineer"
+msgstr "Mérnök"
+
+msgid "Connection failed"
+msgstr "Sikertelen csatlakozás"
+
+msgid "Connection terminated"
+msgstr "Csatlakozás megszakítva"
+
+msgid "Connection error"
+msgstr "Csatlakozási hiba"
+
+msgid "Couldn't connect to %s"
+msgstr "%s szerverhez nem tudott csatlakozni"
+
+msgid "Connection was terminated by %s"
+msgstr "A kapcsolat %s által megszíktva "
+
+msgid "Error connecting to %s"
+msgstr "Hiba a(z) %s szerverhez való csatlakozás során"
+
+msgid "Reason: %s"
+msgstr "Ok: %s"
+
+msgid "Fullscreen anti-aliasing"
+msgstr "Teljes képernyős élelsimítás"
+
+msgid "Soft particles"
+msgstr "Egyenletes füstrészecskék"
+
+msgid "Weapon opacity"
+msgstr "Fegyver átlátszósága"
+
+msgid "Vote yes"
+msgstr "Szavazás igennel"
+
+msgid "Vote no"
+msgstr "Szavazás nemmel"
+
+msgid "Vote \"%s\" has been called"
+msgstr "%s szavazás indult"
+
+msgid "Changes map"
+msgstr "Pálya váltása"
+
+msgid "Restarts current map"
+msgstr "Meccs újraindítása"
+
+msgid "Jumps to the next map"
+msgstr "Következő pálya"
+
+msgid "Specify 0 to disable"
+msgstr "Adj meg \"0\"-át a kikapcsoláshoz"
+
+msgid "Sets the number of frags or caps needed to win the match"
+msgstr "Pontszám limit beállítása melynek elérése esetén az adott csapat vagy személy nyer"
+
+msgid "Sets number of minutes after which the match ends"
+msgstr "Meccs maximális hossza (időkorlát) percben"
+
+msgid "Changes the gametype"
+msgstr "Játékmód váltása"
+
+msgid "Sets the number of minutes after which the warmup ends"
+msgstr "Felkészülési idő maximális hossza percben"
+
+msgid "Sets the length of the overtime"
+msgstr "Hosszabbítás maximális hossza"
+
+msgid "Specify 0 to enable sudden death mode"
+msgstr "Adj meg \"0\"-át a hirtelen halál módhoz"
+
+msgid "Sets the maximum number of players in one team"
+msgstr "Maximális játékosok száma csapatonként"
+
+msgid "Locks teams to disallow players joining in mid-game"
+msgstr "Csapatok zárolása, továbbiakban nem lehetséges csatlakozni"
+
+msgid "Unlocks teams to allow players joining in mid-game"
+msgstr "Csapatok zárolásának feloldása"
+
+msgid "Sets all players as ready so the match can start"
+msgstr "Mindenki felkészült"
+
+msgid "Forces player back to spectator mode"
+msgstr "Játékos mozgatása nézelődőnek"
+
+msgid "Removes player from the server"
+msgstr "Játékos kirúgása a szerverről"
+
+msgid "Removes player from the server and bans his IP-address for 15 minutes"
+msgstr "Játékos kirúgása és kitiltása 15 percre a szerverről"
+
+msgid "Disallows chat messages from the muted player"
+msgstr "Játékos elnémítása"
+
+msgid "Disallows voice chat messages from the muted player"
+msgstr "Játékos hangüzeneteinek elnémítása"
+
+msgid "Reallows chat messages from the unmuted player"
+msgstr "Játékos némításának feloldása"
+
+msgid "Reallows voice chat messages from the unmuted player"
+msgstr "Játékos hangüzenet némításának feloldása"
+
+msgid "Sets the number of bots to play on the server"
+msgstr "Botok száma a szerveren"
+
+msgid "Toggles whether shooting teammates will do damage to them"
+msgstr "Csapaton belüli sebzés átállítása"
+
+msgid "Toggles whether instagun can be used for weapon jumping"
+msgstr "Mesterlövész puskával történő ugrás-segítés engedélyezése/tiltása"
+
+msgid "Toggles the availability of instashield in instagib"
+msgstr "Pajzs engedélyezése egy lövés - egy halál módban"
+
+msgid "Toggles whether falling long distances deals damage"
+msgstr "Sebzés engedélyezése/tiltása magasról leesés esetén"
+
+msgid "Toggles whether weapon splashes can damage self"
+msgstr "Önsebzés engedélyezése"
+
+msgid "Pauses the game"
+msgstr "Játék szüneteltetése"
+
+msgid "Resumes the game if in timeout"
+msgstr "Szünet vége"
+
+msgid "Toggles the challenging spectators queue line"
+msgstr "Kihívó sor engedélyezése/tiltása"
+
+msgid "Toggles whether uneven teams is allowed"
+msgstr "Egyenlőtlen csapatfelosztás engedélyezése"
+
+msgid "Enables or disables the dropping of powerups at dying"
+msgstr "Erősítők eldobásának engedélyezése/tiltása halál esetén"
+
+msgid "Enables or disables instant flag captures and unlocks"
+msgstr "Azonnali zászló felvétel és zsákmányolás engedélyezése"
+
+msgid "Enables or disables the spawning of powerups"
+msgstr "Erősítők engedélyezése"
+
+msgid "If enabled, tag fragger will become new tag automatically"
+msgstr "Ha engedélyezett, az utolsó gyilkos lesz az új célpont automatikusan"
+
+msgid "Sets the speed at which the capture points heal their owners"
+msgstr "Bázisok gyógyítási sebességének beállítása"
+
+msgid "Sets the time in seconds between reinforcement respawn waves"
+msgstr "Erősítési hullámok (újraéledés) közötti idő beállítása"
+
+msgid "Downloading %s from server at %s k/s"
+msgstr "%s letöltés alatt a szerverről. Sebesség: %s kbit/s."
+
+msgid "Downloading %s from the web at %s k/s"
+msgstr "%s letöltés alatt külső kiszolgálótól. Sebesség: %s kbit/s."
+
+msgid "Play"
+msgstr "Lejátszás"
+
+msgid "Reload"
+msgstr "Újratöltés"
+
+msgid "Logging in, hold on..."
+msgstr "Bejelentkezés, kérlek várj..."
+
+msgid "Searching for game servers..."
+msgstr "Szerverek keresése folyamatban..."
+
+msgid "Browse servers manually"
+msgstr "Szerverek böngészése"
+

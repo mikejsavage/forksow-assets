@@ -1,0 +1,50 @@
+// draws the backdrop shadow
+setSpecialFontFamily "Virtue"
+
+setCursor 2 + #WIDTH / 2, 22 //shadow position
+setFontSize %VIDHEIGHT / 22
+setAlign #CENTER, #MIDDLE
+
+setColor 0, 0, 0, 1
+setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
+drawClock
+
+// change color according to item
+setColor 1, 1, 0.6, 1
+if %PICKUP_ITEM == #ITEM_RED_ARMOR
+	setColor 1, 0, 0, 1 // red
+endif
+if %PICKUP_ITEM == #ITEM_YELLOW_ARMOR
+	setColor 1, 1, 0, 1 // yellow
+endif
+if %PICKUP_ITEM == #ITEM_GREEN_ARMOR
+	setColor 0, 1, 0, 1 // green
+endif
+if %PICKUP_ITEM == #ITEM_MEGA_HEALTH
+	setColor 1, 0, 1, 1 // magenta
+endif
+if %PICKUP_ITEM == #ITEM_QUAD
+	setColor 1, 0.5, 0, 1 // orange
+endif
+if %PICKUP_ITEM == #ITEM_WARSHELL
+	setColor 0, 1, 1, 1 // lightblue
+endif
+
+// draws clock
+setAlign #CENTER, #MIDDLE
+moveCursor -2, -2   //colored clock position
+setSize 32 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
+drawClock
+
+// MATCH STATES
+setFontFamily con_fontSystem
+setFontSize %VIDHEIGHT / 48
+setAlign 2 1
+setCursor #WIDTH / 2, 50
+setColor 0.4 1 0.4 0.5
+if %MATCH_STATE == #MATCH_STATE_WARMUP
+	drawString "Warmup"
+endif
+if %OVERTIME
+	drawString "Overtime"
+endif

@@ -1,0 +1,1369 @@
+# Translators:
+# Translators:
+# Translators:
+# Andrei Stepanov, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-12-05 19:41+0000\n"
+"PO-Revision-Date: 2017-04-09 16:18+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Russian (http://www.transifex.com/qfusion/l10n/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Restart race"
+msgstr "Перезапустить гонку"
+
+msgid "Enter practice mode"
+msgstr "Перейти в тренировочный режим"
+
+msgid "Leave practice mode"
+msgstr "Покинуть тренировочный режим"
+
+msgid "Enable noclip mode"
+msgstr "Включить режим полёта"
+
+msgid "Disable noclip mode"
+msgstr "Выключить режим полёта"
+
+msgid "Save position"
+msgstr "Сохранить позицию"
+
+msgid "Load saved position"
+msgstr "Загрузить сохранённую позицию"
+
+msgid "Clear saved position"
+msgstr "Очистить сохранённую позицию"
+
+#. Award: On Fire!
+msgid "Get 5 frags in a row without getting fragged"
+msgstr "Заработайте 5 фрагов в течение одной жизни"
+
+#. Award: God Mode!
+msgid "Get 25 frags in a row without getting fragged"
+msgstr "Заработайте 25 фрагов в течение одной жизни"
+
+#. Award: Mega-Health Control!
+msgid "Keep the Mega Health under your control"
+msgstr "Постоянно подбирайте Мегаздоровье"
+
+#. Award: Triple Frag!
+msgid "Frag an opponent 3 times in a short time frame"
+msgstr "Фрагните соперника 3 раза за короткий промежуток времени"
+
+#. Award: Direct Grenade Hit!
+msgid "Hit an opponent directly with a grenade a few times"
+msgstr "Попадите пару раз гранатой прямо в соперника"
+
+#. Award: Last Call Defuse!
+msgid "Defuse the bomb at the last second"
+msgstr "Обезвредьте бомбу на последней секунде"
+
+#. Award: Flag Recovery!
+msgid "Recover your flag from the opponent carrying it"
+msgstr "Отберите свой флаг у соперника"
+
+#. Award: Extermination!
+msgid "Get 20 frags in a row without getting fragged"
+msgstr "Заработайте 20 фрагов в течение одной жизни"
+
+#. Award: Air Grenade!
+msgid "Frag an opponent in mid-air with a grenade"
+msgstr "Попадите гранатой в соперника, находящегося в воздухе"
+
+#. Award: Raging!
+msgid "Get 10 frags in a row without getting fragged"
+msgstr "Заработайте 10 фрагов в течение одной жизни"
+
+#. Award: Win 1000 matches
+msgid "Congratulations! You have won 1000 matches!"
+msgstr "Поздравляем! Вы одержали победу в 1000 матчах!"
+
+#. Award: Quadruple Frag!
+msgid "Frag an opponent 4 times in a short time frame"
+msgstr "Фрагните соперника 4 раза за короткий промежуток времени"
+
+#. Award: Flag Defense!
+msgid "Defend your flag or flag carrier"
+msgstr "Защитите свой флаг или переносчика флага"
+
+#. Award: Player of the Match!
+msgid "Score more points than other players and receive the \"Fair Play\" award in "
+"a single match"
+msgstr "Заработайте больше всего очков и получи награду \"Fair Play\""
+
+#. Award: Air Rocket!
+msgid "Frag an opponent in mid-air with a rocket"
+msgstr "Попадите ракетой в соперника, находящегося в воздухе"
+
+#. Award: Bomb Planted!
+msgid "Plant the bomb at a bomb site"
+msgstr "Установите бомбу в одной из двух точек соперника"
+
+#. Award: Win 100 matches
+msgid "Wow! You have won 100 matches!"
+msgstr "Ого! Вы стали победителем в 100 матчах!"
+
+#. Award: Fair Play!
+msgid "Show respect to your opponents during the post-match intermission"
+msgstr "Проявите уважение к сопернику после окончания матча"
+
+#. Award: Play 1000 matches
+msgid "Wow! You have played 1000 matches!"
+msgstr "Браво! Вы сыграли 1000 матчей!"
+
+#. Award: Play 500 matches
+msgid "Wow! You have played 500 matches!"
+msgstr "Отлично! Вы сыграли 500 матчей!"
+
+#. Award: Ninja Defuse!
+msgid "Defuse the bomb without being seen by the opponent"
+msgstr "Обезвредьте бомбу незаметно для соперника"
+
+#. Award: Direct Rocket Hit!
+msgid "Hit an opponent directly with a rocket a few times"
+msgstr "Попадите несколько раз ракетой прямо в соперника"
+
+#. Award: Win 250 matches
+msgid "Congratulations! You have won 250 matches!"
+msgstr "Поздравляем! Вы победили в 250 матчах!"
+
+#. Award: King of Bongo!
+msgid "Frag the entire opposing team in Bomb and Defuse"
+msgstr "Фрагните всех игроков из вражеской команды в режиме Bomb and Defuse"
+
+#. Award: Fast Plant!
+msgid "Plant the bomb within 10 seconds"
+msgstr "Установите бомбу в течение 10 секунд"
+
+#. Award: Bomb Carrier Frag!
+msgid "Frag the bomb-carrying opponent"
+msgstr "Фрагните переносчика бомбы из вражеской команды"
+
+#. Award: Meep Meep!
+msgid "Frag an opponent while moving at high speed"
+msgstr "Фрагните соперника на высокой скорости"
+
+#. Touch devices intro text
+msgid "Warsow is a fast-paced game with advanced movement. When playing, hold your "
+"device as shown in the picture, with four of your fingers in front of the "
+"screen, to make sure you can perform movement tricks, aim and fire at the "
+"same time."
+msgstr "Warsow требует быстрых действий и реакции. Во время игры держите своё устройство, как показано на изображении, так, чтобы четыре ваших пальца находились перед экраном, и вы могли использовать приёмы передвижения, прицеливаться и стрелять одновременно."
+
+#. Award: Double Frag!
+msgid "Frag an opponent 2 times in a short time frame"
+msgstr "Фрагните соперника 2 раза за короткий промежуток времени"
+
+msgid "View match info"
+msgstr "Статистика матча"
+
+#. Award: Fraglord!
+msgid "Get 15 frags in a row without getting fragged"
+msgstr "Заработайте 15 фрагов в течение одной жизни"
+
+#. UI slider for video brightness
+msgid "Brightness"
+msgstr "Яркость"
+
+#. Award: Win 500 matches
+msgid "Congratulations! You have won 500 matches!"
+msgstr "Поздравляем! Вы закончили 500 матчей с победой!"
+
+#. UI option cg_gunbob
+msgid "Enable weapon animation"
+msgstr "Включить анимацию оружия"
+
+#. Award: Coyote Wins!
+msgid "Frag a fast-moving opponent"
+msgstr "Фрагните несущегося соперника"
+
+#. UI option cg_viewBob, animates view camera on landing from high jumps.
+msgid "Enable view animation"
+msgstr "Анимация камеры при приземлении"
+
+#. Award: Play 100 matches
+msgid "Wow! You have played 100 matches!"
+msgstr "Замечательно! Вы уже сыграли 100 матчей!"
+
+msgid "Quick menu"
+msgstr "Горячее меню"
+
+#. Award: Play 250 matches
+msgid "Wow! You have played 250 matches!"
+msgstr "Здорово! Вы покорили отметку в 250 матчей!"
+
+msgid "Version %s of %s is available."
+msgstr "Доступна версия обновления %s для %s."
+
+#. Award: Bomb Defused!
+msgid "Defuse the bomb"
+msgstr "Обезвредьте бомбу"
+
+msgid "Click OK for more information."
+msgstr "Нажмите OK для получения более подробной информации."
+
+#. Award: Quakenet Exclusive!
+msgid "Register to Warsow during QuakeNet launch event"
+msgstr "Зарегистрируйтесь в Warsow во время старта работы QuakeNet"
+
+msgid "Open in browser"
+msgstr "Открыть в браузере"
+
+#. Award: Accuracy!
+msgid "Hit an opponent 3 times with the Electrobolt or the Instagun without missing"
+msgstr "Попадите 3 раза без промаха с Электроболта или Инстагана"
+
+#. HUD option
+msgid "Match timer"
+msgstr "Таймер матча"
+
+#. Award: Flag Carrier Frag!
+msgid "Frag the opponent who has your flag"
+msgstr "Фрагните соперника, укравшего твой флаг"
+
+#. Match timer option
+msgid "count down"
+msgstr "обратный отсчёт"
+
+#. Award: Red Armor Control!
+msgid "Keep the Red Armor under your control"
+msgstr "Подбирайте красную броню, не отдавая её врагу"
+
+#. Match timer option
+msgid "count up"
+msgstr "прямой отсчёт"
+
+#. Award: First Frag!
+msgid "Score the first frag for your team in the match"
+msgstr "Заработайте первый фраг в матче для своей команды"
+
+#. Start page in UI
+msgid "Home"
+msgstr "Главная"
+
+#. Quit confirmation
+msgid "Are you sure you want to quit?"
+msgstr "Вы действительно хотите выйти?"
+
+#. Graphics profile's name
+msgid "contrast"
+msgstr "контрастный"
+
+#. Graphics profile's name
+msgid "high"
+msgstr "высокий"
+
+#. Graphics profile's name
+msgid "high+"
+msgstr "высокий+"
+
+#. Graphics profile's name
+msgid "low"
+msgstr "низкий"
+
+#. Graphics profile's name / Bots' skill
+msgid "medium"
+msgstr "средний"
+
+#. Graphics profile's name
+msgid "stream"
+msgstr "стримерский"
+
+msgid "Accuracy details"
+msgstr "Статистика попаданий"
+
+msgid "View awards"
+msgstr "Награды"
+
+#. Logout from warsow.gg
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Weapon"
+msgstr "Оружие"
+
+#. Weapon use percentage, it should as short as possible, 6 symbols max!
+msgid "Use"
+msgstr "Исп."
+
+msgid "Accuracy"
+msgstr "Точность"
+
+msgid "Wins"
+msgstr "Победы"
+
+msgid "Losses / quits"
+msgstr "Поражения / выходы"
+
+msgid "Frags / deaths"
+msgstr "Фраги / смерти"
+
+msgid "Friends"
+msgstr "Друзья"
+
+#. Friend status
+msgid "Offline"
+msgstr "Не в сети"
+
+#. Short form of "Accuracy", it should 6 symbols max!
+msgid "Acc"
+msgstr "Точн."
+
+msgid "Time played:"
+msgstr "Время в игре:"
+
+msgid "Awards"
+msgstr "Награды"
+
+#. Bots' skill
+msgid "easy"
+msgstr "лёгкий"
+
+#. Bots' skill
+msgid "hard"
+msgstr "трудный"
+
+msgid "Suggested servers"
+msgstr "Рекомендуемые серверы"
+
+msgid "Less than an hour"
+msgstr "Менее часа"
+
+msgid "1 hour"
+msgstr "1 час"
+
+msgid "%s hours"
+msgstr "%s ч."
+
+msgid "%s days, %s hours"
+msgstr "%s дн., %s ч."
+
+msgid "Last seen %s days ago"
+msgstr "Последняя игра: %s дн. назад"
+
+msgid "No data yet"
+msgstr "Нет данных"
+
+msgid "No friends yet"
+msgstr "Друзей пока нет"
+
+msgid "Connected to"
+msgstr "Подключился к"
+
+#. Team overlay in HUD
+msgid "Show team locations"
+msgstr "Показывать расположение команды"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Demo filename"
+msgstr "Имя файла записи"
+
+#. Please use as short form as possible, 8 symbols max! It's a server browser
+#. column header displaying whether the server is ranked (sends your stats to
+#. warsow.gg).
+msgid "Ranked"
+msgstr "Ранговый"
+
+msgid "Password required"
+msgstr "требуется пароль"
+
+#. UI bind for making screenshots
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+#. Key binding - hold to show the scoreboard
+msgid "Scoreboard"
+msgstr "Таблица результатов"
+
+#. UI's cg_showPressedKeys
+msgid "Show pressed keys"
+msgstr "Показывать нажатые клавиши"
+
+msgid "Join"
+msgstr "Присоединиться"
+
+#. "Bomb'n'defuse" description
+msgid "Team game mode where in which players join either the attacking team or the "
+"defending team. Each team attempts to complete their mission objective, "
+"either planting the bomb or defending the bomb site, or eliminate the "
+"opposing team."
+msgstr "Командный режим, в котором игроки присоединяются к атакующей или обороняющейся стороне. Цель каждой из сторон — уничтожить всех игроков противоположной стороны либо выполнить свою миссию путём подрыва или обезвреживания бомбы."
+
+#. "Clan Arena" description
+msgid "Team game mode where you aim to eliminate the entire other team before your "
+"team dies. Clan Arena has no item pickups, you spawn with all weapons."
+msgstr "Командный режим, где каждая из сторон пытается выиграть раунд путём уничтожения всех игроков другой стороны. В начале каждого раунда игроки респаунятся с полным арсеналом оружия. На карте отсутствуют какие-либо предметы для подбора."
+
+#. "Capture the Flag" description
+msgid "Team game mode where the goal is to acquire the enemy teams flag and return "
+"it to your base."
+msgstr "Режим, в котором игроки разбиваются на две команды, пытаются захватить флаг противника и принести его к своему флагу, чтобы получить очки."
+
+#. "Capture the Flag: Tactics" description
+msgid "Capture the Flag with highly specialized classes. This version of CTF needs "
+"team co-operation between the classes to win!"
+msgstr "Режим, в котором игроки разбиваются на две команды, пытаются захватить флаг противника и принести его к своему флагу, чтобы получить очки. Каждый игрок может выбрать один из четырёх доступных классов."
+
+#. "Duel Arena" description
+msgid "Defeat most opponents in 1-on-1 combats. Your arsenal is fully replenished "
+"before each round. The winner of the round is challenged by the next player "
+"in the queue."
+msgstr "Поединок между двумя игроками. В начале каждого раунда игроки получают полный арсенал оружия. Победитель раунда встречается со следующим игроком из очереди."
+
+#. "Deathmatch" description
+msgid "The goal of a deathmatch game is to frag as many other players as possible "
+"until the time or frag limit is reached."
+msgstr "Целью данного режима является получение фрагов посредством уничтожения других игроков за ограниченное время либо до набора определённого количества фрагов."
+
+#. "Duel" description
+msgid "Duel is a 1vs1 game mode. The standard match lasts 10 minutes, if there's a "
+"draw there will be added 120 seconds overtime. The player who does the most "
+"frags wins the map."
+msgstr "Поединок между двумя соперниками. Выигрывает игрок, набравший наибольшее количество фрагов за ограниченный промежуток времени — обычно 10 минут."
+
+#. "Free for All" description
+msgid "The goal of a FFA game is to frag as many other players as possible until "
+"the time or frag limit is reached. Unlike in DM, you spawn with weapons and "
+"ammunition."
+msgstr "Целью данного режима является получение фрагов посредством уничтожения других игроков за ограниченное время либо до набора опредёленного количества фрагов. Игроки получают все оружия при респауне, а на карте имеются только патроны к ним."
+
+#. "Headhunt" description
+msgid "Game mode where one player is tagged and all other players attempt to frag "
+"the tagged player. Tagged player gets score for each second he/she stays "
+"alive. The person who frags the tagged player, becomes tagged."
+msgstr "Режим, в котором одному из игроков достаётся роль \"меченного\", а другие игроки пытаются уничтожить его. С течением времени \"меченный\", оставаясь в живых, получает очко за каждую секунду. Игрок, уничтоживший \"меченного\", сам становится им."
+
+#. "Race" description
+msgid "The goal of the race game mode is to finish the map or sector as quickly as "
+"possible!"
+msgstr "Целью данного режима является скоростное прохождение карт или участков. Победителем является игрок, достигший финиша за наименьшее время."
+
+#. "Team Deathmatch" description
+msgid "Team-vs-team game mode. The goal of a team deathmatch game is to frag as "
+"many players of the opposing team as possible until the time or frag limit "
+"is reached."
+msgstr "Режим, где игроки разбиваются на команды и соревнуются в командном зачёте по общему количеству фрагов, набранному за определённый промежуток времени, или по достижению лимита фрагов."
+
+#. "Team Domination" description. Different areas = map places = objects.
+#. those areas are indicated. Once any team gets control over 3 areas - it
+#. gets a score and wins a round. Example: https://youtu.be/KAKpZUqft-w
+msgid "Team based game mode where teams attempt to gain control of three different "
+"areas in the map. The team who gains control of all three objects, wins the "
+"round."
+msgstr "Командный режим, в котором каждая из сторон пытается захватить контроль над тремя определёнными областями карты с целью победы в раунде."
+
+msgid "Open chat"
+msgstr "Открыть чат"
+
+msgid "The game server is suggesting you can watch this match on WarsowTV. Do you "
+"agree?"
+msgstr "Игровой сервер предлагает посмотреть этот матч на WarsowTV. Вы согласны?"
+
+#. %s - hostname, ip:port, time
+msgid "You will be automatically connected to WarsowTV server \"%s\" at %s in %s "
+"seconds..."
+msgstr "Вы будете автоматически перенаправлены на сервер WarsowTV \\\"%s\\\", %s через %s с..."
+
+#. This option enables movement with +forward bunny hopping aka newmovement
+msgid "Acceleration on forward jumping"
+msgstr "Ускорение при прыжках вперёд"
+
+#. Toggles autohop possibility while pressing +moveup
+msgid "Disable autohop"
+msgstr "Отключить автопрыжки"
+
+#. Touch screen setting
+msgid "Touch look sensitivity"
+msgstr "Чувствительность сенсорного экрана"
+
+#. Touch screen setting
+msgid "Touch look deceleration"
+msgstr "Торможение обзора на сенсорном экране"
+
+#. Touch screen setting
+msgid "Invert touch look"
+msgstr "Инвертировать обзор на сенсорном экране"
+
+#. Touch screen setting
+msgid "Touch controls size"
+msgstr "Размер сенсорных кнопок"
+
+#. Touch screen setting
+msgid "Flip touch controls"
+msgstr "Отразить сенсорное управление"
+
+#. Gamepad setting
+msgid "Horizontal stick sensitivity"
+msgstr "Горизонтальная чувствительность мини-джойстика"
+
+#. Gamepad setting
+msgid "Vertical stick sensitivity"
+msgstr "Вертикальная чувствительность мини-джойстика"
+
+#. Gamepad setting
+msgid "Invert gamepad look"
+msgstr "Инвертировать мини-джойстик обзора"
+
+#. Gamepad setting
+msgid "Swap gamepad sticks"
+msgstr "Поменять местами мини-джойстики"
+
+#. cg_chatBeep
+msgid "Chat message sound"
+msgstr "Звук сообщения в чате"
+
+#. Toggles possibility to play ingame sounds while its window is unfocused or
+#. minimized
+msgid "Keep playing sounds in background"
+msgstr "Проигрывать звуки, если окно в фоне"
+
+msgid "Play on a ranked server to start tracking your stats."
+msgstr "Сыграйте на ранговом сервере для начала сбора личной статистики."
+
+#. Bots' number
+msgid "Bots: %s"
+msgstr "Боты: %s"
+
+msgid "The selected HUD may not be optimized for touchscreen input."
+msgstr "Выбранный HUD может быть не оптимизирован для сенсорного управления."
+
+#. r_dynamiclight
+msgid "Dynamic lights"
+msgstr "Динамические источники освещения"
+
+#. Dynamic lights' setting
+msgid "simple lights"
+msgstr "простые источники"
+
+#. Dynamic lights' setting
+msgid "per-pixel lights"
+msgstr "попиксельные источники"
+
+#. disable popup window with suggested server in server browser
+msgid "Don't suggest servers"
+msgstr "Отключить рекомендацию серверов"
+
+#. Gamepad setting
+msgid "Gamepad look acceleration"
+msgstr "Ускорение обзора геймпадом"
+
+#. UI option for cl_maxfps
+msgid "Framerate (FPS) limit"
+msgstr "Ограничение частоты кадров (FPS)"
+
+#. Back to the previous menu
+msgid "Back"
+msgstr "Назад"s
+
+#. Similar to "Call a vote"
+msgid "Cast a vote"
+msgstr "Проголосовать"
+
+msgid "Color correction"
+msgstr "Цветовая коррекция"
+
+msgid "Use the selected model for all players"
+msgstr "Применить эту модель для всех игроков"
+
+msgid "Use the selected color for all players"
+msgstr "Применить этот цвет для всех игроков"
+
+#. "Tutorial" gametype description
+msgid "Game mode which provides hints on basic Warsow movements and allows the "
+"player to play a duel match against an AI-controlled opponent."
+msgstr "Обучающий режим игры, предоставляющий подсказки по базовым движениям в игре, а так же позволяющий сыграть дуэль против бота."
+
+msgid "Don't ask me again"
+msgstr "Больше не спрашивать"
+
+#. Button that manually starts tutorial map
+msgid "Gameplay tutorial"
+msgstr "Пройти обучение"
+
+msgid "You are about to launch the tutorial stage of Warsow. Continue?"
+msgstr "Вы собираетесь запустить уровень, обучающий основам Warsow. Продолжить?"
+
+msgid "Welcome to Warsow!"
+msgstr "Добро пожаловать в Warsow!"
+
+msgid "Perhaps you would like to learn the basics of the gameplay and test your "
+"combat skills on our tutorial?"
+msgstr "Возможно вы хотите изучить основы игры и проверить свои силы на нашем обучающем уровне?"
+
+#. Callvote option "shuffle"
+msgid "Shuffles teams"
+msgstr "Перемешивает игроков в командах"
+
+#. Password reset link
+msgid "Forgot your password?"
+msgstr "Забыли свой пароль?"
+
+#. "Race" tab in the server browser
+msgid "Race"
+msgstr "Гонка"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "New Game"
+msgstr "Новая игра"
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Chat"
+msgstr "Чат"
+
+msgid "Options"
+msgstr "Настройки"
+
+msgid "Quit"
+msgstr "Выход"
+
+msgid "Player"
+msgstr "Игрок"
+
+msgid "Teams"
+msgstr "Команды"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Audio"
+msgstr "Звук"
+
+msgid "Input"
+msgstr "Управление"
+
+#. Use short form as possible, alternatively you can translate it from "Apply"
+msgid "Save changes"
+msgstr "Сохранить"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Clan"
+msgstr "Клан"
+
+msgid "Misc"
+msgstr "Разное"
+
+msgid "Spectator HUD"
+msgstr "HUD наблюдателя"
+
+msgid "Crosshair"
+msgstr "Прицел"
+
+msgid "Weapon handedness"
+msgstr "Положение оружия"
+
+msgid "default"
+msgstr "по умолчанию"
+
+msgid "right"
+msgstr "справа"
+
+#. gun position
+msgid "left"
+msgstr "слева"
+
+msgid "center"
+msgstr "по центру"
+
+msgid "FOV"
+msgstr "Угол обзора"
+
+msgid "FOV while using zoom"
+msgstr "Угол обзора при увеличении"
+
+msgid "Simple items"
+msgstr "Простые предметы"
+
+msgid "Show teammates' names"
+msgstr "Имена членов команды"
+
+msgid "Show help"
+msgstr "Показывать подсказки"
+
+msgid "Show weapon model"
+msgstr "Показывать модель оружия"
+
+msgid "Show minimap"
+msgstr "Показывать мини-карту"
+
+msgid "Show FPS counter"
+msgstr "Показывать счетчик FPS"
+
+msgid "Show speed meter"
+msgstr "Показывать спидометр"
+
+msgid "Show damage indicator"
+msgstr "Показывать индикатор урона"
+
+msgid "Automatically record demos"
+msgstr "Автоматически записывать игры"
+
+msgid "Endmatch screenshot"
+msgstr "Снимок экрана в конце матча"
+
+msgid "Save match stats"
+msgstr "Сохранять статистику матча"
+
+msgid "Alpha"
+msgstr "Альфа"
+
+msgid "Beta"
+msgstr "Бета"
+
+msgid "Players"
+msgstr "Игроки"
+
+msgid "Team model options"
+msgstr "Внешний вид игроков"
+
+msgid "Fullbright skin"
+msgstr "Яркий скин"
+
+msgid "Force your team as ALPHA"
+msgstr "Использовать Альфа для союзников"
+
+msgid "Graphics profile"
+msgstr "Графический профиль"
+
+msgid "Fullscreen"
+msgstr "Полноэкранный режим"
+
+msgid "Borderless fullscreen"
+msgstr "Полноэкранный режим без рамки"
+
+msgid "Vertical sync"
+msgstr "Вертикальная синхронизация"
+
+msgid "Screen resolution"
+msgstr "Разрешение экрана"
+
+msgid "desktop"
+msgstr "по умолчанию"
+
+msgid "Texture quality"
+msgstr "Качество текстур"
+
+msgid "Anisotropic filtering"
+msgstr "Анизотропная фильтрация"
+
+msgid "Lighting quality"
+msgstr "Качество освещения"
+
+msgid "vertex lighting"
+msgstr "вершинное освещение"
+
+msgid "lightmaps"
+msgstr "карты освещенности"
+
+msgid "per-pixel lighting"
+msgstr "попиксельное освещение"
+
+msgid "Shadows"
+msgstr "Тени"
+
+msgid "off"
+msgstr "откл."
+
+msgid "simple shadows"
+msgstr "простые тени"
+
+msgid "shadowmaps"
+msgstr "карты теней"
+
+msgid "Greyscale lighting"
+msgstr "Полутоновое освещение"
+
+msgid "Use solid colors for world"
+msgstr "Закрашивать стены и пол"
+
+msgid "Sound module"
+msgstr "Звуковой модуль"
+
+msgid "no sound"
+msgstr "без звука"
+
+msgid "Sound volume"
+msgstr "Общая громкость"
+
+msgid "Music volume"
+msgstr "Громкости музыки"
+
+msgid "Players volume"
+msgstr "Громкость игроков"
+
+msgid "Effects volume"
+msgstr "Громкость звуковых эффектов"
+
+msgid "Announcer volume"
+msgstr "Громкость комментатора"
+
+msgid "Voice chat volume"
+msgstr "Громкость голосового чата"
+
+msgid "Hit sounds volume"
+msgstr "Громкость попаданий в цель"
+
+msgid "Mouse"
+msgstr "Мышь"
+
+msgid "Movement"
+msgstr "Движения"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Weapons"
+msgstr "Оружие"
+
+msgid "Voice chat"
+msgstr "Голосовой чат"
+
+msgid "Saved"
+msgstr "Сохранено"
+
+msgid "Mouse sensitivity"
+msgstr "Чувствительность мыши"
+
+msgid "Mouse acceleration"
+msgstr "Ускорение мыши"
+
+msgid "Mouse filter"
+msgstr "Сглаживание движений мыши"
+
+msgid "Invert mouse"
+msgstr "Инвертировать мышь"
+
+msgid "Forward"
+msgstr "Вперёд"
+
+#. bind for "move back"
+msgid "Backward"
+msgstr "Назад"
+
+msgid "Left"
+msgstr "Влево"
+
+msgid "Right"
+msgstr "Вправо"
+
+msgid "Up / jump"
+msgstr "Вверх / прыжок"
+
+msgid "Down / crouch"
+msgstr "Вниз / присесть"
+
+msgid "Dash / walljump"
+msgstr "Рывок / отскок от стены"
+
+msgid "Run / walk"
+msgstr "Бежать / идти"
+
+msgid "Attack"
+msgstr "Атака"
+
+msgid "Previous weapon"
+msgstr "Предыдущее оружие"
+
+msgid "Next weapon"
+msgstr "Следующее оружие"
+
+msgid "Last weapon"
+msgstr "Последнее оружие"
+
+msgid "Zoom"
+msgstr "Увеличительный прицел"
+
+msgid "Drop weapon"
+msgstr "Сбросить оружие"
+
+msgid "Drop bomb / flag"
+msgstr "Сбросить бомбу / флаг"
+
+msgid "Class action 1"
+msgstr "Первое действие класса"
+
+msgid "Class action 2"
+msgstr "Второе действие класса"
+
+msgid "Team chat"
+msgstr "Командный чат"
+
+msgid "Login to warsow.gg"
+msgstr "Подключение к warsow.gg"
+
+msgid "Login with your warsow.gg account to save your statistics and match results."
+msgstr "Подключитесь к warsow.gg, чтобы сохранять результаты ваших матчей и статистику."
+
+msgid "Don't have an account?"
+msgstr "Ещё нет аккаунта?"
+
+msgid "Register for a free account here."
+msgstr "Нажмите сюда, чтобы пройти бесплатную регистрацию."
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Remember login"
+msgstr "Запомнить вход"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Normal weapons"
+msgstr "Обычное оружие"
+
+msgid "Instagib"
+msgstr "Инстагиб"
+
+msgid "TV"
+msgstr "ТВ"
+
+msgid "Watch on TV"
+msgstr "Смотреть по ТВ"
+
+msgid "Favorites"
+msgstr "Избранное"
+
+msgid "Ping"
+msgstr "Пинг"
+
+msgid "Hostname"
+msgstr "Название"
+
+msgid "Gametype"
+msgstr "Режим игры"
+
+msgid "Match browser"
+msgstr "Браузер матчей"
+
+msgid "Local game"
+msgstr "Локальная игра"
+
+msgid "Demo browser"
+msgstr "Просмотр записей"
+
+msgid "Stop"
+msgstr "Стоп"
+
+msgid "Refresh"
+msgstr "Обновить"
+
+msgid "Map"
+msgstr "Карта"
+
+msgid "Title"
+msgstr "Название"
+
+msgid "Mapname"
+msgstr "Название"
+
+msgid "Start game"
+msgstr "Начать игру"
+
+msgid "Server name"
+msgstr "Имя сервера"
+
+msgid "Public server"
+msgstr "Публичный сервер"
+
+msgid "Score limit"
+msgstr "Ограничение по очкам"
+
+msgid "Max players"
+msgstr "Ограничение по игрокам"
+
+msgid "Time limit"
+msgstr "Ограничение по времени"
+
+msgid "min."
+msgstr "мин."
+
+msgid "Bot skill level"
+msgstr "Уровень мастерства ботов"
+
+msgid "Number of bots"
+msgstr "Количество ботов"
+
+msgid "Remove from favorites"
+msgstr "Удалить из избранного"
+
+msgid "Add to favorites"
+msgstr "Добавить в избранное"
+
+msgid "Map: %s"
+msgstr "Карта: %s"
+
+msgid "Players: %s"
+msgstr "Игроки: %s"
+
+msgid "Gametype: %s"
+msgstr "Режим игры: %s"
+
+msgid "Mod: %s"
+msgstr "Мод: %s"
+
+msgid "Ping: %s"
+msgstr "Пинг: %s"
+
+msgid "Address: %s"
+msgstr "Адрес: %s"
+
+msgid "IRC server connection"
+msgstr "Подключение к IRC-серверу"
+
+msgid "Server port"
+msgstr "Порт"
+
+msgid "Nickname"
+msgstr "Имя"
+
+msgid "Channels"
+msgstr "Каналы"
+
+msgid "Connect"
+msgstr "Подключиться"
+
+msgid "Disconnect"
+msgstr "Отключиться"
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Date: %s"
+msgstr "Дата: %s"
+
+msgid "Match: %s"
+msgstr "Матч: %s"
+
+msgid "Score: %s"
+msgstr "Счёт: %s"
+
+msgid "Duration: %s"
+msgstr "Длительность: %s"
+
+msgid "Ready!"
+msgstr "Готов!"
+
+msgid "Not ready!"
+msgstr "Не готов!"
+
+msgid "Join challengers queue"
+msgstr "Бросить вызов"
+
+msgid "Leave challengers queue"
+msgstr "Отменить вызов"
+
+msgid "Join the game"
+msgstr "Войти в игру"
+
+msgid "Join any team"
+msgstr "Присоединиться к любой команде"
+
+msgid "Join %s"
+msgstr "Присоединиться к %s"
+
+msgid "Spectate"
+msgstr "Наблюдать"
+
+msgid "Game menu"
+msgstr "Игровое меню"
+
+msgid "Call a vote"
+msgstr "Проголосовать"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam,
+#. etc.
+msgid "Chasecam"
+msgstr "Камера наблюдения"
+
+msgid "Main menu"
+msgstr "Главное меню"
+
+msgid "Return to game"
+msgstr "Вернуться в игру"
+
+msgid "\"%s\" options"
+msgstr "Опции \"%s\""
+
+msgid "Refused: %s"
+msgstr "Отказано: %s"
+
+msgid "Press ESC to cancel"
+msgstr "Нажмите ESC для отмены"
+
+msgid "Downloading %s from %s at %s k/s"
+msgstr "Загружается %s с %s cо скоростью %s кб/с"
+
+msgid "Owner left the listen server"
+msgstr "Владелец покинул сервер"
+
+msgid "Server was killed"
+msgstr "Сервер был выключен"
+
+msgid "Server restarted"
+msgstr "Сервер был перезапущен"
+
+#. Spectators options like follow fragger, follow flag carrier or free cam,
+#. etc.
+msgid "Chasecam mode"
+msgstr "Режим камеры"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Objectives"
+msgstr "Цели"
+
+msgid "Powerups"
+msgstr "Усилители"
+
+msgid "Fraggers"
+msgstr "Фраггеры"
+
+msgid "Highest score"
+msgstr "По счету"
+
+msgid "Enable"
+msgstr "Включить"
+
+msgid "Disable"
+msgstr "Отключить"
+
+msgid "Watch"
+msgstr "Смотреть"
+
+msgid "Viewers"
+msgstr "Зрители"
+
+msgid "Reconnect"
+msgstr "Переподключиться"
+
+msgid "Votes"
+msgstr "Голосования"
+
+msgid "Primary weapons"
+msgstr "Основное оружие"
+
+msgid "Secondary weapons"
+msgstr "Дополнительное оружие"
+
+#. "Bomb" gametype related option, means "I want to carry bomb"
+msgid "Carrier opt-in"
+msgstr "Стать доставщиком бомбы"
+
+#. "Bomb" gametype related option, means "I DON'T want to carry bomb"
+msgid "Carrier opt-out"
+msgstr "Отказаться от доставки бомбы"
+
+msgid "Select class"
+msgstr "Выбор класса"
+
+msgid "Grunt"
+msgstr "Пехотинец"
+
+msgid "Medic"
+msgstr "Медик"
+
+msgid "Runner"
+msgstr "Бегун"
+
+msgid "Engineer"
+msgstr "Инженер"
+
+msgid "Connection failed"
+msgstr "Не удалось установить соединение"
+
+msgid "Connection terminated"
+msgstr "Соединение прервано"
+
+msgid "Connection error"
+msgstr "Ошибка подключения"
+
+msgid "Couldn't connect to %s"
+msgstr "Не удалось соединиться с %s"
+
+msgid "Connection was terminated by %s"
+msgstr "Соединение с %s было прервано"
+
+msgid "Error connecting to %s"
+msgstr "Ошибка подключения к %s"
+
+msgid "Reason: %s"
+msgstr "Причина: %s"
+
+msgid "Fullscreen anti-aliasing"
+msgstr "Полноэкранное сглаживание"
+
+msgid "Soft particles"
+msgstr "Мягкие частицы"
+
+msgid "Weapon opacity"
+msgstr "Непрозрачность оружия"
+
+msgid "Vote yes"
+msgstr "Голос за"
+
+msgid "Vote no"
+msgstr "Голос против"
+
+msgid "Vote \"%s\" has been called"
+msgstr "Начато голосование за \"%s\""
+
+msgid "Changes map"
+msgstr "Меняет карту"
+
+msgid "Restarts current map"
+msgstr "Перезапускает текущую карту"
+
+msgid "Jumps to the next map"
+msgstr "Переходит к следующей карте"
+
+msgid "Specify 0 to disable"
+msgstr "Укажите 0 для отключения"
+
+msgid "Sets the number of frags or caps needed to win the match"
+msgstr "Устанавливает количество фрагов или очков, необходимых для победы"
+
+msgid "Sets number of minutes after which the match ends"
+msgstr "Устанавливает длительность матча в минутах"
+
+msgid "Changes the gametype"
+msgstr "Меняет игровой режим"
+
+msgid "Sets the number of minutes after which the warmup ends"
+msgstr "Устанавливает длительность разминки в минутах"
+
+msgid "Sets the length of the overtime"
+msgstr "Устанавливает длительность дополнительного времени"
+
+msgid "Specify 0 to enable sudden death mode"
+msgstr "Укажите 0 для включения режима \"победного фрага\""
+
+msgid "Sets the maximum number of players in one team"
+msgstr "Устанавливает максимальное количество игроков в одной команде"
+
+msgid "Locks teams to disallow players joining in mid-game"
+msgstr "Блокирует команды, не давая возможность игрокам присоединиться к ним во время игры"
+
+msgid "Unlocks teams to allow players joining in mid-game"
+msgstr "Разблокирует команды, давая возможность игрокам присоединиться к ним во время игры"
+
+msgid "Sets all players as ready so the match can start"
+msgstr "Переводит всех игроков в режим готовности для старта матча"
+
+msgid "Forces player back to spectator mode"
+msgstr "Переводит игрока в наблюдатели"
+
+msgid "Removes player from the server"
+msgstr "Удаляет игрока с сервера"
+
+msgid "Removes player from the server and bans his IP-address for 15 minutes"
+msgstr "Удаляет игрока с сервера и блокирует его IP-адрес на 15 минут"
+
+msgid "Disallows chat messages from the muted player"
+msgstr "Заглушенный игрок не может отправлять сообщения в чат"
+
+msgid "Disallows voice chat messages from the muted player"
+msgstr "Заглушенный игрок не может отправлять голосовые сообщения в чат"
+
+msgid "Reallows chat messages from the unmuted player"
+msgstr "Вновь позволяет заглушенному игроку отправлять сообщения в чат"
+
+msgid "Reallows voice chat messages from the unmuted player"
+msgstr "Вновь позволяет заглушенному игроку отправлять голосовые сообщения в чат"
+
+msgid "Sets the number of bots to play on the server"
+msgstr "Устанавливает количество игровых ботов на сервере"
+
+msgid "Toggles whether shooting teammates will do damage to them"
+msgstr "Переключает режим нанесения урона товарищам по команде"
+
+msgid "Toggles whether instagun can be used for weapon jumping"
+msgstr "Переключает режим инстапрыжка при использовании инстагана"
+
+msgid "Toggles the availability of instashield in instagib"
+msgstr "Переключает доступность инстащита в режиме инстагиб"
+
+msgid "Toggles whether falling long distances deals damage"
+msgstr "Переключает режим, при котором при падении игроку наносится урон"
+
+msgid "Toggles whether weapon splashes can damage self"
+msgstr "Переключает режим самоповреждений от взрывов оружия"
+
+msgid "Pauses the game"
+msgstr "Ставит игру на паузу"
+
+msgid "Resumes the game if in timeout"
+msgstr "Снимает игру с паузы"
+
+msgid "Toggles the challenging spectators queue line"
+msgstr "Включает и отключает очередь ожидания для наблюдателей"
+
+msgid "Toggles whether uneven teams is allowed"
+msgstr "Переключает режим, разрешающий неравное количество игроков в командах"
+
+msgid "Enables or disables the dropping of powerups at dying"
+msgstr "Включает или выключает сброс бонусных предметов при смерти"
+
+msgid "Enables or disables instant flag captures and unlocks"
+msgstr "Включает или выключает мгновенный захват и разблокировку флага"
+
+msgid "Enables or disables the spawning of powerups"
+msgstr "Включает или выключает бонусные предметы"
+
+msgid "If enabled, tag fragger will become new tag automatically"
+msgstr "При включении фраггер тэга сам помечается тэгом автоматически"
+
+msgid "Sets the speed at which the capture points heal their owners"
+msgstr "Устанавливает скорость, с которой точки захвата лечат владельцев"
+
+msgid "Sets the time in seconds between reinforcement respawn waves"
+msgstr "Устанавливает время в секундах между появлением подкреплений"
+
+msgid "Downloading %s from server at %s k/s"
+msgstr "Загружается %s с сервера со скоростью %s кб/c"
+
+msgid "Downloading %s from the web at %s k/s"
+msgstr "Загружается %s с web со скоростью %s кб/c"
+
+msgid "Play"
+msgstr "Играть"
+
+msgid "Reload"
+msgstr "Обновить"
+
+msgid "Logging in, hold on..."
+msgstr "Производится вход..."
+
+msgid "Searching for game servers..."
+msgstr "Производится поиск серверов..."
+
+msgid "Browse servers manually"
+msgstr "Просмотр списка серверов"
+
+msgid "High Dynamic Range"
+msgstr "Расширенный динамический диапазон"
+
+msgid "Bloom"
+msgstr "Свечение"

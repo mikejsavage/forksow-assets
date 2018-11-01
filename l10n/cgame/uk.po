@@ -1,0 +1,302 @@
+# Translators:
+# Translators:
+# Translators:
+# Andrei Stepanov, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-12-06 11:03+0000\n"
+"PO-Revision-Date: 2017-01-22 11:56+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Ukrainian (http://www.transifex.com/qfusion/l10n/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. "Personal spectators", a list of spectators who watch the same POV, or
+#. watching you playing.
+msgid "Chasers"
+msgstr "Созрітелі"
+
+msgid ""
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue."
+msgstr "Зараз ви знаходитеся в черзі гравців, що кинули виклик і очікуючих своєї гри.\nВи можете скористатися ігровим меню, щоб стати спостерігачем."
+
+msgid ""
+"Use the in-game menu to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner."
+msgstr "Використайте ігрове меню, щоб кинути виклик.\nТільки гравці, що кинули виклик, зможуть грати з переможцем останнього матчу."
+
+msgid "Set yourself READY using the in-game menu to start the match!"
+msgstr "Підтвердіть свою готовність, скориставшись ігровим меню, щоб почати матч!"
+
+msgid "Waiting for players."
+msgstr "Очікування гравців."
+
+#. User has entered practice mode in Race
+msgid "Entered practice mode"
+msgstr "Ви увійшли в тренувальний режим"
+
+#. User has left practice mode in Race
+msgid "Left practice mode"
+msgstr "Ви залишили тренувальний режим"
+
+#. TDM scoreboard column, try to make it as short as possible, 5 symbols max!
+#. Net = Frags - Deaths - Team Kills, see
+#. https://en.wikipedia.org/wiki/Net_(economics)
+msgid "Net"
+msgstr "Різн"
+
+msgid "Teams are uneven. Please switch into another team."
+msgstr "Команди нерівні. Будь-ласка, перейдіть до іншої команди."
+
+msgid "PROTECT THE BOMB SITES!"
+msgstr "ЗАХИЩАЙТЕ МІСЦЯ ЗАКЛАДКИ БОМБИ!"
+
+msgid "TEAMDAMAGE PUNISHMENT!"
+msgstr "ШТРАФ ЗА ВОГОНЬ ПО СВОЇХ!"
+
+msgid "DO NOT DAMAGE TEAMMATES!"
+msgstr "НЕ СТРІЛЯТИ ПО СВОЇХ!"
+
+msgid "The bomb carrier has been fragged!"
+msgstr "Носій бомби був вражений!"
+
+msgid "OFFENSE WINS!"
+msgstr "АТАКА ПЕРЕМАГАЄ!"
+
+msgid "DEFENSE WINS!"
+msgstr "ОБОРОНА ПЕРЕМАГАЄ!"
+
+msgid "You are shooting at your team-mates!"
+msgstr "Ви ведете вогонь по своїх!"
+
+msgid "Don't shoot at members of your team!"
+msgstr "Не стріляйте у своїх!"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU TEAMFRAGGED %s"
+msgstr "ВИ ПОМИЛКОВО ЗНИЩИЛИ %s"
+
+#. Please, don't use "kill/death" for the translation of "frag", try to find
+#. something more neutral
+msgid "YOU FRAGGED %s"
+msgstr "ВИ ЗНИЩИЛИ %s"
+
+#. For Race gametype - "no record", "no best time"
+msgid "no time"
+msgstr "без часу"
+
+#. race
+msgid "Time"
+msgstr "Час"
+
+msgid "DESTROY THE TARGETS!"
+msgstr "ЗНИЩІТЬ ЦІЛІ!"
+
+msgid "Timelimit hit!"
+msgstr "Час минув!"
+
+msgid "The attacking team has lost the bomb!!!"
+msgstr "Атакуюча команда втратила бомбу!!!"
+
+msgid "MATCH ABORTED"
+msgstr "Матч перервано"
+
+msgid "COUNTDOWN ABORTED"
+msgstr "Відлік перервано"
+
+#. center print if there is sudden death overtime needed
+msgid "SUDDEN DEATH"
+msgstr "Миттєва смерть"
+
+#. Default location name, when there is none of them presented on the map
+msgid "someplace"
+msgstr "десь"
+
+msgid ""
+"Set yourself READY to start the match!\n"
+"You can use the in-game menu or simply press 'F4'.\n"
+"'ESC' for in-game menu or 'ENTER' for in-game chat."
+msgstr "Підтвердіть свою готовність для того, щоб почати матч!\nДля цього скористайтеся ігровим меню або клавішею 'F4'.\nНатисніть 'ESC' для виклику ігрового меню або 'ENTER', щоб перейти в ігровий чат."
+
+msgid "Waiting... %s"
+msgstr "Почекайте... %s"
+
+msgid "Match will resume in %s seconds"
+msgstr "Матч продовжиться через %s секунд"
+
+msgid "Match will resume in 1 second"
+msgstr "Матч продовжиться через 1 секунду"
+
+msgid "Match paused"
+msgstr "Пауза в матчі"
+
+msgid "Match resumed"
+msgstr "Матч продовжений"
+
+msgid "%s has the bomb!"
+msgstr "Бомба у %s!"
+
+msgid "Bomb planted at %s!"
+msgstr "Бомба встановлена у %s!"
+
+#. chase = spectate
+msgid "No one to chase"
+msgstr "Немає гравців для спостереження"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Mouse buttons for switching spectator modes.\n"
+"This message can be hidden by disabling 'help' in player setup menu."
+msgstr "Натисніть 'ESC' для виклику ігрового меню або 'ENTER', щоб перейти в ігровий чат.\nВикористайте кнопки миші для перемикання між режимами спостереження.\nПоказ цього повідомлення можна відключити в меню налаштувань гравця."
+
+msgid "Bomb defused!"
+msgstr "Бомба знешкоджена!"
+
+msgid "Clan"
+msgstr "Клан"
+
+msgid "Score"
+msgstr "Очки"
+
+#. Short form of "Score"
+msgid "Sco"
+msgstr "Очк"
+
+#. Short form of "Frags", please, don't use "kill/death" for the translation
+msgid "Fra"
+msgstr "Фра"
+
+#. Short form of "Suicides"
+msgid "Sui"
+msgstr "Суї"
+
+#. Short form of "Deaths"
+msgid "De"
+msgstr "См"
+
+msgid "Ping"
+msgstr "Пінг"
+
+#. It is for "headhunt", one player is tagged and all other players attempt to
+#. frag the tagged player. Tagged player gets score for each second he/she
+#. stays alive. So tag time is time of him being tagged.
+msgid "Tagtime"
+msgstr "Час мітки"
+
+msgid "Racing"
+msgstr "В гонці"
+
+msgid "Spectators"
+msgstr "Спостерігачі"
+
+msgid "Challengers"
+msgstr "Претенденти"
+
+msgid "Weapon stats"
+msgstr "Статистика"
+
+#. Race time
+msgid "Time:"
+msgstr "Час:"
+
+#. Race
+msgid "Best:"
+msgstr "Кращий:"
+
+#. Race
+msgid "Srv Best:"
+msgstr "Найкраще на сервері:"
+
+#. Race
+msgid "Alpha time:"
+msgstr "Час Alpha:"
+
+#. Race
+msgid "Beta time:"
+msgstr "Час Beta:"
+
+#. When some Items get picked up
+msgid "Picked up:"
+msgstr "Піднято:"
+
+msgid "Points:"
+msgstr "Очок:"
+
+#. Difference of the scores/points
+msgid "Spread:"
+msgstr "Різниця:"
+
+msgid "Download:"
+msgstr "Завантаження:"
+
+msgid "Download progress:"
+msgstr "Прогрес завантаження:"
+
+#. HUD indicator of stun
+msgid "STUNNED"
+msgstr "ОГЛУШЕНИЙ"
+
+#. Race
+msgid "Personal best:"
+msgstr "Особистий рекорд:"
+
+#. Race
+msgid "Server record:"
+msgstr "Cерверний рекорд:"
+
+msgid "Warmup"
+msgstr "Розігрів"
+
+msgid "Low Ammo"
+msgstr "Мало набоїв"
+
+msgid "Out Of Ammo"
+msgstr "Немає набоїв"
+
+msgid ""
+"Waiting for players.\n"
+"'ESC' for in-game menu."
+msgstr "Очікування гравців.\nНатисніть 'ESC' для виклику ігрового меню."
+
+msgid "Message of the day:"
+msgstr "Новина дня:"
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"You are inside the challengers queue waiting for your turn to play.\n"
+"Use the in-game menu to exit the queue.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "Натисніть 'ESC' для виклику ігрового меню або 'ENTER', щоб перейти в ігровий чат.\nЗараз ви знаходитеся в черзі гравців, що кинули виклик і очікуючих своєї гри.\nВи можете скористатися ігровим меню, щоб стати спостерігачем.\n\nВикористайте кнопки миші для перемикання між режимами спостереження."
+
+msgid ""
+"'ESC' for in-game menu or 'ENTER' for in-game chat.\n"
+"Use the in-game menu or press 'F3' to enter the challengers queue.\n"
+"Only players in the queue will have a turn to play against the last winner.\n"
+"\n"
+"Use the mouse buttons for switching spectator modes."
+msgstr "Натисніть 'ESC' для виклику ігрового меню або 'ENTER', щоб перейти в ігровий чат.\nВикористайте ігрове меню або натисніть 'F3', щоб кинути виклик.\nТільки гравці, що кинули виклик, зможуть грати з переможцем останнього матчу.\n\nВикористайте кнопки миші для перемикання між режимами спостереження."
+
+msgid "1 minute left. Hurry up!"
+msgstr "Залишилася 1 хвилина. Покваптеся!"
+
+msgid "Fight!"
+msgstr "В бій!"
+
+msgid "FIGHT!"
+msgstr "В БІЙ!"
+
+msgid "%s MINUTE OVERTIME\n"
+msgstr "ДОДАМ %s ХВИЛИНИ\n"
+
+msgid "Overtime"
+msgstr "Додатковий час"

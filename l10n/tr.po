@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-22 11:39+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Turkish (http://www.transifex.com/qfusion/l10n/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr "Need offense"
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr "Need help"
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr "Armor free"
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr "Area secured"
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr "No problem"
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr "Defend!"
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr "Defend A!"
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr "Defend B!"
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr "Attack!"
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr "Attack A!"
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr "Attack B!"
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr "Need backup"
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr "Need defense"
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr "Roger"
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr "Negative"
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr "Go to quad"
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr "Go to powerup"
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr "Need health"
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr "Need weapon"
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr "Need armor"
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr "On defense"
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr "On offense"
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr "Yes"
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr "No"
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr "Oops"
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr "Sorry"
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr "Thanks"
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr "Yeehaa"
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr "Good game"
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr "Booo"
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr "Affirmative"
+
+msgid "MM Login: Password error"
+msgstr "MM Giriş: Şifre hatalı"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "MM Giriş: Sunucuya bağlı iken MM den girmek mümkün değildir"
+
+msgid "Frags"
+msgstr "Frags"
+
+msgid "say (to all):"
+msgstr "söyle (herkeze):"
+
+msgid "say (to team):"
+msgstr "söyle (takimina):"
+
+msgid "Connection timed out"
+msgstr "Baglanti timed out"
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr "Strong Gunblade"
+
+msgid "MM Login: authentication timeout"
+msgstr "MM Giriş: Kimlik doğrulama zaman aşımı"
+
+msgid "MM Logout: not logged in"
+msgstr "MM Çıkış: giriş yapılmamış"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "MM Çıkış: Sunucuya bağlı iken MM den çıkış yapmak mümkün değildir"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "MM Çıkış: Çıkışa zorlama başarısız"
+
+msgid "MM Login: StatQuery error"
+msgstr "MM Giriş: StatQuery hatası"
+
+msgid "MM Login: Failed, no session id"
+msgstr "MM Giriş: Başarısız, session id yok"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "MM Giriş:  %d aşamasında veri ayrıştırılamadı"
+
+msgid "%s or %s"
+msgstr "%s ya da %s"
+
+msgid "yes"
+msgstr "evet"
+
+msgid "no"
+msgstr "hayır"
+
+msgid "Gunblade"
+msgstr "Gunblade"
+
+msgid "Machinegun"
+msgstr "Machinegun"
+
+msgid "Riotgun"
+msgstr "Riotgun"
+
+msgid "Grenade Launcher"
+msgstr "Grenade Launcher"
+
+msgid "Rocket Launcher"
+msgstr "Rocker Launcher"
+
+msgid "Plasmagun"
+msgstr "Plasmagun"
+
+msgid "Lasergun"
+msgstr "Lasergun"
+
+msgid "Electrobolt"
+msgstr "Electrobolt"
+
+msgid "Instagun"
+msgstr "Instagun"
+
+msgid "Cells"
+msgstr "Piller"
+
+msgid "Shells"
+msgstr "Mermiler"
+
+msgid "Bullets"
+msgstr "Kurşunlar"
+
+msgid "Grenades"
+msgstr "Bomba"
+
+msgid "Rockets"
+msgstr "Roketler"
+
+msgid "Plasma"
+msgstr "Plazma"
+
+msgid "Lasers"
+msgstr "Lazer"
+
+msgid "Bolts"
+msgstr "Cıvatalar"
+
+msgid "Instas"
+msgstr "Instalar"
+
+msgid "Blades"
+msgstr "Bıçaklar"
+
+msgid "Weak bullets"
+msgstr "Zayıf kurşunlar"
+
+msgid "Weak Shells"
+msgstr "Zayıf mermiler"
+
+msgid "Weak Grenades"
+msgstr "Zayıf Elbombaları"
+
+msgid "Weak Rockets"
+msgstr "Zayıf Roketler"
+
+msgid "Weak Plasma"
+msgstr "Zayıf Plazma"
+
+msgid "Weak Lasers"
+msgstr "Zayıf Lazer"
+
+msgid "Weak Bolts"
+msgstr "Zayif Civatalar"
+
+msgid "Weak Instas"
+msgstr "Zayf Instas"
+
+msgid "Green Armor"
+msgstr "Yeşil Zırh"
+
+msgid "Yellow Armor"
+msgstr "Sarı Zırh"
+
+msgid "Red Armor"
+msgstr "Kırmızı Zırh"
+
+msgid "Armor Shard"
+msgstr "Zirh kirigi"
+
+msgid "5 Health"
+msgstr "5 Sağlık"
+
+msgid "25 Health"
+msgstr "25 Sağlık"
+
+msgid "50 Health"
+msgstr "50 Sağlık"
+
+msgid "Mega Health"
+msgstr "Меgа Sağlık"
+
+msgid "Ultra Health"
+msgstr "Ultra Sağlık"
+
+msgid "Quad Damage"
+msgstr "Dörtlü Hasar"
+
+msgid "WarShell"
+msgstr "Savas Mermi"
+
+msgid "Regeneration"
+msgstr "Yenilenme"
+
+msgid "Ammo Pack Weak"
+msgstr "Zayif cephane Paketi"
+
+msgid "Ammo Pack Strong"
+msgstr "Güclü cephane Paketi"
+
+msgid "Ammo Pack"
+msgstr "Cephane Paketi"
+
+msgid "say:"
+msgstr "söyle:"

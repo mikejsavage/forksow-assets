@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2016-04-03 16:14+0000\n"
+"PO-Revision-Date: 2016-04-03 16:14+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: nl_LU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "welcome_to_tutorial"
+msgstr "Welkom bij de Warsow tutorial!\nJe kunt ^3rondkijken^7 met de ^2muis^7 en ^3lopen^7 met de ^3bewegingstoetsen^7 (^2WSAD^7).\nLoop naar de ^3twee symbolen^7 in deze kamer voor uitleg over wat ze betekenen en ga daarna naar de volgende kamer."
+
+msgid "welcome_to_tutorial_nokeyboard"
+msgstr "Welkom bij de Warsow Tutorial!\n\nWarsow is een spel met snelle actie en complexe bewegingen, te besturen met gamepad-achtige touch controls.\nHoud het apparaat vast zoals afgebeeld zodat je de speler met 4 vingers tegelijk kunt besturen.\nGebruik je ^2linkerduim^7 om te ^3lopen^7 en je ^2rechterduim^7 om ^3rond te kijken^7.\n\nOp een controller gebruik je de ^2linker pook^7 om te ^3lopen^7 en de ^2rechter pook^7 om ^3rond te kijken^7.\n\nLoop naar de ^3twee symbolen^7 in deze kamer voor uitleg over wat ze betekenen en ga daarna naar de volgende kamer."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "special_explanation"
+msgstr "Dit icoon toont gebruik van de ^3Speciaal knop^7 (^2{B+special}^7). Deze knop wordt gebruikt voor uitvoeren van speciale bewegingen en trucs. Op de grond maak je hiermee een ^3Dash^7, probeer het maar!\n(Hint: ^3Dash^7 kan worden gebruikt tijdens het ^3lopen^7)\nOnthou dat de ^3Speciaal knop^7 een ^3afkoelperiode^7 heeft en wanneer een tegenstander je beschiet je een ^3Stun^7 krijgt waardoor je geen ^3Dash^7 kunt uitvoeren!"
+
+msgid "jump_explanation"
+msgstr "Dit icoon toont gebruik van de ^3Spring knop^7 (^2{B+moveup}^7). Je zult merken dat springen erg belangrijk is in Warsow."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "jumping_tutorial"
+msgstr "Zolang je ^3Springt^7 behoudt je ^2Snelheid^7, het getal onderaan in beeld.\nOm eenvoudig snelheid te winnen, voer een ^3Dash^7 (^2{B+special}^7) uit op het ^3Speciaal^7 symbool en ^3Spring^7 (^2{B+moveup}^7) vervolgens op het ^3Spring^7 symbool om het einde te halen.\nDit wordt ^3Bunnyhopping^7 genoemd. (Hint: je kunt de ^3Spring knop^7 ingedrukt houden)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "walljumping_tutorial"
+msgstr "Naast ^3Dashen^7 kan de ^3Speciaal knop^7 gebruikt worden voor het maken van een ^3Walljump^7.\nOm bij de deur te komen, ^3Spring^7 tegen de muur en gebruik de ^3Speciaal knop^7 (^2{B+special}^7) om je er tegen af te zetten.\nHierdoor krijg je meer hoogte om zo het platform te bereiken!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "wallsliding_tutorial"
+msgstr "^3Hellingen^7 kunnen gebruikt worden voor trucs, probeer er een ^3Dash^7 op te maken om tegen de muur op te klimmen!\nOp het hoogste punt van de sprong kun je door te ^3Walljumpen^7 en tegelijkertijd ^3vooruit te bewegen^7 bij de deur komen.\n(Hint: je kunt ook tegen een helling op ^3Springen^7 als je genoeg snelheid hebt)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "doublejump_tutorial"
+msgstr "Wanneer je ergens op springt kun je vaak de ^3Doublejump^7 truc doen.\n^3Spring^7 eerst op de doos, hou hierbij de ^3Spring knop^7 ingedrukt. Zodra je de rand bereikt spring je vanzelf een tweede keer, maar nu met meer kracht! Zo krijg je meer hoogte dan wanneer je de ^3Spring knop^7 los zou laten.\nGebruik deze extra hoogte samen met een ^3Walljump^7 om bij de deur te komen!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "strafejumping_tuto"
+msgstr "^3Dashen^7 geeft je een snelle start, maar door ^3Strafe Jumping^7 kun je nog sneller gaan! Dit werkt als volgt.\nBegin door te ^3Bunnyjumpen^7 en tegelijkertijd de ^3Beweeg vooruit^7 knop (^2{B+forward}^7) ingedrukt te houden. Probeer nu om de ^3Beweeg naar links^7 knop (^2{B+moveleft}^7) ingedrukt te houden en onderwijl langzaam de ^3muis naar links te bewegen^7.\nBreng de muis naar het midden voordat je de linker muur raakt en laat de ^3Beweeg naar links^7 knop (^2{B+moveleft}^7) los.\nHerhaal dit nu door de ^3Beweeg naar rechts^7 knop (^2{B+moveright}^7) in te drukken en onderwijl langzaam de ^3muis naar rechts te bewegen^7.\nLet op de ^3snelheidsmeter^7 en probeer om sneller dan ^3550^7 te gaan!\nDit is een van de moeilijkste technieken om te leren, als het niet lukt kun je deze overslaan. Ga naar de deur wanneer je klaar bent."
+
+msgid "strafejumping_tuto_nokeyboard"
+msgstr "^3Dashen^7 geeft je een snelle start, maar door ^3Strafe Jumping^7 kun je nog sneller gaan! Dit werkt als volgt.\nBegin door te ^3Bunnyjumpen^7 en tegelijkertijd de ^3Beweeg vooruit^7 knop (^2{B+forward}^7) ingedrukt te houden. Probeer nu om de ^3Beweeg naar links^7 knop (^2{B+moveleft}^7) ingedrukt te houden en onderwijl langzaam de ^3muis naar links te bewegen^7.\nBreng de muis naar het midden voordat je de linker muur raakt en laat de ^3Beweeg naar links^7 knop (^2{B+moveleft}^7) los.\nHerhaal dit nu door de ^3Beweeg naar rechts^7 knop (^2{B+moveright}^7) in te drukken en onderwijl langzaam de ^3muis naar rechts te bewegen^7.\nLet op de ^3snelheidsmeter^7 en probeer om sneller dan ^3550^7 te gaan!\nDit is een van de moeilijkste technieken om te leren, als het niet lukt kun je deze overslaan. Ga naar de deur wanneer je klaar bent."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "badass_jumping"
+msgstr "In dit level worden je ^3vaardigheden^7 getest.\nProbeer ^3naar het einde^7 te komen door de met symbolen aangegeven route te volgen of door zelf een manier te ontdekken!\nSucces en veel plezier!"
+
+msgid "badass_jumping_dash"
+msgstr "Je hebt meer ^3snelheid^7 nodig om over dat gat te komen!\nDoe een ^3Dash^7 voordat je springt om ^3snelle start^7 te maken.\nHierdoor bereik je makkelijker de muur en zo de andere kant!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "rampsliding_tutorial"
+msgstr "Wanneer je op een vlakke helling staat zoals deze reling, kun je met ^3Dash^7 een ^3Rampslide^7 maken. Probeer het uit!\nWe hebben het volgende geleerd over de ^3Speciaal knop (^2{B+special}^7): je kunt er mee ^3Dashen^7, ^3Walljumpen^7, ^3Hellingen beklimmen^7 en ^3Rampsliden^7.\nGebruik ^3Dash^7 om een ^3snelle start^7 te maken, om van ^3richting te veranderen^7 en ^3projectielen^7 te ontwijken."
+
+msgid "red_button_1"
+msgstr "Druk op de ^1rode knop^7 om de ^3deur^7 te openen!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_intro"
+msgstr "Je begint altijd met de ^5Gunblade^7 (afkorting ^5GB^7), dit wapen heeft een functie in handgevechten maar kan ook een afstandsschot afvuren.\nBekijk de andere wapens in Warsow om meer over ze te ontdekken.\nGebruik de ^3Lift^7 om meer te leren over andere nuttige items, en loop door de ^3teleporter^7 naast het raam om een wedstrijd te spelen tegen de computer!\n(Hint: ^3wapens wisselen^7 doe je met het ^3muiswiel^7, de toetsen ^31 - 8^7 of het ^3D-pad^7)"
+
+msgid "weapon_intro_nokeyboard"
+msgstr "Je begint altijd met de ^5Gunblade^7 (afkorting ^5GB^7), dit wapen heeft een functie in handgevechten maar kan ook een afstandsschot afvuren.\nBekijk de andere wapens in Warsow om meer over ze te ontdekken.\nGebruik de ^3Lift^7 om meer te leren over andere nuttige items, en loop door de ^3teleporter^7 naast het raam om een wedstrijd te spelen tegen de computer!\n(Hint: ^3wapens wisselen^7 doe je met het ^3muiswiel^7, op de ^3wapen icoontjes te drukken^7 of door middel van het ^3D-pad^7)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_eb"
+msgstr "De ^5Electrobolt^7 (afkorting ^5EB^7) is een ^3lange-afstands wapen^7 dat een ^3direct schot met hoge schade^7 afvuurt maar een ^3lange herlaadtijd^7 heeft.\nDit wapen werkt het best op grote afstand en vereist een vaste hand!"
+
+msgid "weapon_eb_nokeyboard"
+msgstr "De ^5Electrobolt^7 (afkorting ^5EB^7) is een ^3lange-afstands wapen^7 dat een ^3direct schot met hoge schade^7 afvuurt maar een ^3lange herlaadtijd^7 heeft.\nDit wapen werkt het best op grote afstand en vereist een vaste hand!\n(Hint: Je kunt inzoomen door 2 keer kort met je rechter duim te tikken of door de ^3Zoom knop^7 (^2{B+zoom}^7) ingedrukt te houden)"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_lg"
+msgstr "De ^5Lasergun^7 (afkorting ^5LG^7) schiet een constante laserstraal op ^3middellange afstand^7 waarmee ^3tegenstanders achteruit geduwd^7 worden.\nHet wapen heeft ^3geen herlaadtijd^7 en doet ^3constant schade^7 zolang je hem op je vijand gericht kunt houden!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_mg"
+msgstr "Het ^5Machinegeweer^7 (afkorting ^5MG^7) vuurt ^3snelle, direct rakende kogels^7 en heeft een ^3korte herlaadtijd^7.\nHet wapen is niet zo krachtig als de ^5Electrobolt^7 maar doet voldoende schade, zelfs op ^3lange afstand^7!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_gl"
+msgstr "De ^5Granaatwerper^7 (afkorting ^5GL^7) ^3vuurt Granaten in een boog^7 die na een paar seconden exploderen, of direct wanneer ze een vijand raken.\nHet heeft een ^3korte herlaadtijd^7 en is het beste te gebruiken op ^3middellange afstand^7 bij doorgangen om vijanden in het nauw te drijven."
+
+msgid "weapon_pg"
+msgstr "De ^5Plasmagun^7 (afkorting ^5PG7) schiet ^5snelle Plasma projectielen^7 en is het best te gebruiken op ^3korte afstand^7, maar ook op ^3lange afstand^7 om te voorkomen dat vijanden door een bepaalde gang komen."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_rg"
+msgstr "Het ^5Jachtgeweer^7 (afkorting ^5RG^7) schiet ^3direct rakende hagel^7 en wordt minder nauwkeurig naarmate de afstand toeneemt.\nHet wapen heeft een ^3middelmatige herlaadtijd^7 en is vooral effectief op ^3korte^7 tot ^3middellange afstand^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "weapon_rl"
+msgstr "De ^5Raketwerper^7 (afkorting ^5RL^7) vuurt ^3raketten^7 die eindigen in een ^3explosie^7 wanneer ze ergens mee in aanraking komen.\nHet wapen heeft een ^3middelmatige herlaadtijd^7 en is het beste te gebruiken op ^3korte tot middellange afstand^7.\nEen vijand direct raken met een raket heeft verwoestende gevolgen."
+
+msgid "enter_tele_when_ready"
+msgstr "Heb je genoeg geleerd?\nWanneer je klaar bent, loop door deze ^3teleporter^7 om in de arena een ^3duel^7 te voeren tegen een computergestuurde speler.\nWe zullen zien of je klaar bent voor Warsow!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "powerup_quad"
+msgstr "De ^8Viervoudige schade bonus^7 laat je vier keer zoveel schade doen voor een ^3beperkte tijd^7.\nDe bonus wordt gebruikt in speltypes als ^3Team Deathmatch^7, ^3Free for All^7 en ^3Capture the Flag^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "powerup_warshell"
+msgstr "De ^5Oorlogsschild bonus^7 zorgt ervoor dat je vier keer zo weinig schade ontvangt van andere spelers voor een ^3beperkte tijd^7.\nDe bonus wordt gebruikt in speltypes als ^3Team Deathmatch^7, ^3Free for All^7 en ^3Capture the Flag^7."
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. Proper source: "^3Yellow^7 and ^8orange^7"
+msgid "health"
+msgstr "Levensitems herstellen ^3levenspunten^7.\n^3Groene bubbels^7 herstellen een klein deel van je leven en geven je een korte verhoging boven het maximum.\n^3Gele en oranje bubbels^7 herstellen een kwart of de helft van je levenspunten.\nDe ^3Megahealth^7 en ^3Ultrahealth^7 kunnen je levenspunten tot twee keer verdubbelen!"
+
+#. Please replace such [[^3^]] or [[^2^]] with ^3 or ^2 in your translation. It is color codes, those got interpreted by Onesky incorrectly.
+msgid "armor"
+msgstr "^3Pantser^7 is belangrijk omdat het de schade die je krijgt vermindert.\nDe ^2pantser scherven^7 geven de minste bescherming, het ^2groene pantser^7 al iets meer.\nHet ^3gele pantser^7 en ^1rode pantser^7 geven je een gemiddelde of grote bescherming.\nLet op dat er een ^3maximum bescherming^7 is die je kan krijgen!"
+

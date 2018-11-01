@@ -1,0 +1,16 @@
+// speed (with shadow)
+if %SHOW_SPEED
+
+	setSpecialFontFamily Virtue
+	setFontSize %VIDHEIGHT / 50
+	setColor 0 0 0 1
+	setAlign #CENTER, #TOP
+	setCursor #WIDTH / 2, 400
+	drawStringNum %SPEED
+
+	setColor 0.5 1 0.5 1
+	setAlign #CENTER, #TOP
+	moveCursor -1, -1
+	drawStringNum %SPEED
+
+endif

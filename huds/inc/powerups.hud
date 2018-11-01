@@ -1,0 +1,41 @@
+if %POWERUP_QUAD_TIME != 0
+	setAlign #RIGHT, #MIDDLE
+	setSize 30 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 30
+	setCursor 396, 524
+	drawPicByItemIndex #ITEM_QUAD
+
+	setColor 1, 1, 1, 1
+	setAlign #LEFT, #MIDDLE
+	setCursor 404, 524
+	drawNum %POWERUP_QUAD_TIME
+endif
+
+if %POWERUP_REGEN_TIME != 0
+	setAlign #RIGHT, #MIDDLE
+	setSize 30 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 30
+	setCursor 396, 524 - 60
+	drawPicByItemIndex #ITEM_REGEN
+
+	setColor 1, 1, 1, 1
+	setAlign #LEFT, #MIDDLE
+	setCursor 404, 524 - 60
+	drawNum %POWERUP_REGEN_TIME
+endif
+
+if %POWERUP_WARSHELL_TIME != 0
+	setAlign #RIGHT, #MIDDLE
+	setSize 30 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 30
+	setCursor 396, 524
+	if %POWERUP_QUAD_TIME != 0
+		setCursor 396, 524 - 30
+	endif
+	drawPicByItemIndex #ITEM_WARSHELL
+
+	setColor 1, 1, 1, 1
+	setAlign #LEFT, #MIDDLE
+	setCursor 404, 524
+	if %POWERUP_QUAD_TIME != 0
+		setCursor 404, 524 - 30
+	endif
+	drawNum %POWERUP_WARSHELL_TIME
+endif

@@ -1,0 +1,59 @@
+setAlign 1 3
+setCursor 0 #HEIGHT
+moveCursor 5 * 1.333 * %VIDHEIGHT / %VIDWIDTH, -10
+
+if %HEALTH != #NOTSET
+	moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+	setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5
+	setColor 0 0 0 0.5
+	if %HEALTH > 100
+		setColor 1 1 1 1
+	endif
+	drawPicByName gfx/2d/progressbar
+
+	moveCursor -29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+	include default/health_armor_icon_health
+
+	moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+	setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5
+	if %HEALTH <= 100
+		drawPicBar %HEALTH, 100, gfx/2d/progressbar
+	endif
+	if %HEALTH > 100
+		drawPicBar %HEALTH - 100, 100, gfx/2d/progressbar
+	endif
+
+	moveCursor 5 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+	setSize 24 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 24
+	drawNum %HEALTH
+	moveCursor -34 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+endif
+
+moveCursor 0 -34
+if %TEAM != #TEAM_SPECTATOR
+	if %ARMOR > 0
+		moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+		setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5
+		setColor 0 0 0 0.5
+		if %ARMOR > 100
+			setColor 1 1 1 1
+		endif
+		drawPicByName gfx/2d/progressbar
+
+		moveCursor -29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+		include default/health_armor_icon_armor
+
+		moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+		setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5
+		if %ARMOR <= 100
+			drawPicBar %ARMOR, 100, gfx/2d/progressbar
+		endif
+		if %ARMOR > 100
+			drawPicBar %ARMOR - 100, 100, gfx/2d/progressbar
+		endif
+
+		moveCursor 5 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+		setSize 24 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 24
+		drawNum %ARMOR
+	endif
+endif

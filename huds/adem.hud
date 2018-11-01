@@ -1,0 +1,65 @@
+/* made by adem
+Credz: Warsow Team, Scratch, joki, kuhjoe, clownFart, nasa
+cg_showSpeed 1 - draws speed at the center bottom
+cg_showSpeed 2 - draws speed between weaponlist and crosshair
+cg_showSpeed 3 - draws clock between weaponlist and crosshair moves speed back to the center bottom
+*/
+
+setFontFamily con_fontSystem
+setFontSize con_fontSystemSmall
+
+setScale #DEFAULTSCALE
+if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+include zoom
+include damage_indicator_screen
+include crosshair
+
+if %TUTORIAL == 0
+include adem/clock
+endif
+
+if %RACE == 0
+include adem/health_armor
+include adem/weaponlist
+include adem/stunned
+include adem/ammo_warning
+include adem/obituaries
+include adem/powerups
+
+if %TUTORIAL == 0
+
+include adem/scores
+include adem/team_info
+include adem/team_image
+include adem/team_message
+include adem/team_progress
+include minimap
+include adem/item_timers
+
+endif //if %TUTORIAL == 0
+endif //if %RACE == 0
+
+include strafe
+include adem/chasing
+include pointing
+include adem/download
+include net
+include adem/speed
+include adem/fps
+include help_message
+include adem/picked_up_item
+include keystate
+include default/race_records
+
+endif //if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+
+include awards
+include adem/chat
+
+if %SCOREBOARD == 1
+setCursor 0 0
+setAlign 0 0
+setSize 800 600
+setColor 0 0 0 0.3
+drawPicByName *whiteImage
+endif

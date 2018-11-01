@@ -1,0 +1,157 @@
+<rml>
+<head>
+	<title>profile</title>
+	<link rel="stylesheet" type="text/css" href="css/html4.rcss" />
+	<link rel="stylesheet" type="text/css" href="css/common.rcss" />
+	<link rel="stylesheet" type="text/css" href="css/base.rcss" />
+	<link rel="stylesheet" type="text/css" href="css/controls.rcss" />
+	<link type="text/css" rel="stylesheet" href="css/profile.rcss" />
+	<script src="as/base.as" />
+	<script src="as/popup.as" />
+	<script>
+		Element @profile_login_div;
+		Element @profile_login_msg;
+		ElementOptionsForm @login_form;
+		ElementFormControl @login_form_username;
+		ElementFormControl @login_form_password;
+		Element @profile_div;
+
+		void onProfileLoad( Element @body, Event @event )
+		{
+			if( event.getPhase() != EVENT_PHASE_TARGET ) {
+				// some idiv loading
+				return;
+			}
+
+			@profile_login_div = body.getElementById( 'profile_login' );	
+			@profile_login_msg = profile_login_div.getElementById( 'message' );
+			@login_form = profile_login_div.getElementById( 'login-form' );
+			@login_form_username = profile_login_div.getElementById( 'username' );
+			@login_form_password = profile_login_div.getElementById( 'password' );
+
+			@profile_div = body.getElementById( 'profile' );
+
+			Element @register = body.getElementById( window.browserAvailable ? 'register-nobrowser' : 'register' );
+			if( @register != null ) {
+				register.css( 'display', 'none' );
+			}
+
+			if( !window.browserAvailable ) {
+				Element @resetpassword = body.getElementById( 'login-resetpassword' );
+				if( @resetpassword != null ) {
+					resetpassword.css( 'display', 'none' );
+				}
+			}
+
+			matchmakerTrackState();
+			
+			matchmaker.addEventListener( 'stateChange', onMatchMakerEvent );
+		}
+
+		void onProfileShow( Element @body, Event @event )
+		{
+			login_form.storeOptions();
+		}
+
+		void matchmakerTrackState( void )
+		{
+			// ok, matchmaker's state has changed, do something about it!
+			URL profileURL( matchmaker.profileURL( true ) );
+			profileURL.setParameter( 'lang', GetUserLanguage() );
+
+			switch( matchmaker.state ) {
+				case MM_LOGIN_STATE_LOGGED_OUT:
+					profile_div.css( 'display', 'none' )
+						.setAttr( 'src', '' );
+					NotificationPopup( 'notification', matchmaker.lastError, 1000, "error"  );
+					profile_login_msg.setInnerRML( '' );
+					cast<Element>(login_form).css( 'display', 'block' )
+						.css('visibility', 'visible');
+					profile_login_div.css( 'display', 'block' );
+					break;
+				case MM_LOGIN_STATE_IN_PROGRESS:
+					profile_login_msg.setInnerRML( 'Logging in, hold on...' );
+					cast<Element>(login_form).css( 'display', 'none' )
+						.css('visibility', 'hidden');
+					break;
+				case MM_LOGIN_STATE_LOGGED_IN:
+					profile_div.css( 'display', 'block' )
+						.setAttr( 'src', profileURL.getURL() );
+					profile_login_div.css( 'display', 'none' );
+					break;
+			}
+		}
+
+		void onMatchMakerEvent( Event @event )
+		{
+			if( event.getType() == 'stateChange' ) {
+				matchmakerTrackState();
+			}
+		}
+
+		void onLoginSubmit( Element @form, Event @event )
+		{
+			if( matchmaker.state != MM_LOGIN_STATE_LOGGED_OUT ) {
+				return;
+			}
+
+			login_form.applyOptions();
+
+			if( matchmaker.login( login_form_username.value, login_form_password.value ) == false ) {
+				// failed to initialize the login procedure, update layout
+				matchmakerTrackState();
+			}
+		}
+		
+		void onRemoteProfileLoad( Element @elem, Event @event )
+		{
+			if( event.getPhase() != EVENT_PHASE_TARGET ) {
+				return;
+			}
+			if( elem.getAttr( 'src', '' ).empty() ) {
+				return;
+			}
+
+			if( !window.browserAvailable ) {
+				array<Element @> openInBrowser = elem.getElementsByClassName( 'open-in-browser' );
+				for( uint i = 0; i < openInBrowser.length(); i++ ) {
+					openInBrowser[i].css( 'display', 'none' );
+				}
+			}
+		}
+	</script>
+</head>
+<body onload="$onProfileLoad" onshow="$onProfileShow">
+
+<div id="notification" />
+
+<div id="profile_login">
+	<p id="intro-text" class="intro">
+	<t>Login with your warsow.gg account to save your statistics and match results.</t>
+	<br/>
+	<span class="smaller">
+		<a href="http://www.warsow.gg/forum_registration" id="register" target="_browser">Register for a free account here.</a>
+		<span id="register-nobrowser">Register for a free account at warsow.gg.</span>
+		&nbsp;<a href="http://www.warsow.gg/forum_resetpassword" id="login-resetpassword" target="_browser">Forgot your password?</a>
+	</span>
+	</p>
+		
+	<optionsform id="login-form" onsubmit="$onLoginSubmit">
+		<div class="title">Username</div>
+		<input type="text" cvar="cl_mm_user" id="username" />
+		<br/>
+
+		<div class="title">Password</div>
+		<input type="password" id="password" />
+		<br/>
+
+		<input type="submit" class="button-cancel button-apply">Login</input>
+	</optionsform>
+
+	<span id="message" class="intro"></span>
+</div>
+
+<idiv id="profile" style="overflow-y: auto;" src="" nocache="1" onload="$onRemoteProfileLoad" />
+
+</body>
+</rml>

@@ -1,0 +1,31 @@
+// match message
+ifnot %CHAT_MODE && %SOFTKEYBOARD
+
+setFontFamily con_fontSystem
+setFontSize con_fontSystemSmall
+setAlign #CENTER #TOP
+setCursor #WIDTH / 2, #HEIGHT * 0.15
+
+if %TUTORIAL != 0
+	if %MATCH_STATE == #MATCH_STATE_WARMUP
+		setCursor #WIDTH / 2, 0
+		if %SPEED >= 30 //hack avoiding crazy bg animation at stacking in corners
+			setCursor #WIDTH / 2, -0.7 * %SPEED - 30 // (#HEIGHT*0.33)/(320-30)=0.7
+		endif
+		setSize 750 * 1.333 * %VIDHEIGHT / %VIDWIDTH, #HEIGHT * 0.33
+		setColor 1 1 1 1.0
+		drawPicByName gfx/hud/help_bg //background for le text
+
+		setCursor #WIDTH / 2, 15
+	endif
+endif
+
+if %TUTORIAL == 0
+	setColor 1 1 1 0.5
+endif
+
+setSize #WIDTH, 32
+drawHelpString
+setColorAlpha 1
+
+endif // !(%CHAT_MODE && %SOFTKEYBOARD)

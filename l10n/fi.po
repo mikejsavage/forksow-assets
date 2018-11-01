@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-22 11:39+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Finnish (http://www.transifex.com/qfusion/l10n/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr ""
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr ""
+
+msgid "MM Login: Password error"
+msgstr "MM kirjautuminen: salasanavirhe"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "MM kirjautuminen: Kirjautuminen ei mahdollista palvelimeen yhdistäneenä"
+
+msgid "Frags"
+msgstr "Frags"
+
+msgid "say (to all):"
+msgstr "sano (kaikille):"
+
+msgid "say (to team):"
+msgstr "sano (joukkueelle):"
+
+msgid "Connection timed out"
+msgstr ""
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr ""
+
+msgid "MM Login: authentication timeout"
+msgstr "MM kirjautuminen: tunnistautumisen aikakatkaisu"
+
+msgid "MM Logout: not logged in"
+msgstr "MM uloskirjautuminen: ei kirjauduttu sisään"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "MM uloskirjautuminen: Uloskirjautuminen ei mahdollista palvelimeen yhdistäneenä"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "MM uloskirjautuminen: Uloskirjautumisen pakotus epäonnistui"
+
+msgid "MM Login: StatQuery error"
+msgstr "MM kirjautuminen: StatQuery-virhe"
+
+msgid "MM Login: Failed, no session id"
+msgstr "MM kirjautuminen: Epäonnistui - ei istuntotunnusta"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "MM kirjautuminen: Tiedon jäsentely epäonnistui kohdassa %d"
+
+msgid "%s or %s"
+msgstr "%s tai %s"
+
+msgid "yes"
+msgstr "kyllä"
+
+msgid "no"
+msgstr "ei"
+
+msgid "Gunblade"
+msgstr "Teräpyssy"
+
+msgid "Machinegun"
+msgstr "Konekivääri"
+
+msgid "Riotgun"
+msgstr "Haulikko"
+
+msgid "Grenade Launcher"
+msgstr "Kranaatinheitin"
+
+msgid "Rocket Launcher"
+msgstr "Raketinheitin"
+
+msgid "Plasmagun"
+msgstr "Plasma-ase"
+
+msgid "Lasergun"
+msgstr "Laser-ase"
+
+msgid "Electrobolt"
+msgstr "Sähkökivääri"
+
+msgid "Instagun"
+msgstr "Instaa"
+
+msgid "Cells"
+msgstr "Kennoja"
+
+msgid "Shells"
+msgstr "Hylsyjä"
+
+msgid "Bullets"
+msgstr "Ammuksia"
+
+msgid "Grenades"
+msgstr "Kranaatteja"
+
+msgid "Rockets"
+msgstr "Rakettia"
+
+msgid "Plasma"
+msgstr "Plasmaa"
+
+msgid "Lasers"
+msgstr "Laseria"
+
+msgid "Bolts"
+msgstr "Vasamaa"
+
+msgid "Instas"
+msgstr "Instaa"
+
+msgid "Blades"
+msgstr "Terää"
+
+msgid "Weak bullets"
+msgstr "Heikot ammukset"
+
+msgid "Weak Shells"
+msgstr "Heikot hylsyt"
+
+msgid "Weak Grenades"
+msgstr "Heikot kranaatit"
+
+msgid "Weak Rockets"
+msgstr "Heikot raketit"
+
+msgid "Weak Plasma"
+msgstr "Heikko plasma"
+
+msgid "Weak Lasers"
+msgstr "Heikko laser"
+
+msgid "Weak Bolts"
+msgstr "Heikot vasamat"
+
+msgid "Weak Instas"
+msgstr "Heikot instat"
+
+msgid "Green Armor"
+msgstr "Vihreä panssari"
+
+msgid "Yellow Armor"
+msgstr "Keltainen panssari"
+
+msgid "Red Armor"
+msgstr "Punainen panssari"
+
+msgid "Armor Shard"
+msgstr "Panssarin palanen"
+
+msgid "5 Health"
+msgstr "5 elämää"
+
+msgid "25 Health"
+msgstr "25 elämää"
+
+msgid "50 Health"
+msgstr "50 elämää"
+
+msgid "Mega Health"
+msgstr "Megaelämä"
+
+msgid "Ultra Health"
+msgstr "Ultraelämä"
+
+msgid "Quad Damage"
+msgstr "Nelinkertainen vahinko"
+
+msgid "WarShell"
+msgstr "Suojakilpi"
+
+msgid "Regeneration"
+msgstr "Regeneraatio"
+
+msgid "Ammo Pack Weak"
+msgstr "Heikko ammuspakkaus"
+
+msgid "Ammo Pack Strong"
+msgstr "Vahva ammuspakkaus"
+
+msgid "Ammo Pack"
+msgstr "Ammuspakkaus"
+
+msgid "say:"
+msgstr "sano:"

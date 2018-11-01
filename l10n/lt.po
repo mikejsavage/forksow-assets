@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-22 11:39+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Lithuanian (http://www.transifex.com/qfusion/l10n/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr "Reikia puolimo"
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr "Reikia pagalbos"
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr "Nemokami šarvai"
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr "Plotas saugus"
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr "Jokių problemų"
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr "Apsaugok!"
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr "Apgink A!"
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr "Apgink B!"
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr "Ataka!"
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr "Atakuoti A!"
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr "Atakuoti B!"
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr "Reikia pastiprinimo"
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr "Reikia gynybos"
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr "Supratau"
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr "Neigiama"
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr "Eik į quad"
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr "Eik į galios pastiprinimą"
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr "Reikia gyvybių"
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr "Reikia ginklo"
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr "Reikia šarvų"
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr "Aš gynyboje"
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr "Aš puolime"
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr "Taip"
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr "Ne"
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr "Oi"
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr "Atsiprašau"
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr "Ačiū"
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr "Yeehaa"
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr "Geras žaidimas"
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr "Būūū"
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr "Patvirtinu"
+
+msgid "MM Login: Password error"
+msgstr "MM Login: Neteisingas slaptažodis"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "MM Login: Negalima prisijungti prie MM, kol prisijungta prie serverio"
+
+msgid "Frags"
+msgstr "Frag'ai"
+
+msgid "say (to all):"
+msgstr "sakyti (visiems):"
+
+msgid "say (to team):"
+msgstr "sakyti (komandai):"
+
+msgid "Connection timed out"
+msgstr "Prisijungimo laikas baigėsi"
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr "Gunblade Šūviai"
+
+msgid "MM Login: authentication timeout"
+msgstr "MM Login: autentifikavimo pertrauka"
+
+msgid "MM Logout: not logged in"
+msgstr "MM Logout: Jus neprisijungę"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "MM Logout: negalima atsijungti iš MM, kol prisijungta prie serverio"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "MM Logout: Nepavyko atsijungti priverstinai"
+
+msgid "MM Login: StatQuery error"
+msgstr "MM Login: StatQuery klaida"
+
+msgid "MM Login: Failed, no session id"
+msgstr "MM Login: Nepavyko, nėra sesijos id"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "MM Login: Nepavyko apdoroti duomenų pakopoje %d"
+
+msgid "%s or %s"
+msgstr "%s arba %s"
+
+msgid "yes"
+msgstr "taip"
+
+msgid "no"
+msgstr "ne"
+
+msgid "Gunblade"
+msgstr "Ginkliniai ašmenys"
+
+msgid "Machinegun"
+msgstr "Kulkosvaidis"
+
+msgid "Riotgun"
+msgstr "Šautuvas"
+
+msgid "Grenade Launcher"
+msgstr "Granatsvaidis"
+
+msgid "Rocket Launcher"
+msgstr "Raketos"
+
+msgid "Plasmagun"
+msgstr "Plazmos ginklas"
+
+msgid "Lasergun"
+msgstr "Lazeris"
+
+msgid "Electrobolt"
+msgstr "Elektrolankas"
+
+msgid "Instagun"
+msgstr "Instagun"
+
+msgid "Cells"
+msgstr "Elementai"
+
+msgid "Shells"
+msgstr "Sviediniai"
+
+msgid "Bullets"
+msgstr "Kulkos"
+
+msgid "Grenades"
+msgstr "Granatos"
+
+msgid "Rockets"
+msgstr "Raketos"
+
+msgid "Plasma"
+msgstr "Plazma"
+
+msgid "Lasers"
+msgstr "Lazeriai"
+
+msgid "Bolts"
+msgstr "Krūviai"
+
+msgid "Instas"
+msgstr "Instos"
+
+msgid "Blades"
+msgstr "Ašmenys"
+
+msgid "Weak bullets"
+msgstr "Silpnos kulkos"
+
+msgid "Weak Shells"
+msgstr "Silpni sviediniai"
+
+msgid "Weak Grenades"
+msgstr "Silpnos granatos"
+
+msgid "Weak Rockets"
+msgstr "Silpnos raketos"
+
+msgid "Weak Plasma"
+msgstr "Silpna plazma"
+
+msgid "Weak Lasers"
+msgstr "Silpni lazeriai"
+
+msgid "Weak Bolts"
+msgstr "silpni krūviai"
+
+msgid "Weak Instas"
+msgstr "Silpni Instos"
+
+msgid "Green Armor"
+msgstr "Žali šarvai"
+
+msgid "Yellow Armor"
+msgstr "Geltoni šarvai"
+
+msgid "Red Armor"
+msgstr "Raudoni šarvai"
+
+msgid "Armor Shard"
+msgstr "Šarvų lukštas"
+
+msgid "5 Health"
+msgstr "5 sveikatos"
+
+msgid "25 Health"
+msgstr "25 sveikatos"
+
+msgid "50 Health"
+msgstr "50 sveikatos"
+
+msgid "Mega Health"
+msgstr "Mega sveikata"
+
+msgid "Ultra Health"
+msgstr "Ultra sveikata"
+
+msgid "Quad Damage"
+msgstr "Keturguba žala"
+
+msgid "WarShell"
+msgstr "Karo gaubtas"
+
+msgid "Regeneration"
+msgstr "Atsistatymas"
+
+msgid "Ammo Pack Weak"
+msgstr "Silpnų šovinių paketas"
+
+msgid "Ammo Pack Strong"
+msgstr "Stiprių šovinių paketas"
+
+msgid "Ammo Pack"
+msgstr "Šovinių paketas"
+
+msgid "say:"
+msgstr "sakyti:"

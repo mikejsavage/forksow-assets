@@ -1,0 +1,82 @@
+/*
+Credz:
+ - Warsow Team
+ - Scratch
+ - joki
+ - kuhjoe
+ - Jihnsius 4EXTREME BRA1NZ
+ - IRC for <3 and feedback
+ - clownFart for most of the work
+ - SiPlus for the touchscreen version
+*/
+
+setFontFamily con_fontSystem
+setFontSize con_fontSystemSmall
+
+setScale #DEFAULTSCALE
+if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+include zoom
+include damage_indicator_screen
+include crosshair
+
+if %TUTORIAL == 0
+include default/clock
+endif
+
+if %RACE == 0
+include default/health_armor
+include default/weaponlist
+include default/ammo
+
+if %TUTORIAL == 0
+
+include default/scores
+include default/scores_individual
+
+endif //if %TUTORIAL == 0
+
+include ammo_warning
+include default/stunned
+include default/obituaries
+include default/powerups
+include default/picked_up_item
+
+if %TUTORIAL == 0
+
+include default/team_info
+include default/team_image
+include default/team_message
+include default/team_progress
+include default/item_timers
+include minimap
+
+endif //if %TUTORIAL == 0
+
+endif //if %RACE == 0
+
+include default/chasing
+
+/* Race */
+include default/race_records
+
+include strafe
+include default/speed
+include default/fps
+include help_message
+include download
+include default/net
+include default/pointing
+include keystate
+include weaponcross
+endif //if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+
+include awards
+include chat
+
+if %SCOREBOARD == 1
+setCursor 0 0
+setAlign 0 0
+setSize 800 600
+setColor 0 0 0 0.3
+drawPicByName *whiteImage
+endif

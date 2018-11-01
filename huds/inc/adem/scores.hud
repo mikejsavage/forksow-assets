@@ -1,0 +1,53 @@
+if %TEAM != #TEAM_SPECTATOR
+//score's bar
+setCursor #WIDTH, #HEIGHT - 30
+setAlign #RIGHT, #BOTTOM
+setColor 0 0 0 0.5
+setSize 62 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 50
+drawPicByName gfx/hud/default/ammo_bar
+
+    if %TEAMBASED == 0 //not team based GT
+	    setSize 20 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 20
+      	    setColorToTeamColor #TEAM_ALPHA
+	    setAlign #middle, #TOP
+	    setColorAlpha 1
+            moveCursor -27 * 1.333 * %VIDHEIGHT / %VIDWIDTH, -36
+	    drawNum %SCORE
+    endif
+	
+setSize 18 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 18 //for numbers    
+    if %TEAMBASED == 1 //team based GT and DUEL
+		// team ALPHA
+		if %TEAM_ALPHA_SCORE != #NOTSET
+
+			setColorToTeamColor #TEAM_ALPHA
+			setAlign #middle, #TOP
+			setColorAlpha 1
+	
+			if %TEAM == #TEAM_ALPHA
+				setCursor 800 - 27 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 524	
+			endif
+			if %TEAM != #TEAM_ALPHA
+				setCursor 800 - 27 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 546
+			endif
+	
+			drawNum %TEAM_ALPHA_SCORE
+		endif
+
+		// team BETA
+		if %TEAM_BETA_SCORE != #NOTSET
+
+			setColorToTeamColor #TEAM_BETA
+			setAlign #MIDDLE, #TOP
+
+			if %TEAM == #TEAM_BETA
+				setCursor 800 - 27 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 524
+			endif
+			if %TEAM != #TEAM_BETA
+				setCursor 800 - 27 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 546
+			endif
+
+			drawNum %TEAM_BETA_SCORE
+		endif	
+    endif
+endif

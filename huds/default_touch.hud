@@ -1,0 +1,85 @@
+/*
+Credz:
+ - Warsow Team
+ - Scratch
+ - joki
+ - kuhjoe
+ - Jihnsius 4EXTREME BRA1NZ
+ - IRC for <3 and feedback
+ - clownFart for most of the work
+ - SiPlus for the touchscreen version
+
+The touch version is designed for 4:3 screens and up, not 5:4, since there are no 5:4 mobile devices.
+*/
+
+setFontFamily con_fontSystem
+setFontSize con_fontSystemSmall
+
+setScale #DEFAULTSCALE
+if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+include zoom
+include damage_indicator_screen
+include crosshair
+
+if %TUTORIAL == 0
+include default/clock
+endif
+
+if %RACE == 0
+include default/health_armor_touch
+include default/weaponlist_touch
+include default/instagun_icon_touch // instead of ammo display for which there's no free space
+
+if %TUTORIAL == 0
+
+include default/scores
+//include default/scores_individual
+include default/obituaries_touch // don't move out of this conditional - must not display in tutorial
+
+endif //if %TUTORIAL == 0
+
+include ammo_warning
+include default/stunned_touch
+include default/powerups
+include default/picked_up_item
+
+if %TUTORIAL == 0
+
+//include default/team_info
+include default/team_image
+include default/team_message
+include default/team_progress
+include default/item_timers
+include default/minimap_touch
+
+endif //if %TUTORIAL == 0
+
+endif //if %RACE == 0
+
+include default/chasing_touch
+include default/actions_touch
+include default/menubuttons_touch
+
+endif //if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+
+//Must be the last touch include when controlling the player because it will consume events on the whole low half of the screen
+include controls_touch
+
+if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+/* Race */
+setCursor 250, 470
+include default/race_records
+
+include strafe
+include default/speed
+include default/fps
+include help_message
+include download
+include default/net
+include default/pointing
+include keystate
+include weaponcross
+endif //if %MATCH_STATE < #MATCH_STATE_POSTMATCH
+
+include awards
+include chat_touch

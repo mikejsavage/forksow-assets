@@ -1,0 +1,35 @@
+// team ALPHA (lower opacity for enemy team)
+if %TEAM_ALPHA_SCORE != #NOTSET
+
+	setColorToTeamColor #TEAM_ALPHA
+	setSize 28 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 28
+	setAlign #RIGHT 1
+	setCursor 325, 7
+	if %TEAM == #TEAM_ALPHA
+		setColorAlpha 1
+	endif
+	if %TEAM != #TEAM_ALPHA
+		setColorAlpha .6
+	endif
+	drawNum %TEAM_ALPHA_SCORE
+
+endif
+
+// team BETA (lower opacity for enemy team)
+if %TEAM_BETA_SCORE != #NOTSET
+
+	setColorToTeamColor #TEAM_BETA
+	setSize 28 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 28
+	setAlign #LEFT 1
+	setCursor 475, 7
+
+	if %TEAM == #TEAM_BETA
+		setColorAlpha 1
+	endif
+	if %TEAM != #TEAM_BETA
+		setColorAlpha .6
+	endif
+
+	drawNum %TEAM_BETA_SCORE
+
+endif

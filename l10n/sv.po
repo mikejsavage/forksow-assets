@@ -1,0 +1,319 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Qfusion Translations\n"
+"POT-Creation-Date: 2016-03-26 11:04+0000\n"
+"PO-Revision-Date: 2017-01-22 11:39+0000\n"
+"Last-Translator: Andrei Stepanov\n"
+"Language-Team: Swedish (http://www.transifex.com/qfusion/l10n/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Vsay/Quickmenu item
+msgid "Need offense"
+msgstr "Behöver anfall"
+
+#. Vsay/Quickmenu item
+msgid "Need help"
+msgstr "Behöver hjälp"
+
+#. Vsay/Quickmenu item
+msgid "Armor free"
+msgstr "Rustning fri"
+
+#. Vsay/Quickmenu item
+msgid "Area secured"
+msgstr "Område säkrat"
+
+#. Vsay/Quickmenu item
+msgid "No problem"
+msgstr "Inga problem"
+
+#. Vsay/Quickmenu item
+msgid "Defend!"
+msgstr "Försvara!"
+
+#. Vsay/Quickmenu item
+msgid "Defend A!"
+msgstr "Försvara A!"
+
+#. Vsay/Quickmenu item
+msgid "Defend B!"
+msgstr "Försvara B!"
+
+#. Vsay/Quickmenu item
+msgid "Attack!"
+msgstr "Anfall!"
+
+#. Vsay/Quickmenu item
+msgid "Attack A!"
+msgstr "Anfall A!"
+
+#. Vsay/Quickmenu item
+msgid "Attack B!"
+msgstr "Anfall B!"
+
+#. Vsay/Quickmenu item
+msgid "Need backup"
+msgstr "Behöver förstärkning"
+
+#. Vsay/Quickmenu item
+msgid "Need defense"
+msgstr "Behöver försvar"
+
+#. Vsay/Quickmenu item
+msgid "Roger"
+msgstr "Uppfattat"
+
+#. Vsay/Quickmenu item
+msgid "Negative"
+msgstr "Svar nej"
+
+#. Vsay/Quickmenu item
+msgid "Go to quad"
+msgstr "Gå till quad"
+
+#. Vsay/Quickmenu item
+msgid "Go to powerup"
+msgstr "Gå till powerup"
+
+#. Vsay/Quickmenu item
+msgid "Need health"
+msgstr "Behöver hälsa"
+
+#. Vsay/Quickmenu item
+msgid "Need weapon"
+msgstr "Behöver vapen"
+
+#. Vsay/Quickmenu item
+msgid "Need armor"
+msgstr "Behöver rustning"
+
+#. Vsay/Quickmenu item
+msgid "On defense"
+msgstr "På försvar"
+
+#. Vsay/Quickmenu item
+msgid "On offense"
+msgstr "På anfall"
+
+#. Vsay/Quickmenu item
+msgid "Yes"
+msgstr "Ja"
+
+#. Vsay/Quickmenu item
+msgid "No"
+msgstr "Naj"
+
+#. Vsay/Quickmenu item
+msgid "Oops"
+msgstr "Hoppsan"
+
+#. Vsay/Quickmenu item
+msgid "Sorry"
+msgstr "Förlåt"
+
+#. Vsay/Quickmenu item
+msgid "Thanks"
+msgstr "Tack"
+
+#. Vsay/Quickmenu item
+msgid "Yeehaa"
+msgstr "Jiihaa"
+
+#. Vsay/Quickmenu item
+msgid "Good game"
+msgstr "Bra spel"
+
+#. Vsay/Quickmenu item
+msgid "Booo"
+msgstr "Buuu"
+
+#. Vsay/Quickmenu item
+msgid "Affirmative"
+msgstr "Uppfattat"
+
+msgid "MM Login: Password error"
+msgstr "MM Login: Fel lösenord"
+
+msgid "MM Login: Can't login to MM while connected to server"
+msgstr "MM Login: Kan inte logga in på MM medan ansluten till server"
+
+msgid "Frags"
+msgstr "Kross"
+
+msgid "say (to all):"
+msgstr "säg (till alla)"
+
+msgid "say (to team):"
+msgstr "säg (till laget)"
+
+msgid "Connection timed out"
+msgstr "Anslutnings tid tog slut"
+
+#. Bomb option, enables projectile for Gunblade
+msgid "Strong Gunblade"
+msgstr "Strong Gunblade"
+
+msgid "MM Login: authentication timeout"
+msgstr "MM Login: timeout under autensiering"
+
+msgid "MM Logout: not logged in"
+msgstr "MM Logout: Inte inloggad"
+
+msgid "MM Logout: can't logout from MM while connected to server"
+msgstr "MM Logout: Kan inte logga ut från MM när du är ansluten till en server"
+
+msgid "MM Logout: Failed to force logout"
+msgstr "MM Logout: Det gick inte att tvinga utloggning"
+
+msgid "MM Login: StatQuery error"
+msgstr "MM Login: StatQuery-fel"
+
+msgid "MM Login: Failed, no session id"
+msgstr "MM Login: Misslyckades, inget sessions-id"
+
+msgid "MM Login: Failed to parse data at step %d"
+msgstr "MM Login: Det gick inte att tolka data vid steg %d"
+
+msgid "%s or %s"
+msgstr "%s eller %s"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "no"
+msgstr "nej"
+
+msgid "Gunblade"
+msgstr "Pistolklinga"
+
+msgid "Machinegun"
+msgstr "Maskingevär"
+
+msgid "Riotgun"
+msgstr "Hagelgevär"
+
+msgid "Grenade Launcher"
+msgstr "Granatkastare"
+
+msgid "Rocket Launcher"
+msgstr "Raketkastare"
+
+msgid "Plasmagun"
+msgstr "Plasmagevär"
+
+msgid "Lasergun"
+msgstr "Lasergevär"
+
+msgid "Electrobolt"
+msgstr "Electrobolt"
+
+msgid "Instagun"
+msgstr "Instagun"
+
+msgid "Cells"
+msgstr "Celler"
+
+msgid "Shells"
+msgstr "Skott"
+
+msgid "Bullets"
+msgstr "Kulor"
+
+msgid "Grenades"
+msgstr "Granater"
+
+msgid "Rockets"
+msgstr "Raketer"
+
+msgid "Plasma"
+msgstr "Plasma"
+
+msgid "Lasers"
+msgstr "Laser"
+
+msgid "Bolts"
+msgstr "Bolts"
+
+msgid "Instas"
+msgstr "Instas"
+
+msgid "Blades"
+msgstr "Klingor"
+
+msgid "Weak bullets"
+msgstr "Svaga kulor"
+
+msgid "Weak Shells"
+msgstr "Svaga skott"
+
+msgid "Weak Grenades"
+msgstr "Svaga granater"
+
+msgid "Weak Rockets"
+msgstr "Svaga raketer"
+
+msgid "Weak Plasma"
+msgstr "Svag plasma"
+
+msgid "Weak Lasers"
+msgstr "Svag laser"
+
+msgid "Weak Bolts"
+msgstr "Svaga Bolts"
+
+msgid "Weak Instas"
+msgstr "Svaga Instas"
+
+msgid "Green Armor"
+msgstr "Grön Rustning"
+
+msgid "Yellow Armor"
+msgstr "Gul Rustning"
+
+msgid "Red Armor"
+msgstr "Röd Rustning"
+
+msgid "Armor Shard"
+msgstr "Rustningsfragment"
+
+msgid "5 Health"
+msgstr "5 Hälsa"
+
+msgid "25 Health"
+msgstr "25 Hälsa"
+
+msgid "50 Health"
+msgstr "50 Hälsa"
+
+msgid "Mega Health"
+msgstr "Mega Hälsa"
+
+msgid "Ultra Health"
+msgstr "Ultra Hälsa"
+
+msgid "Quad Damage"
+msgstr "Fyrdubbel skada"
+
+msgid "WarShell"
+msgstr "Krigsskydd"
+
+msgid "Regeneration"
+msgstr "Återbildning"
+
+msgid "Ammo Pack Weak"
+msgstr "Ammo Paket Svag"
+
+msgid "Ammo Pack Strong"
+msgstr "Ammo Paket Stark"
+
+msgid "Ammo Pack"
+msgstr "Ammo Paket"
+
+msgid "say:"
+msgstr "säg:"

@@ -1,0 +1,29 @@
+#profile_container {
+	width: 100%;
+	height: 11em;
+	overflow: auto;
+}
+
+#news_container {
+	font-size: 13dp;
+	float: left;
+	width: 75%;
+	overflow: auto;
+}
+
+#friends_container {
+	float: right;
+	width: 245dp;
+	overflow: auto;
+}
+
+#wmm-news img { 
+	max-width: 98%;
+}
+
+#wmm-news a.open-in-browser {
+	display: inline-block;
+	margin-top: 1em;
+	width: 20%;
+	white-space: nowrap;
+}

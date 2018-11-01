@@ -1,0 +1,133 @@
+setFontFamily con_fontSystem
+setFontSize %VIDHEIGHT / 40
+
+if %TIME_SELF != #NOTSET
+
+	if %RACE
+		// current time
+		setColor 0 0 0 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 401, 491
+		drawString "Time:"
+
+		setColor 0.8 0.8 0.8 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 400, 490
+		drawString "Time:"
+	endif
+
+	// current time (+shadow)
+	setColor 0 0 0 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 401, 521
+	drawTimer %TIME_SELF
+
+	setColor 1 1 1 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 400, 520
+	drawTimer %TIME_SELF
+endif
+
+if %TIME_BEST != #NOTSET
+
+	if %RACE
+		// player best time (best lap in the race)
+		setColor 0 0 0 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 101, 521
+		drawString "Best:"
+
+		setColor 0.8 0.8 0.8 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 100, 520
+		drawString "Best:"
+	endif
+
+	// player best time (best lap in the race) (+shadow)
+	setColor 0 0 0 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 101, 541
+	drawTimer %TIME_BEST
+
+	setColor 1 1 1 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 100, 540
+	drawTimer %TIME_BEST
+endif
+
+if %TIME_RECORD != #NOTSET
+
+	if %RACE
+		// best time (best lap in the race)
+		setColor 0 0 0 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 701, 521
+		drawString "Srv Best:"
+
+		setColor 0.8 0.8 0.8 1
+		setAlign #CENTER, #BOTTOM
+		setCursor 700, 520
+		drawString "Srv Best:"
+	endif
+
+	// best time (best lap in the race) (+shadow)
+	setColor 0 0 0 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 701, 541
+	drawTimer %TIME_RECORD
+
+	setColor 1 1 1 1
+	setAlign #CENTER, #BOTTOM
+	setCursor 700, 540
+	drawTimer %TIME_RECORD
+endif
+
+if %TIME_ALPHA != #NOTSET
+	setFontFamily Virtue
+	setColor 0 0 0 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 785, 391
+	drawString "Alpha Time:"
+
+	setColor 0.8 0.8 0.8 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 784, 390
+	drawString "Alpha Time:"
+
+	// current time (+shadow)
+	setFontFamily Virtue
+	setColor 0 0 0 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 785, 407
+	drawTimer %TIME_ALPHA
+
+	setColor 1 1 1 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 784, 406
+	drawTimer %TIME_ALPHA
+endif
+
+if %TIME_BETA != #NOTSET
+	setFontFamily Virtue
+	setColor 0 0 0 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 785, 443
+	drawString "Beta Time:"
+
+	setColor 0.8 0.8 0.8 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 784, 442
+	drawString "Beta Time:"
+
+	// current time (+shadow)
+	setFontFamily Virtue
+	setColor 0 0 0 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 785, 469
+	drawTimer %TIME_ALPHA
+
+	setColor 1 1 1 1
+	setAlign #RIGHT, #BOTTOM
+	setCursor 784, 468
+	drawTimer %TIME_ALPHA
+endif
