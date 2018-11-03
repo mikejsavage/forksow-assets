@@ -1,7 +1,0 @@
-if %SHOW_FPS
-	setAlign 3 1
-	setCursor #WIDTH, 0
-	setColor 1 1 1 1
-	setSize 10 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 10
-	drawNum %FPS
-endif

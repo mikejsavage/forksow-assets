@@ -1,6 +1,0 @@
-setAlign 3 1
-setCursor #WIDTH - 5, 15
-setSize 300 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 340
-setFontFamily Virtue
-setFontSize %VIDHEIGHT / 50
-drawObituaries 3 16 // aligned to right, iconsize 15
