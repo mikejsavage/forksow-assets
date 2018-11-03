@@ -6,10 +6,9 @@
 	<script>
 		ElementOptionsForm @playerform;
 
-		Element @crosshairStrong;
-		Element @crosshairStrongWhite;
+		Element @crosshair;
+		Element @crosshairWhite;
 		Cvar cg_crosshair( "cg_crosshair", "1", ::CVAR_ARCHIVE );
-		Cvar cg_crosshair_strong( "cg_crosshair_strong", "0", ::CVAR_ARCHIVE );
 		Cvar cg_clientHUD( "cg_clientHUD", "", ::CVAR_ARCHIVE );
 		Cvar cg_specHUD( "cg_specHUD", "", ::CVAR_ARCHIVE );
 
@@ -17,8 +16,8 @@
 		{
 			onTemplateLoad( body, evt );
 
-			@crosshairStrong = body.getElementById( "crosshair-strong" );
-			@crosshairStrongWhite = body.getElementById( "crosshair-strong-white" );
+			@crosshair = body.getElementById( "crosshair" );
+			@crosshairWhite = body.getElementById( "crosshair-white" );
 
 			// get the 'servers' query string parameter value
 			String tab = '';
@@ -48,7 +47,7 @@
 			f.storeOptions();
 
 			//==== crosshairs ====
-			updateCrosshair( cg_crosshair_strong, crosshairStrong, crosshairStrongWhite );
+			updateCrosshair( cg_crosshair, crosshair, crosshairWhite );
 
 			animationsOnShow();
 		}
@@ -101,8 +100,6 @@
 						<div id="crosshairs">
 							<div id="crosshair" class="crosshair"/>
 							<div id="crosshair-white" class="crosshair crosshairwhite" onclick="nextCrosshair(cg_crosshair,crosshair,crosshairWhite);"/>
-							<div id="crosshair-strong" class="crosshair"/>
-							<div id="crosshair-strong-white" class="crosshair crosshairwhite" onclick="nextCrosshair(cg_crosshair_strong,crosshairStrong,crosshairStrongWhite);"/>
 						</div>
 						<br/>
 

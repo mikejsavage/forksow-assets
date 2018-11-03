@@ -64,7 +64,7 @@ h2 {
 
 #content {
 	position: fixed;
-	top: 126dp;
+	top: 250dp;
 	left: 0dp;
 	padding: 6dp 16dp;
 	height: 636dp;
@@ -99,7 +99,7 @@ a:hover, a:focus {
 /* Navigation */
 #navi {
 	position: fixed;
-	top: 80dp;
+	top: 210dp;
 	left: 0dp;
 	height: 46dp;
 	text-align: center;
