@@ -39,10 +39,10 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 				@content = body.getElementById( 'content' );
 
 				float scale = float( window.height ) / 1080.0f;
-				logo.css( 'left', String( window.width / 2 - int( 256.0f * scale ) ) );
-				logo.css( 'top', String( window.height / 2 - int( 64.0f * scale ) ) );
-				logo.css( 'width', String( int( 512.0f * scale ) ) );
-				logo.css( 'height', String( int( 128.0f * scale ) ) );
+				logo.css( 'left', String( window.width / 2 - int( 375.0f * scale ) ) );
+				logo.css( 'top', String( window.height / 2 - int( 128.0f * scale ) ) );
+				logo.css( 'width', String( int( 750.0f * scale ) ) );
+				logo.css( 'height', String( int( 256.0f * scale ) ) );
 			}
 
 			void onConnectScreenShow( Element @body, Event @evt )

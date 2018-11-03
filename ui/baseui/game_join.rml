@@ -18,7 +18,7 @@
 
 	const String gametypesDataSourceName = 'gametypes_source';
 	const String gametypesTableName = 'list';
-	
+
 	bool isUpdating = false;
 	bool isStopped = false;
 	bool isGridHidden = false;
@@ -86,7 +86,7 @@
 		serverblock.css( 'display', 'none' );
 		connectbtn.css( 'display', 'none' );
 		favoritebtn.css( 'display', 'none' );
-		
+
 		isGridHidden = false;
 
 		Favorites::init();
@@ -95,14 +95,14 @@
 	void onJoinShow( Element @body, Event @ev )
 	{
 		// start the update
-		if( !serverBrowser.isUpdating() 
+		if( !serverBrowser.isUpdating()
 			&& ( serverBrowser.getLastActiveTime() == 0/* || window.time > serverBrowser.getLastActiveTime() + AUTO_UPDATE_TIMEOUT*/ ) ) {
 			serverBrowser.fullUpdate();
 		}
 
 		Element @container = body.getElementById( 'serverbrowser-container' );
 		body.getElementById( 'serverbrowser_frame' ).css( 'height',
-			(body.getElementById( 'leftside' ).clientHeight() 
+			(body.getElementById( 'leftside' ).clientHeight()
 			- int( container.resolveProp( 'padding-top', container.clientHeight() ) )
 			- int( container.resolveProp( 'padding-bottom', container.clientHeight() ) )
 			) + 'px'
@@ -111,7 +111,7 @@
 		onTemplateShow( body, @ev );
 
 		onJoinThink();
-		
+
 		updateBrowserVisibility();
 
 		animationsOnShow( true );
@@ -120,7 +120,7 @@
 	void onJoinHide( Element @self, Event @ev )
 	{
 	}
-	
+
 	void onRefreshButtonClick( Element @self, Event @ev )
 	{
 		if( serverBrowser.isUpdating() ) {
@@ -133,7 +133,7 @@
 		updateRefreshTitle();
 		updateBrowserVisibility();
 	}
-	
+
 	bool updateRefreshTitle()
 	{
 		if( @refreshbtn == null ) {
@@ -143,14 +143,14 @@
 		// note: can't use getInnerRML here because of l10n
 		String curAction = refreshbtn.getAttr( 'action', 'Refresh' );
 		String newAction = serverBrowser.isUpdating() ? 'Stop' : 'Refresh';
-		
+
 		if( curAction != newAction ) {
 			refreshbtn.setAttr( 'action', newAction );
 			refreshbtn.setInnerRML( newAction );
 		}
 		return true;
 	}
-	
+
 	void updateBrowserVisibility()
 	{
 		if( isGridHidden ) {
@@ -158,7 +158,7 @@
 			navibar.css( 'display', 'block' );
 			window.document.body.getElementById( 'serverbrowser-manual-container' ).css( 'display', 'none' );
 		}
-		isGridHidden = false;			
+		isGridHidden = false;
 	}
 
 	bool onJoinThink()
@@ -188,9 +188,9 @@
 		String hostnameRML = '';
 		hostnameRML = '<field formatter="colorcode" value="' + browserDataSource.getField( table, sel, 'hostname' ) + '" />';
 
-		String levelshotRML = '';	
+		String levelshotRML = '';
 		levelshotRML = '<levelshot src="' + browserDataSource.getField( table, sel, 'map' ) + '" />';
-		
+
 		String infoRML = '';
 
 		// mapname
@@ -224,7 +224,7 @@
 
 		el.css( 'display', 'block' ).setInnerRML( hostnameRML + '<br/><br/>' + levelshotRML + '<br/>' + infoRML );
 	}
-	
+
 	void onServerBrowserRowSelect( Element @elem, Event @ev )
 	{
 		if( @serverblock == null ) {
@@ -257,7 +257,7 @@
 
 		formatServerInfoBlock( @serverblock, 'normal', selectedRow );
 	}
-	
+
 	void onServerBrowserRowChange( Element @self, Event @ev )
 	{
 		ElementDataGrid @grid = @self; // implicit cast to ElementDataGrid
@@ -272,7 +272,7 @@
 		}
 
 		int firstRowChanged = ev.getParameter( 'first_row_changed', 0 );
-		
+
 		String prop = servergrid.getProp( 'selected-row' );
 		int selectedRowIndex = prop.empty() ? -1 : prop.toInt();
 
@@ -292,18 +292,18 @@
 			}
 		}
 	}
-	
+
 	void onServerBrowserRowRemove( Element @self, Event @ev )
 	{
 		if( @servergrid == null || @ev == null ) {
 			return;
 		}
-		
+
 		int numRowsRemoved = ev.getParameter( 'num_rows_removed', 0 );
 		if( numRowsRemoved == 0 ) {
 			return;
 		}
-		
+
 		int firstRowRemoved = ev.getParameter( 'first_row_removed', 0 );
 
 		String prop = servergrid.getProp( 'selected-row' );
@@ -354,9 +354,9 @@
 				// connect to server
 				game.exec( 'connect "' + address + '"\n' );
 			}
-		}	
+		}
 	}
-	
+
 	bool toggleFavoriteOnSelectedServer( void )
 	{
 		String address = '';
@@ -395,16 +395,25 @@
 		toggleFavoriteOnSelectedServer();
 	}
 
+	void precacheStuff( Element @body, Event @event )
+	{
+		window.preload( 'options.rml' );
+		window.preload( 'options_player.rml' );
+		window.preload( 'options_video.rml' );
+		window.preload( 'options_input.rml' );
+		window.preload( 'options_audio.rml' );
+	}
+
 	</script>
 </head>
-<body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide">
-	<!-- divide the screen to two vertical contexts -->	
+<body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff">
+	<!-- divide the screen to two vertical contexts -->
 	<div id="leftside">
 		<div id="serverbrowser-container" class="dropshadow">
 			<div id="serverbrowser_frame">
-				<datagrid id="serverbrowser_datagrid" 
-					onrowadd="$onServerBrowserRowAdd" 
-					onrowselect="$onServerBrowserRowSelect" 
+				<datagrid id="serverbrowser_datagrid"
+					onrowadd="$onServerBrowserRowAdd"
+					onrowselect="$onServerBrowserRowSelect"
 					onrowchange="$onServerBrowserRowChange"
 					onrowremove="$onServerBrowserRowRemove"
 					onrowactivate="$onServerBrowserRowActivate">
@@ -415,7 +424,7 @@
 					<col fields="gametype" width="100dp">Gametype</col>
 					<col fields="mm" width="110dp">Ranked</col>
 				</datagrid>
-			</div>		
+			</div>
 		</div>
 	</div>
 
