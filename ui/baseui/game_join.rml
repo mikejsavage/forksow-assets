@@ -15,19 +15,13 @@
 
 	const String browserDataSourceName = 'serverbrowser_source';
 	const String browserTableNameDefault = 'normal';
-	const String suggestionTableNameSuffix = '_suggestions';
 
 	const String gametypesDataSourceName = 'gametypes_source';
 	const String gametypesTableName = 'list';
-
-	String browserTableName = ''; // persistent for document's lifetime
-	bool browseManually = false;
-	bool browseManuallySet = false;
 	
 	bool isUpdating = false;
 	bool isStopped = false;
 	bool isGridHidden = false;
-	bool isSuggestionVisible = false;
 
 	const uint MAX_CHAINED_SERVERS = 10;
 	const uint AUTO_UPDATE_TIMEOUT = 60*1000;
@@ -44,17 +38,10 @@
 	Element @serverblock;
 	Element @progresstitle;
 	Element @progresscounter;
-	Element @suggestionmodal;
-	ElementFormControlDataSelect @suggestionspinner;
-	Element @suggestionserverblock;
 
 	void onJoinLoad( Element @body, Event @ev )
 	{
 		String tmp;
-
-		// get the 'servers' query string parameter value
-		const Dictionary @dict = body.ownerDocument.URL.getParameters();
-		dict.get( 'servers', browserTableName );
 
 		onTemplateLoad( body, ev );
 
@@ -70,16 +57,8 @@
 		@progresstitle = body.getElementById( 'in-progress-title' );
 		@progresscounter = body.getElementById( 'in-progress-counter' );
 
-		@suggestionmodal = body.getElementById( 'suggestion-modal' );
-		@suggestionspinner = body.getElementById( 'suggestion-spinner' );
-		@suggestionserverblock = body.getElementById( 'suggestion-serverblock' );
-
 		ElementDataGrid @grid = servergrid;
 		if( @grid == null ) {
-			return;
-		}
-
-		if( browserTableName.empty() ) {
 			return;
 		}
 
@@ -88,8 +67,7 @@
 		@browserDataSource = getDataSource( browserDataSourceName );
 		@gametypesDataSource = getDataSource( gametypesDataSourceName );
 
-		grid.setDataSource( browserDataSourceName + "." + browserTableName );
-		suggestionspinner.setDataSource( browserDataSourceName + "." + browserTableName + suggestionTableNameSuffix );
+		grid.setDataSource( browserDataSourceName + ".normal" );
 
 		Element @cleanname = null;
 		float width = 0.0;
@@ -108,50 +86,23 @@
 		serverblock.css( 'display', 'none' );
 		connectbtn.css( 'display', 'none' );
 		favoritebtn.css( 'display', 'none' );
-		suggestionmodal.css( 'display', 'none' );
 		
 		isGridHidden = false;
-		isSuggestionVisible = false;
 
 		Favorites::init();
 	}
 
 	void onJoinShow( Element @body, Event @ev )
 	{
-		URL location = body.ownerDocument.URL;
-		const Dictionary @dict = location.getParameters();
-		Cvar lasttab( 'ui_serverbrowser_tab', '', ::CVAR_ARCHIVE );
-		Cvar manual_browse( 'ui_autobrowse_manual', '0', ::CVAR_ARCHIVE );
-
-		if( !browseManuallySet ) {
-			browseManually = manual_browse.boolean;
-			browseManuallySet = true;
-		}
-		if( manual_browse.modified ) {
-			browseManually = manual_browse.boolean;
-			manual_browse.modified = false;
-		}
-
-		// default to NW servers
-		if( browserTableName.empty() ) {
-			// redirect to a RESTful location
-			location.setParameter( 'servers', lasttab.string.empty() ? browserTableNameDefault : lasttab.string );
-			window.location = location.getURL();
-			return;
-		}
-
 		// start the update
 		if( !serverBrowser.isUpdating() 
 			&& ( serverBrowser.getLastActiveTime() == 0/* || window.time > serverBrowser.getLastActiveTime() + AUTO_UPDATE_TIMEOUT*/ ) ) {
 			serverBrowser.fullUpdate();
 		}
 
-		lasttab.set( browserTableName );
-
 		Element @container = body.getElementById( 'serverbrowser-container' );
 		body.getElementById( 'serverbrowser_frame' ).css( 'height',
 			(body.getElementById( 'leftside' ).clientHeight() 
-			- body.getElementById( 'navibar' ).clientHeight()
 			- int( container.resolveProp( 'padding-top', container.clientHeight() ) )
 			- int( container.resolveProp( 'padding-bottom', container.clientHeight() ) )
 			) + 'px'
@@ -159,21 +110,9 @@
 
 		onTemplateShow( body, @ev );
 
-		// toggle :active pseudoclass for the current tab
-		if( @navibar != null ) {
-			Element @activeLink = navibar.getElementById( 'link-' + browserTableName );
-			if( @activeLink != null ) {
-				activeLink.togglePseudo( 'active', true );
-			}
-		}
-
 		onJoinThink();
 		
 		updateBrowserVisibility();
-
-		if( isSuggestionVisible ) {
-			focusSuggestionDialog();
-		}
 
 		animationsOnShow( true );
 	}
@@ -214,95 +153,12 @@
 	
 	void updateBrowserVisibility()
 	{
-		if( !browseManually && serverBrowser.isUpdating() ) {
-			// hide the navbar and the grid
-			if( !isGridHidden ) {
-				servergrid.css( 'display', 'none' );
-				navibar.css( 'display', 'none' );
-				window.document.body.getElementById( 'serverbrowser-manual-container' ).css( 'display', 'inline-block' );
-			}
-			isGridHidden = true;
+		if( isGridHidden ) {
+			servergrid.css( 'display', 'block' );
+			navibar.css( 'display', 'block' );
+			window.document.body.getElementById( 'serverbrowser-manual-container' ).css( 'display', 'none' );
 		}
-		else {
-			if( isGridHidden ) {
-				servergrid.css( 'display', 'block' );
-				navibar.css( 'display', 'block' );
-				window.document.body.getElementById( 'serverbrowser-manual-container' ).css( 'display', 'none' );
-			}
-			isGridHidden = false;			
-		}
-	}
-
-	void onBrowseManuallyClick( Element @self, Event @ev )
-	{
-		browseManually = true;
-		updateBrowserVisibility();
-	}
-
-	void openSuggestionDialog()
-	{
-		if( browserTableName == 'tv' || browserTableName == 'favorites' ) {
-			return;
-		}	
-		if( lastModalUpdateId == serverBrowser.getUpdateId() ) {
-			return;
-		}
-		if( suggestionspinner.getNumOptions() == 0 ) {
-			return;
-		}
-
-		lastModalUpdateId = serverBrowser.getUpdateId();
-
-		if( !isSuggestionVisible ) {
-			isSuggestionVisible = true;
-			suggestionmodal.css( 'display', 'block' );
-			suggestionspinner.setSelection( 0 );
-
-			focusSuggestionDialog();
-		}
-	}
-
-	void closeSuggestionDialog()
-	{
-		if( isSuggestionVisible ) {
-			isSuggestionVisible = false;		
-			suggestionmodal.css( 'display', 'none' );
-		}
-	}
-
-	void focusSuggestionDialog()
-	{
-		suggestionmodal.getElementById( 'suggestion-connect' ).focus();
-	}
-
-	void onSuggestionDialogCancelClick( Element @self, Event @ev )
-	{
-		closeSuggestionDialog();
-		browseManually = true;
-	}
-	
-	void onSuggestionDialogConnectClick( Element @self, Event @ev )
-	{
-		closeSuggestionDialog();
-		game.exec( 'connect "' + cast<ElementFormControl>(suggestionspinner).value + '"\n' );
-	}
-	
-	void onSuggestionDialogKeydown( Element @self, Event @ev )
-	{
-		int phase = ev.getPhase();
-		eInputKey key = eInputKey(ev.getParameter( "key_identifier", 0 ));
-		if( phase == EVENT_PHASE_TARGET || phase == EVENT_PHASE_BUBBLE ) {
-			if( key == KI_ESCAPE ) {
-				onSuggestionDialogCancelClick( self, ev );
-			}
-		}
-	}
-	
-	void onSuggestionChange( Element @self, Event @ev )
-	{
-		if( @suggestionserverblock != null && @suggestionspinner != null ) {
-			formatSuggestionServerInfoBlock( suggestionserverblock, browserTableName + suggestionTableNameSuffix, suggestionspinner.getSelection() );
-		}
+		isGridHidden = false;			
 	}
 
 	bool onJoinThink()
@@ -312,16 +168,6 @@
 			updateBrowserVisibility();
 		}
 
-		if( !isUpdating && !browseManually && !isStopped ) {
-			openSuggestionDialog();
-		}
-		else {
-			if( isUpdating || browseManually ) {
-				closeSuggestionDialog();
-			}
-		}
-
-		// browseManually
 		// keep the button title updated
 		return updateRefreshTitle();
 	}
@@ -334,59 +180,7 @@
 			return;
 		}
 
-		progresscounter.setInnerRML( '' + browserDataSource.numRows( browserTableName ) );
-	}
-
-	void formatSuggestionServerInfoBlock( Element @el, const String &in table, int sel )
-	{
-		const String gametype = browserDataSource.getField( table, sel, 'gametype' );
-		int gtIdx = gametypesDataSource.findRow( gametypesTableName, 'name', gametype );
-
-		String titleRML = '';
-		if( gtIdx >= 0 ) {
-			titleRML = '<h3>' + StringUtils::Format( _T( '%s' ), gametypesDataSource.getField( gametypesTableName, gtIdx, 'title' ) ) + '</h3>';
-		}
-		else {
-			titleRML = '<h3>' + StringUtils::Format( _T( '%s' ), gametype ) + '</h3>';
-		}
-		
-		String levelshotRML = '';	
-		levelshotRML = '<levelshot src="' + browserDataSource.getField( table, sel, 'map' ) + '" />';
-		
-		String infoRML = '';
-		infoRML += '<field formatter="colorcode" value="' + browserDataSource.getField( table, sel, 'hostname' ) + '" />';
-
-		// mapname
-		infoRML += '<br/>' + StringUtils::Format( _T( 'Map: %s' ), browserDataSource.getField( table, sel, 'map' ) );
-
-		// players
-		infoRML += '; ' + StringUtils::Format( _T( 'Players: %s' ), browserDataSource.getField( table, sel, 'players' ) );
-
-		// bots
-		const String @bots = browserDataSource.getField( table, sel, 'bots' );
-		if ( !bots.empty() && bots != '&nbsp;' && bots != '0' ) {
-			infoRML += '; ' + StringUtils::Format( _T( 'Bots: %s' ),  bots );
-		}
-
-		// mod directory
-		const String @mod = browserDataSource.getField( table, sel, 'mod' );
-		if ( !mod.empty() && mod != '&nbsp;' ) {
-			infoRML += '; ' + StringUtils::Format( _T( 'Mod: %s' ),  mod );
-		}
-
-		// ping
-		infoRML += '; ' + StringUtils::Format( _T( 'Ping: %s' ),  browserDataSource.getField( table, sel, 'ping' ) );
-
-		if( gtIdx >= 0 ) {
-			String gtDescription = gametypesDataSource.getField( gametypesTableName, gtIdx, 'description' );
-			if( !gtDescription.empty() ) {
-				infoRML += '<br/><field class="description" formatter="colorcode" value="' + gtDescription + '" />';
-			}
-		}
-
-		infoRML = '<div>' + infoRML + '</div>';
-
-		el.css( 'display', 'block' ).setInnerRML( titleRML + levelshotRML + infoRML );
+		progresscounter.setInnerRML( '' + browserDataSource.numRows( 'normal' ) );
 	}
 
 	void formatServerInfoBlock( Element @el, const String &in table, int sel )
@@ -452,31 +246,16 @@
 			return;
 		}
 
-		if( selectedCol == 0 ) {
-			// clicked on star icon
-			bool removed = ! toggleFavoriteOnSelectedServer();
-			if( removed && browserTableName == 'favorites' ) {
-				// the server has just been removed from favorites
-				// stop right here
-				return;
-			}
-		}
-
 		connectbtn.css( 'display', 'inline-block' );
 		favoritebtn.css( 'display', 'inline-block' );
 
-		bool isFavorite = browserDataSource.getField( browserTableName, selectedRow, 'favorite' ) == 'yes';
+		bool isFavorite = browserDataSource.getField( 'normal', selectedRow, 'favorite' ) == 'yes';
 		if( isFavorite )
 			favoritebtn.setInnerRML( 'Remove from favorites' );
 		else
 			favoritebtn.setInnerRML( 'Add to favorites' );
 
-		bool isTV = ( browserTableName == 'tv' );
-		if( isTV ) {
-			return;
-		}
-		
-		formatServerInfoBlock( @serverblock, browserTableName, selectedRow );
+		formatServerInfoBlock( @serverblock, 'normal', selectedRow );
 	}
 	
 	void onServerBrowserRowChange( Element @self, Event @ev )
@@ -502,7 +281,7 @@
 			Element @row = grid.getRow( rowIndex );
 
 			// we only track whether the server has been (un)bookmarked
-			bool isFavorite = browserDataSource.getField( browserTableName, rowIndex, 'favorite' ) == 'yes';
+			bool isFavorite = browserDataSource.getField( 'normal', rowIndex, 'favorite' ) == 'yes';
 
 			if( rowIndex == selectedRowIndex ) {
 				// update the button
@@ -567,7 +346,7 @@
 			int selectedRow = prop.toInt();
 			if( selectedRow >= 0 )
 			{
-				String address = browserDataSource.getField( browserTableName, selectedRow, 'address' );
+				String address = browserDataSource.getField( 'normal', selectedRow, 'address' );
 				if( address.empty() ) {
 					return;
 				}
@@ -594,8 +373,8 @@
 		if( prop != '' ) {
 			int selectedRow = prop.toInt();
 			if( selectedRow >= 0 ) {
-				address = browserDataSource.getField( browserTableName, selectedRow, 'address' );
-				isFavorite = browserDataSource.getField( browserTableName, selectedRow, 'favorite' ) == 'yes';
+				address = browserDataSource.getField( 'normal', selectedRow, 'address' );
+				isFavorite = browserDataSource.getField( 'normal', selectedRow, 'favorite' ) == 'yes';
 			}
 		}
 
@@ -608,12 +387,6 @@
 		else
 			Favorites::remove( address );
 
-		if( browserTableName == 'favorites' ) {
-			serverblock.css( 'display', 'none' );
-			connectbtn.css( 'display', 'none' );
-			favoritebtn.css( 'display', 'none' );
-		}
-
 		return add;
 	}
 
@@ -625,47 +398,10 @@
 	</script>
 </head>
 <body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide">
-	<div id="suggestion-modal" class="modal-block-abs" onkeydown="$onSuggestionDialogKeydown">
-		<div class="modal-block-rel">
-			<div class="modal-frame">
-				<div id="suggestion-contentflow" class="modal-contentflow">
-					<h3>Suggested servers</h3>
-					<div class="dropshadow">
-					<div class="left-arrow" onclick="suggestionspinner.spin(-1);"/>
-					<div class="right-arrow" onclick="suggestionspinner.spin(+1);"/>
-					<dataselect id="suggestion-spinner" source="" fields="cleanname" valuefield="address" disabled="1" onchange="$onSuggestionChange" />
-					<div id="suggestion-serverblock" class="infoblock" />
-					</div>
-				</div>
-
-				<div id="suggestion-controls" class="modal-controls">
-					<button class="button-apply" id="suggestion-connect" onclick="$onSuggestionDialogConnectClick">Connect</button><br/>
-					<button class="button-cancel" onclick="$onSuggestionDialogCancelClick">Close</button>						
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- divide the screen to two vertical contexts -->	
 	<div id="leftside">
-		<div id="navibar">
-			<a href="game_join.rml?servers=normal" id="link-normal">Normal weapons</a>
-			<a href="game_join.rml?servers=instagib" id="link-instagib">Instagib</a>
-			<a href="game_join.rml?servers=race" id="link-race">Race</a>
-			<a href="game_join.rml?servers=tv" id="link-tv">TV</a>
-			<a href="game_join.rml?servers=favorites" id="link-favorites">Favorites</a>
-		</div>
 		<div id="serverbrowser-container" class="dropshadow">
 			<div id="serverbrowser_frame">
-				<div id="serverbrowser-manual-container">
-					<span id="in-progress-counter"></span>
-					<img id="in-progress-spinner" src="/ui/baseui/gfx/loader_simple" />
-					<br/>
-					<span id="in-progress-title">Searching for game servers...</span>
-					<br/>
-					<button onClick="$onBrowseManuallyClick">Browse servers manually</button>
-				</div>
-				
 				<datagrid id="serverbrowser_datagrid" 
 					onrowadd="$onServerBrowserRowAdd" 
 					onrowselect="$onServerBrowserRowSelect" 
