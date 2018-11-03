@@ -19,7 +19,7 @@ bombSiteSprite2_Template
 
     {
         clampmap gfx/bomb/radar_$1.tga
-		alphagen wave distanceramp 0 0.6 1600 2400
+		alphagen wave distanceramp 0 0.6 800 1600
 		blendFunc blend
 		rgbgen vertex
     }
