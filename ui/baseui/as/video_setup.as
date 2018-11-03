@@ -31,9 +31,6 @@ class VideoSetup
 	// whether video mode-related options should be shown
 	bool showVideoFrame;
 	
-	// video profile
-	Cvar ui_video_profile( "ui_video_profile", "medium", CVAR_ARCHIVE );
-	
 	// video mode
 	Cvar vid_width( "vid_width", "0", 0 );
 	Cvar vid_height( "vid_height", "0", 0 );
@@ -67,7 +64,6 @@ class VideoSetup
 	Cvar r_sRGB( "r_sRGB", "1", 0 );
 	
 	// ids
-	String idProfile;
 	String idVideoFrame;
 	String idMode;
 	String idModeFrame;
@@ -86,7 +82,6 @@ class VideoSetup
 	String idsRGBFrame;
 
 	VideoSetup( Element @elem, 
-				const String &idProfile,
 				const String &idVideoFrame,
 				const String &idMode, const String &idModeFrame,
 				const String &idFullscreenFrame, const String &idBorderlessFrame, const String &idVsyncFrame,
@@ -99,7 +94,6 @@ class VideoSetup
 				const String &idSoftParticlesFrame,
 				const String &idsRGBFrame )
 	{
-		this.idProfile = idProfile;
 		this.idVideoFrame = idVideoFrame;
 		this.idMode = idMode;
 		this.idModeFrame = idModeFrame;
@@ -157,7 +151,6 @@ class VideoSetup
 		}
 
 		// reset elements
-		SelectGraphicsProfile( @elem, true );
 		Reset( @elem );
 	}
 
@@ -310,30 +303,6 @@ class VideoSetup
 			Element @frame = elem.getElementById( idSoftParticlesFrame );
 			if ( @frame != null )
 				frame.css( 'display', 'none' );
-		}
-	}
-
-	void SelectGraphicsProfile( Element @elem, bool reset )
-	{
-		ElementFormControl @profile = elem.getElementById( idProfile );
-		
-		if( @profile == null )
-			return;
-		
-		String gfx;
-		
-		if( reset )
-		{
-			gfx = ui_video_profile.string;
-			profile.value = gfx;
-		}
-		else
-		{
-			gfx = profile.value;
-			game.execAppend( "exec profiles/" + gfx + "\n" );
-			ui_video_profile.set( gfx );
-
-			allowVidRestart = false;
 		}
 	}
 

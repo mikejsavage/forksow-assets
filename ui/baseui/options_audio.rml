@@ -20,12 +20,6 @@
 				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
 			}
 
-			@bar = body.getElementById( 'music-volume' );
-			@txt = body.getElementById( 'music-volume-txt' );	
-			if( @bar != null && @txt != null ) {
-				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
-			}
-
 			@bar = body.getElementById( 'player-volume' );
 			@txt = body.getElementById( 'player-volume-txt' );	
 			if( @bar != null && @txt != null ) {
@@ -63,17 +57,6 @@
 		{
 			ElementFormControl @bar = elem;
 			Element @txt = elem.getElementById( 'sound-volume-txt' );	
-
-			if( @bar == null || @txt == null )
-				return;
-
-			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
-		}
-
-		void onMusicChange( Element @elem, Event @ev )
-		{
-			ElementFormControl @bar = elem;
-			Element @txt = elem.getElementById( 'music-volume-txt' );	
 
 			if( @bar == null || @txt == null )
 				return;
@@ -160,20 +143,11 @@
 				
 				-->
 				
-				<div class="title">Sound volume</div>
+				<div class="title">Master volume</div>
 				<input id="sound-volume" cvar="s_volume" class="slider" type="range" min="0" max="1.0" step="0.05" value="0.7" realtime="1" onchange="$onVolumeChange"/>
 				<div id="sound-volume-txt" class="slider-value"></div>
 				<br />
 				
-				<div class="title">Music volume</div>
-				<input id="music-volume" cvar="s_musicvolume" class="slider" type="range" min="0" max="1.0" step="0.05" value="0.25" realtime="1" onchange="$onMusicChange"/>
-				<div id="music-volume-txt" class="slider-value"></div>
-				<br />
-				
-				<br/>			
-				<hr class="nicehr" />
-				<br/>					
-
 				<div class="title">Players volume</div>
 				<input id="player-volume" cvar="cg_volume_players" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onPlayerVolChange"/>
 				<div id="player-volume-txt" class="slider-value"></div>
@@ -224,7 +198,6 @@
 		<div id="sidebar2">
 			<!-- options navigation -->
 			<a href="#" onclick="animOpenMenu('options_player.rml');">Player</a>
-			<a href="#" onclick="animOpenMenu('options_teams.rml');">Teams</a>
 			<a href="#" onclick="animOpenMenu('options_video.rml');">Video</a>
 			<a href="#" onclick="animOpenMenu('options_audio.rml');">Audio</a>
 			<a href="#" onclick="animOpenMenu('options_input.rml');">Input</a>

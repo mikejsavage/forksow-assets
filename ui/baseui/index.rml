@@ -87,7 +87,6 @@
 			Element @friends_container = body.getElementById( 'friends_container' );
 			news_container.css( 'height',
 				( content.clientHeight() 
-				- body.getElementById( 'profile_container' ).clientHeight()
 				- int( content.resolveProp( 'padding-top', content.clientHeight() ) )
 				) + 'px'
 			)
@@ -116,7 +115,6 @@
 			array<const String @> precaches = { 
 				'options.rml',
 				'options_player.rml',
-				'options_teams.rml',
 				'options_video.rml',
 				'options_input.rml',
 				'options_audio.rml',
@@ -166,7 +164,7 @@
 </head>
 <body template="baseui" onload="$onHomeLoad" onshow="$onHomeShow" onfirstrender="$onHomeFirstRender" onregisterworldmodel="$onHomeRegisterWorldModel">
 
-<iframe id="profile_container" src="profile.rml" />
+<h1>Aha cheers</h1>
 
 <hr class="w100p nicehr" id="nicehr" />
 

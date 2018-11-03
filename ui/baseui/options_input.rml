@@ -25,29 +25,10 @@
 			if( requireInputDeviceForElement( body, 'mouse-form', IN_DEVICE_MOUSE ) ) {
 				lasthr = 'mouse-hr';
 			}
-			if( requireInputDeviceForElement( body, 'touch-form', IN_DEVICE_TOUCHSCREEN ) ) {
-				lasthr = 'touch-hr';
-			}
-			if( requireInputDeviceForElement( body, 'joy-form', IN_DEVICE_JOYSTICK ) ) {
-				lasthr = 'joy-hr';
-			}
 			if( !lasthr.empty() ) {
 				Element @hr = body.getElementById( lasthr );
 				if( @hr != null ) {
 					hr.css( 'display', 'none' );
-				}
-			}
-
-			ElementTabSet @tabset = body.getElementById( 'binds-tabset' );
-			if( @tabset != null ) {
-				if( ( window.supportedInputDevices & IN_DEVICE_KEYBOARD ) != 0 || ( window.supportedInputDevices & IN_DEVICE_JOYSTICK ) == 0 ) {
-					tabset.removeTab( 5 );
-				}
-				if( ( window.supportedInputDevices & IN_DEVICE_KEYBOARD ) == 0 ) {
-					tabset.removeTab( 4 );
-					tabset.removeTab( 3 );
-					tabset.removeTab( 2 );
-					tabset.removeTab( 1 );
 				}
 			}
 		}
@@ -165,63 +146,6 @@
 									<br/>
 								</div>
 							</div>
-
-							<div id="touch-form">
-								<div class="title">Touch look sensitivity</div>
-								<input id="touch-looksens" cvar="cg_touch_lookSens" type="range" min="6" max="12" step="0.1" value="9" realtime="1"/>
-								<br/>
-
-								<div class="title">Touch look deceleration</div>
-								<input id="touch-lookdecel" cvar="cg_touch_lookDecel" type="range" min="7" max="10" step="0.1" value="8.5" realtime="1"/>
-								<br/>
-
-								<div class="title checkbox_opt">Invert touch look</div>
-								<input id="touch-invert" cvar="cg_touch_lookInvert" type="checkbox" realtime="1"/>
-								<br/>
-
-								<div class="title">Touch controls size</div>
-								<input id="touch-scale" cvar="cg_touch_scale" type="range" min="85" max="115" step="1" value="100" realtime="1"/>
-								<br/>
-
-								<div class="title">Flip touch controls</div>
-								<input id="touch-flip" cvar="cg_touch_flip" type="checkbox" realtime="1"/>
-								<br/>
-
-								<div id="touch-hr">
-									<br/>
-									<hr class="nicehr" />
-									<br/>
-								</div>
-							</div>
-
-							<div id="joy-form">
-								<div class="title">Horizontal stick sensitivity</div>
-								<input id="joy-yawspeed" cvar="cg_gamepad_yawSpeed" type="range" min="150" max="350" step="10" value="260" realtime="1"/>
-								<br/>
-
-								<div class="title">Vertical stick sensitivity</div>
-								<input id="joy-pitchspeed" cvar="cg_gamepad_pitchSpeed" type="range" min="150" max="350" step="10" value="240" realtime="1"/>
-								<br/>
-
-								<div class="title">Gamepad look acceleration</div>
-								<input id="joy-accel" cvar="cg_gamepad_accelMax" type="range" min="0" max="4" step="0.5" value="2" realtime="1"/>
-								<br/>
-
-								<div class="title checkbox_opt">Invert gamepad look</div>
-								<input id="joy-invert" cvar="cg_gamepad_pitchInvert" type="checkbox" realtime="1"/>
-								<br/>
-
-								<div class="title checkbox_opt">Swap gamepad sticks</div>
-								<input id="joy-swap" cvar="cg_gamepad_swapSticks" type="checkbox" realtime="1"/>
-								<br/>
-
-								<div id="joy-hr">
-									<br/>
-									<hr class="nicehr" />
-									<br/>
-								</div>
-							</div>
-
 						</optionsform>
 					</div>				
 				</panel>
@@ -375,26 +299,6 @@
 						<div class="title"><t>Instagun</t> (IG)</div>
 						<keyselect bind="use Instagun"/>
 						<br />
-						
-						<br/>			
-						<hr class="nicehr" />
-						<br/>
-
-						<div class="title"><t>Gunblade</t> / <t>Machinegun</t></div>
-						<keyselect bind="weapcross 1"/>
-						<br />
-
-						<div class="title"><t>Riotgun</t> / <t>Grenade Launcher</t></div>
-						<keyselect bind="weapcross 2"/>
-						<br />
-
-						<div class="title"><t>Rocket Launcher</t> / <t>Plasmagun</t></div>
-						<keyselect bind="weapcross 3"/>
-						<br />
-
-						<div class="title"><t>Lasergun</t> / <t>Electrobolt</t></div>
-						<keyselect bind="weapcross 4"/>
-						<br />
 					</div>
 				</panel>
 				<tab>Voice chat</tab>
@@ -525,75 +429,6 @@
 						<br/>		
 					</div>				
 				</panel>
-				<!-- Shorter menu for gamepad-only systems -->
-				<tab>Actions</tab>
-				<panel class="dropshadow">
-					<div class="keys">
-						<div class="title">Up / jump</div>
-						<keyselect bind="+moveup"/>
-						<br />
-
-						<div class="title">Down / crouch</div>
-						<keyselect bind="+movedown"/>
-						<br />
-
-						<div class="title">Dash / walljump</div>
-						<keyselect bind="+special"/>
-						<br />
-
-						<br/>
-						<hr class="nicehr" />
-						<br/>
-
-						<div class="title">Attack</div>
-						<keyselect bind="+attack"/>
-						<br />
-
-						<div class="title">Zoom</div>
-						<keyselect bind="+zoom"/>
-						<br />
-
-						<div class="title"><t>Gunblade</t> / <t>Machinegun</t></div>
-						<keyselect bind="weapcross 1"/>
-						<br />
-
-						<div class="title"><t>Riotgun</t> / <t>Grenade Launcher</t></div>
-						<keyselect bind="weapcross 2"/>
-						<br />
-
-						<div class="title"><t>Rocket Launcher</t> / <t>Plasmagun</t></div>
-						<keyselect bind="weapcross 3"/>
-						<br />
-
-						<div class="title"><t>Lasergun</t> / <t>Electrobolt</t></div>
-						<keyselect bind="weapcross 4"/>
-						<br />
-
-						<div class="title">Drop weapon</div>
-						<keyselect bind="drop fullweapon"/>
-						<br />
-
-						<br/>
-						<hr class="nicehr" />
-						<br/>
-
-						<div class="title">Class action 1</div>
-						<keyselect bind="classaction1"/>
-						<br />
-
-						<div class="title">Class action 2</div>
-						<keyselect bind="classaction2"/>
-						<br />
-
-						<div class="title">Drop flag</div>
-						<keyselect bind="drop flag"/>
-						<br />
-
-						<div class="title">Scoreboard</div>
-						<keyselect bind="+scores"/>
-						<br />
-					</div>
-				</panel>
 			</tabset>
 		</div>
 		
@@ -604,7 +439,6 @@
 		<div id="sidebar2">
 			<!-- options navigation -->
 			<a href="#" onclick="animOpenMenu('options_player.rml');">Player</a>
-			<a href="#" onclick="animOpenMenu('options_teams.rml');">Teams</a>
 			<a href="#" onclick="animOpenMenu('options_video.rml');">Video</a>
 			<a href="#" onclick="animOpenMenu('options_audio.rml');">Audio</a>
 			<a href="#" onclick="animOpenMenu('options_input.rml');">Input</a>

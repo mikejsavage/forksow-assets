@@ -8,7 +8,6 @@
 	<script src="as/base.as" />
 	<script src="as/popup.as" />
 	<script src="as/animations.as" />
-	<script src="as/tutorial.as" />
 	<script>
 		/* navigation panel */
 		Element @navi = null;
@@ -152,22 +151,6 @@
 		{
 			game.execAppend( "quit\n" );
 		}
-
-		void openTutorialDialog( Element @self, Event @ev )
-		{
-			Element @body = @window.document.body;
-			Element @game_link = body.getElementById( 'link_game' );
-			if( @game_link != null ) {
-				bool link_active = game_link.getAttr( 'current', '0' ).toInt() != 0;
-				if( link_active ) {
-					return;
-				}
-			}
-
-			Tutorial::OpenModal1();
-
-			window.location = 'game_join.rml';
-		}
 	</script>
 </head>
 <!-- ch : onshow and onhide dont work in template, you have to explicitly define them in each page using template :( -->
@@ -191,7 +174,7 @@
 	<!-- Main navigation bar -->
 	<div id="navi">
 		<a href="index.rml" id="link_profile">Home</a>	
-		<a href="#" id="link_game" onclick="$openTutorialDialog">New Game</a>		
+		<a href="game_join.rml" id="link_game" onclick="$openTutorialDialog">New Game</a>		
 		<a href="options.rml" id="link_options">Options</a>
 		<a href="#" id="link_quit" onclick="OpenQuitDialog();">Quit</a>
 	</div>

@@ -190,7 +190,6 @@
 			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
 			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
 			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
-			<a href="#" onclick="Tutorial::OpenModal2();">Gameplay tutorial</a>
 
 			<hr class="nicehr" />
 			

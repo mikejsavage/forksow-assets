@@ -14,7 +14,6 @@
 
 			// setup class
 			VideoSetup setup( @body,
-				"graphics-profile",
 				"video-frame",
 				"mode", "mode-frame",
 				"fullscreen-frame", "borderless-frame", "vsync-frame",
@@ -138,44 +137,6 @@
 					<br/>
 				</div>
 
-				<div class="title">Graphics profile</div>
-				<dataselect id="graphics-profile" source="profiles.list" fields="name" onchange="video.SelectGraphicsProfile(self,false);"/>				
-				<br/>
-
-				<br/>
-				<hr class="nicehr" />
-				<br/>
-
-				<div id="picmip-frame">
-					<div class="title">Texture quality</div>
-					<input id="picmip" class="slider" type="range" min="0" max="3" step="1" value="0"/>
-					<br/>
-				</div>
-
-				<div class="title">Lighting quality</div>
-				<select id="lighting">
-					<option value="0">vertex lighting</option>
-					<option value="1">lightmaps</option>
-					<option value="2">per-pixel lighting</option>
-				</select>
-				<br/>
-
-				<div class="title">Dynamic lights</div>
-				<select cvar="r_dynamiclight" id="dynamiclight">
-					<option value="0">off</option>
-					<option value="2">simple lights</option>
-					<option value="1">per-pixel lights</option>
-				</select>
-				<br/>
-
-				<div class="title">Shadows</div>
-				<select cvar="cg_shadows" id="shadows">
-					<option value="0">off</option>
-					<option value="1">simple shadows</option>
-					<option value="2">shadowmaps</option>					
-				</select>
-				<br/>
-
 				<div id="filtering-frame">
 					<div class="title">Anisotropic filtering</div>
 					<select id="filtering" >
@@ -202,18 +163,7 @@
 					<div class="title">High Dynamic Range</div>
 					<input cvar="r_hdr" type="checkbox" class="checkbox"/>
 					<br/>
-					<div class="title">Bloom</div>
-					<input cvar="r_bloom" type="checkbox" class="checkbox"/>
-					<br/>
 				</div>
-
-				<div class="title">Greyscale lighting</div>
-				<input cvar="r_lighting_grayscale" type="checkbox" class="checkbox"/>
-				<br/>
-
-				<div class="title">Use solid colors for world</div>
-				<input cvar="r_drawflat" type="checkbox" class="checkbox"/>
-				<br/>
 
 				<br/>
 
@@ -229,7 +179,6 @@
 		<div id="sidebar2">
 			<!-- options navigation -->
 			<a href="#" onclick="animOpenMenu('options_player.rml');">Player</a>
-			<a href="#" onclick="animOpenMenu('options_teams.rml');">Teams</a>
 			<a href="#" onclick="animOpenMenu('options_video.rml');">Video</a>
 			<a href="#" onclick="animOpenMenu('options_audio.rml');">Audio</a>
 			<a href="#" onclick="animOpenMenu('options_input.rml');">Input</a>
