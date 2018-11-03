@@ -171,22 +171,6 @@ a:hover, a:focus {
 	background: red;
 }
 
-/* Console icon */
-#console {
-	position: fixed;
-	top: 20dp;
-	width: 100%;
-	height: 32dp;
-	z-index: 2;
-}
-
-#link_console { 
-	float: right;
-	width: 32dp;
-	height: 32dp;
-	margin-right: 4dp;
-}
-
 /** Left side container */
 #leftside {
 	float: left;

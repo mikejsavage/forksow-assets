@@ -124,10 +124,6 @@
 				<dataselect cvar="g_gametype" source="gametypes_source.gametypes" fields="title" valuefield="name"></dataselect>
 				<br />
 
-				<div class="title">Instagib</div> 
-				<input cvar="g_instagib" type="checkbox" class="checkbox"/>
-				<br />
-
 				<div class="title">Public server</div>
 				<input cvar="sv_public"  type="checkbox" class="checkbox"/>
 				<br />
@@ -147,23 +143,6 @@
 				<div class="title"><t>Time limit</t> (<t>min.</t>)</div>
 				<input cvar="g_timelimit" class="short text" type="text" />
 				<br />
-
-				<br />
-				<hr class="nicehr" />
-				<br/>
-
-				<div class="title">Bot skill level</div>
-			
-				<select cvar="sv_skilllevel" name="bot">
-					<option value="0">easy</option>
-					<option value="1" selected>medium</option>
-					<option value="2">hard</option>
-				</select>
-				<br/>
-			
-				<div class="title">Number of bots</div>
-				<input cvar="g_numbots" class="short text" type="text" />
-				<br />			
 
 				<br />
 				<hr class="nicehr" />
