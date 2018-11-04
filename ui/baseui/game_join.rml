@@ -437,9 +437,6 @@
 			<br/>
 			<hr class="nicehr" />
 
-			<a href="#" onclick="animOpenMenu('options_player.rml?tab=3');">Options</a>
-			<br/>
-
 			<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
 			<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>
 			<button id="favorite-btn" onClick="$onFavoriteButtonClick">Add to favorites</button>
