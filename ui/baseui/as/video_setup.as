@@ -19,7 +19,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 
 /*
-	This class provides to manage some cvars into the 
+	This class provides to manage some cvars into the
 	Graphics section.
  */
 
@@ -30,39 +30,33 @@ class VideoSetup
 
 	// whether video mode-related options should be shown
 	bool showVideoFrame;
-	
+
 	// video mode
 	Cvar vid_width( "vid_width", "0", 0 );
 	Cvar vid_height( "vid_height", "0", 0 );
+	Cvar vid_vsync( "vid_vsync", "0", 0 );
 
-	// vertical sync
-	Cvar r_swapinterval_min( "r_swapinterval_min", "0", 0 );
-	
 	// multithreading
-	Cvar r_multithreading( "r_multithreading", "1", 0 );
-	
+	Cvar r_multithreading( "r_multithreading", "0", 0 );
+
 	// renderer maxfps
 	Cvar r_maxfps( "r_maxfps", "250", 0 );
-	
-	// quality of textures
-	Cvar r_picmip( "r_picmip", "0", 0 );
-	
+
+	// msaa
+	Cvar r_samples( "r_samples", "0", 0 );
+
 	// filtering
 	Cvar r_texturefilter( "r_texturefilter", "4", 0 ); // 0==1, 2, 4, .. values
-	Cvar r_texturefilter_max( "r_texturefilter_max", "0", 0 );		
-	Cvar r_soft_particles_available( "r_soft_particles_available", "0", 0 );		
-	
+	Cvar r_texturefilter_max( "r_texturefilter_max", "0", 0 );
+
 	// lighting
 	Cvar r_lighting_vertexlight( "r_lighting_vertexlight", "0", 0 );
 	Cvar r_lighting_deluxemapping( "r_lighting_deluxemapping", "1", 0 );
 	Cvar ui_lighting( "ui_lighting", "2", 0 ); // used to store index of selector
-	
+
 	// shadows
 	Cvar cg_shadows( "cg_shadows", "1", CVAR_ARCHIVE );
-	
-	// sRGB
-	Cvar r_sRGB( "r_sRGB", "1", 0 );
-	
+
 	// ids
 	String idVideoFrame;
 	String idMode;
@@ -73,26 +67,23 @@ class VideoSetup
 	String idRMaxFpsFrame;
 	String idClMaxFpsFrame;
 	String idGammaFrame;
-	String idPicmip;
-	String idPicmipFrame;
+	String idMsaa;
+	String idMsaaFrame;
 	String idFiltering;
 	String idFilteringFrame;
 	String idLighting;
 	String idSoftParticlesFrame;
-	String idsRGBFrame;
 
-	VideoSetup( Element @elem, 
+	VideoSetup( Element @elem,
 				const String &idVideoFrame,
 				const String &idMode, const String &idModeFrame,
-				const String &idFullscreenFrame, const String &idBorderlessFrame, const String &idVsyncFrame,
+				const String &idFullscreenFrame, const String &idBorderlessFrame,
 				const String &idRMaxFpsFrame, const String &idClMaxFpsFrame,
 				const String &idGammaFrame,
-				const String &idPicmip, const String &idPicmipFrame,
-				const String &idFiltering,
-				const String &idFilteringFrame,
+				const String &idMsaa, const String &idMsaaFrame,
+				const String &idFiltering, const String &idFilteringFrame,
 				const String &idLighting,
-				const String &idSoftParticlesFrame,
-				const String &idsRGBFrame )
+				const String &idSoftParticlesFrame )
 	{
 		this.idVideoFrame = idVideoFrame;
 		this.idMode = idMode;
@@ -103,13 +94,12 @@ class VideoSetup
 		this.idRMaxFpsFrame = idRMaxFpsFrame;
 		this.idClMaxFpsFrame = idClMaxFpsFrame;
 		this.idGammaFrame = idGammaFrame;
-		this.idPicmip = idPicmip;
-		this.idPicmipFrame = idPicmipFrame;
+		this.idMsaa = idMsaa;
+		this.idMsaaFrame = idMsaaFrame;
 		this.idFiltering = idFiltering;
 		this.idFilteringFrame = idFilteringFrame;
 		this.idLighting = idLighting;
 		this.idSoftParticlesFrame = idSoftParticlesFrame;
-		this.idsRGBFrame = idsRGBFrame;
 
 		// We only have 3 choices in lightning listbox:
 		// vertex lighting: lighting_vertexlight = 1, lighting_deluxemapping = 0
@@ -126,22 +116,19 @@ class VideoSetup
 
 		Initialize( @elem );
 	}
-	
+
 	~VideoSetup()
 	{
 	}
-	
+
 	void Initialize( Element @elem )
 	{
 		showVideoFrame = false;
 
 		PopulateModeSelector( @elem );
+		PopulateMsaaSelector( @elem );
 		PopulateFilteringSelector( @elem );
 		CheckFullscreenAvailability( @elem );
-		CheckVsyncAvailability( @elem );
-		CheckMultiThreadingAvailability( @elem );
-		CheckGammaAvailability( @elem );
-		CheckSoftParticlesAvailability( @elem );
 
 		if( !showVideoFrame ) // all video options are hidden, so hide the separator as well
 		{
@@ -185,19 +172,42 @@ class VideoSetup
 		}
 	}
 
+	void PopulateMsaaSelector( Element @elem )
+	{
+		Element @selector = elem.getElementById( idMsaa );
+
+		if( @selector == null )
+			return;
+
+		int max = 16;
+
+		String rml = '<option value="1">off</option>';
+		for( int i = 2; i <= max; i*=2 )
+			rml += '<option value="'+i+'">'+i+'x</option>';
+
+		selector.setInnerRML( rml );
+
+		if( max <= 1 )
+		{
+			Element @frame = elem.getElementById( idMsaaFrame );
+			if( @frame != null )
+				frame.css( 'display', 'none' );
+		}
+	}
+
 	void PopulateFilteringSelector( Element @elem )
 	{
 		Element @selector = elem.getElementById( idFiltering );
-		
+
 		if( @selector == null )
 			return;
-			
+
 		int max = r_texturefilter_max.integer;
 
 		String rml = '<option value="1">off</option>';
 		for( int i = 2; i <= max; i*=2 )
 			rml += '<option value="'+i+'">'+i+'x</option>';
-			
+
 		selector.setInnerRML( rml );
 
 		if( max <= 1 )
@@ -212,95 +222,12 @@ class VideoSetup
 	{
 		Element @frame;
 		bool hideBorderless = false;
-	
-		if( window.osName == 'Android' )
-		{
-			@frame = elem.getElementById( idFullscreenFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-			
-			hideBorderless = true;
-		}
-		else
-		{
-			bool fs = Cvar( 'vid_fullscreen', '1', ::CVAR_ARCHIVE ).boolean;
-			hideBorderless = fs;
-			showVideoFrame = true;
-		}
-		
+
+		bool fs = Cvar( 'vid_fullscreen', '1', ::CVAR_ARCHIVE ).boolean;
+		hideBorderless = fs;
+
 		if ( hideBorderless ) {
 			@frame = elem.getElementById( idBorderlessFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-		}
-	}
-
-	void CheckVsyncAvailability( Element @elem )
-	{
-		if( r_swapinterval_min.integer != 0 )
-		{
-			Element @frame = elem.getElementById( idVsyncFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-		}
-		else
-		{
-			showVideoFrame = true;
-		}
-	}
-	
-	void CheckMultiThreadingAvailability( Element @elem )
-	{
-		Element @frame;
-
-		if( r_swapinterval_min.integer != 0 )
-		{
-			@frame = elem.getElementById( idClMaxFpsFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-
-			@frame = elem.getElementById( idRMaxFpsFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-		}
-		else
-		{
-			showVideoFrame = true;
-
-			if( r_multithreading.integer != 0 )
-			{
-				@frame = elem.getElementById( idClMaxFpsFrame );
-				if ( @frame != null )
-					frame.css( 'display', 'none' );
-			}
-			else
-			{
-				@frame = elem.getElementById( idRMaxFpsFrame );
-				if ( @frame != null )
-					frame.css( 'display', 'none' );
-			}
-		}
-	}
-	
-	void CheckGammaAvailability( Element @elem )
-	{
-		if( window.osName == 'Android' )
-		{
-			Element @frame = elem.getElementById( idGammaFrame );
-			if ( @frame != null )
-				frame.css( 'display', 'none' );
-		}
-		else
-		{
-			showVideoFrame = true;
-		}
-	}
-
-	void CheckSoftParticlesAvailability( Element @elem )
-	{
-		if( r_soft_particles_available.integer == 0 )
-		{
-			Element @frame = elem.getElementById( idSoftParticlesFrame );
 			if ( @frame != null )
 				frame.css( 'display', 'none' );
 		}
@@ -327,38 +254,38 @@ class VideoSetup
 			Changed();
 		}
 	}
-	
-	void SetPicmip( Element @elem, bool reset )
+
+	void SetMsaa( Element @elem, bool reset )
 	{
-		Element @picmip_el = elem.getElementById( idPicmip );	
-		ElementFormControl @picmip = @picmip_el;
-		Element @picmip_frame = elem.getElementById( idPicmipFrame );
+		ElementFormControl @msaa = elem.getElementById( idMsaa );
 
-		if( @picmip == null )
+		if( @msaa == null )
 			return;
-
-		int maxvalue = picmip_el.getAttr( "max", "0" ).toInt();
 
 		if( reset )
 		{
-			if( @picmip_frame != null )
-				picmip_frame.css( 'display', ( r_picmip.integer <= maxvalue ) ? 'block' : 'none' );
-			picmip.value = String( maxvalue - r_picmip.integer );
+			int value = r_samples.integer;
+			int max = 16;
+			if( value > max )
+				value = max;
+			if( value < 1 )
+				value = 1;
+			msaa.value = String( value );
 		}
 		else
 		{
-			r_picmip.set( maxvalue - picmip.value.toInt() );
+			r_samples.set( msaa.value.toInt() );
 			Changed();
 		}
 	}
-	
+
 	void SetFiltering( Element @elem, bool reset )
 	{
 		ElementFormControl @filter = elem.getElementById( idFiltering );
-		
+
 		if( @filter == null )
 			return;
-	
+
 		if( reset )
 		{
 			int value = r_texturefilter.integer;
@@ -372,8 +299,8 @@ class VideoSetup
 		else
 		{
 			r_texturefilter.set( filter.value.toInt() );
-			Changed();		
-		}		
+			Changed();
+		}
 	}
 
 	void SetLighting( Element @elem, bool reset )
@@ -390,7 +317,7 @@ class VideoSetup
 		else
 		{
 			int value = slideLighting.value.toInt();
-			
+
 			switch( value )
 			{
 				case 0:
@@ -406,23 +333,10 @@ class VideoSetup
 					r_lighting_deluxemapping.set("1");
 					break;
 			}
-			
+
 			ui_lighting.set( value );
 			Changed();
 		}
-	}
-
-	void SetsRGB( Element @elem, bool reset )
-	{
-		Element @frame;
-		int hdr = Cvar( 'r_hdr', '1', ::CVAR_ARCHIVE ).integer;
-		int bloom = Cvar( 'r_bloom', '1', ::CVAR_ARCHIVE ).integer;
-		
-		if ( hdr == 1 or bloom == 1)
-			r_sRGB.set( 1 );
-		else 
-			r_sRGB.set( 0 );
-		Changed();
 	}
 
 	void Changed( void )
@@ -433,27 +347,23 @@ class VideoSetup
 	void Reset( Element @elem )
 	{
 		SetMode( @elem, true );
-		SetPicmip( @elem, true );
+		SetMsaa( @elem, true );
 		SetFiltering( @elem, true );
 		SetLighting( @elem, true );
-		SetsRGB ( @elem, true );
-		
+
 		// cvars are not changed
 		allowVidRestart = false;
 	}
-	
+
 	void Apply( Element @elem )
 	{
 		// apply changes if something changed
 		if( allowVidRestart )
 		{
 			SetMode( @elem, false );
-			SetPicmip( @elem, false );
+			SetMsaa( @elem, false );
 			SetFiltering( @elem, false );
 			SetLighting( @elem, false );
-			SetsRGB ( @elem, false );
-			
-			game.execAppend ( "vid_restart\n" );
 		}
 	}
 }

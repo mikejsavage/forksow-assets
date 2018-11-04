@@ -16,13 +16,13 @@
 			VideoSetup setup( @body,
 				"video-frame",
 				"mode", "mode-frame",
-				"fullscreen-frame", "borderless-frame", "vsync-frame",
+				"fullscreen-frame", "borderless-frame",
 				"r_maxfps-frame", "cl_maxfps-frame",
 				"gamma-frame",
-				"picmip", "picmip-frame",
+				"msaa", "msaa-frame",
 				"filtering", "filtering-frame",
 				"lighting",
-				"softparticles-frame", "srgb-frame" );
+				"softparticles-frame" );
 			video = setup;
 
 			@form = body.getElementById( "options-form" );
@@ -34,18 +34,18 @@
 			onTemplateShow( body, evt );
 			form.storeOptions();
 			animationsOnShow();
-			
+
 			ElementFormControl @bar = body.getElementById( 'gamma' );
-			Element @txt = body.getElementById( 'gamma-txt' );	
+			Element @txt = body.getElementById( 'gamma-txt' );
 			if( @bar != null && @txt != null ) {
 				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
 			}
 		}
-		
+
 		void onGammaChange( Element @elem, Event @ev )
 		{
 			ElementFormControl @bar = elem;
-			Element @txt = elem.getElementById( 'gamma-txt' );	
+			Element @txt = elem.getElementById( 'gamma-txt' );
 
 			if( @bar == null || @txt == null )
 				return;
@@ -62,9 +62,9 @@
 	</script>
 </head>
 <body template="baseui" onload="$onVideoLoad" onshow="$onVideoShow" onhide="$onVideoHide">
-	<!-- divide the screen to two vertical contexts -->	
+	<!-- divide the screen to two vertical contexts -->
 	<div id="leftside">
-		
+
 		<!-- video setup -->
 		<div id="video-options">
 			<optionsform id="options-form" onchange="video.Changed();">
@@ -96,7 +96,7 @@
 
 					<div id="vsync-frame">
 						<div class="title">Vertical sync</div>
-						<input cvar="r_swapinterval" type="checkbox" class="checkbox"/>
+						<input cvar="vid_vsync" type="checkbox" class="checkbox"/>
 						<br/>
 					</div>
 
@@ -115,7 +115,7 @@
 							<option value="500" selected>500</option>
 						</select>
 					</div>
-					
+
 					<div id="cl_maxfps-frame">
 						<div class="title">Framerate (FPS) limit</div>
 						<select cvar="cl_maxfps" realtime="1">
@@ -131,7 +131,7 @@
 							<option value="500" selected>500</option>
 						</select>
 					</div>
-					
+
 					<div id="gamma-frame">
 						<div class="title">Brightness</div>
 						<input id="gamma" cvar="r_gamma" class="slider" type="range" min="0.5" max="1.5" step="0.1" value="1.0" realtime="1" onchange="$onGammaChange"/>
@@ -144,6 +144,14 @@
 					<br/>
 				</div>
 
+				<div id="msaa-frame">
+					<div class="title">Antialiasing</div>
+					<select id="msaa" >
+						<!-- dynamically populated -->
+					</select>
+					<br/>
+				</div>
+
 				<div id="filtering-frame">
 					<div class="title">Anisotropic filtering</div>
 					<select id="filtering" >
@@ -152,29 +160,15 @@
 					<br/>
 				</div>
 
-				<div class="title">Fullscreen anti-aliasing</div>
-				<input cvar="r_fxaa" type="checkbox" class="checkbox"/>
-				<br/>
-
 				<div id="softparticles-frame">
 					<div class="title">Soft particles</div>
 					<input cvar="r_soft_particles" type="checkbox" class="checkbox"/>
 					<br/>
 				</div>
 
-				<div class="title">Color correction</div>
-				<input cvar="cg_colorCorrection" type="checkbox" class="checkbox"/>
-				<br/>
-		
-				<div id="srgb-frame">
-					<div class="title">High Dynamic Range</div>
-					<input cvar="r_hdr" type="checkbox" class="checkbox"/>
-					<br/>
-				</div>
-
 				<br/>
 
-				<button onclick="form.restoreOptions(); video.Reset(self);" class="button-cancel">Cancel</button>				
+				<button onclick="form.restoreOptions(); video.Reset(self);" class="button-cancel">Cancel</button>
 				<button onclick="form.applyOptions(); video.Apply(self);" class="button-apply">Save changes</button>
 			</optionsform>
 		</div>
