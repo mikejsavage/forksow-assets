@@ -69,6 +69,9 @@
 		<div id="video-options">
 			<optionsform id="options-form" onchange="video.Changed();">
 				<div id="video-frame">
+					<div>These don't update the UI, we are deleting this UI so I don't care</div>
+					<br/>
+
 					<div id="mode-frame">
 						<div class="title">Screen resolution</div>
 						<select id="mode"/>
@@ -86,6 +89,10 @@
 						<input cvar="vid_borderless" type="checkbox" class="checkbox"/>
 						<br/>
 					</div>
+
+					<br/>
+					<hr class="nicehr" />
+					<br/>
 
 					<div id="vsync-frame">
 						<div class="title">Vertical sync</div>
