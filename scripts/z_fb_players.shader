@@ -2,7 +2,6 @@ fullbright
 {
     nopicmip
     cull front
-    noDepthTest
    
     {
         map $whiteimage
