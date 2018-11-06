@@ -17,11 +17,8 @@
 				"video-frame",
 				"mode", "mode-frame",
 				"fullscreen-frame", "borderless-frame",
-				"r_maxfps-frame", "cl_maxfps-frame",
-				"gamma-frame",
 				"msaa", "msaa-frame",
 				"filtering", "filtering-frame",
-				"lighting",
 				"softparticles-frame" );
 			video = setup;
 
@@ -69,7 +66,7 @@
 		<div id="video-options">
 			<optionsform id="options-form" onchange="video.Changed();">
 				<div id="video-frame">
-					<div>These don't update the UI, we are deleting this UI so I don't care</div>
+					<div>These don't update the UI until you restart</div>
 					<br/>
 
 					<div id="mode-frame">
@@ -98,22 +95,6 @@
 						<div class="title">Vertical sync</div>
 						<input cvar="vid_vsync" type="checkbox" class="checkbox"/>
 						<br/>
-					</div>
-
-					<div id="r_maxfps-frame">
-						<div class="title">Framerate (FPS) limit</div>
-						<select cvar="r_maxfps" realtime="1">
-							<option value="60" selected>60</option>
-							<option value="90" selected>90</option>
-							<option value="100" selected>100</option>
-							<option value="125" selected>125</option>
-							<option value="142" selected>144</option>
-							<option value="166" selected>166</option>
-							<option value="200" selected>200</option>
-							<option value="250" selected>250</option>
-							<option value="333" selected>333</option>
-							<option value="500" selected>500</option>
-						</select>
 					</div>
 
 					<div id="cl_maxfps-frame">
