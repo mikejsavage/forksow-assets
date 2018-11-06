@@ -122,11 +122,13 @@
 							<option value="60" selected>60</option>
 							<option value="90" selected>90</option>
 							<option value="100" selected>100</option>
+							<option value="120" selected>120</option>
 							<option value="125" selected>125</option>
-							<option value="142" selected>144</option>
-							<option value="166" selected>166</option>
+							<option value="144" selected>144</option>
+							<option value="165" selected>165</option>
+							<option value="180" selected>180</option>
 							<option value="200" selected>200</option>
-							<option value="250" selected>250</option>
+							<option value="240" selected>240</option>
 							<option value="333" selected>333</option>
 							<option value="500" selected>500</option>
 						</select>
