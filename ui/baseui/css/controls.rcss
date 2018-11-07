@@ -24,25 +24,18 @@ button, .button, input.submit {
 	color: #e86a2b;	
 /*	sound-hover: /sounds/menu/mouseover.wav; */
 	sound-click: /sounds/menu/ok.wav;
-	ninep-decorator: ninepatch;
-	ninep-src: /ui/baseui/gfx/controls/button_purple;
-	ninep-coords: 0.125 0.125 0.125 0.125;
-	ninep-size: 4dp 4dp 4dp 4dp;
 }
 
 input.submit:disabled, input.submit:disabled:hover, input.submit:disabled:active {
 	color: #fff;
-	ninep-src: /ui/baseui/gfx/controls/button_lightpurple;
 }
 
 button:hover, .button:hover, input.submit:hover, button:focus, .button:focus, input.submit:focus {
 	color: #fff;
-	ninep-src: /ui/baseui/gfx/controls/button_lightpurple;
 }
 
 button:active, .button:active, input.submit:active {
 	color: #fff;
-	ninep-src: /ui/baseui/gfx/controls/button_purple_active;
 }
 
 /* Inputs */
@@ -243,10 +236,7 @@ datagrid datagridrow datagridcell {
 }
 
 /* filebrowser classes */
-dirtype  {
-	darken-font-effect: shadow;
-	darken-offset: 1dp 1dp;
-	darken-color: black;		
+dirtype  {	
 	color: #e86a2b;	
 }
 
