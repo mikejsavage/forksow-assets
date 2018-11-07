@@ -18,3 +18,13 @@ gfx/ui/backtile
 		map $blackimage
 	}
 }
+
+gfx/ui/whitetile
+{
+	nopicmip
+	nomipmaps
+	nocompress
+	{
+		map $whiteimage
+	}
+}
