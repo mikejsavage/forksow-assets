@@ -39,20 +39,12 @@ class VideoSetup
 	// multithreading
 	Cvar r_multithreading( "r_multithreading", "0", 0 );
 
-	// renderer maxfps
-	Cvar r_maxfps( "r_maxfps", "250", 0 );
-
 	// msaa
 	Cvar r_samples( "r_samples", "0", 0 );
 
 	// filtering
 	Cvar r_texturefilter( "r_texturefilter", "4", 0 ); // 0==1, 2, 4, .. values
 	Cvar r_texturefilter_max( "r_texturefilter_max", "0", 0 );
-
-	// lighting
-	Cvar r_lighting_vertexlight( "r_lighting_vertexlight", "0", 0 );
-	Cvar r_lighting_deluxemapping( "r_lighting_deluxemapping", "1", 0 );
-	Cvar ui_lighting( "ui_lighting", "2", 0 ); // used to store index of selector
 
 	// shadows
 	Cvar cg_shadows( "cg_shadows", "1", CVAR_ARCHIVE );
@@ -64,25 +56,18 @@ class VideoSetup
 	String idFullscreenFrame;
 	String idBorderlessFrame;
 	String idVsyncFrame;
-	String idRMaxFpsFrame;
-	String idClMaxFpsFrame;
-	String idGammaFrame;
 	String idMsaa;
 	String idMsaaFrame;
 	String idFiltering;
 	String idFilteringFrame;
-	String idLighting;
 	String idSoftParticlesFrame;
 
 	VideoSetup( Element @elem,
 				const String &idVideoFrame,
 				const String &idMode, const String &idModeFrame,
 				const String &idFullscreenFrame, const String &idBorderlessFrame,
-				const String &idRMaxFpsFrame, const String &idClMaxFpsFrame,
-				const String &idGammaFrame,
 				const String &idMsaa, const String &idMsaaFrame,
 				const String &idFiltering, const String &idFilteringFrame,
-				const String &idLighting,
 				const String &idSoftParticlesFrame )
 	{
 		this.idVideoFrame = idVideoFrame;
@@ -91,28 +76,11 @@ class VideoSetup
 		this.idFullscreenFrame = idFullscreenFrame;
 		this.idBorderlessFrame = idBorderlessFrame;
 		this.idVsyncFrame = idVsyncFrame;
-		this.idRMaxFpsFrame = idRMaxFpsFrame;
-		this.idClMaxFpsFrame = idClMaxFpsFrame;
-		this.idGammaFrame = idGammaFrame;
 		this.idMsaa = idMsaa;
 		this.idMsaaFrame = idMsaaFrame;
 		this.idFiltering = idFiltering;
 		this.idFilteringFrame = idFilteringFrame;
-		this.idLighting = idLighting;
 		this.idSoftParticlesFrame = idSoftParticlesFrame;
-
-		// We only have 3 choices in lightning listbox:
-		// vertex lighting: lighting_vertexlight = 1, lighting_deluxemapping = 0
-		// lightmaps: lighting_vertexlight = 0, lighting_deluxemapping = 0
-		// per-pixel lighting: lighting_vertexlight = 0, lighting_deluxemapping = 1
-		// since the variant lighting_vertexlight = 1, lighting_deluxemapping = 1 is
-		// equivalent to vertex lighting.
-		if( r_lighting_vertexlight.value == 1 )
-			ui_lighting.set( 0 );
-		else if( r_lighting_deluxemapping.value == 1 )
-			ui_lighting.set( 2 );
-		else
-			ui_lighting.set( 1 );
 
 		Initialize( @elem );
 	}
@@ -193,6 +161,10 @@ class VideoSetup
 			if( @frame != null )
 				frame.css( 'display', 'none' );
 		}
+		else
+		{
+			showVideoFrame = true;
+		}
 	}
 
 	void PopulateFilteringSelector( Element @elem )
@@ -215,6 +187,10 @@ class VideoSetup
 			Element @frame = elem.getElementById( idFilteringFrame );
 			if( @frame != null )
 				frame.css( 'display', 'none' );
+		}
+		else
+		{
+			showVideoFrame = true;
 		}
 	}
 
@@ -303,42 +279,6 @@ class VideoSetup
 		}
 	}
 
-	void SetLighting( Element @elem, bool reset )
-	{
-		ElementFormControl @slideLighting = elem.getElementById( idLighting );
-
-		if( @slideLighting == null )
-			return;
-
-		if( reset )
-		{
-			slideLighting.value = ui_lighting.string;
-		}
-		else
-		{
-			int value = slideLighting.value.toInt();
-
-			switch( value )
-			{
-				case 0:
-					r_lighting_vertexlight.set("1");
-					r_lighting_deluxemapping.set("0");
-					break;
-				case 1:
-					r_lighting_vertexlight.set("0");
-					r_lighting_deluxemapping.set("0");
-					break;
-				default: // 2
-					r_lighting_vertexlight.set("0");
-					r_lighting_deluxemapping.set("1");
-					break;
-			}
-
-			ui_lighting.set( value );
-			Changed();
-		}
-	}
-
 	void Changed( void )
 	{
 		allowVidRestart = true;
@@ -349,7 +289,6 @@ class VideoSetup
 		SetMode( @elem, true );
 		SetMsaa( @elem, true );
 		SetFiltering( @elem, true );
-		SetLighting( @elem, true );
 
 		// cvars are not changed
 		allowVidRestart = false;
@@ -363,7 +302,6 @@ class VideoSetup
 			SetMode( @elem, false );
 			SetMsaa( @elem, false );
 			SetFiltering( @elem, false );
-			SetLighting( @elem, false );
 		}
 	}
 }
