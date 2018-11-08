@@ -2,7 +2,6 @@
 <head>
 	<title>options</title>
 	<link type="text/template" href="template.rml" />
-	<link rel="stylesheet" type="text/css" href="css/options/audio.rcss" />
 	<script>
 		ElementOptionsForm @form;
 
