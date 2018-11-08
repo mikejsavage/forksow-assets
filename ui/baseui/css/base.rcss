@@ -220,7 +220,7 @@ a:hover, a:focus {
 }
 
 #sidebar2 hr {
-	margin-bottom: 8dp;3
+	margin-bottom: 8dp;
 }
 
 #sidebar2sub { margin-top: 16dp; }
