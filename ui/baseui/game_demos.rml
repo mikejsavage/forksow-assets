@@ -232,10 +232,6 @@
 
 		void onDemolistDblClick( Element @elem, Event @ev )
 		{
-			if( ( window.supportedInputDevices & IN_DEVICE_TOUCHSCREEN ) != 0 ) {
-				return;
-			}
-
 			playSelectedDemo();
 		}
 

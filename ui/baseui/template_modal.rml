@@ -29,9 +29,7 @@
 				body.getElementById( 'button-cancel' ).css( 'display', 'none' );
 			}
 
-			if( ( window.supportedInputDevices & IN_DEVICE_TOUCHSCREEN ) == 0 ) {
-				body.getElementById( 'modal-frame' ).css( 'drag', 'drag' );
-			}
+			body.getElementById( 'modal-frame' ).css( 'drag', 'drag' );
 
 			String other = '';
 			dict.get( 'other', other );

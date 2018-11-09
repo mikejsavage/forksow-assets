@@ -1,5 +1,5 @@
 // match message
-ifnot %CHAT_MODE && %SOFTKEYBOARD
+ifnot %CHAT_MODE
 
 setFontFamily con_fontSystem
 setFontSize con_fontSystemSmall
@@ -28,4 +28,4 @@ setSize #WIDTH, 32
 drawHelpString
 setColorAlpha 1
 
-endif // !(%CHAT_MODE && %SOFTKEYBOARD)
+endif // !%CHAT_MODE

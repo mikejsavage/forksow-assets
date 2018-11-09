@@ -1,7 +1,0 @@
-if %SHOW_SPEED == 1
-	setSize 12 * 1.3333 * %VIDHEIGHT / %VIDWIDTH, 12
-	setColor 1 1 1 1
-	setAlign 2 3
-	setCursor #WIDTH / 2, #HEIGHT - 2
-	drawNum %SPEED
-endif

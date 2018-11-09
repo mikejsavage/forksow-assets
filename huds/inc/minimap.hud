@@ -1,7 +1,0 @@
-if %SCOREBOARD == 0
-	setAlign 1 1
-	setCursor 1 1
-	setSize 220 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 220
-	setColor 0.8 0.8 0.8 1
-	drawMiniMap 1 0
-endif

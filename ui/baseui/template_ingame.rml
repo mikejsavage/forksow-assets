@@ -19,9 +19,7 @@
 				return;
 			}
 
-			if( ( window.supportedInputDevices & IN_DEVICE_TOUCHSCREEN ) == 0 ) {
-				body.getElementById( 'modal-frame' ).css( 'drag', 'drag' );
-			}
+			body.getElementById( 'modal-frame' ).css( 'drag', 'drag' );
 		}
 
 		void animationsOnShow() // called onShow of every element with animations

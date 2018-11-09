@@ -12,7 +12,7 @@ if %HEALTH != #NOTSET
 	drawPicByName gfx/2d/progressbar
 
 	moveCursor -29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
-	include default/health_armor_icon_health
+	include health_armor_icon_health
 
 	moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 	setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5
@@ -41,7 +41,7 @@ if %TEAM != #TEAM_SPECTATOR
 		drawPicByName gfx/2d/progressbar
 
 		moveCursor -29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
-		include default/health_armor_icon_armor
+		include health_armor_icon_armor
 
 		moveCursor 29 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 		setSize 218 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 22.5

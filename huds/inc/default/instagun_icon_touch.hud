@@ -1,6 +1,0 @@
-if %INSTAGIB && %WEAPON_ITEM
-	setCursor #WIDTH * 0.5, #HEIGHT - 10
-	setAlign #CENTER, #BOTTOM
-	setSize 64 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 64
-	drawWeaponIcon
-endif
