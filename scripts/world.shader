@@ -12,21 +12,10 @@ textures/world/lava
 	qer_editorimage textures/world/sh/lava2.tga
 	
 	deformVertexes wave 100 sin 3 2 .1 0.1
-	
-        {
-		map textures/world/sh/lava1_glow.tga
-                //tcmod scale .2 .2
-                //tcmod scroll .04 .03
-		tcmod scroll .005 .005
-                tcMod turb 0 .1 0 .05
-                blendFunc GL_ONE GL_ZERO
-	}
+
 	{
-		map textures/world/sh/lava2.tga
-            	blendfunc add
-		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		tcMod turb 0 .2 0 .1
-		tcmod scroll .0025 .0025
+		map $whiteImage
+			rgbgen const 1.0 0.19 0.0
 	}
 }
 
