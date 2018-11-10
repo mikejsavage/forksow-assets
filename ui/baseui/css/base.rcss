@@ -1,12 +1,13 @@
 /* Main layout */
 body {
-	width: 100%; 
+	width: 100%;
 	height: 100%;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	font-family: warsow;
 	font-weight:bold;
 	font-size: 16dp;
+	line-height: 1.5;
 	color: #fff;
 	text-transform:uppercase;
 }
@@ -30,10 +31,10 @@ span {
 
 #content {
 	position: fixed;
-	top: 205dp;
-	left: 0dp;
-	padding: 32dp 0;
-	height: 636dp;
+	top: 0;
+	left: 0;
+	padding: 0;
+	height: 100%;
 }
 
 #footer {
@@ -49,7 +50,7 @@ span {
 }
 
 #version_str {
-	margin-right:6dp;
+	padding: 0 0.5em;
 }
 
 /* Anchors */
@@ -64,9 +65,6 @@ a:hover, a:focus {
 
 /* Navigation */
 #navi {
-	position: fixed;
-	bottom: 18dp;
-	left: 0dp;
 	text-align: center;
 	background:#000;
 	padding:8dp 16dp;
@@ -74,7 +72,7 @@ a:hover, a:focus {
 }
 
 #navi a, #navi button {
-	color: #fff;
+	color: #666;
 	font-size: 2em;
 	margin:0 32dp;
 	sound-hover: /sounds/menu/mouseover.wav;
@@ -85,8 +83,8 @@ a:hover, a:focus {
 	color: #fff;
 }
 
-#login_button, #logout_button {
-	display: none;
+#navi a:active, #navi button:active {
+	text-decoration: underline;
 }
 
 /* top nicehr for navi/content */
@@ -121,53 +119,42 @@ a:hover, a:focus {
 /** Left side container */
 #leftside {
 	width: 100%;
-	overflow-y: auto; 
+	overflow-y: auto;
 }
-		
+
 /** Right side containers */
 #sidebar {
-	position:fixed;
-	top:0dp;
-	left:0;
 	width: 100%;
 	font-size:22dp;
 	margin:0 auto;
 	text-align:center;
+	padding: 32dp 0;
 }
 
-/* Sidebar buttons and tabs */			
-
-/* only for sidebar buttons */
-#sidebar2 a, #sidebar2 button {
-	display: inline;
-}
-
-#sidebar2 button { margin-top: 8dp; }
-
-#sidebar2 a, #sidebar2 button, .styled-button {	
+#sidebar a, #sidebar button, .styled-button {
 	width:100%;
-	padding: 32dp;
+	padding: 0 16dp;
 	text-align: center;
-	color: #fff;
+	color: #666;
 /*	sound-hover: /sounds/menu/mouseover.wav; */
 	sound-click: /sounds/menu/ok.wav;
 	tab-index: auto;
 }
 
-#sidebar2 a:hover, #sidebar2 button:hover, #sidebar2 a:focus, #sidebar2 button:focus, .styled-button:hover, .styled-button:focus {
+#sidebar a:hover, #sidebar button:hover, #sidebar a:focus, #sidebar button:focus, .styled-button:hover, .styled-button:focus {
 	color: #fff;
 }
 
-#sidebar2 a:active, #sidebar2 button:active, .styled-button:active {
+#sidebar a:active, #sidebar button:active, .styled-button:active {
 	color: #fff;
 	ninep-src: /ui/baseui/gfx/controls/button_purple_active;
 }
 
-#sidebar2 hr {
+#sidebar hr {
 	margin-bottom: 8dp;
 }
 
-#sidebar2sub { margin-top: 16dp; }
+#sidebarsub { margin-top: 16dp; }
 
 /* in-ui titles for inputs */
 
@@ -187,13 +174,13 @@ div.title {
 	width: 70%;
 }
 
-tabset tab, #navibar a {		
+tabset tab, #navibar a {
 	width: 75%;
 	padding: 8dp;
 	margin-right: 4dp;
 	margin-left: 4dp;
 	text-align: center;
-	color: #fff;	
+	color: #fff;
 /*	font-family: Droid Sans; */
 /*	sound-hover: /sounds/menu/mouseover.wav;*/
 	sound-click: /sounds/menu/ok.wav;
@@ -215,8 +202,8 @@ tabset tabs, #navibar {
 
 /* notes:
    #navibar is kind of an 'alias' for tabset tab here (used in the server browser),
-   but server browser doesn't (and can't) use tabset.   
-   the rest of the styling is in the serverlist.css, 
+   but server browser doesn't (and can't) use tabset.
+   the rest of the styling is in the serverlist.css,
    but we need to override width for these fake-tabs
    here and use inline-block to be able to set width
    for it.

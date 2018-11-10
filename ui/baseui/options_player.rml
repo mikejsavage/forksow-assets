@@ -6,32 +6,15 @@
 	<script>
 		ElementOptionsForm @playerform;
 
-		Element @crosshair;
-		Element @crosshairWhite;
-		Cvar cg_crosshair( "cg_crosshair", "1", ::CVAR_ARCHIVE );
-		Cvar cg_clientHUD( "cg_clientHUD", "", ::CVAR_ARCHIVE );
-		Cvar cg_specHUD( "cg_specHUD", "", ::CVAR_ARCHIVE );
-
 		void onPlayerLoad( Element @body, Event @evt )
 		{
 			onTemplateLoad( body, evt );
-
-			@crosshair = body.getElementById( "crosshair" );
-			@crosshairWhite = body.getElementById( "crosshair-white" );
 
 			// get the 'servers' query string parameter value
 			String tab = '';
 			const Dictionary @dict = body.ownerDocument.URL.getParameters();
 			if( dict.get( 'tab', tab ) ) {
 				cast<ElementTabSet>(body.getElementById( 'options-set' )).setActiveTab( int(tab) );
-			}
-
-			Element @nameclan = body.getElementById( 'nameclan' );
-			if( @nameclan != null ) {
-				String rml = '<br/><hr class="nicehr"/><br/>';
-				rml += '<div class="title">Name</div><input cvar="name" type="text" value="Player"/><br/>';
-				rml += '<div class="title">Clan</div><input cvar="clan" type="text" value=""/><br/>';
-				nameclan.setInnerRML( rml );
 			}
 		}
 
@@ -42,63 +25,28 @@
 			//==== form ====
 			ElementOptionsForm @f = body.getElementById("hud-options-form");
 			f.storeOptions();
-
-			@f = body.getElementById("misc-options-form");
-			f.storeOptions();
-
-			//==== crosshairs ====
-			updateCrosshair( cg_crosshair, crosshair, crosshairWhite );
 		}
-
-		void updateCrosshair( Cvar cvar, Element @black, Element @white )
-		{
-			if( @black != null ) {
-				if( ( cvar.integer > 0 ) && ( cvar.integer <= 26 ) ) {
-					black.setInnerRML( StringUtils::FromCharCode( 64 + cvar.integer ) );
-				} else {
-					black.setInnerRML( "?" );
-				}
-			}
-
-			if( @white != null ) {
-				if( ( cvar.integer > 0 ) && ( cvar.integer <= 26 ) ) {
-					white.setInnerRML( StringUtils::FromCharCode( 96 + cvar.integer ) );
-					white.css( 'color', 'white' );
-				} else {
-					white.setInnerRML( "!" );
-					white.css( 'color', 'grey' );
-				}
-			}
-		}
-
-		void nextCrosshair( Cvar cvar, Element @black, Element @white )
-		{
-			if( cvar.integer < 13 ) {
-				cvar.set( cvar.integer + 1 );
-			} else {
-				cvar.set( 0 );
-			}
-			updateCrosshair( cvar, black, white );
-		}
-
 	</script>
 </head>
 <body template="baseui" onload="$onPlayerLoad" onshow="$onPlayerShow">
+	<div id="sidebar">
+		<a href="options_player.rml">Player</a>
+		<a href="options_video.rml">Video</a>
+		<a href="options_audio.rml">Audio</a>
+		<a href="options_input.rml">Input</a>
+	</div>
 
-	<!-- divide the screen to two vertical contexts -->	
 	<div id="leftside">
-	
-		<!-- player setup -->
 		<div id="player-setup">
 			<tabset id="options-set">	
-				<tab class="side-tab">HUD</tab>		
 				<panel class="dropshadow">
 					<optionsform id="hud-options-form" onsubmit="$OptionsForm_OnSubmit">
-						<div class="title">Crosshair</div>
-						<div id="crosshairs">
-							<div id="crosshair" class="crosshair"/>
-							<div id="crosshair-white" class="crosshair crosshairwhite" onclick="nextCrosshair(cg_crosshair,crosshair,crosshairWhite);"/>
-						</div>
+						<div class="title">Name</div>
+						<input cvar="name" type="text" value="Player"/>
+						<br/>
+
+						<div class="title">Clan</div>
+						<input cvar="clan" type="text" value=""/>
 						<br/>
 
 						<div class="title">FOV</div>
@@ -106,18 +54,13 @@
 						<br/>
 					
 						<div class="title">Zoomed in FOV</div>
-						<input cvar="zoomfov" type="text" class="short text" value="40" realtime="1"/>
+						<input cvar="zoomfov" type="text" class="short text" value="75" realtime="1"/>
 						<br/>
 						
 						<div class="title">Show FPS counter</div>
 						<input cvar="cg_showFps" type="checkbox" realtime="1"/>
 						<br/>				
-					</optionsform>
-				</panel>
 
-				<tab class="side-tab">Misc</tab>
-				<panel class="dropshadow">
-					<optionsform id="misc-options-form" onsubmit="$OptionsForm_OnSubmit">
 						<div class="title">Automatically record demos</div>
 						<input cvar="cg_autoaction_demo" type="checkbox" realtime="1"/>
 						<br/>
@@ -130,16 +73,5 @@
 			</tabset>
 		</div>
 	</div>
-
-	<div id="sidebar">
-		<div id="sidebar2">
-			<!-- options navigation -->
-			<a href="options_player.rml">Player</a>
-			<a href="options_video.rml">Video</a>
-			<a href="options_audio.rml">Audio</a>
-			<a href="options_input.rml">Input</a>
-		</div>
-	</div>
-
 </body>
 </rml>

@@ -30,21 +30,6 @@
 /*	padding-bottom: 15dp; */
 }
 
-/* Sidebar buttons and tabs */	
-button, input.submit {
-	darken-font-effect: shadow;
-	darken-offset: 1dp 1dp;
-	darken-color: black;		
-
-	margin-bottom: 8dp;
-	padding: 8dp;
-	text-align: center;
-	color: #e86a2b;
-	width: 100dp;	
-	display: inline-block;
-	drag: none;
-}
-
 #modal-controls button:hover, .modal-controls button:hover, #modal-controls input.submit:hover, .modal-controls input.submit:hover {
 	color: white;
 }

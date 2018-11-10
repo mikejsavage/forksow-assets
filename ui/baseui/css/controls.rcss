@@ -17,11 +17,11 @@ button {
 button, .button, input.submit {
 	darken-font-effect: shadow;
 	darken-offset: 1dp 1dp;
-	darken-color: black;		
-	margin-bottom: 8dp;
-	padding: 8dp;
+	darken-color: black;
+	padding: 8dp 16dp;
 	text-align: center;
-	color: #e86a2b;	
+	color: #fff;
+	drag: none;
 /*	sound-hover: /sounds/menu/mouseover.wav; */
 	sound-click: /sounds/menu/ok.wav;
 }
@@ -65,24 +65,24 @@ tabset panel {
 }
 
 /* Apply buttons class */
-.button-apply, .button-cancel { 
-	width: 100dp; 
-	float: left; 
+.button-apply, .button-cancel {
+	width: 100dp;
+	float: left;
 	margin-left: 8dp;
 }
 
 .button-large {
-	float: left; 
+	float: left;
 	margin-left: 8dp;
 	min-width: 175dp;
 }
 
-.button-cancel  { 
+.button-cancel  {
 	margin-left: 50%;
 	sound-click: /sounds/menu/back.wav;
 }
 
-.button-apply { 
+.button-apply {
 	font-weight: bold;
 }
 
@@ -182,8 +182,8 @@ select selectbox, dataselect selectbox {
 	max-height: 8em;
 	padding: 4dp;
 	padding-left: 8dp;
-	overflow-y: scroll;	
-	background-color: #141219;	
+	overflow-y: scroll;
+	background-color: #141219;
 }
 
 /* Dropdowns row hover */
@@ -209,7 +209,7 @@ input sliderarrowdec, input sliderarrowinc {
 }
 
 input.range sliderbar {
-	width: 24dp; 
+	width: 24dp;
 	height: 24dp;
 
 	icon-decorator: image;
@@ -217,7 +217,7 @@ input.range sliderbar {
 }
 
 input.range sliderbar:hover, input.range sliderbar:focus {
-	icon-image: /ui/baseui/gfx/controls/range_slider_hover 0 0 1 1;	
+	icon-image: /ui/baseui/gfx/controls/range_slider_hover 0 0 1 1;
 }
 
 .slider-value {
@@ -236,8 +236,8 @@ datagrid datagridrow datagridcell {
 }
 
 /* filebrowser classes */
-dirtype  {	
-	color: #e86a2b;	
+dirtype  {
+	color: #e86a2b;
 }
 
 filetype { color: #fff; }

@@ -21,7 +21,6 @@
 
 	bool isUpdating = false;
 	bool isStopped = false;
-	bool isGridHidden = false;
 
 	const uint MAX_CHAINED_SERVERS = 10;
 	const uint AUTO_UPDATE_TIMEOUT = 60*1000;
@@ -35,9 +34,6 @@
 	Element @refreshbtn;
 	Element @connectbtn;
 	Element @favoritebtn;
-	Element @serverblock;
-	Element @progresstitle;
-	Element @progresscounter;
 
 	void onJoinLoad( Element @body, Event @ev )
 	{
@@ -53,8 +49,6 @@
 		// set the source table for the datagrid
 
 		@servergrid = body.getElementById( 'serverbrowser_datagrid' );
-		@serverblock = body.getElementById( 'serverblock' );
-		@progresstitle = body.getElementById( 'in-progress-title' );
 
 		ElementDataGrid @grid = servergrid;
 		if( @grid == null ) {
@@ -82,11 +76,8 @@
 		}
 
 		// hide the infoblock as we haven't picked a server yet
-		serverblock.css( 'display', 'none' );
 		connectbtn.css( 'display', 'none' );
 		favoritebtn.css( 'display', 'none' );
-
-		isGridHidden = false;
 
 		Favorites::init();
 	}
@@ -100,18 +91,16 @@
 		}
 
 		Element @container = body.getElementById( 'serverbrowser-container' );
-		body.getElementById( 'serverbrowser_frame' ).css( 'height',
-			(body.getElementById( 'leftside' ).clientHeight()
-			- int( container.resolveProp( 'padding-top', container.clientHeight() ) )
-			- int( container.resolveProp( 'padding-bottom', container.clientHeight() ) )
-			) + 'px'
-		);
+		/* body.getElementById( 'serverbrowser_frame' ).css( 'height', */
+		/* 	(body.getElementById( 'leftside' ).clientHeight() */
+		/* 	- int( container.resolveProp( 'padding-top', container.clientHeight() ) ) */
+		/* 	- int( container.resolveProp( 'padding-bottom', container.clientHeight() ) ) */
+		/* 	) + 'px' */
+		/* ); */
 
 		onTemplateShow( body, @ev );
 
 		onJoinThink();
-
-		updateBrowserVisibility();
 	}
 
 	void onJoinHide( Element @self, Event @ev )
@@ -128,7 +117,6 @@
 			serverBrowser.fullUpdate();
 		}
 		updateRefreshTitle();
-		updateBrowserVisibility();
 	}
 
 	bool updateRefreshTitle()
@@ -148,21 +136,10 @@
 		return true;
 	}
 
-	void updateBrowserVisibility()
-	{
-		if( isGridHidden ) {
-			servergrid.css( 'display', 'block' );
-			navibar.css( 'display', 'block' );
-			window.document.body.getElementById( 'serverbrowser-manual-container' ).css( 'display', 'none' );
-		}
-		isGridHidden = false;
-	}
-
 	bool onJoinThink()
 	{
 		if( isUpdating != serverBrowser.isUpdating() ) {
 			isUpdating = serverBrowser.isUpdating();
-			updateBrowserVisibility();
 		}
 
 		// keep the button title updated
@@ -204,9 +181,6 @@
 
 	void onServerBrowserRowSelect( Element @elem, Event @ev )
 	{
-		if( @serverblock == null ) {
-			return;
-		}
 		if( @browserDataSource == null ) {
 			return;
 		}
@@ -223,16 +197,14 @@
 			return;
 		}
 
-		connectbtn.css( 'display', 'inline-block' );
-		favoritebtn.css( 'display', 'inline-block' );
+		connectbtn.css( 'display', 'inline' );
+		favoritebtn.css( 'display', 'inline' );
 
 		bool isFavorite = browserDataSource.getField( 'normal', selectedRow, 'favorite' ) == 'yes';
 		if( isFavorite )
 			favoritebtn.setInnerRML( 'Remove from favorites' );
 		else
 			favoritebtn.setInnerRML( 'Add to favorites' );
-
-		formatServerInfoBlock( @serverblock, 'normal', selectedRow );
 	}
 
 	void onServerBrowserRowChange( Element @self, Event @ev )
@@ -288,7 +260,6 @@
 
 		if( selectedRowIndex >= firstRowRemoved && selectedRowIndex < firstRowRemoved + numRowsRemoved ) {
 			// clear/hide the infoblock
-			serverblock.css( 'display', 'none' );
 			connectbtn.css( 'display', 'none' );
 			favoritebtn.css( 'display', 'none' );
 		}
@@ -386,32 +357,23 @@
 </head>
 <body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff" onfirstrender="$startMusic">
 	<div id="sidebar">
-		<div id="sidebar2">
-			<a href="game_join.rml">Match browser</a>
-			<a href="game_local.rml">Local game</a>
-			<a href="game_demos.rml">Demo browser</a>
-
-			<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
-			<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>
-			<button id="favorite-btn" onClick="$onFavoriteButtonClick">Add to favorites</button>
-
-			<div id="serverblock" class="infoblock" />
-		</div>
+		<a href="game_join.rml">Pub games</a>
+		<a href="game_local.rml">Create server</a>
+		<a href="game_demos.rml">Demos</a>
 	</div>
-	<div id="leftside">
-		<div id="serverbrowser-container" class="dropshadow">
-			<div id="serverbrowser_frame">
-				<datagrid id="serverbrowser_datagrid"
-					onrowselect="$onServerBrowserRowSelect"
-					onrowchange="$onServerBrowserRowChange"
-					onrowremove="$onServerBrowserRowRemove"
-					onrowactivate="$onServerBrowserRowActivate">
-					<col fields="cleanname" width="80%">Hostname</col>
-					<col fields="players" width="10%">Players</col>
-					<col fields="ping" width="10%">Ping</col>
-				</datagrid>
-			</div>
-		</div>
-	</div>
+
+	<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
+	<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>
+	<button id="favorite-btn" onClick="$onFavoriteButtonClick">Add to favorites</button>
+
+	<datagrid id="serverbrowser_datagrid"
+		onrowselect="$onServerBrowserRowSelect"
+		onrowchange="$onServerBrowserRowChange"
+		onrowremove="$onServerBrowserRowRemove"
+		onrowactivate="$onServerBrowserRowActivate">
+		<col fields="cleanname" width="80%">Hostname</col>
+		<col fields="players" width="10%">Players</col>
+		<col fields="ping" width="10%">Ping</col>
+	</datagrid>
 </body>
 </rml>

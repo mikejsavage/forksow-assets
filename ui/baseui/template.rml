@@ -38,7 +38,7 @@
 				}
 			}
 
-			body.getElementById( 'version_str' ).setInnerRML( game.name + ' ' + game.version.substr( 0, game.version.locate( ' ',  0 ) ) );
+			body.getElementById( 'version_str' ).setInnerRML( game.name + ' ' + game.version.substr( 0, game.version.locate( ' ',  0 ) ) + ' \u00a9 Aha Cheers' );
 
 			/* grab the navigation panel */
 			@navi = body.getElementById( 'navi' );
@@ -104,23 +104,17 @@
 
 	<div id="background-overlay" />
 
-	<!-- Main navigation bar -->
-	<div id="navi">
-		<a href="game_join.rml" id="link_game">Play</a>
-		<a href="options.rml" id="link_options">Options</a>
-		<a href="#" id="link_quit" onclick="OpenQuitDialog();">Quit</a>
-	</div>
+	<div id="notification" />
 
-	<!-- Saved- dialog -->
-	<div id="notification">
-	</div>
+	<div id="content" />
 
-	<!-- Content -->
-	<div id="content">
-	</div>
-
-	<!-- Footer -->
 	<div id="footer">
+		<div id="navi">
+			<a href="game_join.rml" id="link_game">Play</a>
+			<a href="options.rml" id="link_options">Options</a>
+			<a href="#" id="link_quit" onclick="OpenQuitDialog();">Pussy Out</a>
+		</div>
+
 		<div id="version_str"></div>
 	</div>
 </body>
