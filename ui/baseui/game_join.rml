@@ -350,7 +350,7 @@
 
 	void startMusic( Element @body, Event @event )
 	{
-		window.startBackgroundTrack( "sounds/music/menu_1.ogg", "1", true );
+		window.startBackgroundTrack( "sounds/music/menu_1.ogg", "sounds/music/menu_1.ogg", true );
 	}
 
 	</script>
