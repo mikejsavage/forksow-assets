@@ -403,7 +403,19 @@
 	</script>
 </head>
 <body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff">
-	<!-- divide the screen to two vertical contexts -->
+	<div id="sidebar">
+		<div id="sidebar2">
+			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
+			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
+			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
+
+			<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
+			<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>
+			<button id="favorite-btn" onClick="$onFavoriteButtonClick">Add to favorites</button>
+
+			<div id="serverblock" class="infoblock" />
+		</div>
+	</div>
 	<div id="leftside">
 		<div id="serverbrowser-container" class="dropshadow">
 			<div id="serverbrowser_frame">
@@ -413,31 +425,11 @@
 					onrowchange="$onServerBrowserRowChange"
 					onrowremove="$onServerBrowserRowRemove"
 					onrowactivate="$onServerBrowserRowActivate">
-					<col fields="flags" width="30dp" formatter="serverflags">&nbsp;</col>
-					<col fields="ping" width="50dp">Ping</col>
-					<col fields="cleanname" width="400dp">Hostname</col>
-					<col fields="players" width="70dp">Players</col>
-					<col fields="gametype" width="100dp">Gametype</col>
-					<col fields="mm" width="110dp">Ranked</col>
+					<col fields="cleanname" width="80%">Hostname</col>
+					<col fields="players" width="10%">Players</col>
+					<col fields="ping" width="10%">Ping</col>
 				</datagrid>
 			</div>
-		</div>
-	</div>
-
-	<div id="sidebar">
-		<div id="sidebar2">
-			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
-			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
-			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
-
-			<br/>
-			<hr class="nicehr" />
-
-			<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
-			<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>
-			<button id="favorite-btn" onClick="$onFavoriteButtonClick">Add to favorites</button>
-
-			<div id="serverblock" class="infoblock" />
 		</div>
 	</div>
 </body>

@@ -188,8 +188,7 @@
 
 	<!-- Footer -->
 	<div id="footer">
-		<hr class="w100p nicehr" />
-		<span id="version_str"></span>
+		<div id="version_str"></div>
 	</div>
 </body>
 </template>
