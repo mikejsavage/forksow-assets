@@ -400,9 +400,14 @@
 		window.preload( 'options_audio.rml' );
 	}
 
+	void startMusic( Element @body, Event @event )
+	{
+		window.startBackgroundTrack( "sounds/music/menu_1.ogg", "1", true );
+	}
+
 	</script>
 </head>
-<body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff">
+<body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff" onfirstrender="$startMusic">
 	<div id="sidebar">
 		<div id="sidebar2">
 			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
