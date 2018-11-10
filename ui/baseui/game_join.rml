@@ -55,7 +55,6 @@
 		@servergrid = body.getElementById( 'serverbrowser_datagrid' );
 		@serverblock = body.getElementById( 'serverblock' );
 		@progresstitle = body.getElementById( 'in-progress-title' );
-		@progresscounter = body.getElementById( 'in-progress-counter' );
 
 		ElementDataGrid @grid = servergrid;
 		if( @grid == null ) {
@@ -172,17 +171,6 @@
 		return updateRefreshTitle();
 	}
 
-	void onServerBrowserRowAdd( Element @self, Event @ev )
-	{
-		ElementDataGrid @grid = @self; // implicit cast to ElementDataGrid
-		if( @grid == null ) {
-			// not a datagrid
-			return;
-		}
-
-		progresscounter.setInnerRML( '' + browserDataSource.numRows( 'normal' ) );
-	}
-
 	void formatServerInfoBlock( Element @el, const String &in table, int sel )
 	{
 		String hostnameRML = '';
@@ -199,19 +187,10 @@
 		// players
 		infoRML += StringUtils::Format( _T( 'Players: %s' ), browserDataSource.getField( table, sel, 'players' ) ) + '<br/>';
 
-		// gametype
-		infoRML += StringUtils::Format( _T( 'Gametype: %s' ), browserDataSource.getField( table, sel, 'gametype' ) ) + '<br/>';
-
 		// bots
 		const String @bots = browserDataSource.getField( table, sel, 'bots' );
 		if ( !bots.empty() && bots != '&nbsp;' && bots != '0' ) {
 			infoRML += StringUtils::Format( _T( 'Bots: %s' ),  bots ) + '<br/>';
-		}
-
-		// mod directory
-		const String @mod = browserDataSource.getField( table, sel, 'mod' );
-		if ( !mod.empty() && mod != '&nbsp;' ) {
-			infoRML += StringUtils::Format( _T( 'Mod: %s' ),  mod ) + '<br/>';
 		}
 
 		// ping
@@ -425,7 +404,6 @@
 		<div id="serverbrowser-container" class="dropshadow">
 			<div id="serverbrowser_frame">
 				<datagrid id="serverbrowser_datagrid"
-					onrowadd="$onServerBrowserRowAdd"
 					onrowselect="$onServerBrowserRowSelect"
 					onrowchange="$onServerBrowserRowChange"
 					onrowremove="$onServerBrowserRowRemove"
