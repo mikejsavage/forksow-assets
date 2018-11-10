@@ -184,9 +184,8 @@ gfx/misc/laserbeam
 	softParticle
 	{
 		map gfx/misc/laserbeam.tga
+		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen vertex
-		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
-		tcMod scroll -3 0
 	}
 }
 
