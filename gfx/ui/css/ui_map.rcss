@@ -1,6 +1,6 @@
 .ui-map, .ui1-map {
-	worldmodel: maps/cocaine_b2.bsp;
-	vieworigin: 302 -490 120;
-	viewangles: 0 -240 0;
-	wave-yaw: 30 0 0.006;
+	worldmodel: ui/background.bsp;
+	vieworigin: 0 0 0;
+	viewangles: 0 90 0;
+	wave-yaw: 0.1 0 100;
 }
