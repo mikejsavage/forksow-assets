@@ -130,10 +130,6 @@
 								<div id="mouse-accel-txt" class="slider-value"></div>
 								<br/>	
 
-								<div class="title checkbox_opt">Mouse filter</div>
-								<input id="mouse-filter" cvar="m_filter" type="checkbox" realtime="1"/>
-								<br/>
-
 								<div class="title checkbox_opt">Invert mouse</div>
 								<input id="mouse-invert" type="checkbox" onchange="$onMouseInvertChange"/>
 								<br/>
