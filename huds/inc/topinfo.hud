@@ -1,0 +1,94 @@
+// clock
+
+setCursor #WIDTH / 2, 0
+setAlign #CENTER, #TOP
+
+setColor 0, 0, 0, 0.5
+setSize 100 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 24
+drawPicByName $whiteimage
+
+setColor 1, 1, 1, 1
+setFontSize %VIDHEIGHT / 32
+drawClock
+
+if %MATCH_STATE == #MATCH_STATE_WARMUP || %OVERTIME
+	moveCursor 0, 24
+	setColor 0, 0, 0, 0.5
+	setSize 100 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 12
+	drawPicByName $whiteimage
+
+	setFontSize %VIDHEIGHT / 64
+	setFontStyle bold
+	setColor 1, 1, 1, 1
+	moveCursor 0, -2
+	if %MATCH_STATE == #MATCH_STATE_WARMUP
+		drawString "WARMUP"
+	endif
+	if %OVERTIME
+		drawString "OVERTIME"
+	endif
+	setFontStyle normal
+endif
+
+// scores
+
+setAlign #CENTER, #TOP
+setCursor #WIDTH / 2, 0
+setFontSize %VIDHEIGHT / 32
+setFontStyle bold
+
+if %TEAM_ALPHA_SCORE != #NOTSET
+	moveCursor -35 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+
+	setColorToTeamColor #TEAM_ALPHA
+	drawStringNum %TEAM_ALPHA_SCORE
+
+	moveCursor 35 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+endif
+
+if %TEAM_BETA_SCORE != #NOTSET
+	moveCursor 35 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+
+	setColorToTeamColor #TEAM_BETA
+	drawStringNum %TEAM_BETA_SCORE
+
+	moveCursor -35 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+endif
+
+setFontStyle normal
+
+// alive players
+
+setCursor #WIDTH / 2, 4
+
+setSpecialFontFamily "Silhouette"
+
+if %MESSAGE_ALPHA
+	setAlign #RIGHT, #TOP
+	moveCursor -60 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+
+	moveCursor 1, 1
+	setColor 0, 0, 0, 1
+	drawStringRepeatConfigString "?" %MESSAGE_ALPHA
+	moveCursor -1 -1
+
+	setColorToTeamColor #TEAM_ALPHA
+	drawStringRepeatConfigString "?" %MESSAGE_ALPHA
+
+	moveCursor 60 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+endif
+
+if %MESSAGE_BETA
+	setAlign #LEFT, #TOP
+	moveCursor 60 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
+
+	moveCursor 1, 1
+	setColor 0, 0, 0, 1
+	drawStringRepeatConfigString "?" %MESSAGE_BETA
+	moveCursor -1 -1
+
+	setColorToTeamColor #TEAM_BETA
+	drawStringRepeatConfigString "?" %MESSAGE_BETA
+endif
+
+setFontFamily con_fontSystem

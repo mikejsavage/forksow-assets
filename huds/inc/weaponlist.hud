@@ -1,17 +1,32 @@
 if %TEAM != #TEAM_SPECTATOR
 	if %WEAPON_ITEM
-		if %INSTAGIB == 0
+		setAlign #RIGHT, #MIDDLE
+		setCursor #WIDTH, #HEIGHT - 32
+		setFontSize %VIDHEIGHT / 48
 
-			setAlign 2 2
-			setCursor #WIDTH / 2, #HEIGHT - 40
-			moveCursor 99 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0 // 24 half icon size + 75 so it doesn't overlap the health
+		moveCursor -8 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 
-			// draw selected gun
-			drawWeaponIcons 48 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0, 48 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
+		// draw selected gun
+		drawWeaponIcons 56 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0, 48 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
 
-			moveCursor 0 12
-			drawWeaponStrongAmmo 48 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0, 15
+		moveCursor -2 * 1.333 * %VIDHEIGHT / %VIDWIDTH, %VIDHEIGHT / -150
 
-		endif
+		setSize 16 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 16
+		setFontStyle bold
+
+		moveCursor 1 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 1
+		setColor 0, 0, 0, 0.75
+		drawWeaponStrongAmmo 56 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0, 15
+		moveCursor -1 * 1.333 * %VIDHEIGHT / %VIDWIDTH, -1
+
+		setColor 1, 1, 1, 1
+		setSize 16 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 16
+		drawWeaponStrongAmmo 56 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0, 15
+
+		setFontStyle normal
 	endif
 endif
+
+setCursor 100, 100
+setSize 100, 100
+drawModelByIndex #ITEM_GUNBLADE

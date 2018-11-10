@@ -15,28 +15,20 @@ setFontSize con_fontSystemSmall
 setScale #DEFAULTSCALE
 if %MATCH_STATE < #MATCH_STATE_POSTMATCH
 
-include zoom
 include damage_indicator_screen
 include crosshair
 
-include clock
+include topinfo
 
-include health_armor
+include health
 include weaponlist
-include ammo
 
-include scores
-include scores_individual
-
-include ammo_warning
 include stunned
 include obituaries
 include powerups
-include picked_up_item
 
-include team_image
-include team_message
-include team_progress
+include drop_the_bomb
+include bomb_progress
 
 include chasing
 
