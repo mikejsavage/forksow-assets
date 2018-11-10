@@ -114,14 +114,6 @@
 						<div class="title">Show FPS counter</div>
 						<input cvar="cg_showFps" type="checkbox" realtime="1"/>
 						<br/>				
-						
-						<div class="title">Show speed meter</div>
-						<input cvar="cg_showSpeed" type="checkbox" realtime="1"/>
-						<br/>				
-						
-						<div class="title">Show damage indicator</div>
-						<input cvar="cg_damage_indicator" type="checkbox" realtime="1"/>
-						<br/>
 					</optionsform>
 				</panel>
 
