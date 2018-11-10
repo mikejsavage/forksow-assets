@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/modal.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/ingame.rcss" />
 	<script src="as/base.as" />
-	<script src="as/animations.as" />
 	<script src="as/modal.as" />
 	<script>
 		void onTemplateLoad( Element @body, Event @ev )
@@ -20,17 +19,6 @@
 			}
 
 			body.getElementById( 'modal-frame' ).css( 'drag', 'drag' );
-		}
-
-		void animationsOnShow() // called onShow of every element with animations
-		{
-			Element @body = @window.document.body;
-
-			Element @content = @body.getElementById( 'modal-frame' );
-			if( @content == null ) {
-				return;
-			}
-			MoveAnimation anim( content, ANIMATION_DURATION_FAST, ANIM_LEFT, ANIM_ORIGIN, EASE_OUT );
 		}
 	</script>
 </head>

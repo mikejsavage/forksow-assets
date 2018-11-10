@@ -214,7 +214,6 @@
 			showMenuButton( 'btn-return' );
 
 			setModalY( 0.5f );
-			animationsOnShow();
 		}
 	</script>
 </head>

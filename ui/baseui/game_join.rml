@@ -112,8 +112,6 @@
 		onJoinThink();
 
 		updateBrowserVisibility();
-
-		animationsOnShow( true );
 	}
 
 	void onJoinHide( Element @self, Event @ev )
@@ -389,9 +387,9 @@
 <body template="baseui" onload="$onJoinLoad" onshow="$onJoinShow" onhide="$onJoinHide" onregisterworldmodel="$precacheStuff" onfirstrender="$startMusic">
 	<div id="sidebar">
 		<div id="sidebar2">
-			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
-			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
-			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
+			<a href="game_join.rml">Match browser</a>
+			<a href="game_local.rml">Local game</a>
+			<a href="game_demos.rml">Demo browser</a>
 
 			<button id="refresh-btn" onClick="$onRefreshButtonClick">Refresh</button>
 			<button id="connect-btn" onClick="$onConnectButtonClick">Connect</button>

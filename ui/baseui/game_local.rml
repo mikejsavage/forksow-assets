@@ -33,8 +33,6 @@
 			if( @mapinfo != null ) {
 				mapinfo.css( 'display', 'none' );
 			}
-
-			animationsOnShow();
 		}
 
 		void onMaplistRowSelect( Element @elem, Event @ev )
@@ -166,9 +164,9 @@
 
 	<div id="sidebar">
 		<div id="sidebar2">
-			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
-			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
-			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
+			<a href="game_join.rml">Match browser</a>
+			<a href="game_local.rml">Local game</a>
+			<a href="game_demos.rml">Demo browser</a>
 
 			<hr class="nicehr" />
 			

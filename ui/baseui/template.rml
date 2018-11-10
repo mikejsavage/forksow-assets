@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="/gfx/ui/css/ui_map.rcss" />
 	<script src="as/base.as" />
 	<script src="as/popup.as" />
-	<script src="as/animations.as" />
 	<script>
 		/* navigation panel */
 		Element @navi = null;
@@ -99,52 +98,6 @@
 		void openConsole( Element @self, Event @ev )
 		{
 			game.execAppend( 'toggleconsole\n' );
-		}
-
-		void animationsOnShow( bool noAnim = false, String contentBlock = "leftside" ) // called onShow of every element with animations
-		{
-			Element @body = @window.document.body;
-
-			Element @content = @body.getElementById( contentBlock );
-			if( @content == null ) {
-				console.warn( 'animationsOnShow: missing content block "' + contentBlock + '"\n' );
-				return;
-			}
-
-			if( noAnim ) {
-				MoveAnimation anim( content, 0, ANIM_ORIGIN, ANIM_ORIGIN, EASE_OUT, null );
-			}
-			else {
-				MoveAnimation anim( content, ANIMATION_DURATION_FAST, ANIM_LEFT, ANIM_ORIGIN, EASE_OUT, null );
-			}
-		}
-
-		String menuloc;
-		void animOpenMenu( String menu ) // This function automatically animates the content away and opens a new menu after that.
-		{
-			if( menu.length() <= 0 )
-				return;
-
-			URL currentURL( window.document.URL );
-			String currentDocFilename = currentURL.getFileName() + '.' + currentURL.getFileExtension();
-			if( currentDocFilename == menu ) {
-				// FIXME: not sure this works correct in all cases of valid input URL
-				return;
-			}
-
-			menuloc = menu;
-
-			Element @body = @window.document.body;
-			Element @content = @body.getElementById( "leftside" );
-			if( @content == null )
-				return;
-
-			MoveAnimation anim( content, ANIMATION_DURATION_FAST, ANIM_ORIGIN, ANIM_LEFT, EASE_IN, animOpenMenuCallback );
-		}
-
-		void animOpenMenuCallback()
-		{
-			window.location = menuloc;
 		}
 
 		void quitGame( Element @self, Event @ev )

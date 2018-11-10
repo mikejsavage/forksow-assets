@@ -106,7 +106,6 @@
 		void onDemosShow( Element @elem, Event @ev )
 		{
 			onTemplateShow( elem, ev );
-			animationsOnShow();
 		}
 
 		// displays selected demo information in the sidebar
@@ -255,9 +254,9 @@
 
 	<div id="sidebar">
 		<div id="sidebar2">
-			<a href="#" onclick="animOpenMenu('game_join.rml');">Match browser</a>
-			<a href="#" onclick="animOpenMenu('game_local.rml');">Local game</a>
-			<a href="#" onclick="animOpenMenu('game_demos.rml');">Demo browser</a>
+			<a href="game_join.rml">Match browser</a>
+			<a href="game_local.rml">Local game</a>
+			<a href="game_demos.rml">Demo browser</a>
 
 			<hr class="nicehr" />
 

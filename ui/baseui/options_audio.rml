@@ -48,8 +48,6 @@
 			if( @bar != null && @txt != null ) {
 				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
 			}
-
-			animationsOnShow();
 		}
 
 		void onVolumeChange( Element @elem, Event @ev )
@@ -196,10 +194,10 @@
 	<div id="sidebar">
 		<div id="sidebar2">
 			<!-- options navigation -->
-			<a href="#" onclick="animOpenMenu('options_player.rml');">Player</a>
-			<a href="#" onclick="animOpenMenu('options_video.rml');">Video</a>
-			<a href="#" onclick="animOpenMenu('options_audio.rml');">Audio</a>
-			<a href="#" onclick="animOpenMenu('options_input.rml');">Input</a>
+			<a href="options_player.rml">Player</a>
+			<a href="options_video.rml">Video</a>
+			<a href="options_audio.rml">Audio</a>
+			<a href="options_input.rml">Input</a>
 		</div>
 	</div>
 
