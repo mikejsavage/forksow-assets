@@ -25,7 +25,6 @@ include weaponlist
 
 include stunned
 include obituaries
-include powerups
 
 include drop_the_bomb
 include bomb_progress
