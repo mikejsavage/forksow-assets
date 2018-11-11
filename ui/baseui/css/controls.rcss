@@ -9,32 +9,7 @@ select, dataselect, keyselect {
 	background-color: #141219;
 }
 
-/* Buttons */
-button {
-	tab-index: auto;
-}
-
-button, .button, input.submit {
-	darken-font-effect: shadow;
-	darken-offset: 1dp 1dp;
-	darken-color: black;
-	padding: 8dp 16dp;
-	text-align: center;
-	color: #fff;
-	drag: none;
-/*	sound-hover: /sounds/menu/mouseover.wav; */
-	sound-click: /sounds/menu/ok.wav;
-}
-
 input.submit:disabled, input.submit:disabled:hover, input.submit:disabled:active {
-	color: #fff;
-}
-
-button:hover, .button:hover, input.submit:hover, button:focus, .button:focus, input.submit:focus {
-	color: #fff;
-}
-
-button:active, .button:active, input.submit:active {
 	color: #fff;
 }
 

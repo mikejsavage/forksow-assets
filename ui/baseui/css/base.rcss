@@ -4,91 +4,68 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: warsow;
-	font-weight:bold;
+	font-family: "Droid Sans";
 	font-size: 16dp;
 	line-height: 1.5;
 	color: #fff;
-	text-transform:uppercase;
 }
 
-span {
-	background:#000;
-}
-
-#background-map {
-	position: fixed;
+worldview {
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	visibility: hidden;
+	z-index: -2;
 }
 
-#background-overlay {
-	position: fixed;
-	width: 100%;
-	height: 100%;
+blur {
+	position: absolute;
+	z-index: -1;
 }
 
-#content {
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding: 0;
-	height: 100%;
-}
-
-#footer {
-	position: fixed;
-	bottom: 0dp;
-	left: 0dp;
-	width: 100%;
-	text-align: right;
-	font-family:Droid Sans;
-	font-size: 12dp;
-	background:#f0f;
-	color:#000;
-}
-
-#version_str {
-	padding: 0 0.5em;
-}
-
-/* Anchors */
-a {
-	tab-index: none;
-	color: #fff;
-}
-
-a:hover, a:focus {
-	color: #fff;
-}
-
-/* Navigation */
 #navi {
-	text-align: center;
-	background:#000;
-	padding:8dp 16dp;
-	z-index:666;
+	background: rgba( 0, 0, 0, 128 );
+	height: 100%;
+	left: 32dp;
+	position: absolute;
+	text-transform: uppercase;
+	width: 200dp;
 }
 
-#navi a, #navi button {
-	color: #666;
-	font-size: 2em;
-	margin:0 32dp;
-	sound-hover: /sounds/menu/mouseover.wav;
-	sound-click: /sounds/menu/ok.wav;
+.navi-padding {
+	padding-top: 48dp;
 }
 
-#navi a:hover, #navi a:active, #navi a:focus, #navi button:hover, #navi button:active, #navi button:focus {
+#navi a {
+	display: block;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	/* sound-hover: /sounds/menu/mouseover.wav; */
+	sound-click: /sounds/menu/mouseover.wav;
+}
+
+#navi a:hover {
+	background: rgba( 0, 0, 0, 128 );
+}
+
+#navi-settings {
+	display: none;
+}
+
+#navi-settings a {
+	padding-left: 2em;
+}
+
+#navi a:hover, #navi a:active, #navi a:focus {
 	color: #fff;
 }
 
-#navi a:active, #navi button:active {
-	text-decoration: underline;
+#version {
+	font-size: 8dp;
+	padding: 1em 2em;
+	position: absolute;
+	bottom: 0;
 }
-
-/* top nicehr for navi/content */
-.uitop { margin-top: 16dp; }
 
 /* Notification popup */
 #notification {
@@ -106,60 +83,64 @@ a:hover, a:focus {
 	font-weight: bold;
 }
 
-.ok {
+#notification.ok {
 	color: black;
 	background: #bef4ad;
 }
 
-.error {
+#notification.error {
 	color: black;
 	background: red;
 }
 
-/** Left side container */
-#leftside {
-	width: 100%;
-	overflow-y: auto;
+#content {
+	background: rgba( 0, 0, 0, 128 );
+	position: absolute;
+	top: 0;
+	left: 264dp;
+	margin-right: 32dp;
+	padding: 0;
+	height: 100%;
 }
 
-/** Right side containers */
-#sidebar {
-	width: 100%;
-	font-size:22dp;
-	margin:0 auto;
-	text-align:center;
-	padding: 32dp 0;
-}
-
-#sidebar a, #sidebar button, .styled-button {
-	width:100%;
-	padding: 0 16dp;
+#quit {
+	background: red;
+	margin: 0 auto;
+	padding: 1em 0;
+	position: absolute;
 	text-align: center;
-	color: #666;
-/*	sound-hover: /sounds/menu/mouseover.wav; */
-	sound-click: /sounds/menu/ok.wav;
+	top: 30%;
+	visibility: hidden;
+	width: 300dp;
+}
+
+#quit h1 {
+	margin: 0;
+	text-align: center;
+}
+
+#quit button:hover {
+	text-decoration: underline;
+}
+
+button {
 	tab-index: auto;
 }
 
-#sidebar a:hover, #sidebar button:hover, #sidebar a:focus, #sidebar button:focus, .styled-button:hover, .styled-button:focus {
-	color: #fff;
+button, .button, input.submit {
+	padding: 8dp 16dp;
+	text-align: center;
+	sound-click: /sounds/menu/mouseover.wav;
 }
 
-#sidebar a:active, #sidebar button:active, .styled-button:active {
-	color: #fff;
-	ninep-src: /ui/baseui/gfx/controls/button_purple_active;
+button.silent {
+	sound-click: none;
 }
-
-#sidebar hr {
-	margin-bottom: 8dp;
-}
-
-#sidebarsub { margin-top: 16dp; }
 
 /* in-ui titles for inputs */
 
 /* must be div.title, not .title, because .title is also map title in the local game datagrid */
-div.title, .optionstext {
+div.title {
 	padding-left: 15%;
 	display: inline-block;
 	text-align: left;
@@ -170,11 +151,7 @@ div.title {
 	width: 35%;
 }
 
-.optionstext {
-	width: 70%;
-}
-
-tabset tab, #navibar a {
+tabset tab {
 	width: 75%;
 	padding: 8dp;
 	margin-right: 4dp;
@@ -191,63 +168,11 @@ tabset tab:active {
 	color: #fff;
 }
 
-tabset tab:selected, tabset tab:hover, tabset tab:focus, #navibar a:active, #navibar a:hover {
+tabset tab:selected, tabset tab:hover, tabset tab:focus {
 	color: #fff;
 	ninep-src: /ui/baseui/gfx/controls/button_purple_active;
 }
 
-tabset tabs, #navibar {
+tabset tabs {
 	text-align: center;
-}
-
-/* notes:
-   #navibar is kind of an 'alias' for tabset tab here (used in the server browser),
-   but server browser doesn't (and can't) use tabset.
-   the rest of the styling is in the serverlist.css,
-   but we need to override width for these fake-tabs
-   here and use inline-block to be able to set width
-   for it.
-*/
-#navibar a {
-	width: 150dp;
-	display: inline-block;
-}
-
-.infoblock {
-	font-size: 0.9em;
-	text-align: center;
-	padding-left: 8dp;
-	padding-right: 8dp;
-}
-
-.infoblock .description {
-	font-size: 1.2em;
-}
-
-.left-arrow {
-	float: left;
-	width: 32dp;
-	height: 100%;
-	ninep-decorator: ninepatch;
-	ninep-src: /ui/baseui/gfx/arrow_left;
-	ninep-coords: 0 0 0 0;
-	ninep-size: -16dp 0 -16dp 0;
-}
-
-.left-arrow:hover {
-	ninep-src: /ui/baseui/gfx/arrow_left_h;
-}
-
-.right-arrow {
-	float: right;
-	width: 32dp;
-	height: 100%;
-	ninep-decorator: ninepatch;
-	ninep-src: /ui/baseui/gfx/arrow_right;
-	ninep-coords: 0 0 0 0;
-	ninep-size: -16dp 0 -16dp 0;
-}
-
-.right-arrow:hover {
-	ninep-src: /ui/baseui/gfx/arrow_right_h;
 }

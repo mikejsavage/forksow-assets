@@ -1,4 +1,0 @@
-.w100p { width: 100%; }
-
-.hide  { display: none; }
-br     { clear: both; margin-bottom: 8dp; }

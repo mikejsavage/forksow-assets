@@ -77,7 +77,7 @@ const String @Hex2RGB( const String &in hex )
 
 void OpenQuitDialog( void )
 {
-	window.modal('modal_basic.rml?text=Are%20you%20sure%20you%20want%20to%20quit%3F&ypos=0.25');
+	window.modal( "quit_dialog.rml" );
 	if (window.getModalValue() == 0) 
-		game.execAppend('quit\n');
+		game.execAppend( "quit\n" );
 }

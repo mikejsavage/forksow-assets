@@ -22,7 +22,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 <head>
 	<title>game</title>
 	<link rel="stylesheet" type="text/css" href="css/html4.rcss" />
-	<link rel="stylesheet" type="text/css" href="css/common.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/base.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/controls.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/quick.rcss" />

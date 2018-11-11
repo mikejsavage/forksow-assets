@@ -2,7 +2,6 @@
 <head>
 	<title>game</title>
 	<link rel="stylesheet" type="text/css" href="css/html4.rcss" />
-	<link rel="stylesheet" type="text/css" href="css/common.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/base.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/controls.rcss" />	
 	<link type="text/css" rel="stylesheet" href="css/modal_body.rcss" />

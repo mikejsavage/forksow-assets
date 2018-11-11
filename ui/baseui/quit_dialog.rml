@@ -1,7 +1,15 @@
 <rml>
 <head>
-	<title>modal</title>
-	<link type="text/template" href="template_modal.rml" />
+	<title>Quit</title>
+	<style>
+		#basic_content {
+			position: absolute;
+			top: 0;
+			     left: 0;
+			background: red;
+			font-family: "Droid Sans";
+		}
+	</style>
 	<script>
 		void onModalBasicShow( Element @body, Event @evt )
 		{
@@ -12,18 +20,19 @@
 			dict.get( 'text', text );
 			body.getElementById( 'basic_content' ).setInnerRML( text );
 
-			onModalShow( body, evt );
+			/* onModalShow( body, evt ); */
 
 			String y = '';
 			dict.get( 'ypos', y );
 			if( y.empty() )
 				y = '0.5';
-			setModalY( y.toFloat() );
+			/* setModalY( y.toFloat() ); */
 		}
 	</script>
 </head>
-<body template="baseui_modal" onload="$onModalLoad" onshow="$onModalBasicShow">
+<body onshow="$onModalBasicShow">
 	<div id="basic_content">
+		You sure bro?
 	</div>
 </body>
 </rml>

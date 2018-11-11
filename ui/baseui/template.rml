@@ -1,57 +1,37 @@
 <template name="baseui" content="content">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/html4.rcss" />
-	<link rel="stylesheet" type="text/css" href="css/common.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/base.rcss" />
 	<link rel="stylesheet" type="text/css" href="css/controls.rcss" />
 	<link rel="stylesheet" type="text/css" href="/gfx/ui/css/ui_map.rcss" />
 	<script src="as/base.as" />
 	<script src="as/popup.as" />
 	<script>
-		/* navigation panel */
-		Element @navi = null;
-
 		void onTemplateLoad( Element @body, Event @ev )
 		{
 			if( ev.getPhase() != EVENT_PHASE_TARGET ) {
-				// some idiv loading
 				return;
 			}
 
 			/* set content div height */
 			Element @content = body.getElementById( 'content' );
 
-			if( @content != null ) {
-				int contentHeight = window.height
-					- int( body.getElementById( 'footer' ).clientHeight() )
-					- int( content.resolveProp( 'padding-top', 0.0 ) )
-					- int( content.resolveProp( 'padding-bottom', 0.0 ) )
-					- int( content.resolveProp( 'top', 0.0 ) );
+			int max_width = int( 1024 * window.pixelRatio );
+			int available_space = window.width
+				- int( content.resolveProp( "left", 0.0 ) )
+				- int( content.resolveProp( "margin-right", 0.0 ) );
 
-				content.css( 'height', String( contentHeight ) + 'px' );
+			int width = max_width < available_space ? max_width : available_space;
 
-				int max_width = int( 1024 * window.pixelRatio );
-				if( window.width > max_width ) {
-					int padding = (window.width - max_width) / 2;
-					content.css( 'padding-left', String ( padding ) );
-					content.css( 'padding-right', String ( padding ) );
-				}
-			}
+			content.css( "width", String( width ) );
 
-			body.getElementById( 'version_str' ).setInnerRML( game.name + ' ' + game.version.substr( 0, game.version.locate( ' ',  0 ) ) + ' \u00a9 Aha Cheers' );
-
-			/* grab the navigation panel */
-			@navi = body.getElementById( 'navi' );
+			body.getElementById( 'version' ).setInnerRML( game.name + ' ' + game.version.substr( 0, game.version.locate( ' ',  0 ) ) + ' \u00a9 Aha Cheers' );
 		}
 
 		void onTemplateShow( Element @body, Event @ev )
 		{
-			ElementDocument @document = body.ownerDocument;
-
-			/* set active page */
-			if( document.title.length() > 0 ) {
-				setActivePage( document.title );
-			}
+			bool is_options = window.location.locate( "options", 0 ) < window.location.length();
+			body.getElementById( "navi-settings" ).css( "display", is_options ? "block" : "none" );
 
 			/* make the background invisible if the engine says so */
 			Element @background = body.getElementById( 'background-map' );
@@ -67,55 +47,55 @@
 			NotificationPopup( 'notification', text, 500, isError ? "error" : "ok" );
 		}
 
-		/* active page is one of home, join, local, options and demos */
-		void setActivePage( const String @id )
-		{
-			Element @elem;
+		void quit( Element @element, Event @e ) {
+			game.execAppend( "quit\n" );
+		}
 
-			if( @navi == null ) {
-				// Com_Printf("^4Warning: setActivePage, @navi is null\n");
-				return;
-			}
+		void show_quit( Element @element, Event @e ) {
+			window.document.body.getElementById( "quit" ).css( "visibility", "visible" );
+		}
 
-			/* disable active pages */
-			String activeId = 'link_' + id;
-
-			uint numChildren = navi.getNumChildren();
-			for( uint i = 0; i < numChildren; i++ ) {
-				Element @child = navi.getChild( i );
-				if( child.id == activeId ) {
-					child.setAttr( 'href', '#' ); // anchor to self
-					child.togglePseudo( 'active', true );
-					child.setAttr( 'current', '1' );
-				}
-				else {
-					child.togglePseudo( 'active', false );
-					child.setAttr( 'current', '0' );
-				}
-			}
+		void hide_quit( Element @element, Event @e ) {
+			window.document.body.getElementById( "quit" ).css( "visibility", "hidden" );
 		}
 	</script>
 </head>
 <!-- ch : onshow and onhide dont work in template, you have to explicitly define them in each page using template :( -->
 <body onload="$onTemplateLoad" onshow="$onTemplateShow">
 	<worldview id="background-map" class="ui-map" />
-
 	<blur />
 
-	<div id="background-overlay" />
+	<div id="navi">
+		<div class="navi-padding">
+			<a href="serverbrowser.rml">Play</a>
+
+			<a href="createserver.rml">Create server</a>
+
+			<a href="demos.rml">Demos</a>
+
+			<a href="options_general.rml">Settings</a>
+			<div id="navi-settings">
+				<a href="options_general.rml">General</a>
+				<a href="options_input.rml">Input</a>
+				<a href="options_graphics.rml">Graphics</a>
+				<a href="options_sound.rml">Sound</a>
+			</div>
+
+			<a href="#" onclick="$show_quit">Pussy Out</a>
+		</div>
+
+		<div id="version"></div>
+	</div>
 
 	<div id="notification" />
 
 	<div id="content" />
 
-	<div id="footer">
-		<div id="navi">
-			<a href="game_join.rml" id="link_game">Play</a>
-			<a href="options.rml" id="link_options">Options</a>
-			<a href="#" id="link_quit" onclick="OpenQuitDialog();">Pussy Out</a>
-		</div>
+	<div id="quit">
+		<h1>You sure bro?</h1>
 
-		<div id="version_str"></div>
+		<button class="silent" onclick="$quit">Ya</button>
+		<button onclick="$hide_quit">Na</button>
 	</div>
 </body>
 </template>
