@@ -366,7 +366,7 @@
 		onrowchange="$onServerBrowserRowChange"
 		onrowremove="$onServerBrowserRowRemove"
 		onrowactivate="$onServerBrowserRowActivate">
-		<col fields="cleanname" width="80%">Hostname</col>
+		<col fields="cleanname" width="80%">Server</col>
 		<col fields="players" width="10%">Players</col>
 		<col fields="ping" width="10%">Ping</col>
 	</datagrid>

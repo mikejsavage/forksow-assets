@@ -66,7 +66,7 @@ blur {
 }
 
 #version {
-	font-size: 8dp;
+	font-size: 12dp;
 	padding: 1em 2em;
 	position: absolute;
 	bottom: 0;

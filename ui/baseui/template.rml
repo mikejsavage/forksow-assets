@@ -25,7 +25,8 @@
 
 			content.css( "width", String( width ) );
 
-			body.getElementById( 'version' ).setInnerRML( game.name + ' ' + game.version.substr( 0, game.version.locate( ' ',  0 ) ) + ' \u00a9 Aha Cheers' );
+			String version_number = game.version.substr( 0, game.version.locate( " ",  0 ) );
+			body.getElementById( "version" ).setInnerRML( game.name + " " + version_number + "<br/>\u00a9 Aha Cheers" );
 		}
 
 		void onTemplateShow( Element @body, Event @ev )
