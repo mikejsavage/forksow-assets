@@ -343,10 +343,10 @@
 	{
 		window.preload( "createserver.rml" );
 		window.preload( "demos.rml" );
-		window.preload( "options_player.rml" );
-		window.preload( "options_input.rml" );
-		window.preload( "options_graphics.rml" );
-		window.preload( "options_sound.rml" );
+		window.preload( "settings_player.rml" );
+		window.preload( "settings_input.rml" );
+		window.preload( "settings_graphics.rml" );
+		window.preload( "settings_sound.rml" );
 	}
 
 	void startMusic( Element @body, Event @event )

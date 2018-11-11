@@ -118,52 +118,50 @@
 	</script>	
 </head>
 <body template="baseui" onshow="$onAudioShow">
-	<optionsform id="options-form">
-		<div class="title">Master volume</div>
-		<input id="sound-volume" cvar="s_volume" class="slider" type="range" min="0" max="1.0" step="0.05" value="0.7" realtime="1" onchange="$onVolumeChange"/>
-		<div id="sound-volume-txt" class="slider-value"></div>
-		<br />
-		
-		<div class="title">Players volume</div>
-		<input id="player-volume" cvar="cg_volume_players" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onPlayerVolChange"/>
-		<div id="player-volume-txt" class="slider-value"></div>
-		<br />
-		
-		<div class="title">Effects volume</div>
-		<input id="effects-volume" cvar="cg_volume_effects" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onEffectsVolChange"/>
-		<div id="effects-volume-txt" class="slider-value"></div>
-		<br />
-		
-		<div class="title">Announcer volume</div>
-		<input id="announcer-volume" cvar="cg_volume_announcer" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onAnnouncerVolChange"/>
-		<div id="announcer-volume-txt" class="slider-value"></div>
-		<br />
-		
-		<div class="title">Voice chat volume</div>
-		<input id="voice-chat-volume" cvar="cg_volume_voicechats" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onVoiceChatVolChange"/>
-		<div id="voice-chat-volume-txt" class="slider-value"></div>
-		<br />
-		
-		<div class="title">Hit sounds volume</div>
-		<input id="hit-volume" cvar="cg_volume_hitsound" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onHitVolChange"/>
-		<div id="hit-volume-txt" class="slider-value"></div>
-		<br/>
-		
-		<br/>			
-		<hr class="nicehr" />
-		<br/>
-		
-		<div class="title">Keep playing sounds in background</div>
-		<input cvar="s_globalfocus" type="checkbox" realtime="1"/>
-		<br/>
-		
-		<div class="title">Chat message sound</div>
-		<input cvar="cg_chatBeep" type="checkbox" realtime="1"/>
-		<br/>
-		<br/>
+	<div class="content-inner">
+		<optionsform id="options-form">
+			<div class="setting-name">Master volume</div>
+			<input id="sound-volume" cvar="s_volume" class="slider" type="range" min="0" max="1.0" step="0.05" value="0.7" realtime="1" onchange="$onVolumeChange"/>
+			<div id="sound-volume-txt" class="slider-value"></div>
+			<br />
+			
+			<div class="setting-name">Players volume</div>
+			<input id="player-volume" cvar="cg_volume_players" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onPlayerVolChange"/>
+			<div id="player-volume-txt" class="slider-value"></div>
+			<br />
+			
+			<div class="setting-name">Effects volume</div>
+			<input id="effects-volume" cvar="cg_volume_effects" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onEffectsVolChange"/>
+			<div id="effects-volume-txt" class="slider-value"></div>
+			<br />
+			
+			<div class="setting-name">Announcer volume</div>
+			<input id="announcer-volume" cvar="cg_volume_announcer" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onAnnouncerVolChange"/>
+			<div id="announcer-volume-txt" class="slider-value"></div>
+			<br />
+			
+			<div class="setting-name">Voice chat volume</div>
+			<input id="voice-chat-volume" cvar="cg_volume_voicechats" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onVoiceChatVolChange"/>
+			<div id="voice-chat-volume-txt" class="slider-value"></div>
+			<br />
+			
+			<div class="setting-name">Hit sounds volume</div>
+			<input id="hit-volume" cvar="cg_volume_hitsound" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onHitVolChange"/>
+			<div id="hit-volume-txt" class="slider-value"></div>
+			<br/>
+			
+			<div class="setting-name">Keep playing sounds in background</div>
+			<input cvar="s_globalfocus" type="checkbox" realtime="1"/>
+			<br/>
+			
+			<div class="setting-name">Chat message sound</div>
+			<input cvar="cg_chatBeep" type="checkbox" realtime="1"/>
+			<br/>
+			<br/>
 
-		<button onclick="form.restoreOptions();" class="button-cancel">Cancel</button>	
-		<button onclick="form.applyOptions(); notificationPopup('Saved');" class="button-apply">Save changes</button>
-	</optionsform>
+			<button onclick="form.restoreOptions();" class="button-cancel">Cancel</button>	
+			<button onclick="form.applyOptions(); notificationPopup('Saved');" class="button-apply">Save changes</button>
+		</optionsform>
+	</div>
 </body>
 </rml>

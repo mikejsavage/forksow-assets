@@ -1,0 +1,57 @@
+<rml>
+<head>
+	<title>options</title>
+	<link type="text/template" href="template.rml" />
+	<link rel="stylesheet" type="text/css" href="css/options/player.rcss" />
+	<script>
+		ElementOptionsForm @playerform;
+
+		void onPlayerLoad( Element @body, Event @evt )
+		{
+			onTemplateLoad( body, evt );
+		}
+
+		void onPlayerShow( Element @body, Event @evt )
+		{
+			onTemplateShow( body, evt );
+
+			//==== form ====
+			ElementOptionsForm @f = body.getElementById("hud-options-form");
+			f.storeOptions();
+		}
+	</script>
+</head>
+<body template="baseui" onload="$onPlayerLoad" onshow="$onPlayerShow">
+	<div class="content-inner">
+		<optionsform id="hud-options-form" onsubmit="$OptionsForm_OnSubmit">
+			<div class="setting-name">Name</div>
+			<input cvar="name" type="text" value="Player"/>
+			<br/>
+
+			<div class="setting-name">Clan</div>
+			<input cvar="clan" type="text" value=""/>
+			<br/>
+
+			<div class="setting-name">FOV</div>
+			<input cvar="fov" type="text" class="short text" value="100" realtime="1"/>
+			<br/>
+		
+			<div class="setting-name">Zoomed in FOV</div>
+			<input cvar="zoomfov" type="text" class="short text" value="75" realtime="1"/>
+			<br/>
+			
+			<div class="setting-name">Show FPS counter</div>
+			<input cvar="cg_showFps" type="checkbox" realtime="1"/>
+			<br/>				
+
+			<div class="setting-name">Automatically record demos</div>
+			<input cvar="cg_autoaction_demo" type="checkbox" realtime="1"/>
+			<br/>
+		
+			<div class="setting-name">Automatically take scoreboard screenshots</div>
+			<input cvar="cg_autoaction_screenshot" type="checkbox" realtime="1"/>
+			<br/>	
+		</optionsform>
+	</div>
+</body>
+</rml>

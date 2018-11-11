@@ -104,6 +104,7 @@ blur {
 	height: 100%;
 	left: 264dp;
 	margin-right: 32dp;
+	overflow-y: auto;
 	position: absolute;
 	top: 0;
 }

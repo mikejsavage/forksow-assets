@@ -30,8 +30,8 @@
 
 		void onTemplateShow( Element @body, Event @ev )
 		{
-			bool is_options = window.location.locate( "options", 0 ) < window.location.length();
-			body.getElementById( "navi-settings" ).css( "display", is_options ? "block" : "none" );
+			bool is_settings = window.location.locate( "settings", 0 ) < window.location.length();
+			body.getElementById( "navi-settings" ).css( "display", is_settings ? "block" : "none" );
 
 			/* make the background invisible if the engine says so */
 			Element @background = body.getElementById( 'background-map' );
@@ -76,12 +76,12 @@
 
 			<a href="demos.rml">Demos</a>
 
-			<a href="options_general.rml">Settings</a>
+			<a href="settings_general.rml">Settings</a>
 			<div id="navi-settings">
-				<a href="options_general.rml">General</a>
-				<a href="options_input.rml">Input</a>
-				<a href="options_graphics.rml">Graphics</a>
-				<a href="options_sound.rml">Sound</a>
+				<a href="settings_general.rml">General</a>
+				<a href="settings_input.rml">Input</a>
+				<a href="settings_graphics.rml">Graphics</a>
+				<a href="settings_sound.rml">Sound</a>
 			</div>
 
 			<a href="#" onclick="$show_quit">Pussy Out</a>
