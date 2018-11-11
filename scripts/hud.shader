@@ -48,11 +48,6 @@ number_HUD_Template
 	}
 }
 
-gfx/hud/sbnums
-{
-	template number_HUD_Template sbnums
-}
-
 gfx/hud/net
 {
 	template mipmapped_HUD_Template net
