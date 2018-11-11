@@ -31,6 +31,8 @@ include bomb_progress
 
 include chasing
 
+include teammate_indicators
+
 include strafe
 include speed
 include fps
