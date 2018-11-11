@@ -1,11 +1,3 @@
-/* server browser */
-
-/* notes:
-   #navibar is kind of an 'alias' for tabset tab here,
-   but server browser doesn't (and can't) use tabset.
-   the actual styling is in the base.css!
- */
-
 #serverbrowser_datagrid datagridcolumn {
 	background-color: rgba(0, 0, 0, 128);
 	color: #f0f;

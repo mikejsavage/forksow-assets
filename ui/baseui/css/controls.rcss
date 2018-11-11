@@ -2,6 +2,7 @@
 input.text, input.password, input.checkbox,
 scrollbarvertical,
 select, dataselect, keyselect {
+	line-height: 1em;
 	border-top: 1dp #272134;
 	border-right: 1dp #272134;
 	border-bottom: 1dp #272134;
@@ -9,26 +10,42 @@ select, dataselect, keyselect {
 	background-color: #141219;
 }
 
-input.submit:disabled, input.submit:disabled:hover, input.submit:disabled:active {
-	color: #fff;
-}
-
 /* Inputs */
 input {
 	tab-index: auto;
+	vertical-align: middle;
 }
 
 input.text, input.password {
 	height: 2em;
-	padding: 3dp;
-	max-width: 25%;
-	color: #fff;
-	vertical-align: middle;
+	margin-top: -1em;
+	max-width: 55%;
+	padding: 0.25em 0.5em;
 }
 
-.short { width: 75dp; }
+input.short {
+	width: 75dp;
+}
 
-input.text:hover, input.text:focus, input.password:hover, input.password:focus { background-color: #3f3c49; }
+input.text:hover, input.text:focus, input.password:hover, input.password:focus {
+	background-color: #3f3c49;
+}
+
+/* Input: checkbox */
+input.checkbox {
+	height: 1.5em;
+	margin-top: -1em;
+	width: 1.5em;
+}
+
+input.checkbox:hover, input.checkbox:focus {
+	background-color: #3f3c49;
+}
+
+input.checkbox:checked {
+	checkbox-decorator: image;
+	checkbox-image: /ui/baseui/gfx/controls/checkbox 0 0 1 1;
+}
 
 /* Tabsets */
 tabset tab {
@@ -46,22 +63,14 @@ tabset panel {
 	margin-left: 8dp;
 }
 
-.button-large {
-	float: left;
-	margin-left: 8dp;
-	min-width: 175dp;
-}
-
 .button-cancel  {
 	margin-left: 50%;
-	sound-click: /sounds/menu/back.wav;
 }
 
 .button-apply {
 	font-weight: bold;
 }
 
-/* Scrollbar */
 scrollbarvertical {
 	width: 14dp;
 	z-index: 99999;
@@ -92,21 +101,6 @@ scrollbarvertical sliderbar {
 
 scrollbarvertical sliderbar:hover, scrollbarvertical sliderbar:focus {
 	ninep-src: /ui/baseui/gfx/controls/scrollbar_bar_hover;
-}
-
-/* Input: checkbox */
-input.checkbox {
-	width: 1.5em;
-	height: 1.5em;
-}
-
-input.checkbox:hover, input.checkbox:focus {
-	background-color: #3f3c49;
-}
-
-input.checkbox:checked {
-	checkbox-decorator: image;
-	checkbox-image: /ui/baseui/gfx/controls/checkbox 0 0 1 1;
 }
 
 /* Color picker */
@@ -215,11 +209,6 @@ dirtype  {
 	color: #e86a2b;
 }
 
-filetype { color: #fff; }
-
-/* dataspinner */
-
-dataspinner {
-	margin-top: -36dp;
-	z-index: 2;
+filetype {
+	color: #fff;
 }

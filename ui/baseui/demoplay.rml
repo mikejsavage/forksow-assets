@@ -182,7 +182,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 	
 		void onMenuClick( Element @elem, Event @event )
 		{
-			window.location='game_join.rml';
+			window.location='serverbrowser.rml';
 		}
 	</script>
 </head>

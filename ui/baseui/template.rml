@@ -38,6 +38,8 @@
 			if( @background != null ) {
 				background.css( 'visibility', window.drawBackground ? 'visible' : 'hidden' );
 			}
+
+			body.getElementById( "mapshot" ).css( "visible", "hidden" );
 		}
 
 		/* Enables notification popup and starts the alpha fade process */
@@ -63,6 +65,7 @@
 <!-- ch : onshow and onhide dont work in template, you have to explicitly define them in each page using template :( -->
 <body onload="$onTemplateLoad" onshow="$onTemplateShow">
 	<worldview id="background-map" class="ui-map" />
+	<levelshot id="mapshot" src="" />
 	<blur />
 
 	<div id="navi">

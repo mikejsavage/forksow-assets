@@ -61,7 +61,7 @@
 				}
 
 				// assume an offline menu
-				window.location = 'game_join.rml';
+				window.location = 'serverbrowser.rml';
 				return;
 			}
 
@@ -249,7 +249,7 @@
 			<a id="link-chasecam" href="chasecam.rml" class="styled-button">Chasecam</a>
 
 			<br/>
-			<a id="link-main" href="game_join.rml" class="styled-button">Main menu</a>
+			<a id="link-main" href="serverbrowser.rml" class="styled-button">Main menu</a>
 			<button id="btn-return" command="" onclick="$onCmdButtonClick">Return to game</button>
 		</div>
 	</div>
