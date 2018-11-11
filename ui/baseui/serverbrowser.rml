@@ -343,7 +343,7 @@
 	{
 		window.preload( "createserver.rml" );
 		window.preload( "demos.rml" );
-		window.preload( "settings_player.rml" );
+		window.preload( "settings_general.rml" );
 		window.preload( "settings_input.rml" );
 		window.preload( "settings_graphics.rml" );
 		window.preload( "settings_sound.rml" );
