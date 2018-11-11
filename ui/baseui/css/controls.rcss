@@ -58,13 +58,13 @@ tabset panel {
 
 /* Apply buttons class */
 .button-apply, .button-cancel {
-	width: 100dp;
-	float: left;
-	margin-left: 8dp;
+	display: inline-block;
+	width: 200dp;
 }
 
 .button-cancel  {
-	margin-left: 50%;
+	display: inline-block;
+	width: 200dp;
 }
 
 .button-apply {
@@ -170,7 +170,7 @@ input.range {
 	max-width: 25%;
 	height: 24dp;
 	padding: 0dp;
-	margin-bottom: 8dp;
+	margin-top: -1em;
 }
 
 input sliderarrowdec, input sliderarrowinc {
