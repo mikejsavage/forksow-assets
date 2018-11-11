@@ -47,7 +47,6 @@ blur {
 	display: block;
 	font-weight: bold;
 	padding: 0.5em 1em;
-	/* sound-click: /sounds/menu/click.wav; */
 }
 
 #navi a:hover {
@@ -139,11 +138,6 @@ button {
 button, .button, input.submit {
 	padding: 8dp 16dp;
 	text-align: center;
-	/* sound-click: /sounds/menu/click.wav; */
-}
-
-button.silent {
-	/* sound-click: none; */
 }
 
 .setting-name {
@@ -159,7 +153,6 @@ tabset tab {
 	margin-left: 4dp;
 	text-align: center;
 	color: #fff;
-	/* sound-click: /sounds/menu/click.wav; */
 	white-space: nowrap;
 }
 
