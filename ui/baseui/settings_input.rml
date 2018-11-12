@@ -252,10 +252,6 @@
 					<div class="setting-name">Electrobolt (EB)</div>
 					<keyselect bind="use Electrobolt"/>
 					<br />
-					
-					<div class="setting-name">Instagun (IG)</div>
-					<keyselect bind="use Instagun"/>
-					<br />
 				</div>
 			</panel>
 		</tabset>
