@@ -1,4 +1,3 @@
-setFontFamily "Hemi Head"
 setFontSize %VIDHEIGHT / 30
 setColor 1, 1, 1, 1
 setCursor 400 110
