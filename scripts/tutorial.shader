@@ -8,7 +8,6 @@ textures/tutorial/dash_burst_sprite
 	surfaceparm noimpact
 	surfaceparm nowalljump
 	deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map gfx/dash/dash_burst_1.tga
@@ -26,7 +25,6 @@ textures/tutorial/jump_sprite
 	surfaceparm noimpact
 	surfaceparm nowalljump	
 	deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map textures/tutorial/jump_sprite.tga
@@ -46,7 +44,6 @@ textures/tutorial/walljump_sprite
 	surfaceparm noimpact
 	surfaceparm nowalljump	
 	deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map textures/tutorial/walljump_sprite.tga
@@ -65,7 +62,6 @@ textures/tutorial/strjump_left
 	surfaceparm noimpact
 	surfaceparm nowalljump	
     deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map textures/tutorial/strjump_left.tga
@@ -84,7 +80,6 @@ textures/tutorial/strjump_right
 	surfaceparm noimpact
 	surfaceparm nowalljump	
     deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map textures/tutorial/strjump_right.tga
@@ -104,7 +99,6 @@ textures/tutorial/questionmark_1
 	surfaceparm noimpact
 	surfaceparm nowalljump	
 	deformVertexes autosprite
-	nocompress
 	nopicmip
 	{
 		map textures/tutorial/questionmark_1.tga

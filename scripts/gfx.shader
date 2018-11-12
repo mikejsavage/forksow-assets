@@ -16,7 +16,6 @@ particle
 	deformvertexes autoparticle
 	cull none
 	entityMergable		// allow all the sprites to be merged together
-	nocompress
 	{
 		map $particleimage
 //		blendfunc GL_SRC_ALPHA GL_ONE
@@ -32,7 +31,6 @@ additiveParticle
 	cull none
 	nopicmip
 	entityMergable		// allow all the sprites to be merged together
-	nocompress
 	{
 		map $particleimage
 		blendfunc add
@@ -47,7 +45,6 @@ additiveParticleShine
 	cull none
 	nopicmip
 	entityMergable		// allow all the sprites to be merged together
-	nocompress
 	{
 		clampmap gfx/misc/particle_light_32.tga
 		blendfunc add

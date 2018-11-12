@@ -1,7 +1,6 @@
 mipmapped_GFX_Template
 {
 	nopicmip
-	nocompress
 	{
 		clampmap gfx/$1.tga
 		blendfunc blend
@@ -13,7 +12,6 @@ mipmapped_GFX_Template
 mipmapped_HUD_Template
 {
 	nopicmip
-	nocompress
 	{
 		clampmap gfx/hud/$1.tga
 		blendfunc blend
@@ -25,7 +23,6 @@ mipmapped_HUD_Template
 gfx/hud/zoomscreen
 {
 	nomipmaps
-	nocompress
 	{
     	map gfx/hud/zoomscreenlines.tga
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -39,7 +36,6 @@ gfx/hud/zoomscreen
 number_HUD_Template
 {
 	nomipmaps
-	nocompress
 	{
 		clampmap gfx/hud/$1.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -56,7 +52,6 @@ gfx/hud/net
 gfx/hud/select
 {
 	nomipmaps
-	nocompress
 	{
 		clampmap gfx/hud/select.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -67,7 +62,6 @@ gfx/hud/select
 gfx/hud/damage
 {
 	nomipmaps
-	nocompress
 	{
 		alphamaskclampmap gfx/hud/damage.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -81,7 +75,6 @@ gfx/hud/damage
 simpleIcon_HUD_Template
 {
 	nopicmip
-	nocompress
 	{
 		// not clampmap to avoid loading the textures twice when simple items are on and because these have wide empty areas near the edges
 		map gfx/hud/icons/$1.tga
@@ -92,7 +85,6 @@ simpleIcon_HUD_Template
 weaponIcon_HUD_Template
 {
 	nopicmip
-	nocompress
 	{
 		map gfx/hud/icons/$1.tga
 		blendfunc blend
@@ -310,7 +302,6 @@ gfx/hud/icons/powerup/regen
 key_HUD_Template
 {
 	nopicmip
-	nocompress
 	{
 		clampmap gfx/hud/keys/$1.tga
 		blendfunc blend
@@ -404,7 +395,6 @@ gfx/hud/keys/touch_movedir
 template_HUD_Iconflag_Teamed
 {
 	nopicmip
-	nocompress
 
 	{
 		clampmap gfx/hud/icons/flags/iconflag
@@ -426,7 +416,6 @@ gfx/hud/icons/flags/iconflag_beta
 gfx/hud/icons/flags/iconflag
 {
 	nopicmip
-	nocompress
 
 	{
 		clampmap gfx/hud/icons/flags/iconflag
@@ -438,7 +427,6 @@ gfx/hud/icons/flags/iconflag
 template_HUD_Iconflag_State
 {
 	nopicmip
-	nocompress
 
 	{
 		clampmap gfx/hud/icons/flags/iconflag

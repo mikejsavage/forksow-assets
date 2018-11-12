@@ -2,7 +2,6 @@ ui/baseui/gfx/background
 {
 	nopicmip
 	nomipmaps
-	nocompress
 	nofiltering
 	cull none
 
@@ -18,7 +17,6 @@ ui/baseui/gfx/background2
 {
 	nopicmip
 	nomipmaps
-	nocompress
 	cull none
 
 	{
@@ -33,7 +31,6 @@ ui/baseui/gfx/loader_simple
 {
 	noPicmip
 	noMipmaps
-	nocompress
 	cull none
 
 	{
