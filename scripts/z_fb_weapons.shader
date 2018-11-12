@@ -4,18 +4,16 @@ fullbright_weapon
     cull front
  
     {
-        material models/weapons/$1/$1.tga
-        rgbGen entity
+        map $whiteImage
+        rgbGen const $1 $2 $3
     }
 }
 
-models/weapons/gunblade/barrel                  { template fullbright_weapon gunblade }
-models/weapons/electrobolt/electrobolt          { template fullbright_weapon electrobolt }
-models/weapons/glauncher/glauncher              { template fullbright_weapon glauncher }
-models/weapons/gunblade/gunblade                { template fullbright_weapon gunblade }
-models/weapons/lasergun/lasergun                { template fullbright_weapon lasergun }
-models/weapons/machinegun/machinegun            { template fullbright_weapon machinegun }
-models/weapons/machinegun/machinegun_barrel     { template fullbright_weapon machinegun }
-models/weapons/plasmagun/plasmagun              { template fullbright_weapon plasmagun }
-models/weapons/riotgun/riotgun                  { template fullbright_weapon riotgun }
-models/weapons/rlauncher/rlauncher              { template fullbright_weapon rlauncher }
+models/weapons/electrobolt/electrobolt          { template fullbright_weapon 0 0.894 1 }
+models/weapons/glauncher/glauncher              { template fullbright_weapon 0.290, 0.564, 0.886 }
+models/weapons/gunblade/gunblade                { template fullbright_weapon 0.388, 0.388, 0.388 }
+models/weapons/gunblade/barrel                  { template fullbright_weapon 0.388, 0.388, 0.388 }
+models/weapons/lasergun/lasergun                { template fullbright_weapon 0.713, 0.172, 0.905 }
+models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.113, 0.945, 0.423 }
+models/weapons/riotgun/riotgun                  { template fullbright_weapon 1, 0.678, 0.149 }
+models/weapons/rlauncher/rlauncher              { template fullbright_weapon 0.815, 0.007, 0.105 }
