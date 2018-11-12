@@ -537,21 +537,21 @@ gfx/indicators/radar
 	nopicmip
 
 	{
-		clampmap gfx/indicators/radar_1.tga
+		alphamaskclampmap gfx/indicators/radar_1.tga
 		alphagen wave distanceramp 0 1 400 1600
 		blendFunc blend
 		rgbgen entity
 	}
 
 	{
-		clampmap gfx/indicators/radar_2.tga
+		alphamaskclampmap gfx/indicators/radar_2.tga
 		alphagen wave distanceramp 0 1 500 2000
 		blendFunc blend
 		tcMod rotate 6
 	}
 
 	{
-		clampmap gfx/indicators/radar_3.tga
+		alphamaskclampmap gfx/indicators/radar_3.tga
 		alphagen wave distanceramp 0 1 600 2000
 		blendFunc blend
 		tcMod rotate -3
@@ -564,20 +564,20 @@ gfx/indicators/radar_decal
 	polygonOffset
 
 	{
-		clampmap gfx/indicators/radar_1.tga
+		alphamaskclampmap gfx/indicators/radar_1.tga
 		blendFunc blend
 		rgbgen vertex
 		alphagen vertex
 	}
 
 	{
-		clampmap gfx/indicators/radar_2.tga
+		alphamaskclampmap gfx/indicators/radar_2.tga
 		blendFunc blend
 		tcMod rotate 6
 	}
 
 	{
-		clampmap gfx/indicators/radar_3.tga
+		alphamaskclampmap gfx/indicators/radar_3.tga
 		blendFunc blend
 		tcMod rotate -3
 	}

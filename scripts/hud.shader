@@ -64,6 +64,17 @@ gfx/hud/select
 	}
 }
 
+gfx/hud/damage
+{
+	nomipmaps
+	nocompress
+	{
+		alphamaskclampmap gfx/hud/damage.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
 //
 // weapon icons
 //
