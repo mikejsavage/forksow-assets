@@ -1,7 +1,6 @@
 // match message
 ifnot %CHAT_MODE
 
-setFontFamily con_fontSystem
 setFontSize con_fontSystemSmall
 setAlign #CENTER #TOP
 setCursor #WIDTH / 2, #HEIGHT * 0.15

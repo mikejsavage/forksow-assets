@@ -11,7 +11,6 @@ if %DOWNLOAD_IN_PROGRESS
 	drawPicBar %DOWNLOAD_PERCENT, 100, "gfx/2d/progressbar"
 
 	setColor 1 1 1 1
-	setFontFamily con_fontSystem
 	setFontSize %VIDHEIGHT / 50
 	moveCursor 4 * 1.333 * %VIDHEIGHT / %VIDWIDTH, -14
 

@@ -1,4 +1,3 @@
-setFontFamily con_fontSystem
 setFontSize %VIDHEIGHT / 50
 setColor 1 1 1 1
 drawPointing
