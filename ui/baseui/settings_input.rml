@@ -71,7 +71,7 @@
 		// reflect m_pitch state on the checkbox
 		void onMouseInvertShow( Element @elem )
 		{
-			bool inverted = Cvar( "m_pitch", '', ::CVAR_ARCHIVE ).value < 0 ? true : false;
+			bool inverted = Cvar( "m_pitch", "0.022", ::CVAR_ARCHIVE ).value < 0;
 			if( inverted ) {
 				elem.setAttr( 'checked', '1' );
 			}
@@ -82,7 +82,7 @@
 
 		void onMouseInvertChange( Element @elem, Event @ev )
 		{
-			Cvar m_pitch = Cvar( "m_pitch", '', ::CVAR_ARCHIVE );
+			Cvar m_pitch = Cvar( "m_pitch", "0.022", ::CVAR_ARCHIVE );
 			float pitch_value = m_pitch.value;
 			bool inverted = pitch_value < 0 ? true : false;
 
