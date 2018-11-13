@@ -17,8 +17,7 @@
 				"mode", "mode-frame",
 				"fullscreen-frame", "borderless-frame",
 				"msaa", "msaa-frame",
-				"filtering", "filtering-frame",
-				"softparticles-frame" );
+				"filtering", "filtering-frame" );
 			video = setup;
 
 			@form = body.getElementById( "options-form" );
@@ -128,7 +127,13 @@
 				<br/>
 			</div>
 
-			<div id="softparticles-frame">
+			<div>
+				<div class="setting-name">High quality lightmaps</div>
+				<input cvar="r_lighting_bicubic" type="checkbox" class="checkbox"/>
+				<br/>
+			</div>
+
+			<div>
 				<div class="setting-name">Soft particles</div>
 				<input cvar="r_soft_particles" type="checkbox" class="checkbox"/>
 				<br/>

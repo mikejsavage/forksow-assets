@@ -55,32 +55,27 @@ class VideoSetup
 	String idModeFrame;
 	String idFullscreenFrame;
 	String idBorderlessFrame;
-	String idVsyncFrame;
 	String idMsaa;
 	String idMsaaFrame;
 	String idFiltering;
 	String idFilteringFrame;
-	String idSoftParticlesFrame;
 
 	VideoSetup( Element @elem,
 				const String &idVideoFrame,
 				const String &idMode, const String &idModeFrame,
 				const String &idFullscreenFrame, const String &idBorderlessFrame,
 				const String &idMsaa, const String &idMsaaFrame,
-				const String &idFiltering, const String &idFilteringFrame,
-				const String &idSoftParticlesFrame )
+				const String &idFiltering, const String &idFilteringFrame)
 	{
 		this.idVideoFrame = idVideoFrame;
 		this.idMode = idMode;
 		this.idModeFrame = idModeFrame;
 		this.idFullscreenFrame = idFullscreenFrame;
 		this.idBorderlessFrame = idBorderlessFrame;
-		this.idVsyncFrame = idVsyncFrame;
 		this.idMsaa = idMsaa;
 		this.idMsaaFrame = idMsaaFrame;
 		this.idFiltering = idFiltering;
 		this.idFilteringFrame = idFilteringFrame;
-		this.idSoftParticlesFrame = idSoftParticlesFrame;
 
 		Initialize( @elem );
 	}
