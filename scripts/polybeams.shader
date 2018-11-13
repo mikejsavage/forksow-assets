@@ -189,6 +189,20 @@ gfx/misc/laserbeam
 	}
 }
 
+gfx/misc/lasersparks
+{
+	nopicmip
+	nomipmaps
+	cull none
+	deformVertexes autosprite2
+	softParticle
+	{
+		map gfx/misc/laserbeam.tga
+		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
 gfx/misc/laser
 {
 	nopicmip
