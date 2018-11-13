@@ -29,7 +29,6 @@
 
 	DataSource @browserDataSource;
 	DataSource @gametypesDataSource;
-	Element @navibar;
 	Element @servergrid;
 	Element @refreshbtn;
 	Element @connectbtn;
@@ -41,7 +40,6 @@
 
 		onTemplateLoad( body, ev );
 
-		@navibar = body.getElementById( 'navibar' );
 		@refreshbtn = body.getElementById( 'refresh-btn' );
 		@connectbtn = body.getElementById( 'connect-btn' );
 		@favoritebtn = body.getElementById( 'favorite-btn' );
