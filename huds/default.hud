@@ -23,7 +23,6 @@ include topinfo
 include health
 include weaponlist
 
-include stunned
 include obituaries
 
 include drop_the_bomb
