@@ -77,14 +77,6 @@
 
 			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
 		}
-
-		void onChatBeepVolChange( Element @elem, Event @ev )
-		{
-			ElementFormControl @bar = elem;
-			Element @txt = elem.getElementById( 'chat-volume-txt' );
-
-			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
-		}
 	</script>
 </head>
 <body template="baseui" onshow="$onAudioShow">
@@ -113,11 +105,6 @@
 			<div class="setting-name">Hit sounds volume</div>
 			<input id="hit-volume" cvar="cg_volume_hitsound" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="1.0" realtime="1" onchange="$onHitVolChange"/>
 			<div id="hit-volume-txt" class="slider-value"></div>
-			<br/>
-
-			<div class="setting-name">Chat beep volume</div>
-			<input id="chat-volume" cvar="cg_chatbeep" class="slider" type="range" min="0.0" max="1.0" step="0.05" value="0.3" realtime="1" onchange="$onChatBeepVolChange"/>
-			<div id="chat-volume-txt" class="slider-value"></div>
 			<br/>
 
 			<div class="setting-name">Keep playing sounds in background</div>
