@@ -30,7 +30,6 @@ include bomb_progress
 include chasing
 
 include teammate_indicators
-include crosshair
 
 include strafe
 include speed
@@ -40,6 +39,8 @@ include download
 include net
 include pointing
 include keystate
+
+include crosshair
 
 endif //if %MATCH_STATE < #MATCH_STATE_POSTMATCH
 
