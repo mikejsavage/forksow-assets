@@ -331,7 +331,37 @@ gfx/rocket_explosion
 	}
 }
 
-gfx/misc/rlexplo_ring
+gfx/rocket_explosion_ring
+{
+	nopicmip
+	cull disable
+	softParticle
+	{
+		Clampmap gfx/misc/rlexplo_ring.tga
+		rgbGen wave Inversesawtooth 0 1 0 4
+		blendfunc add
+		tcMod stretch sawtooth .75 .5 0 4
+	}
+}
+
+gfx/grenade_explosion
+{
+	nopicmip
+	cull disable
+	softParticle
+	{
+		animmap 8 gfx/misc/rlexplo1.tga  gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga
+		rgbGen wave inversesawtooth 0 1 0 8
+		blendfunc add
+	}
+	{
+		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga gfx/colors/black.tga
+		rgbGen wave sawtooth 0 1 0 8
+		blendfunc add
+	}
+}
+
+gfx/grenade_explosion_ring
 {
 	nopicmip
 	cull disable
