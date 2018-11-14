@@ -5,3 +5,14 @@ textures/cocaine_diesel/ui_sky
 	
 	skyparms env/ui/ui - -
 }
+
+models/objects/gibs/gib
+{
+	nopicmip
+	cull front
+	
+	{
+		map $whiteImage
+		rgbGen entity
+	}
+}

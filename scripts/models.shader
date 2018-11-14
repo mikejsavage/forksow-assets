@@ -1142,19 +1142,6 @@ models/objects/capture_d/capture_d
 	template models/objects/capture_indicator_template d capture_d
 }
 
-//----------------------
-//ILLUMINATI GIBS
-//----------------------
-models/objects/gibs/illuminati/illuminati
-{
-	nopicmip
-	cull front
-	
-	{
-		celshade *black env/cell - - models/objects/gibs/illuminati/illuminati1.tga
-	}
-}
-
 // DEBRIS
 models/objects/debris/debris_template
 {
