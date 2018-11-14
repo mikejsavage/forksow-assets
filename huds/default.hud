@@ -16,7 +16,6 @@ setScale #DEFAULTSCALE
 if %MATCH_STATE < #MATCH_STATE_POSTMATCH
 
 include damage_indicator_screen
-include crosshair
 
 include topinfo
 
@@ -31,6 +30,7 @@ include bomb_progress
 include chasing
 
 include teammate_indicators
+include crosshair
 
 include strafe
 include speed
