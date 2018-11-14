@@ -74,10 +74,3 @@ const String @Hex2RGB( const String &in hex )
 
 	return '' + r + ' ' + g + ' ' + b;
 }
-
-void OpenQuitDialog( void )
-{
-	window.modal( "quit_dialog.rml" );
-	if (window.getModalValue() == 0) 
-		game.execAppend( "quit\n" );
-}

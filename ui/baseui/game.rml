@@ -40,8 +40,6 @@
 			int team = 0;
 			int challenger = 0;
 			bool needsReady = false, isReady = false;
-			String gametype = "";
-			bool hasGametypeMenu = false;
 			int firstTeam = 0, lastTeam = 0, specTeam = 0;
 
 			// parse query string parameters
@@ -49,23 +47,6 @@
 
 			int tempInt;
 			String tempStr;
-
-			if( @gamemenu == null || !params.get( 'gametype', gametype ) ) {
-				if( @gamemenu != null ) {
-					gamemenu.css( 'visibility', 'hidden' );
-				}
-
-				if( game.clientState >= CA_CONNECTED ) {
-					game.exec( 'gamemenu\n' );
-					return;
-				}
-
-				// assume an offline menu
-				window.location = 'serverbrowser.rml';
-				return;
-			}
-
-			gamemenu.css( 'visibility', 'visible' );		
 
 			if( params.get( 'is_teambased', tempStr ) ) {
 				isTeamBased = (tempStr.toInt() != 0);
@@ -82,10 +63,6 @@
 			if( params.get( 'is_ready', tempStr ) ) {
 				isReady = (tempStr.toInt() != 0);
 			}
-			if( params.get( 'has_gametypemenu', tempStr ) ) {
-				hasGametypeMenu = (tempStr.toInt() != 0);
-			}
-
 			if( isTeamBased && params.get( 'team_list', tempStr ) ) {
 				uint whitespace = tempStr.locate( ' ', 0 );
 
@@ -98,22 +75,12 @@
 				specTeam = tempStr.toInt();
 			}
 
-			// build RML code for our menu items
-			String rml = '';
-
 			// display game name
 			gamemenu.getElementById( 'menu-header1' ).setAttr( 'value', game.cs( CS_HOSTNAME ) );
 
 			// display map name
 			String mapName = game.cs( CS_MAPNAME );
-			String mapMessage = game.cs( CS_MESSAGE );
-
-			rml = mapName;
-			if( !mapMessage.empty() && mapMessage != mapName ) {
-				rml += ' "' + mapMessage + '"';
-			}
-
-			gamemenu.getElementById( 'menu-header2' ).setAttr( 'value', rml );
+			gamemenu.getElementById( 'menu-header2' ).setAttr( 'value', mapName );
 
 			// various commands follow
 			
@@ -136,26 +103,14 @@
 			if( isReady ) {
 				showMenuButton( 'btn-not-ready' );
 			}
-
-			showMenuButton( 'btn-chat' );
 			
 			// 0 = gametype has no queue, 1 = is not in queue, 2 = is in queue
 			if( challenger != 0 ) {
-				if( gametype == "tutorial" ) {
-					if( challenger == 1 ) {
-						showMenuButton( 'btn-join' );
-					}
-					else {
-						showMenuButton( 'btn-spectate' );
-					}				
+				if( challenger == 1 ) {
+					showMenuButton( 'btn-join-queue' );
 				}
 				else {
-					if( challenger == 1 ) {
-						showMenuButton( 'btn-join-queue' );
-					}
-					else {
-						showMenuButton( 'btn-leave-queue' );
-					}
+					showMenuButton( 'btn-leave-queue' );
 				}
 			}
 			else {
@@ -189,25 +144,7 @@
 					showMenuButton( 'btn-spectate' );
 				}
 			}
-
-			if( hasGametypeMenu ) {
-				showMenuButton( 'btn-gametype-menu' );
-				gamemenu.getElementById( 'btn-gametype-menu' ).setInnerRML( 
-					StringUtils::Format( _T( '"%s" options' ), game.cs( CS_GAMETYPETITLE ) )
-				);
-			}
-
-			if( team == specTeam ) {
-				showMenuButton( 'link-chasecam' );
-			}
 			
-			if( gametype != "tutorial" ) {
-				showMenuButton( 'link-callvotes' );
-				gamemenu.getElementById( 'link-callvotes' ).setInnerRML(
-					game.cs( CS_ACTIVE_CALLVOTE ).empty() ? 'Call a vote' : 'Cast a vote'
-				);
-			}
-
 			showMenuButton( 'btn-disconnect' );
 
 			showMenuButton( 'link-main' );			
@@ -236,19 +173,10 @@
 			<button id="btn-join-team2" command="cmd join" onclick="$onCmdButtonClick">Join</button>
 			
 			<!-- possibly team buttons follow -->
-
-			<button id="btn-chat" command="messagemode" alt-command="messagemode2" onclick="$onCmdButtonClick">Open chat</button>
 			
 			<button id="btn-spectate" command="cmd spec" onclick="$onCmdButtonClick">Spectate</button>
 			<button id="btn-disconnect" command="disconnect" onclick="$onCmdButtonClick">Disconnect</button>
-			
-			<button id="btn-gametype-menu" onclick="game.exec( 'gametypemenu\n' );">Game menu</button>
 
-			<a id="link-callvotes" href="callvotes.rml" class="styled-button">Call a vote</a>
-
-			<a id="link-chasecam" href="chasecam.rml" class="styled-button">Chasecam</a>
-
-			<br/>
 			<a id="link-main" href="serverbrowser.rml" class="styled-button">Main menu</a>
 			<button id="btn-return" command="" onclick="$onCmdButtonClick">Return to game</button>
 		</div>

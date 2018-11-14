@@ -26,7 +26,7 @@
 		{
 			onTemplateShow( body, evt );
 
-			ElementOptionsForm @optForm = body.getElementById("options-form");
+			ElementOptionsForm @optForm = body.getElementById( "options-form" );
 			if( @optForm == null ) 
 				return;
 

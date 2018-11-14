@@ -32,10 +32,6 @@
 			@bar = body.getElementById( 'hit-volume' );
 			@txt = body.getElementById( 'hit-volume-txt' );
 			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
-
-			@bar = body.getElementById( 'chat-volume' );
-			@txt = body.getElementById( 'chat-volume-txt' );
-			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat()*100, "0", 1, 0 ) + "%" );
 		}
 
 		void onVolumeChange( Element @elem, Event @ev )

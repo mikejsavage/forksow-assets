@@ -152,17 +152,11 @@ tabset tab {
 	margin-right: 4dp;
 	margin-left: 4dp;
 	text-align: center;
-	color: #fff;
 	white-space: nowrap;
 }
 
-tabset tab:active {
-	color: #fff;
-}
-
 tabset tab:selected, tabset tab:hover, tabset tab:focus {
-	color: #fff;
-	ninep-src: /ui/baseui/gfx/controls/button_purple_active;
+	text-decoration: underline;
 }
 
 tabset tabs {

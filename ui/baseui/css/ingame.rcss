@@ -8,15 +8,16 @@
 }
 
 #menu-ingame {
-	text-align: center;
-	width: 100%;
+	background: rgba( 0, 0, 0, 128 );
 	max-height: 80%;
 	overflow-y: auto;
+	padding: 16dp 0;
+	text-align: center;
+	width: 100%;
 }
 
 #menu-commands {
 	text-align: center;
-	padding-top: 16dp;
 	background-decorator: image;
 	background-image: /ui/baseui/gfx/dropshadow.tga	0 0 1 1;
 }
@@ -25,20 +26,21 @@
 	width: 60%;
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 8dp;
+	padding: 8dp 0;
 }
 
-#menu-header1, #menu-header2, #menu-header {
+#menu-ingame button:hover, #menu-ingame a:hover, #menu-ingame input.submit:hover {
+	text-decoration: underline;
+}
+
+#menu-header, #menu-header2 {
 	display: block;
-	overflow-x: hidden;
 	font-size: 1.3em;
-	margin-bottom: 16dp;
+	overflow-x: hidden;
 }
 
 #menu-header1 {
+	display: block;
 	font-size: 1.5em;
-}
-
-#menu-header {
-	margin-top: 16dp;
+	overflow-x: hidden;
 }

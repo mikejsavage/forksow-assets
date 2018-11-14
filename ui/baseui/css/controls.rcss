@@ -62,6 +62,10 @@ tabset panel {
 	width: 200dp;
 }
 
+.button-apply:hover, .button-cancel:hover {
+	text-decoration: underline;
+}
+
 .button-cancel  {
 	display: inline-block;
 	width: 200dp;
