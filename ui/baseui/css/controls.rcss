@@ -134,8 +134,11 @@ colorselector color:selected, colorselector color:focus {
 
 /* Selects */
 
-select, dataselect, keyselect {
+keyselect {
 	max-width: 25%;
+}
+
+select, dataselect, keyselect {
 	display: inline-block;
 	text-align: left;
 	padding: 2dp 4dp;
