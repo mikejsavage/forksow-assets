@@ -15,7 +15,7 @@ textures/world/lava
 
 	{
 		map $whiteImage
-			rgbgen const 1.0 0.19 0.0
+		rgbgen const 1.0 0.19 0.0
 	}
 }
 
@@ -289,24 +289,12 @@ textures/world/bluewater1
 	cull none
 	sort underwater
 	
-	//tesssize 64
-	//deformVertexes wave 64 sin 1 1 0.25 0.6
 	{
-		map textures/world/sh/water2.tga
-		blendFunc GL_dst_color GL_one
+		map $whiteImage
+		rgbgen const 0.2 0.6 1.0
+		alphagen const 0.25
+		blendFunc GL_DST_COLOR GL_ONE
 		tcmod scale .25 .25
-		tcmod scroll .02 .01
-	}
-	{
-		map textures/world/sh/water1.tga
-		blendFunc GL_dst_color GL_one
-		tcmod scale -.25 -.25
-		tcmod scroll .02 .02
-	}
-	{
-		map textures/world/sh/pooltint.tga
-		blendFunc filter
-		tcmod scale .5 .5
 		tcmod scroll .02 .01
 	}
 }
