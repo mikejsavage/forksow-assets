@@ -16,3 +16,16 @@ models/objects/gibs/gib
 		rgbGen entity
 	}
 }
+
+models/objects/bomb/spot_indicator
+{
+	nopicmip
+	cull front
+	
+	{
+		map $whiteImage
+		blendfunc blend
+		rgbGen entity
+		alphaGen const 0.75
+	}
+}
