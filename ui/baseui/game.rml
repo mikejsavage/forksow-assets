@@ -103,6 +103,8 @@
 			if( isReady ) {
 				showMenuButton( 'btn-not-ready' );
 			}
+
+			showMenuButton( 'btn-gametype-menu' );
 			
 			// 0 = gametype has no queue, 1 = is not in queue, 2 = is in queue
 			if( challenger != 0 ) {
@@ -175,6 +177,9 @@
 			<!-- possibly team buttons follow -->
 			
 			<button id="btn-spectate" command="cmd spec" onclick="$onCmdButtonClick">Spectate</button>
+
+			<button id="btn-gametype-menu" onclick="game.exec( 'gametypemenu\n' );">Change loadout</button>
+
 			<button id="btn-disconnect" command="disconnect" onclick="$onCmdButtonClick">Disconnect</button>
 
 			<a id="link-main" href="serverbrowser.rml" class="styled-button">Main menu</a>
