@@ -96,18 +96,6 @@ gfx/hud/icons/weapon/instagun
 {
 	template weaponIcon_HUD_Template weapon/instagun
 }
-gfx/hud/icons/weapon/instagun_0
-{
-	template weaponIcon_HUD_Template weapon/instagun_0
-}
-gfx/hud/icons/weapon/instagun_1
-{
-	template weaponIcon_HUD_Template weapon/instagun_1
-}
-gfx/hud/icons/weapon/instagun_2
-{
-	template weaponIcon_HUD_Template weapon/instagun_2
-}
 gfx/hud/icons/weapon/electro
 {
 	template weaponIcon_HUD_Template weapon/electro
@@ -143,46 +131,6 @@ gfx/hud/icons/weapon/gunblade_blast
 gfx/hud/icons/weapon/laser
 {
 	template weaponIcon_HUD_Template weapon/laser
-}
-gfx/hud/icons/weapon/nogun_instagun
-{
-	template weaponIcon_HUD_Template weapon/nogun_instagun
-}
-gfx/hud/icons/weapon/nogun_electro
-{
-	template weaponIcon_HUD_Template weapon/nogun_electro
-}
-gfx/hud/icons/weapon/nogun_grenade
-{
-	template weaponIcon_HUD_Template weapon/nogun_grenade
-}
-gfx/hud/icons/weapon/nogun_plasma
-{
-	template weaponIcon_HUD_Template weapon/nogun_plasma
-}
-gfx/hud/icons/weapon/nogun_riot
-{
-	template weaponIcon_HUD_Template weapon/nogun_riot
-}
-gfx/hud/icons/weapon/nogun_machinegun
-{
-	template weaponIcon_HUD_Template weapon/nogun_machinegun
-}
-gfx/hud/icons/weapon/nogun_rocket
-{
-	template weaponIcon_HUD_Template weapon/nogun_rocket
-}
-gfx/hud/icons/weapon/nogun_gunblade
-{
-	template weaponIcon_HUD_Template weapon/nogun_gunblade
-}
-gfx/hud/icons/weapon/nogun_laser
-{
-	template weaponIcon_HUD_Template weapon/nogun_laser
-}
-gfx/hud/icons/weapon/nogun_cross
-{
-	template weaponIcon_HUD_Template weapon/nogun_cross
 }
 
 //
