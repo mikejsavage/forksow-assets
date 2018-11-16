@@ -25,7 +25,6 @@ models/objects/bomb/spot_indicator
 	{
 		map $whiteImage
 		blendfunc blend
-		rgbGen entity
-		alphaGen const 0.75
+		alphaGen const 0.66
 	}
 }
