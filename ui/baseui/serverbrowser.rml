@@ -339,12 +339,24 @@
 
 	void precacheStuff( Element @body, Event @event )
 	{
+		window.preload( "connectscreen.rml" );
+		window.preload( "connfailed.rml" );
 		window.preload( "createserver.rml" );
+		window.preload( "custom.rml" );
+		window.preload( "demoplay.rml" );
 		window.preload( "demos.rml" );
+		window.preload( "demos.rml" );
+		window.preload( "game.rml" );
+		window.preload( "game_quick.rml" );
+		window.preload( "modal_update.rml" );
 		window.preload( "settings_general.rml" );
-		window.preload( "settings_input.rml" );
 		window.preload( "settings_graphics.rml" );
+		window.preload( "settings_input.rml" );
 		window.preload( "settings_sound.rml" );
+		window.preload( "template.rml" );
+		window.preload( "template_ingame.rml" );
+		window.preload( "template_modal.rml" );
+		window.preload( "template_modal_remote.rml" );
 	}
 
 	void startMusic( Element @body, Event @event )
