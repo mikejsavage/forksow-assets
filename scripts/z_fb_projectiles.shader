@@ -12,3 +12,15 @@ models/objects/projectile/glauncher/grenade
 		blendFunc add
 	}
 }
+
+models/objects/projectile/plasmagun/plnew
+{
+	nopicmip
+	cull disable
+	{
+		map models/objects/projectile/plasmagun/plnew.tga
+		blendFunc add
+		tcmod rotate -150
+		rgbgen entity
+	}
+}
