@@ -28,3 +28,17 @@ models/objects/bomb/spot_indicator
 		alphaGen const 0.66
 	}
 }
+
+models/weapon_hits/lasergun/hit_blastexp
+{
+	nopicmip
+	cull none
+	softParticle
+	{
+		map models/weapon_hits/lasergun/hit_blastexp.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		rgbgen entity
+		alphagen wave distanceramp 0 1 10 150
+		tcMod turb 0 0.5 0 30
+	}
+}

@@ -50,7 +50,7 @@ gfx/misc/laserbeam
 	softParticle
 	{
 		map gfx/misc/laserbeam.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendfunc GL_SRC_ALPHA GL_ONE
 		rgbgen vertex
 	}
 }
