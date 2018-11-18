@@ -4,9 +4,9 @@ gfx/decals/shadow
 	polygonOffset
 	sort banner
 	{
-		clampmap gfx/decals/shadow.tga
+		alphamaskclampmap gfx/decals/shadow.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen vertex
+		rgbGen const 0 0 0
 		alphaGen vertex
 	}	
 }
