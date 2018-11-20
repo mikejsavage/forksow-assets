@@ -41,7 +41,7 @@ gfx/misc/electro_beta
 	}
 }
 
-gfx/misc/laserbeam
+gfx/misc/lgbeam_solid
 {
 	nopicmip
 	nomipmaps
@@ -55,7 +55,7 @@ gfx/misc/laserbeam
 	}
 }
 
-gfx/misc/laserbeam0
+gfx/misc/lgbeam_glow
 {
 	nopicmip
 	nomipmaps
@@ -64,35 +64,7 @@ gfx/misc/laserbeam0
 	softParticle
 	{
 		map gfx/misc/laserbeam.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-	}
-}
-
-gfx/misc/laserbeam1
-{
-	nopicmip
-	nomipmaps
-	cull none
-	deformVertexes autosprite2
-	softParticle
-	{
-		map gfx/misc/laserbeam.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-	}
-}
-
-gfx/misc/laserbeam2
-{
-	nopicmip
-	nomipmaps
-	cull none
-	deformVertexes autosprite2
-	softParticle
-	{
-		map gfx/misc/laserbeam.tga
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendfunc GL_SRC_ALPHA GL_ONE
 		rgbgen vertex
 	}
 }
