@@ -361,7 +361,7 @@
 
 	void startMusic( Element @body, Event @event )
 	{
-		window.startBackgroundTrack( "sounds/music/menu_1.ogg", "sounds/music/menu_1.ogg", true );
+		window.startMenuMusic();
 	}
 
 	</script>
