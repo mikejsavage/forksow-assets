@@ -197,25 +197,6 @@ gfx/decals/d_electrobolt_hit
 	template decals_Hit_Template d_electrobolt_hit
 }
 
-gfx/decals/d_instagun_hit
-{
-	nopicmip
-	polygonOffset
-	cull none
-	sort banner
-	{
-		map gfx/decals/d_instagun_hit_color.tga
-		rgbGen vertex
-		alphaGen vertex
-		blendFunc blend
-	}
-	{
-		map gfx/decals/d_instagun_hit.tga
-		alphaGen vertex
-		blendFunc blend
-	}
-}
-
 
 //
 // weapon hits
@@ -282,23 +263,6 @@ models/weapon_hits/plasmagun/plasmagun_hit
 models/weapon_hits/electrobolt/hit_electrobolt
 {
 	template weapon_Hit_Template electrobolt hit_electrobolt
-}
-
-models/weapon_hits/instagun/hit_instagun
-{
-	nopicmip
-	cull none
-	{
-		map models/weapon_hits/instagun/hit_instagun_color.tga
-		rgbgen entity
-		alphagen entity
-		blendfunc GL_SRC_ALPHA GL_ONE
-	}
-	{
-		map models/weapon_hits/instagun/hit_instagun.tga
-		alphagen entity
-		blendfunc GL_SRC_ALPHA GL_ONE
-	}
 }
 
 models/weapon_hits/glauncher/hit_glauncher

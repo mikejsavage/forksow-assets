@@ -213,9 +213,6 @@ msgstr "Lasergun"
 msgid "Electrobolt"
 msgstr "Electrobolt"
 
-msgid "Instagun"
-msgstr "Instagun"
-
 msgid "Cells"
 msgstr "Cells"
 
@@ -240,9 +237,6 @@ msgstr "Lasers"
 msgid "Bolts"
 msgstr "Bolts"
 
-msgid "Instas"
-msgstr "Instas"
-
 msgid "Blades"
 msgstr "Blades"
 
@@ -266,9 +260,6 @@ msgstr "Weak Lasers"
 
 msgid "Weak Bolts"
 msgstr "Weak Bolts"
-
-msgid "Weak Instas"
-msgstr "Weak Instas"
 
 msgid "Green Armor"
 msgstr "Green Armor"

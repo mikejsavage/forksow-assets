@@ -233,42 +233,6 @@ models/weapons/lasergun/lasergun_fx
 	}
 }
 
-models/weapons/instagun/instagun
-{
-	nopicmip
-	cull front
-
-	{
-		material models/weapons/instagun/instagun.tga models/weapons/instagun/instagun_norm.tga
-		rgbgen entity
-	}
-}
-
-models/weapons/instagun/instabarrel
-{
-	nopicmip
-	cull front
-
-	{
-		material models/weapons/instagun/instabarrel.tga models/weapons/instagun/instabarrel_norm.tga
-		rgbgen entity
-	}
-}
-
-models/v_weapons/instagun/instalaser
-{
-	nopicmip
-	cull none
-	
-	{
-		map models/weapons/instagun/instalaser.tga
-		blendFunc blend
-		alphaGen const 0.3
-	}
-
-}
-
-
 //---------------------
 //WEAPON PROJECTILES
 //---------------------
@@ -740,45 +704,6 @@ models/weapons/lasergun/f_laser_2
 	map models/weapons/lasergun/f_laser_2.tga
 	rgbgen entity
 	tcmod scroll 0 3
-	blendFunc add
-	}
-}
-
-models/weapons/instagun/f_instag
-{
-	nopicmip
-	sort nearest
-	cull disable
-	softParticle
-	{
-	map models/weapons/instagun/f_instag.tga
-	rgbgen entity
-	tcmod rotate 90
-	blendFunc add
-	}
-}
-models/weapons/instagun/f_instag_2
-{
-	nopicmip
-	sort nearest
-	cull disable
-	softParticle
-	{
-	map models/weapons/instagun/f_instag_2.tga
-	rgbgen entity
-	blendFunc add
-	}
-}
-models/weapons/instagun/f_instag_3
-{
-	nopicmip
-	sort nearest
-	cull disable
-	softParticle
-	{
-	map models/weapons/instagun/f_instag.tga
-	rgbgen entity
-	tcmod rotate 90
 	blendFunc add
 	}
 }

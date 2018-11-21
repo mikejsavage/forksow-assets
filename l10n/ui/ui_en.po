@@ -951,9 +951,6 @@ msgstr "Login"
 msgid "Normal weapons"
 msgstr "Normal weapons"
 
-msgid "Instagib"
-msgstr "Instagib"
-
 msgid "TV"
 msgstr "TV"
 
@@ -1319,9 +1316,6 @@ msgstr "Toggles whether shooting teammates will do damage to them"
 
 msgid "Toggles whether instagun can be used for weapon jumping"
 msgstr "Toggles whether instagun can be used for weapon jumping"
-
-msgid "Toggles the availability of instashield in instagib"
-msgstr "Toggles the availability of instashield in instagib"
 
 msgid "Toggles whether falling long distances deals damage"
 msgstr "Toggles whether falling long distances deals damage"

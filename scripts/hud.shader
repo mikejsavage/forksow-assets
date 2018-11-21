@@ -92,10 +92,6 @@ weaponIcon_HUD_Template
 	}
 }
 
-gfx/hud/icons/weapon/instagun
-{
-	template weaponIcon_HUD_Template weapon/instagun
-}
 gfx/hud/icons/weapon/electro
 {
 	template weaponIcon_HUD_Template weapon/electro
@@ -168,10 +164,6 @@ gfx/hud/icons/ammo/gunbladeammo
 gfx/hud/icons/ammo/laserammo
 {
 	template simpleIcon_HUD_Template ammo/laserammo
-}
-gfx/hud/icons/ammo/instaammo
-{
-	template simpleIcon_HUD_Template ammo/instaammo
 }
 gfx/hud/icons/ammo/pack
 {
