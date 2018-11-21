@@ -27,44 +27,44 @@
 			onTemplateShow( body, evt );
 
 			ElementOptionsForm @optForm = body.getElementById( "options-form" );
-			if( @optForm == null ) 
+			if( @optForm == null )
 				return;
 
 			optForm.storeOptions();
 			onMouseInvertShow( body.getElementById( 'mouse-invert' ) );
-			
+
 			ElementFormControl @bar = body.getElementById( 'mouse-sens' );
-			Element @txt = body.getElementById( 'mouse-sens-txt' );	
+			Element @txt = body.getElementById( 'mouse-sens-txt' );
 			if( @bar != null && @txt != null ) {
 				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat(), "0", 1, 2 ) );
 			}
-		
+
 			@bar = body.getElementById( 'mouse-accel' );
-			@txt = body.getElementById( 'mouse-accel-txt' );	
+			@txt = body.getElementById( 'mouse-accel-txt' );
 			if( @bar != null && @txt != null ) {
 				txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat(), "0", 1, 3 ) );
 			}
 		}
-		
+
 		void onSensChange( Element @elem, Event @ev )
 		{
 			ElementFormControl @bar = elem;
-			Element @txt = elem.getElementById( 'mouse-sens-txt' );	
+			Element @txt = elem.getElementById( 'mouse-sens-txt' );
 
 			if( @bar == null || @txt == null )
 				return;
-				
+
 			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat(), "0", 1, 2 ) );
 		}
 
 		void onAccelChange( Element @elem, Event @ev )
 		{
 			ElementFormControl @bar = elem;
-			Element @txt = elem.getElementById( 'mouse-accel-txt' );	
+			Element @txt = elem.getElementById( 'mouse-accel-txt' );
 
 			if( @bar == null || @txt == null )
 				return;
-				
+
 			txt.setInnerRML( StringUtils::FormatFloat( bar.value.toFloat(), "0", 1, 3 ) );
 		}
 
@@ -86,7 +86,7 @@
 			float pitch_value = m_pitch.value;
 			bool inverted = pitch_value < 0 ? true : false;
 
-			bool checked = elem.hasAttr( 'checked' );			
+			bool checked = elem.hasAttr( 'checked' );
 			if( checked == inverted ) {
 				// prevent endless loops
 				return;
@@ -107,17 +107,17 @@
 						<input id="mouse-sens" cvar="sensitivity" type="range" min="0.1" max="13" step="0.05" value="3" realtime="1" onchange="$onSensChange"/>
 						<div id="mouse-sens-txt" class="slider-value"></div>
 						<br/>
-						
-						<div class="setting-name">Mouse acceleration</div>						
+
+						<div class="setting-name">Mouse acceleration</div>
 						<input id="mouse-accel" cvar="m_accel" type="range" min="0" max="0.5" step="0.002" value="0" realtime="1" onchange="$onAccelChange"/>
 						<div id="mouse-accel-txt" class="slider-value"></div>
-						<br/>	
+						<br/>
 
 						<div class="setting-name checkbox_opt">Invert mouse</div>
 						<input id="mouse-invert" type="checkbox" onchange="$onMouseInvertChange"/>
 						<br/>
 					</optionsform>
-				</div>				
+				</div>
 			</panel>
 
 			<tab>Movement</tab>
@@ -126,31 +126,31 @@
 					<div class="setting-name">Forward</div>
 					<keyselect bind="+forward"/>
 					<br />
-					
+
 					<div class="setting-name">Backward</div>
 					<keyselect bind="+back"/>
 					<br />
-					
+
 					<div class="setting-name">Left</div>
 					<keyselect bind="+moveleft"/>
 					<br/>
-					
+
 					<div class="setting-name">Right</div>
 					<keyselect bind="+moveright"/>
 					<br />
-					
+
 					<div class="setting-name">Jump</div>
 					<keyselect bind="+moveup"/>
 					<br />
-					
+
 					<div class="setting-name">Crouch</div>
 					<keyselect bind="+movedown"/>
 					<br />
-					
+
 					<div class="setting-name">Dash and walljump</div>
 					<keyselect bind="+special"/>
 					<br />
-					
+
 					<div class="setting-name">Slow walk</div>
 					<keyselect bind="+speed"/>
 					<br />
@@ -163,26 +163,14 @@
 					<div class="setting-name">Attack</div>
 					<keyselect bind="+attack"/>
 					<br />
-				
-					<div class="setting-name">Previous weapon</div>
-					<keyselect bind="weapprev"/>
-					<br />
-				
-					<div class="setting-name">Next weapon</div>
-					<keyselect bind="weapnext"/>
-					<br />
-				
-					<div class="setting-name">Last weapon</div>
-					<keyselect bind="weaplast"/>
-					<br />
-				
+
 					<div class="setting-name">Zoom</div>
 					<keyselect bind="+zoom"/>
-					<br />	
-				
+					<br />
+
 					<div class="setting-name">Drop bomb</div>
 					<keyselect bind="drop bomb"/>
-					<br />					
+					<br />
 
 					<div class="setting-name">Chat</div>
 					<keyselect bind="messagemode"/>
@@ -195,23 +183,23 @@
 					<div class="setting-name">Scoreboard</div>
 					<keyselect bind="+scores"/>
 					<br />
-											
+
 					<div class="setting-name">Vote yes</div>
 					<keyselect bind="vote yes"/>
 					<br />
-											
+
 					<div class="setting-name">Vote no</div>
 					<keyselect bind="vote no"/>
 					<br />
-											
+
 					<div class="setting-name">Join</div>
 					<keyselect bind="join"/>
 					<br />
-												
+
 					<div class="setting-name">Ready</div>
 					<keyselect bind="toggleready"/>
 					<br />
-					
+
 					<div class="setting-name">Screenshot</div>
 					<keyselect bind="screenshot"/>
 					<br />
@@ -221,34 +209,42 @@
 			<tab>Weapons</tab>
 			<panel class="dropshadow">
 				<div class="keys">
+					<div class="setting-name">Previous weapon</div>
+					<keyselect bind="weapprev"/>
+					<br />
+
+					<div class="setting-name">Next weapon</div>
+					<keyselect bind="weapnext"/>
+					<br />
+
+					<div class="setting-name">Last weapon</div>
+					<keyselect bind="weaplast"/>
+					<br />
+
 					<div class="setting-name">Gunblade (GB)</div>
 					<keyselect bind="use Gunblade"/>
 					<br />
-					
-					<div class="setting-name">Machinegun (MG)</div>
-					<keyselect bind="use Machinegun"/>
-					<br />
-					
+
 					<div class="setting-name">Riotgun (RG)</div>
 					<keyselect bind="use Riotgun"/>
 					<br />
-					
+
 					<div class="setting-name">Grenade Launcher (GL)</div>
 					<keyselect bind="use Grenade Launcher"/>
 					<br />
-					
+
 					<div class="setting-name">Rocket Launcher (RL)</div>
 					<keyselect bind="use Rocket Launcher"/>
-					<br />	
-					
+					<br />
+
 					<div class="setting-name">Plasmagun (PG)</div>
 					<keyselect bind="use Plasmagun"/>
 					<br />
-					
+
 					<div class="setting-name">Lasergun (LG)</div>
 					<keyselect bind="use Lasergun"/>
 					<br />
-					
+
 					<div class="setting-name">Electrobolt (EB)</div>
 					<keyselect bind="use Electrobolt"/>
 					<br />
