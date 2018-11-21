@@ -25,11 +25,11 @@
 	<div class="content-inner">
 		<optionsform id="hud-options-form" onsubmit="$OptionsForm_OnSubmit">
 			<div class="setting-name">Name</div>
-			<input cvar="name" type="text" value="Player"/>
+			<input cvar="name" type="text" value="Player" realtime="1"/>
 			<br/>
 
 			<div class="setting-name">Clan</div>
-			<input cvar="clan" type="text" value=""/>
+			<input cvar="clan" type="text" value="" realtime="1"/>
 			<br/>
 
 			<div class="setting-name">FOV</div>
