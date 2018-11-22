@@ -80,7 +80,7 @@
 
 			// display map name
 			String mapName = game.cs( CS_MAPNAME );
-			gamemenu.getElementById( 'menu-header2' ).setAttr( 'value', mapName );
+			gamemenu.getElementById( 'menu-header2' ).setAttr( 'value', "Map: " + mapName );
 
 			// various commands follow
 			
