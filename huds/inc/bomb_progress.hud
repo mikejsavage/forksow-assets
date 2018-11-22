@@ -27,17 +27,17 @@ if %PROGRESS_SELF
 	setSize 20 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 20
 	drawPicByName gfx/bomb/carriericon.png
 
-	// draw % number
+	// draw Planting/Defusing
 	setColor 1, 1, 1, 1
 	moveCursor 19 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 1
 	setAlign #LEFT, #MIDDLE
 	setSize 12 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 12
 	setFontStyle bold
-	if %PROGRESS_SELF > 0
-		drawStringNum %PROGRESS_SELF
+	if %MESSAGE_SELF == 1
+		drawString "Planting..."
 	endif
-	if %PROGRESS_SELF < 0
-		drawStringNum %PROGRESS_SELF * -1
+	if %MESSAGE_SELF == 2
+		drawString "Defusing..."
 	endif
 	setFontStyle normal
 endif
