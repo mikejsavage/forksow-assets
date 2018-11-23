@@ -1,3 +1,4 @@
+//textures
 fullbright_weapon 
 {
     nopicmip
@@ -17,3 +18,29 @@ models/weapons/lasergun/lasergun                { template fullbright_weapon 0.7
 models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.113, 0.945, 0.423 }
 models/weapons/riotgun/riotgun                  { template fullbright_weapon 1, 0.678, 0.149 }
 models/weapons/rlauncher/rlauncher              { template fullbright_weapon 0.815, 0.007, 0.105 }
+
+//flashes
+models/weapons/rl_flash1
+{
+	nopicmip
+	cull front
+	sort nearest
+	{
+		map models/weapons/rl_flash1.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		tcmod rotate 90
+		alphaGen const 0.5
+	}
+}
+
+models/weapons/rl_flash2
+{
+	nopicmip
+	cull front
+	sort nearest
+	{
+		map models/weapons/rl_flash2.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen const 0.75
+	}
+}
