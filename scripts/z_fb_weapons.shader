@@ -17,7 +17,7 @@ models/weapons/gunblade/barrel                  { template fullbright_weapon 0.3
 models/weapons/lasergun/lasergun                { template fullbright_weapon 0.713, 0.172, 0.905 }
 models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.113, 0.945, 0.423 }
 models/weapons/riotgun/riotgun                  { template fullbright_weapon 1, 0.678, 0.149 }
-models/weapons/rlauncher/rlauncher              { template fullbright_weapon 0.815, 0.007, 0.105 }
+models/weapons/rl           					{ template fullbright_weapon 0.815, 0.007, 0.105 }
 
 //flashes
 models/weapons/rl_flash1
