@@ -17,18 +17,6 @@ models/objects/gibs/gib
 	}
 }
 
-models/objects/bomb/spot_indicator
-{
-	nopicmip
-	cull front
-	
-	{
-		map $whiteImage
-		blendfunc blend
-		alphaGen const 0.66
-	}
-}
-
 models/weapon_hits/lasergun/hit_blastexp
 {
 	nopicmip
