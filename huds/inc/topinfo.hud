@@ -60,8 +60,8 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 		moveCursor -70 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 
 		moveCursor 1, 1
-		setColor 0, 0, 0, 1
-		drawStringRepeatConfigString "?" %MESSAGE_ALPHA
+		setColor 0.2, 0.2, 0.2, 1
+		drawStringRepeatConfigString "?" %MESSAGE2_ALPHA
 		moveCursor -1 -1
 
 		setColorToTeamColor #TEAM_ALPHA
@@ -75,8 +75,8 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 		moveCursor 70 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 
 		moveCursor 1, 1
-		setColor 0, 0, 0, 1
-		drawStringRepeatConfigString "?" %MESSAGE_BETA
+		setColor 0.2, 0.2, 0.2, 1
+		drawStringRepeatConfigString "?" %MESSAGE2_BETA
 		moveCursor -1 -1
 
 		setColorToTeamColor #TEAM_BETA
