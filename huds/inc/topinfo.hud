@@ -7,7 +7,7 @@ if %MATCH_STATE < #MATCH_STATE_PLAYTIME
 	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	drawPicByName $whiteimage
 
-	moveCursor 0, 16
+	moveCursor 0, 15
 	setAlign #CENTER, #MIDDLE
 	setFontSize %VIDHEIGHT / 64
 	setFontStyle bold
@@ -18,7 +18,6 @@ endif
 
 if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 	// background
-	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
 	if %MESSAGE_OTHER > 0
 		setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
