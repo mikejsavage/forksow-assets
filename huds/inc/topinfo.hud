@@ -19,6 +19,10 @@ endif
 if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 	// background
 	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
+	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
+	if %MESSAGE_OTHER > 0
+		setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
+	endif
 	drawPicByName $whiteimage
 
 	// clock
@@ -48,10 +52,27 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 		moveCursor -40 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 	endif
 
-	setFontStyle normal
+	// match point/overtime
+	if %MESSAGE_OTHER > 0
+		moveCursor 0, 26
+		setFontSize %VIDHEIGHT / 64
+		setFontStyle bold
+		setColor 1, 1, 1, 1
+		if %MESSAGE_OTHER == 1
+			drawString "MATCH POINT"
+		endif
+		if %MESSAGE_OTHER == 2
+			drawString "OVERTIME"
+		endif
+		if %MESSAGE_OTHER == 3
+			drawString "OT MATCH POINT"
+		endif
+	endif
 
 	// alive players
 	setCursor #WIDTH / 2, 7
+	setFontSize %VIDHEIGHT / 32
+	setFontStyle normal
 
 	setSpecialFontFamily "Silhouette"
 
