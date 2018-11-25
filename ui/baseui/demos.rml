@@ -180,14 +180,6 @@
 					metaRml += StringUtils::Format( _T( 'Duration: %s' ), '<field formatter="duration" value="' + meta + '" />' ) + '<br/>';
 				}
 
-				// match uuid
-				if( window.browserAvailable ) {
-					meta = demo.getMeta( 'matchuuid' );
-					if( !meta.empty() ) {
-						metaRml += '<a href="' + matchmaker.baseWebURL() + 'matchinfo/' + meta + '" target="_browser">View match info</a><br/>';
-					}
-				}
-
 				if( !metaRml.empty() ) {
 					metaRml = '<div>' + metaRml + '</div>';
 				}

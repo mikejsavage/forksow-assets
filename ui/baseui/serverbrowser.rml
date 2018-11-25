@@ -348,7 +348,6 @@
 		window.preload( "demos.rml" );
 		window.preload( "game.rml" );
 		window.preload( "game_quick.rml" );
-		window.preload( "modal_update.rml" );
 		window.preload( "settings_general.rml" );
 		window.preload( "settings_graphics.rml" );
 		window.preload( "settings_input.rml" );
