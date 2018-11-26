@@ -155,22 +155,22 @@
 		String infoRML = '';
 
 		// mapname
-		infoRML += StringUtils::Format( _T( 'Map: %s' ), browserDataSource.getField( table, sel, 'map' ) ) + '<br/>';
+		infoRML += StringUtils::Format( 'Map: %s', browserDataSource.getField( table, sel, 'map' ) ) + '<br/>';
 
 		// players
-		infoRML += StringUtils::Format( _T( 'Players: %s' ), browserDataSource.getField( table, sel, 'players' ) ) + '<br/>';
+		infoRML += StringUtils::Format( 'Players: %s', browserDataSource.getField( table, sel, 'players' ) ) + '<br/>';
 
 		// bots
 		const String @bots = browserDataSource.getField( table, sel, 'bots' );
 		if ( !bots.empty() && bots != '&nbsp;' && bots != '0' ) {
-			infoRML += StringUtils::Format( _T( 'Bots: %s' ),  bots ) + '<br/>';
+			infoRML += StringUtils::Format( 'Bots: %s',  bots ) + '<br/>';
 		}
 
 		// ping
-		infoRML += StringUtils::Format( _T( 'Ping: %s' ),  browserDataSource.getField( table, sel, 'ping' ) ) + '<br/>';
+		infoRML += StringUtils::Format( 'Ping: %s', browserDataSource.getField( table, sel, 'ping' ) ) + '<br/>';
 
 		// address
-		infoRML += StringUtils::Format( _T( 'Address: %s' ), browserDataSource.getField( table, sel, 'address' ) ) + '<br/>';
+		infoRML += StringUtils::Format( 'Address: %s', browserDataSource.getField( table, sel, 'address' ) ) + '<br/>';
 
 		infoRML = '<div>' + infoRML + '</div>';
 

@@ -78,10 +78,10 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 				text = "Connection was terminated by %s";
 			else 
 				text = "Error connecting to %s";		
-			text = StringUtils::Format( _T( text ), servername );
+			text = StringUtils::Format( text, servername );
 			mf.getElementById( 'mfailed-text' ).setInnerRML( text );
 
-			text = StringUtils::Format( _T( 'Reason: %s' ), _T( rejectmessage ) );
+			text = StringUtils::Format( 'Reason: %s', rejectmessage );
 			mf.getElementById( 'mfailed-reason' ).setInnerRML( text );	
 
 			if( droptype == DROP_TYPE_PASSWORD )

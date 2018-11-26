@@ -132,7 +132,7 @@
 							}
 
 							String @teamName = game.cs( CS_TEAM_ALPHA_NAME + i - firstTeam );
-							join_team_btn.setInnerRML( StringUtils::Format( _T( 'Join %s' ), teamName ) );
+							join_team_btn.setInnerRML( StringUtils::Format( 'Join %s', teamName ) );
 							join_team_btn.setAttr( 'command', join_btn_any_cmd + ' "' + teamName + '"' );
 
 							showMenuButton( join_team_btn.id );

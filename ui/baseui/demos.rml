@@ -146,38 +146,38 @@
 				// datetime
 				meta = demo.getMeta( 'localtime' );
 				if( !meta.empty() ) {
-					metaRml += StringUtils::Format( _T( 'Date: %s' ), '<field formatter="datetime" value="' + meta + '" />' ) + '<br/>';
+					metaRml += StringUtils::Format( 'Date: %s', '<field formatter="datetime" value="' + meta + '" />' ) + '<br/>';
 				}
 
 				// matchname
 				meta = demo.getMeta( 'matchname' );
 				if( !meta.empty() ) {
-					metaRml += StringUtils::Format( _T( 'Match: %s' ), meta ) + '<br/>';
+					metaRml += StringUtils::Format( 'Match: %s', meta ) + '<br/>';
 				}
 
 				// matchscore
 				meta = demo.getMeta( 'matchscore' );
 				if( !meta.empty() ) {
-					metaRml += StringUtils::Format( _T( 'Score: %s' ), meta ) + '<br/>';
+					metaRml += StringUtils::Format( 'Score: %s', meta ) + '<br/>';
 				}
 
 				// map
 				meta = demo.getMeta( 'mapname' );
 				if( !meta.empty() ) {
 					metaRml = '<levelshot src="' + meta + '" />' + '<br/>' + metaRml;
-					metaRml += StringUtils::Format( _T( 'Map: %s' ), meta ) + '<br/>';
+					metaRml += StringUtils::Format( 'Map: %s', meta ) + '<br/>';
 				}
 
 				// gametype
 				meta = demo.getMeta( 'gametype' );
 				if( !meta.empty() ) {
-					metaRml += StringUtils::Format( _T( 'Gametype: %s' ), meta ) + '<br/>';
+					metaRml += StringUtils::Format( 'Gametype: %s', meta ) + '<br/>';
 				}
 
 				// duration
 				meta = demo.getMeta( 'duration' );
 				if( !meta.empty() ) {
-					metaRml += StringUtils::Format( _T( 'Duration: %s' ), '<field formatter="duration" value="' + meta + '" />' ) + '<br/>';
+					metaRml += StringUtils::Format( 'Duration: %s', '<field formatter="duration" value="' + meta + '" />' ) + '<br/>';
 				}
 
 				if( !metaRml.empty() ) {

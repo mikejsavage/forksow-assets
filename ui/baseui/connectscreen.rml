@@ -70,7 +70,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 				String message = game.rejectMessage;
 				if( !message.empty() ) {
-					message = StringUtils::Format( _T( "Refused: %s" ), _T( message ) );
+					message = StringUtils::Format( "Refused: %s", message );
 				}
 
 				content.getElementById( 'message' ).setInnerRML( message );
@@ -79,7 +79,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 				{
 					// we are downloading stuff
 					String title = StringUtils::Format( 
-						_T( "Downloading %s from " + ( game.download.type == DOWNLOADTYPE_SERVER ? "server" : "the web" ) + " at %s k/s" ), 
+						"Downloading %s from " + ( game.download.type == DOWNLOADTYPE_SERVER ? "server" : "the web" ) + " at %s k/s", 
 						game.download.name, String( game.download.speed ) );
 					title += " (" + StringUtils::FormatFloat( game.download.percent, "0", 1, 1 ) + "%)";
 
