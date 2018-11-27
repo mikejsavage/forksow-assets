@@ -4,19 +4,6 @@
 	<link type="text/template" href="template.rml" />
 	<link rel="stylesheet" type="text/css" href="css/options/input.rcss" />
 	<script>
-		bool requireInputDeviceForElement( Element @body, const String &name, uint mask )
-		{
-			if( ( window.supportedInputDevices & mask ) != 0 ) {
-				return true;
-			}
-
-			Element @elem = body.getElementById( name );
-			if( @elem != null ) {
-				elem.css( 'display', 'none' );
-			}
-			return false;
-		}
-
 		void onInputLoad( Element @body, Event @evt )
 		{
 			onTemplateLoad( body, evt );
