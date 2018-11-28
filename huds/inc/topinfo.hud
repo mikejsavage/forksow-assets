@@ -52,18 +52,18 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 	endif
 
 	// match point/overtime
-	if %MESSAGE_OTHER > 0
+	if %MESSAGE_OTHER != #RoundType_Normal
 		moveCursor 0, 26
 		setFontSize %VIDHEIGHT / 64
 		setFontStyle bold
 		setColor 1, 1, 1, 1
-		if %MESSAGE_OTHER == 1
+		if %MESSAGE_OTHER == #RoundType_MatchPoint
 			drawString "MATCH POINT"
 		endif
-		if %MESSAGE_OTHER == 2
+		if %MESSAGE_OTHER == #RoundType_Overtime
 			drawString "OVERTIME"
 		endif
-		if %MESSAGE_OTHER == 3
+		if %MESSAGE_OTHER == #RoundType_OvertimeMatchPoint
 			drawString "OT MATCH POINT"
 		endif
 	endif

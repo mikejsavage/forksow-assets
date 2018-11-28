@@ -33,10 +33,10 @@ if %PROGRESS_SELF
 	setAlign #LEFT, #MIDDLE
 	setSize 12 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 12
 	setFontStyle bold
-	if %MESSAGE_SELF == 1
+	if %MESSAGE_SELF == #BombProgress_Planting
 		drawString "Planting..."
 	endif
-	if %MESSAGE_SELF == 2
+	if %MESSAGE_SELF == #BombProgress_Defusing
 		drawString "Defusing..."
 	endif
 	setFontStyle normal
