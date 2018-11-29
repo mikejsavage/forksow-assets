@@ -1,4 +1,4 @@
-if %IMAGE_SELF
+if %CARRYING_BOMB
 	setFontSize %VIDHEIGHT / 48
 
 	setAlign #LEFT, #MIDDLE

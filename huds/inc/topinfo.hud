@@ -19,7 +19,7 @@ endif
 if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 	// background
 	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
-	if %MESSAGE_OTHER > 0
+	if %ROUND_TYPE != #RoundType_Normal
 		setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
 	endif
 	drawPicByName $whiteimage
@@ -52,18 +52,18 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 	endif
 
 	// match point/overtime
-	if %MESSAGE_OTHER != #RoundType_Normal
+	if %ROUND_TYPE != #RoundType_Normal
 		moveCursor 0, 26
 		setFontSize %VIDHEIGHT / 64
 		setFontStyle bold
 		setColor 1, 1, 1, 1
-		if %MESSAGE_OTHER == #RoundType_MatchPoint
+		if %ROUND_TYPE == #RoundType_MatchPoint
 			drawString "MATCH POINT"
 		endif
-		if %MESSAGE_OTHER == #RoundType_Overtime
+		if %ROUND_TYPE == #RoundType_Overtime
 			drawString "OVERTIME"
 		endif
-		if %MESSAGE_OTHER == #RoundType_OvertimeMatchPoint
+		if %ROUND_TYPE == #RoundType_OvertimeMatchPoint
 			drawString "OT MATCH POINT"
 		endif
 	endif
@@ -75,32 +75,32 @@ if %MATCH_STATE == #MATCH_STATE_PLAYTIME
 
 	setSpecialFontFamily "Silhouette"
 
-	if %MESSAGE_ALPHA
+	if %ALPHA_PLAYERS_TOTAL
 		setAlign #RIGHT, #TOP
 		moveCursor -70 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 
 		moveCursor 1, 1
 		setColor 0.2, 0.2, 0.2, 1
-		drawStringRepeatConfigString "?" %MESSAGE2_ALPHA
+		drawStringRepeatConfigString "?" %ALPHA_PLAYERS_TOTAL
 		moveCursor -1 -1
 
 		setColorToTeamColor #TEAM_ALPHA
-		drawStringRepeatConfigString "?" %MESSAGE_ALPHA
+		drawStringRepeatConfigString "?" %ALPHA_PLAYERS_ALIVE
 
 		moveCursor 70 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 	endif
 
-	if %MESSAGE_BETA
+	if %BETA_PLAYERS_TOTAL
 		setAlign #LEFT, #TOP
 		moveCursor 70 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 0
 
 		moveCursor 1, 1
 		setColor 0.2, 0.2, 0.2, 1
-		drawStringRepeatConfigString "?" %MESSAGE2_BETA
+		drawStringRepeatConfigString "?" %BETA_PLAYERS_TOTAL
 		moveCursor -1 -1
 
 		setColorToTeamColor #TEAM_BETA
-		drawStringRepeatConfigString "?" %MESSAGE_BETA
+		drawStringRepeatConfigString "?" %BETA_PLAYERS_ALIVE
 	endif
 
 	setFontFamily con_fontSystem
