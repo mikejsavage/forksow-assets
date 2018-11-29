@@ -1,19 +1,3 @@
-gfx/2d/bubblechat
-{
-	//deformVertexes autosprite
-	nopicmip
-	cull none
-	{	
-		animmap 3 gfx/2d/bubble1a.tga gfx/2d/bubble1b.tga 
-		blendfunc blend
-	}
-	
-	{	
-		animmap 2 gfx/2d/bubble2a.tga gfx/2d/bubble2b.tga gfx/2d/bubble2c.tga gfx/2d/bubble2d.tga 
-		blendfunc blend
-	}
-}
-
 // VSAY head icons
 vsay_HUD_template
 {
