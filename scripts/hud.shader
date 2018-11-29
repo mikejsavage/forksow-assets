@@ -171,27 +171,6 @@ gfx/hud/icons/ammo/pack
 }
 
 //
-// armor icons
-//
-
-gfx/hud/icons/armor/ga
-{
-	template simpleIcon_HUD_Template armor/ga
-}
-gfx/hud/icons/armor/ya
-{
-	template simpleIcon_HUD_Template armor/ya
-}
-gfx/hud/icons/armor/ra
-{
-	template simpleIcon_HUD_Template armor/ra
-}
-gfx/hud/icons/armor/shard
-{
-	template simpleIcon_HUD_Template armor/shard
-}
-
-//
 // health icons
 //
 gfx/hud/icons/health/5

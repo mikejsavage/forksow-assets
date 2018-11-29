@@ -1420,60 +1420,6 @@ textures/decals/team_beta_stain006
 	}
 }
 
-textures/decals/decal_armor_ra
-{	
-	qer_editorimage textures/decals/decal_armor_ra.tga
-	qer_trans 0.6
-	surfaceparm nomarks
-	//surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-	nopicmip
-
-	{
-		detail
-		material textures/decals/decal_armor_ra.tga
-		blendfunc blend
-	}
-}
-
-textures/decals/decal_armor_ya
-{	
-	qer_editorimage textures/decals/decal_armor_ya.tga
-	qer_trans 0.6
-	surfaceparm nomarks
-	//surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-	nopicmip
-
-	{
-		detail
-		material textures/decals/decal_armor_ya.tga
-		blendfunc blend
-	}
-}
-
-textures/decals/decal_armor_ga
-{	
-	qer_editorimage textures/decals/decal_armor_ga.tga
-	qer_trans 0.6
-	surfaceparm nomarks
-	//surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-	nopicmip
-
-	{
-		detail
-		material textures/decals/decal_armor_ga.tga
-		blendfunc blend
-	}
-}
-
 textures/decals/decal_danger
 {	
 	qer_editorimage textures/decals/decal_danger.tga

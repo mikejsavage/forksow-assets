@@ -1,35 +1,3 @@
-//ARMORS
-models/items/armor/armor_template
-{
-	nopicmip
-	cull front
-	
-	{
-		celshade $1 env/cell
-		alphagen entity
-	}
-}
-
-models/items/armor/shard/shard
-{
-	template models/items/armor/armor_template models/items/armor/shard/shard.tga
-}
-
-models/items/armor/ga/ga
-{
-	template models/items/armor/armor_template models/items/armor/ga/ga.tga
-}
-
-models/items/armor/ya/ya
-{
-	template models/items/armor/armor_template models/items/armor/ya/ya.tga
-}
-
-models/items/armor/ra/ra
-{
-	template models/items/armor/armor_template models/items/armor/ra/ra.tga
-}
-
 //----------------------
 //AMMO BOXES
 //----------------------

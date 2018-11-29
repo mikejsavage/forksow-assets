@@ -426,26 +426,6 @@ gfx/simpleitems/ammo/pack
 	template simpleitem_HUD_Template ammo pack
 }
 
-gfx/simpleitems/armor/ga
-{
-	template simpleitem_HUD_Template armor ga
-}
-
-gfx/simpleitems/armor/ya
-{
-	template simpleitem_HUD_Template armor ya
-}
-
-gfx/simpleitems/armor/ra
-{
-	template simpleitem_HUD_Template armor ra
-}
-
-gfx/simpleitems/armor/shard
-{
-	template simpleitem_HUD_Template armor shard
-}
-
 gfx/simpleitems/health/5
 {
 	template simpleitem_HUD_Template health 5
