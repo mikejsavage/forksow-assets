@@ -10,14 +10,14 @@ fullbright_weapon
     }
 }
 
-models/weapons/electrobolt/electrobolt          { template fullbright_weapon 0 0.894 1 }
-models/weapons/glauncher/glauncher              { template fullbright_weapon 0.290, 0.564, 0.886 }
-models/weapons/gunblade/gunblade                { template fullbright_weapon 0.388, 0.388, 0.388 }
-models/weapons/gunblade/barrel                  { template fullbright_weapon 0.388, 0.388, 0.388 }
-models/weapons/lasergun/lasergun                { template fullbright_weapon 0.713, 0.172, 0.905 }
-models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.113, 0.945, 0.423 }
-models/weapons/riotgun/riotgun                  { template fullbright_weapon 1, 0.678, 0.149 }
-models/weapons/rl           					{ template fullbright_weapon 0.815, 0.007, 0.105 }
+models/weapons/electrobolt/electrobolt          { template fullbright_weapon 0.314 0.953 1.000 }
+models/weapons/glauncher/glauncher              { template fullbright_weapon 0.243 0.553 1.000 }
+models/weapons/gunblade/gunblade                { template fullbright_weapon 0.502 0.502 0.502 }
+models/weapons/gunblade/barrel                  { template fullbright_weapon 0.502 0.502 0.502 }
+models/weapons/lg					            { template fullbright_weapon 0.322 0.988 0.372 }
+models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.675 0.314 1.000 }
+models/weapons/riotgun/riotgun                  { template fullbright_weapon 1.000 0.675 0.118 }
+models/weapons/rl           					{ template fullbright_weapon 1.000 0.227 0.259 }
 
 //flashes
 models/weapons/rl_flash1
