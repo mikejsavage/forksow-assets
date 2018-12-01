@@ -269,44 +269,6 @@ models/objects/projectile/glauncher/grenadegradstrong
 	}
 }
 
-models/objects/projectile/glauncher/grenadegradweak
-{
-	nopicmip
-	cull disable
-	{
-		map models/objects/projectile/glauncher/grenadegradweak.tga
-		blendFunc add
-		rgbGen wave triangle .07 .1 0 20
-		tcmod scroll 0.2 0
-	}
-}
-
-models/objects/projectile/glauncher/grenadeweak
-{
-	nopicmip
-	{
-		map models/objects/projectile/glauncher/grenadeweak.tga
-	}
-	// just fullbright
-	//{
-	//	map gfx/colors/celshade.tga
-	//	blendfunc filter
-	//	rgbGen identity
-	//	tcGen environment
-	//}
-}
-
-models/objects/projectile/glauncher/grenadeweak_flare
-{
-	nopicmip
-	//deformVertexes autosprite
-	cull none
-	{
-		map models/objects/projectile/glauncher/grenadeweak_flare.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-	}
-}
-
 models/objects/projectile/glauncher/grenadestrong
 {
 	nopicmip
@@ -347,20 +309,6 @@ models/objects/projectile/rlauncher/rocket_strong
 	}
 }
 
-models/objects/projectile/rlauncher/rocket_weak
-{
-	nopicmip
-	sort additive
-	cull disable
-	{
-		map models/objects/projectile/rlauncher/rocket_weak.tga
-		blendFunc add
-		rgbGen wave triangle .2 .25 0 5
-		tcmod rotate -250
-		//blendFunc GL_SRC_ALPHA GL_ONE
-	}
-}
-
 models/objects/projectile/rlauncher/rocket_flare_2
 {
 	nopicmip
@@ -380,18 +328,6 @@ models/objects/projectile/rlauncher/rocketgradstrong
 	cull disable
 	{
 		map models/objects/projectile/rlauncher/rocketgradstrong.tga
-		blendFunc add
-		rgbGen wave triangle .01 .15 0 20
-		tcmod scroll 0.2 0
-	}
-}
-
-models/objects/projectile/rlauncher/rocketgradweak
-{
-	nopicmip
-	cull disable
-	{
-		map models/objects/projectile/rlauncher/rocketgradweak.tga
 		blendFunc add
 		rgbGen wave triangle .01 .15 0 20
 		tcmod scroll 0.2 0
