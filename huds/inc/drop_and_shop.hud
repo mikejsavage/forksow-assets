@@ -1,0 +1,26 @@
+setCursor 8 * 1.333 * %VIDHEIGHT / %VIDWIDTH, #HEIGHT - 32
+setSize 250, 18
+setFontSize %VIDHEIGHT / 48
+
+if %CARRYING_BOMB
+	setAlign #LEFT, #MIDDLE
+	setColor 0.0, 0.0, 0.0, 0.5
+	drawPicByName $whiteimage
+
+	setAlign #CENTER, #MIDDLE
+	moveCursor 125, 0
+	setColor 1, 1, 1, 1
+	drawBindString "Press %s to drop the bomb" "drop"
+	moveCursor -125, -24
+endif
+
+if %CAN_CHANGE_LOADOUT
+	setAlign #LEFT, #MIDDLE
+	setColor 0.0, 0.0, 0.0, 0.5
+	drawPicByName $whiteimage
+
+	setAlign #CENTER, #MIDDLE
+	moveCursor 125, 0
+	setColor 1, 1, 1, 1
+	drawBindString "Press %s to change loadout" "gametypemenu"
+endif

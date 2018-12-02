@@ -26,7 +26,7 @@ include weaponlist
 
 include obituaries
 
-include drop_the_bomb
+include drop_and_shop
 include bomb_progress
 
 include chasing
