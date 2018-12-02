@@ -1,5 +1,4 @@
-
-gfx/misc/electro
+gfx/misc/ebbeam
 {
 	cull none
 	nopicmip
@@ -10,34 +9,6 @@ gfx/misc/electro
 		rgbgen vertex
 		alphaGen vertex
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
-	}
-}
-
-gfx/misc/electro_alpha
-{
-	cull none
-	nopicmip
-	nomipmaps
-	deformVertexes autosprite2
-	{
-		map gfx/misc/electro.tga
-		alphaGen vertex
-		rgbgen teamcolor 2
-		blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
-	}
-}
-
-gfx/misc/electro_beta
-{
-	cull none
-	nopicmip
-	nomipmaps
-	deformVertexes autosprite2
-	{
-		map gfx/misc/electro.tga
-		alphaGen vertex
-		rgbgen teamcolor 3
-		blendFunc GL_SRC_ALPHA GL_DST_COLOR // blendfunc add the alphamasked part only
 	}
 }
 
