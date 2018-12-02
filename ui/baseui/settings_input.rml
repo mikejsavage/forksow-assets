@@ -156,7 +156,7 @@
 					<br />
 
 					<div class="setting-name">Drop bomb</div>
-					<keyselect bind="drop bomb"/>
+					<keyselect bind="drop"/>
 					<br />
 
 					<div class="setting-name">Chat</div>
