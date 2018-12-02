@@ -185,17 +185,17 @@ models/weapons/lasergun/lasergun
 	}
 }
 
-models/weapons/lasergun/lasergun_fx
+models/weapons/lg_fx
 {
 	nopicmip
 	cull disable
 	{
-		map models/weapons/lasergun/lasergun_fx.tga
+		map models/weapons/lg_fx.tga
 		blendFunc GL_ONE GL_ONE
 		tcmod scroll -2 0
 	}
 	{
-		map models/weapons/lasergun/lasergun_fx.tga
+		map models/weapons/lg_fx.tga
 		blendFunc GL_ONE GL_ONE
 		tcmod scroll 2 0
 	}
