@@ -196,6 +196,22 @@
 			<tab>Weapons</tab>
 			<panel class="dropshadow">
 				<div class="keys">
+					<div class="setting-name">Weapon 1</div>
+					<keyselect bind="weapon 1"/>
+					<br />
+
+					<div class="setting-name">Weapon 2</div>
+					<keyselect bind="weapon 2"/>
+					<br />
+
+					<div class="setting-name">Weapon 3</div>
+					<keyselect bind="weapon 3"/>
+					<br />
+
+					<div class="setting-name">Weapon 4</div>
+					<keyselect bind="weapon 4"/>
+					<br />
+
 					<div class="setting-name">Previous weapon</div>
 					<keyselect bind="weapprev"/>
 					<br />
