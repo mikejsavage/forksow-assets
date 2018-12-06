@@ -61,8 +61,6 @@
 				return;
 			}
 
-			// this updates the source for our grid to something like:
-			// "demos./" or "demos.tutorials/", etc
 			currentPath = path;
 			if( currentPath.empty() ) {
 				currentPath = "/";
