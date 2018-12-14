@@ -192,9 +192,18 @@ gfx/decals/d_plasma_hit
 	template decals_Hit_Template d_plasma_hit
 }
 
-gfx/decals/d_electrobolt_hit
+gfx/decals/ebimpact
 {
-	template decals_Hit_Template d_electrobolt_hit
+	nopicmip
+	polygonOffset
+	cull none
+	sort banner
+	{
+		alphamaskclampmap gfx/decals/ebimpact.tga
+		rgbGen vertex
+		alphaGen vertex
+		blendFunc blend
+	}
 }
 
 
