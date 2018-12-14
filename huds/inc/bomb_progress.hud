@@ -12,10 +12,10 @@ if %PROGRESS
 
 	// fill coloured bar
 	setAlign #LEFT, #MIDDLE
-	setColorToTeamColor %TEAM
+	setColorToTeamColor #TEAM_ALLY
 	setSize %PROGRESS * 2, 18
 	if %PROGRESS < 0
-		setColorToTeamColor %TEAM_ENEMY
+		setColorToTeamColor #TEAM_ENEMY
 		setSize %PROGRESS * -2, 18
 	endif
 	drawPicByName $whiteimage
