@@ -12,21 +12,7 @@ gfx/misc/ebbeam
 	}
 }
 
-gfx/misc/lgbeam_solid
-{
-	nopicmip
-	nomipmaps
-	cull none
-	deformVertexes autosprite2
-	softParticle
-	{
-		map gfx/misc/laserbeam.tga
-		blendfunc GL_SRC_ALPHA GL_ONE
-		rgbgen vertex
-	}
-}
-
-gfx/misc/lgbeam_glow
+gfx/misc/lgbeam
 {
 	nopicmip
 	nomipmaps
