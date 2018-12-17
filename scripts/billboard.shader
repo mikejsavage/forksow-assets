@@ -29,6 +29,7 @@ textures/billboard/board_512_256_1
 		tcmod scroll 10 .15
 	}
 }
+
 textures/billboard/board_512_256_2
 {
 	qer_editorimage textures/billboard/bigbill5.tga
@@ -60,6 +61,7 @@ textures/billboard/board_512_256_2
 		tcmod scroll 10 .15
 	}
 }
+
 textures/billboard/bigbill1
 {
 	qer_editorimage textures/billboard/bigbill1.tga
@@ -75,6 +77,7 @@ textures/billboard/bigbill1
 		clampmap textures/billboard/bigbill1.tga
 	}
 }
+
 textures/billboard/bigbill7
 {
 	qer_editorimage textures/billboard/bigbill7.tga
@@ -89,6 +92,7 @@ textures/billboard/bigbill7
 		clampmap textures/billboard/bigbill1.tga
 	}
 }
+
 textures/billboard/bigbill9
 {
 	qer_editorimage textures/billboard/bigbill9.tga
@@ -103,6 +107,7 @@ textures/billboard/bigbill9
 		clampmap textures/billboard/bigbill9.tga
 	}
 }
+
 textures/billboard/small1
 {
 	qer_editorimage textures/billboard/small1.tga
@@ -127,6 +132,7 @@ textures/billboard/small1
 		blendFunc blend
 	}
 }
+
 textures/billboard/small2
 {
 	qer_editorimage textures/billboard/small2.tga
@@ -151,6 +157,7 @@ textures/billboard/small2
 		blendFunc blend
 	}
 }
+
 textures/billboard/small3
 {
 	qer_editorimage textures/billboard/small3.tga
@@ -175,6 +182,7 @@ textures/billboard/small3
 		blendFunc blend
 	}
 }
+
 textures/billboard/small4
 {
 	qer_editorimage textures/billboard/small4.tga
@@ -199,6 +207,7 @@ textures/billboard/small4
 		blendFunc blend
 	}
 }
+
 textures/billboard/bigver1
 {
 	qer_editorimage textures/billboard/bigver1.tga
@@ -213,6 +222,7 @@ textures/billboard/bigver1
 		clampmap textures/billboard/bigver1.tga
 	}
 }
+
 textures/billboard/neon1
 {
 	qer_editorimage textures/billboard/neon1.tga
@@ -227,6 +237,7 @@ textures/billboard/neon1
 		clampmap textures/billboard/neon1.tga
 	}
 }
+
 textures/billboard/terebi
 {
 	qer_editorimage textures/billboard/terebi.tga
@@ -243,6 +254,7 @@ textures/billboard/terebi
 		animmap 1 textures/billboard/terebi_01.jpg textures/billboard/terebi_02.jpg textures/billboard/terebi_03.jpg textures/billboard/terebi_04.jpg textures/billboard/terebi_05.jpg textures/billboard/terebi_06.jpg textures/billboard/terebi_07.jpg
 	}
 }
+
 textures/billboard/bullets
 {
 	surfaceparm nomarks
@@ -255,6 +267,7 @@ textures/billboard/bullets
 		blendfunc add
 	}
 }
+
 textures/billboard/bulletsblue
 {
 	surfaceparm nomarks
@@ -267,6 +280,7 @@ textures/billboard/bulletsblue
 		blendfunc add
 	}
 }
+
 textures/billboard/bulletsblue2
 {
 	surfaceparm nomarks
@@ -279,6 +293,7 @@ textures/billboard/bulletsblue2
 		blendfunc add
 	}
 }
+
 textures/billboard/bulletspurple
 {
 	surfaceparm nomarks
@@ -291,6 +306,7 @@ textures/billboard/bulletspurple
 		blendfunc add
 	}
 }
+
 textures/billboard/PorkyPie
 {
 	qer_editorimage textures/billboard/PorkyPie.tga

@@ -17,6 +17,7 @@ textures/cha0s_ws/glass
 		tcmod scale .5 .5
 	}
 }
+
 textures/cha0s_ws/cement_2
 {
 	qer_editorimage textures/concrete/concrete2.tga

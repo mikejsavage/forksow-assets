@@ -15,6 +15,7 @@ textures/cocaine/s_lazery_blue
 		tcmod rotate 120
 	}
 }
+
 textures/cocaine/s_lazery_red
 {
 	qer_editorimage textures/cocaine/lazery_red
@@ -32,6 +33,7 @@ textures/cocaine/s_lazery_red
 		tcmod rotate 120
 	}
 }
+
 textures/cocaine/s_lazery_green
 {
 	qer_editorimage textures/cocaine/lazery_green
@@ -49,6 +51,7 @@ textures/cocaine/s_lazery_green
 		tcmod rotate 120
 	}
 }
+
 textures/cocaine/s_lazery_orange
 {
 	qer_editorimage textures/cocaine/lazery_orange
@@ -66,6 +69,7 @@ textures/cocaine/s_lazery_orange
 		tcmod rotate 120
 	}
 }
+
 textures/cocaine/s_lazery_white
 {
 	qer_editorimage textures/cocaine/lazery_white
@@ -83,6 +87,7 @@ textures/cocaine/s_lazery_white
 		tcmod rotate 120
 	}
 }
+
 textures/cocaine/s_lazery_kush
 {
 	qer_editorimage textures/cocaine/lazery_kush

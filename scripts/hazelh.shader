@@ -7,6 +7,7 @@ textures/hazelh/verticalborder2
 		material textures/hazelh/verticalborder2.tga textures/hazelh/verticalborder_norm.tga textures/hazelh/verticalborder_gloss.tga
 	}
 }
+
 textures/hazelh/verticalborder2_whitelight
 {
 	qer_editorimage textures/hazelh/verticalborder2_whitelight.tga
@@ -32,6 +33,7 @@ textures/hazelh/verticalborder2_whitelight
 	}
 	endif
 }
+
 textures/hazelh/vertex_base_dblue2
 {
 	qer_editorimage textures/hazelh/base_dblue2.tga
@@ -42,6 +44,7 @@ textures/hazelh/vertex_base_dblue2
 		rgbgen vertex
 	}
 }
+
 textures/hazelh/grate
 {
 	qer_editorimage textures/hazelh/grate.jpg
@@ -60,6 +63,7 @@ textures/hazelh/grate
 		depthWrite
 	}
 }
+
 textures/hazelh/glow_orange
 {
 	nomipmaps
@@ -74,6 +78,7 @@ textures/hazelh/glow_orange
 		blendfunc add
 	}
 }
+
 textures/hazelh/glow_orange_circle
 {
 	nomipmaps

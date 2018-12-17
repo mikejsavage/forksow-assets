@@ -18,6 +18,7 @@ textures/decals/emsoda
 		rgbGen Vertex
 	}
 }
+
 textures/decals/moddecallbyel
 {
 	qer_editorimage textures/decals/moddecallbyel.tga
@@ -38,6 +39,7 @@ textures/decals/moddecallbyel
 		rgbGen Vertex
 	}
 }
+
 textures/decals/emcommunism
 {
 	qer_editorimage textures/decals/communism.tga
@@ -58,6 +60,7 @@ textures/decals/emcommunism
 		rgbGen Vertex
 	}
 }
+
 textures/decals/emcommunism2
 {
 	qer_editorimage textures/decals/communism2.tga
@@ -78,6 +81,7 @@ textures/decals/emcommunism2
 		rgbGen Vertex
 	}
 }
+
 textures/window/windowbrown
 {
 	qer_editorimage textures/window/windowbrown.tga
@@ -95,6 +99,7 @@ textures/window/windowbrown
 		rgbGen Vertex
 	}
 }
+
 textures/decals/communismposter
 {
 	qer_editorimage textures/decals/communismposter.tga
@@ -115,6 +120,7 @@ textures/decals/communismposter
 		rgbGen Vertex
 	}
 }
+
 textures/decals/sewercover
 {
 	qer_editorimage textures/decals/emsewerc.tga

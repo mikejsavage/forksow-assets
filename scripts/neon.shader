@@ -10,6 +10,7 @@ textures/neon/neon_square
 		blendfunc add
 	}
 }
+
 textures/neon/basskick
 {
 	qer_editorimage textures/neon/basskick1.jpg
@@ -26,6 +27,7 @@ textures/neon/basskick
 		animmap 1 textures/neon/basskick1.jpg textures/neon/basskick2.jpg textures/neon/basskick3.jpg textures/neon/basskick4.jpg
 	}
 }
+
 textures/neon/playwarsow
 {
 	surfaceparm nomarks
@@ -38,6 +40,7 @@ textures/neon/playwarsow
 		blendfunc add
 	}
 }
+
 textures/neon/wsw_kanji_orange
 {
 	surfaceparm nomarks
@@ -50,6 +53,7 @@ textures/neon/wsw_kanji_orange
 		blendfunc add
 	}
 }
+
 textures/neon/jusco_supermarket_yellow
 {
 	surfaceparm nomarks

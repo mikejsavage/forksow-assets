@@ -7,6 +7,7 @@ textures/scifi_interior/aluminium_panel
 		material textures/scifi_interior/aluminium_panel.tga textures/scifi_interior/aluminium_panel_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/aluminium_panel2
 {
 	qer_editorimage textures/scifi_interior/aluminium_panel2.tga
@@ -16,6 +17,7 @@ textures/scifi_interior/aluminium_panel2
 		material textures/scifi_interior/aluminium_panel2.tga textures/scifi_interior/aluminium_panel2_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/aluminium_panel4
 {
 	qer_editorimage textures/scifi_interior/aluminium_panel4.tga
@@ -25,6 +27,7 @@ textures/scifi_interior/aluminium_panel4
 		material textures/scifi_interior/aluminium_panel4.tga textures/scifi_interior/aluminium_panel2_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/aluminium_panel_small
 {
 	qer_editorimage textures/scifi_interior/aluminium_panel_small.tga
@@ -34,6 +37,7 @@ textures/scifi_interior/aluminium_panel_small
 		material textures/scifi_interior/aluminium_panel_small.tga textures/scifi_interior/aluminium_panel_small_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/rollupmetal
 {
 	qer_editorimage textures/scifi_interior/rollupmetal.tga
@@ -43,6 +47,7 @@ textures/scifi_interior/rollupmetal
 		material textures/scifi_interior/rollupmetal.tga textures/scifi_interior/rollupmetal_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/aluminium_trim_white
 {
 	qer_editorimage textures/scifi_interior/aluminium_trim_white.tga
@@ -52,6 +57,7 @@ textures/scifi_interior/aluminium_trim_white
 		material textures/scifi_interior/aluminium_trim_white.tga textures/scifi_interior/aluminium_trim_norm.tga textures/scifi_interior/gloss.tga
 	}
 }
+
 textures/scifi_interior/01
 {
 	qer_editorimage textures/scifi_interior/01.tga
@@ -69,6 +75,7 @@ textures/scifi_interior/01
 		blendfunc blend
 	}
 }
+
 textures/scifi_interior/02
 {
 	qer_editorimage textures/scifi_interior/02.tga
@@ -86,6 +93,7 @@ textures/scifi_interior/02
 		blendfunc blend
 	}
 }
+
 textures/scifi_interior/bricks
 {
 	qer_editorimage textures/scifi_interior/bricks.tga

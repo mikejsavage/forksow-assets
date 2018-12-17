@@ -10,6 +10,7 @@ textures/depot/blackfog0-1300
 	qer_nocarve
 	fogparms ( 0 0 0 ) 1300
 }
+
 textures/depot/blackfog700-1300
 {
 	qer_trans 0.5

@@ -6,6 +6,7 @@ textures/metal/treadplate0015
 		material textures/metal/treadplate0015.tga
 	}
 }
+
 textures/metal/treadplate0015b
 {
 	qer_editorimage textures/metal/treadplate0015b.tga
@@ -14,6 +15,7 @@ textures/metal/treadplate0015b
 		material textures/metal/treadplate0015b.tga textures/metal/treadplate0015_norm.tga textures/metal/treadplate0015_gloss.tga
 	}
 }
+
 textures/metal/treadplate0015e
 {
 	qer_editorimage textures/metal/treadplate0015e.tga
@@ -22,6 +24,7 @@ textures/metal/treadplate0015e
 		material textures/metal/treadplate0015e.tga textures/metal/treadplate0015_norm.tga textures/metal/treadplate0015_gloss.tga
 	}
 }
+
 textures/metal/treadplate0015f
 {
 	qer_editorimage textures/metal/treadplate0015f.tga
@@ -30,6 +33,7 @@ textures/metal/treadplate0015f
 		material textures/metal/treadplate0015f.tga textures/metal/treadplate0015_norm.tga textures/metal/treadplate0015f_gloss.tga
 	}
 }
+
 textures/metal/treadplate0015g
 {
 	qer_editorimage textures/metal/treadplate0015g.tga
@@ -38,6 +42,7 @@ textures/metal/treadplate0015g
 		material textures/metal/treadplate0015g.tga textures/metal/treadplate0015_norm.tga textures/metal/treadplate0015f_gloss.tga
 	}
 }
+
 textures/metal/metalbaseyellow0033
 {
 	qer_editorimage textures/metal/metalbaseyellow0033.tga
@@ -47,6 +52,7 @@ textures/metal/metalbaseyellow0033
 		material textures/metal/metalbaseyellow0033.tga $blankbumpimage textures/metal/metalbaseyellow0033_gloss.tga
 	}
 }
+
 textures/metal/corrugated0023green
 {
 	qer_editorimage textures/metal/corrugated0023green.tga
@@ -56,6 +62,7 @@ textures/metal/corrugated0023green
 		material textures/metal/corrugated0023green.tga textures/metal/corrugated0023_norm.tga textures/metal/corrugated0023green_gloss.tga
 	}
 }
+
 textures/metal/corrugated0023oxid
 {
 	qer_editorimage textures/metal/corrugated0023oxid.tga
@@ -65,6 +72,7 @@ textures/metal/corrugated0023oxid
 		material textures/metal/corrugated0023oxid.tga textures/metal/corrugated0023_norm.tga textures/metal/corrugated0023_gloss.tga
 	}
 }
+
 textures/metal/aluminium
 {
 	qer_editorimage textures/metal/aluminium.tga
@@ -76,6 +84,7 @@ textures/metal/aluminium
 		material textures/metal/aluminium.tga $blankbumpimage textures/metal/aluminium_gloss.tga
 	}
 }
+
 textures/metal/chrome
 {
 	qer_editorimage textures/metal/chrome
@@ -102,6 +111,7 @@ textures/metal/chrome
 		blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/metal/chrome_rusty
 {
 	qer_editorimage textures/metal/chrome

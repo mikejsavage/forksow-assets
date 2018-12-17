@@ -16,6 +16,7 @@ textures/wsw_flareshalos/flare_sphere_orange
 		blendFunc add
 	}
 }
+
 textures/wsw_flareshalos/flare_sphere_cyan
 {
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_cyan.tga
@@ -35,6 +36,7 @@ textures/wsw_flareshalos/flare_sphere_cyan
 		rgbgen wave distanceramp 0 1 150 600
 	}
 }
+
 textures/wsw_flareshalos/flare_sphere_fog_white
 {
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_fog_white.tga
@@ -54,6 +56,7 @@ textures/wsw_flareshalos/flare_sphere_fog_white
 		rgbgen wave distanceramp 0 1 100 800
 	}
 }
+
 textures/wsw_flareshalos/glow_neontube_blue
 {
 	qer_editorimage textures/wsw_flareshalos/glow_neontube_blue.tga
@@ -72,6 +75,7 @@ textures/wsw_flareshalos/glow_neontube_blue
 		blendFunc add
 	}
 }
+
 textures/wsw_flareshalos/flare_sphere_white
 {
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_white.tga
@@ -91,6 +95,7 @@ textures/wsw_flareshalos/flare_sphere_white
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
+
 textures/wsw_flareshalos/glow_halo_white
 {
 	qer_editorimage textures/wsw_flareshalos/glow_halo_white.tga
@@ -111,6 +116,7 @@ textures/wsw_flareshalos/glow_halo_white
 		rgbgen wave distanceramp 0 0.7 80 400
 	}
 }
+
 textures/wsw_flareshalos/glow_halo_white_soft
 {
 	qer_editorimage textures/wsw_flareshalos/glow_halo_white.tga
@@ -130,6 +136,7 @@ textures/wsw_flareshalos/glow_halo_white_soft
 		rgbgen wave distanceramp 0 0.5 80 400
 	}
 }
+
 textures/wsw_flareshalos/glow_cone_cyan
 {
 	qer_editorimage textures/wsw_flareshalos/glow_cone_cyan.tga
@@ -150,6 +157,7 @@ textures/wsw_flareshalos/glow_cone_cyan
 		rgbgen wave distanceramp 0 0.5 30 350
 	}
 }
+
 textures/wsw_flareshalos/glow_cone_verycyan
 {
 	qer_editorimage textures/wsw_flareshalos/glow_cone_verycyan.tga
@@ -170,6 +178,7 @@ textures/wsw_flareshalos/glow_cone_verycyan
 		rgbgen wave distanceramp 0 0.6 82 500
 	}
 }
+
 textures/wsw_flareshalos/glow_neontube_red
 {
 	qer_editorimage textures/wsw_flareshalos/glow_neontube_red.tga
@@ -188,6 +197,7 @@ textures/wsw_flareshalos/glow_neontube_red
 		blendFunc add
 	}
 }
+
 textures/wsw_flareshalos/small_light_halo
 {
 	qer_editorimage textures/wsw_flareshalos/small_light_halo.tga
@@ -208,6 +218,7 @@ textures/wsw_flareshalos/small_light_halo
 		rgbgen wave distanceramp 0 0.5 30 400
 	}
 }
+
 textures/wsw_flareshalos/flare_sphere_white_front
 {
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_white.tga
@@ -228,6 +239,7 @@ textures/wsw_flareshalos/flare_sphere_white_front
 		blendFunc GL_ONE GL_ONE
 	}
 }
+
 textures/wsw_flareshalos/flare_sphere_white_front_soft
 {
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_white.tga

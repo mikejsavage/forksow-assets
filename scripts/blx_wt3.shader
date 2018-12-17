@@ -6,6 +6,7 @@ textures/blx_wtest3/blx_wt3_surfmetal1
 		material textures/blx_wtest3/blx_wt3_surfmetal1.tga $blankBumpImage
 	}
 }
+
 textures/blx_wtest3/blx_wt3_surfmetal2
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_surfmetal2.tga
@@ -14,6 +15,7 @@ textures/blx_wtest3/blx_wt3_surfmetal2
 		material textures/blx_wtest3/blx_wt3_surfmetal2.tga $blankBumpImage textures/blx_wtest3/blx_wt3_surfmetal_gloss.tga
 	}
 }
+
 textures/blx_wtest3/blx_wt3_surfmetal2_nosolid
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_surfmetal2.tga
@@ -23,6 +25,7 @@ textures/blx_wtest3/blx_wt3_surfmetal2_nosolid
 		material textures/blx_wtest3/blx_wt3_surfmetal2.tga $blankBumpImage textures/blx_wtest3/blx_wt3_surfmetal_gloss.tga
 	}
 }
+
 textures/blx_wtest3/blx_wt3_surfmetal3
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_surfmetal3.tga
@@ -31,6 +34,7 @@ textures/blx_wtest3/blx_wt3_surfmetal3
 		material textures/blx_wtest3/blx_wt3_surfmetal3.tga $blankBumpImage textures/blx_wtest3/blx_wt3_surfmetal_gloss.tga
 	}
 }
+
 textures/blx_wtest3/blx_wt3_grid
 {
 	qer_editorimage textures/grates/simplegrid.tga
@@ -47,6 +51,7 @@ textures/blx_wtest3/blx_wt3_grid
 		depthWrite
 	}
 }
+
 textures/blx_wtest3/blx_wt3_grey
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_grey.tga

@@ -18,6 +18,7 @@ textures/decals/graffityPERON32
 		blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/graffityPERON32_darken
 {
 	qer_editorimage textures/decals/graffityPERON32.tga
@@ -36,6 +37,7 @@ textures/decals/graffityPERON32_darken
 		blendFunc filter
 	}
 }
+
 textures/decals/graffityTEAMZISSOU32
 {
 	qer_editorimage textures/decals/graffityTEAMZISSOU32.tga
@@ -56,6 +58,7 @@ textures/decals/graffityTEAMZISSOU32
 		blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/graffityTEAMZISSOU32_darken
 {
 	qer_editorimage textures/decals/graffityTEAMZISSOU32.tga
@@ -76,6 +79,7 @@ textures/decals/graffityTEAMZISSOU32_darken
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/graffiti_01
 {
 	qer_editorimage textures/decals/graffiti_01.tga
@@ -96,6 +100,7 @@ textures/decals/graffiti_01
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/graffiti_02
 {
 	qer_editorimage textures/decals/graffiti_02.tga
@@ -116,6 +121,7 @@ textures/decals/graffiti_02
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/graffiti_03
 {
 	qer_editorimage textures/decals/graffiti_03.tga
@@ -136,6 +142,7 @@ textures/decals/graffiti_03
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 	}
 }
+
 textures/decals/orangearrows
 {
 	qer_editorimage textures/decals/orangearrows.tga
@@ -153,6 +160,7 @@ textures/decals/orangearrows
 		blendFunc blend
 	}
 }
+
 textures/decals/orangearrows_outlined
 {
 	qer_editorimage textures/decals/orangearrows_outlined.tga
@@ -170,6 +178,7 @@ textures/decals/orangearrows_outlined
 		blendFunc blend
 	}
 }
+
 textures/decals/dirt_01
 {
 	qer_editorimage textures/decals/dirt_01.tga
@@ -182,6 +191,7 @@ textures/decals/dirt_01
 
 	template template_Dirt 01
 }
+
 textures/decals/dirt_02
 {
 	qer_editorimage textures/decals/dirt_02.tga
@@ -194,6 +204,7 @@ textures/decals/dirt_02
 
 	template template_Dirt 02
 }
+
 textures/decals/dirt_scratch_02
 {
 	qer_editorimage textures/decals/dirt_scratch_02.tga
@@ -206,6 +217,7 @@ textures/decals/dirt_scratch_02
 
 	template template_Dirt scratch_02
 }
+
 textures/decals/sign_warning01
 {
 	qer_editorimage textures/decals/sign_warning01.tga
@@ -225,6 +237,7 @@ textures/decals/sign_warning01
 		blendFunc blend
 	}
 }
+
 textures/decals/sign_up01
 {
 	qer_editorimage textures/decals/sign_up01.tga
@@ -244,6 +257,7 @@ textures/decals/sign_up01
 		blendFunc blend
 	}
 }
+
 textures/decals/poster01
 {
 	qer_editorimage textures/decals/poster01.tga
@@ -261,6 +275,7 @@ textures/decals/poster01
 		blendfunc blend
 	}
 }
+
 textures/decals/poster_bobot
 {
 	qer_editorimage textures/decals/poster_bobot.tga
@@ -278,6 +293,7 @@ textures/decals/poster_bobot
 		blendfunc blend
 	}
 }
+
 textures/decals/poster_monada
 {
 	qer_editorimage textures/decals/poster_monada.tga
@@ -295,6 +311,7 @@ textures/decals/poster_monada
 		blendfunc blend
 	}
 }
+
 textures/decals/poster_padpork
 {
 	qer_editorimage textures/decals/poster_padpork.tga
@@ -313,6 +330,7 @@ textures/decals/poster_padpork
 		blendfunc blend
 	}
 }
+
 textures/decals/poster_smallbunch
 {
 	qer_editorimage textures/decals/poster_smallbunch.tga
@@ -330,6 +348,7 @@ textures/decals/poster_smallbunch
 		blendfunc blend
 	}
 }
+
 textures/decals/poster_weapons
 {
 	qer_editorimage textures/decals/poster_weapons.tga
@@ -347,6 +366,7 @@ textures/decals/poster_weapons
 		blendfunc blend
 	}
 }
+
 textures/decals/plasterbroken01
 {
 	qer_editorimage textures/decals/plasterbroken01.tga
@@ -365,6 +385,7 @@ textures/decals/plasterbroken01
 		blendfunc blend
 	}
 }
+
 textures/decals/plasterworn0030
 {
 	qer_editorimage textures/decals/plasterworn0030.tga
@@ -384,6 +405,7 @@ textures/decals/plasterworn0030
 		blendFunc filter
 	}
 }
+
 textures/decals/leavedead01
 {
 	qer_editorimage textures/decals/leavedead01.tga
@@ -401,6 +423,7 @@ textures/decals/leavedead01
 		blendfunc blend
 	}
 }
+
 textures/decals/leavesdead01
 {
 	qer_editorimage textures/decals/leavesdead01.tga
@@ -418,6 +441,7 @@ textures/decals/leavesdead01
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04
 {
 	qer_editorimage textures/decals/trafficline04.tga
@@ -435,6 +459,7 @@ textures/decals/trafficline04
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04b
 {
 	qer_editorimage textures/decals/trafficline04b.tga
@@ -452,6 +477,7 @@ textures/decals/trafficline04b
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04stripes
 {
 	qer_editorimage textures/decals/trafficline04stripes.tga
@@ -469,6 +495,7 @@ textures/decals/trafficline04stripes
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04stripes2
 {
 	qer_editorimage textures/decals/trafficline04stripes2.tga
@@ -486,6 +513,7 @@ textures/decals/trafficline04stripes2
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04byellow
 {
 	qer_editorimage textures/decals/trafficline04byellow.tga
@@ -503,6 +531,7 @@ textures/decals/trafficline04byellow
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04red
 {
 	qer_editorimage textures/decals/trafficline04red.tga
@@ -520,6 +549,7 @@ textures/decals/trafficline04red
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04redandwhitestripes2
 {
 	qer_editorimage textures/decals/trafficline04redandwhitestripes2.tga
@@ -537,6 +567,7 @@ textures/decals/trafficline04redandwhitestripes2
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04orange
 {
 	qer_editorimage textures/decals/trafficline04orange.tga
@@ -554,6 +585,7 @@ textures/decals/trafficline04orange
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04orangestripes
 {
 	qer_editorimage textures/decals/trafficline04orangestripes.tga
@@ -571,6 +603,7 @@ textures/decals/trafficline04orangestripes
 		blendfunc blend
 	}
 }
+
 textures/decals/trafficline04orangestripes2
 {
 	qer_editorimage textures/decals/trafficline04orangestripes2.tga
@@ -588,6 +621,7 @@ textures/decals/trafficline04orangestripes2
 		blendfunc blend
 	}
 }
+
 textures/decals/decal_danger
 {
 	qer_editorimage textures/decals/decal_danger.tga

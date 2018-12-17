@@ -11,6 +11,7 @@ textures/concretestrike/sky
 
 	skyparms env/cssky/cube 512 -
 }
+
 textures/concretestrike/sky_newlight
 {
 	qer_editorimage env/cssky/cube_bk.tga
@@ -22,6 +23,7 @@ textures/concretestrike/sky_newlight
 
 	skyparms env/cssky/cube 512 -
 }
+
 textures/concretestrike/sky_surfacelight
 {
 	qer_editorimage env/cssky/cube_bk.tga
@@ -39,6 +41,7 @@ textures/concretestrike/sky_surfacelight
 
 	skyparms env/cssky/cube 512 -
 }
+
 textures/concretestrike/stucco01b_nobounce
 {
 	qer_editorimage textures/concrete/stucco01b.tga
@@ -48,6 +51,7 @@ textures/concretestrike/stucco01b_nobounce
 		material textures/concrete/stucco01b.tga textures/concrete/stucco01_norm.tga
 	}
 }
+
 concretestrike/terrain01
 {
 	qer_editorimage textures/terrain/rocks002_512x512

@@ -6,6 +6,7 @@ textures/concrete/stucco01
 		material
 	}
 }
+
 textures/concrete/stucco01b
 {
 	qer_editorimage textures/concrete/stucco01b.tga
@@ -14,6 +15,7 @@ textures/concrete/stucco01b
 		material textures/concrete/stucco01b.tga textures/concrete/stucco01_norm.tga
 	}
 }
+
 textures/concrete/concretecleanstriped
 {
 	qer_editorimage textures/concrete/concretecleanstriped.tga
@@ -22,6 +24,7 @@ textures/concrete/concretecleanstriped
 		material textures/concrete/concretecleanstriped.tga textures/concrete/concreteclean_norm.tga
 	}
 }
+
 textures/concrete/concretegrey
 {
 	qer_editorimage textures/concrete/concretegrey.tga
@@ -30,6 +33,7 @@ textures/concrete/concretegrey
 		material
 	}
 }
+
 textures/concrete/concretered
 {
 	qer_editorimage textures/concrete/concretered.tga
@@ -38,6 +42,7 @@ textures/concrete/concretered
 		material textures/concrete/concretered.tga textures/concrete/concretegrey_norm.tga
 	}
 }
+
 textures/concrete/concretegreyandwhite
 {
 	qer_editorimage textures/concrete/concretegreyandwhite.tga
@@ -46,6 +51,7 @@ textures/concrete/concretegreyandwhite
 		material textures/concrete/concretegreyandwhite.tga textures/concrete/concretegrey_norm.tga
 	}
 }
+
 textures/concrete/concretegreyandred
 {
 	qer_editorimage textures/concrete/concretegreyandred.tga
@@ -54,6 +60,7 @@ textures/concrete/concretegreyandred
 		material textures/concrete/concretegreyandred.tga textures/concrete/concretegrey_norm.tga
 	}
 }
+
 textures/concrete/concretecold01
 {
 	qer_editorimage textures/concrete/concretecold01
@@ -63,6 +70,7 @@ textures/concrete/concretecold01
 		tcMod scale 2 2
 	}
 }
+
 textures/concrete/concretecold02
 {
 	qer_editorimage textures/concrete/concretecold02

@@ -16,6 +16,7 @@ textures/wsw_city1/cables1
 		blendfunc blend
 	}
 }
+
 textures/wsw_city1/cables2
 {
 	cull none
@@ -34,6 +35,7 @@ textures/wsw_city1/cables2
 		blendfunc blend
 	}
 }
+
 textures/wsw_city1/wires1
 {
 	cull none
@@ -52,6 +54,7 @@ textures/wsw_city1/wires1
 		blendfunc blend
 	}
 }
+
 textures/wsw_city1/tech_wall5
 {
 	qer_editorimage textures/wsw_city1/tech_wall5.tga
@@ -60,6 +63,7 @@ textures/wsw_city1/tech_wall5
 		material textures/wsw_city1/tech_wall5.tga textures/wsw_city1/tech_wall3_norm.tga textures/wsw_city1/tech_wall3_gloss.tga
 	}
 }
+
 textures/wsw_city1/tech_concrete_tiles_mate
 {
 	qer_editorimage textures/wsw_city1/tech_concrete_tiles.tga
@@ -68,6 +72,7 @@ textures/wsw_city1/tech_concrete_tiles_mate
 		material textures/wsw_city1/tech_concrete_tiles.tga textures/wsw_city1/tech_concrete_tiles_norm.tga
 	}
 }
+
 textures/wsw_city1/lighthalo1_high
 {
 	qer_editorimage textures/wsw_flareshalos/glow_halo_white.tga
@@ -87,6 +92,7 @@ textures/wsw_city1/lighthalo1_high
 		rgbgen wave distanceramp 0 1 20 350
 	}
 }
+
 textures/wsw_city1/grate_nosolid
 {
 	qer_editorimage textures/wsw_city1/grate.tga
@@ -101,6 +107,7 @@ textures/wsw_city1/grate_nosolid
 		depthWrite
 	}
 }
+
 textures/wsw_city1/tubes1_bulge
 {
 	qer_editorimage textures/wsw_city1/tubes1.tga
@@ -110,6 +117,7 @@ textures/wsw_city1/tubes1_bulge
 		material textures/wsw_city1/tubes1.tga
 	}
 }
+
 textures/wsw_city1/townsign01
 {
 	qer_editorimage textures/wsw_city1/townsign01.tga
@@ -127,6 +135,7 @@ textures/wsw_city1/townsign01
 		depthWrite
 	}
 }
+
 textures/wsw_city1/light_bulb_side
 {
 	qer_editorimage textures/wsw_city1/light_bulb_side.tga
@@ -146,6 +155,7 @@ textures/wsw_city1/light_bulb_side
 		alphaFunc GT0
 	}
 }
+
 textures/wsw_city1/light_bulb_top
 {
 	qer_editorimage textures/wsw_city1/light_bulb_top.tga
@@ -167,6 +177,7 @@ textures/wsw_city1/light_bulb_top
 		alphaFunc GT0
 	}
 }
+
 textures/wsw_city1/light_bulb_corona
 {
 	qer_editorimage textures/wsw_city1/light_bulb_corona.tga
@@ -189,6 +200,7 @@ textures/wsw_city1/light_bulb_corona
 		rgbgen wave distanceramp 0.5 1 0 400
 	}
 }
+
 textures/wsw_city1/stepside02
 {
 	qer_editorimage textures/wsw_city1/stepside02.tga

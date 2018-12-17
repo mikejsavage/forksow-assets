@@ -18,6 +18,7 @@ textures/world/lava
 		rgbgen const 1.0 0.19 0.0
 	}
 }
+
 textures/world/bluewater
 {
 	qer_editorimage textures/colors/blue.tga
@@ -37,6 +38,7 @@ textures/world/bluewater
 		rgbGen const ( 0.227451 0.227451 0.227451 )
 	}
 }
+
 textures/world/bluewater1
 {
 	qer_editorimage textures/world/sh/water2.tga
@@ -60,6 +62,7 @@ textures/world/bluewater1
 		tcmod scroll .02 .01
 	}
 }
+
 textures/world/bluedistortwater
 {
 	qer_editorimage textures/world/sh/water2.tga

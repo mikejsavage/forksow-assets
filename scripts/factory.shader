@@ -12,6 +12,7 @@ textures/factory/glass
 		blendFunc gl_one gl_one
 	}
 }
+
 textures/factory/glass_singlesided_distancebloom
 {
 	qer_editorimage textures/factory/glass.tga
@@ -33,6 +34,7 @@ textures/factory/glass_singlesided_distancebloom
 		rgbgen wave distanceramp 0 1 200 500
 	}
 }
+
 textures/factory/factory_wall_grey
 {
 	qer_editorimage textures/factory/factory_wall_grey.tga

@@ -19,6 +19,7 @@ textures/noir/natsbar
 	}
 
 }
+
 textures/noir/badabing
 {
 	qer_editorimage textures/noir/badabing

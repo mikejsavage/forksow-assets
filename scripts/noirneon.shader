@@ -19,6 +19,7 @@ textures/noir/natsbar
 	}
 
 }
+
 textures/noir/animatedthisway
 {
 	qer_editorimage textures/noir/thisway03.tga
@@ -40,6 +41,7 @@ textures/noir/animatedthisway
 	}
 
 }
+
 textures/noir/badabing
 {
 	qer_editorimage textures/noir/badabing
@@ -61,6 +63,7 @@ textures/noir/badabing
 	}
 
 }
+
 textures/noir/noira
 {
 	qer_editorimage textures/noir/a.tga
@@ -82,6 +85,7 @@ textures/noir/noira
 		rgbGen Vertex
 	}
 }
+
 textures/noir/noirb
 {
 	qer_editorimage textures/noir/b.tga
@@ -103,6 +107,7 @@ textures/noir/noirb
 		rgbGen Vertex
 	}
 }
+
 textures/noir/noirarrow100
 {
 	qer_editorimage textures/noir/arrow100.tga

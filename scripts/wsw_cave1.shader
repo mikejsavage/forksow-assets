@@ -11,6 +11,7 @@ textures/wsw_cave1/stairs1
 		depthwrite
 	}
 }
+
 textures/wsw_cave1/scratchedmetal1
 {
 	qer_editorimage textures/wsw_cave1/scratchedmetal1.tga

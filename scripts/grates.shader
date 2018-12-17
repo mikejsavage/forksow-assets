@@ -13,31 +13,31 @@ textures/grates/fence01
 	q3map_lightmapsamplesize 64
 
 	{
-		// notice: 01 doesn't use the gloss map
-		material textures/grates/fence01.tga textures/grates/fence01_norm.tga
-		alphaFunc GE128
-		depthWrite
-		}
-		}
-		textures/grates/fence01_noshadow
-		{
-		qer_trans 0.5
-		qer_editorimage textures/grates/fence01.tga
-		surfaceparm trans
-		surfaceparm nomarks
-		cull none
-		nopicmip
-		nomipmaps
-		q3map_forceMeta
-		q3map_lightmapsamplesize 64
-
-		{
-		// notice: 01 doesn't use the gloss map
 		material textures/grates/fence01.tga textures/grates/fence01_norm.tga
 		alphaFunc GE128
 		depthWrite
 	}
 }
+
+textures/grates/fence01_noshadow
+{
+	qer_trans 0.5
+	qer_editorimage textures/grates/fence01.tga
+	surfaceparm trans
+	surfaceparm nomarks
+	cull none
+	nopicmip
+	nomipmaps
+	q3map_forceMeta
+	q3map_lightmapsamplesize 64
+
+	{
+		material textures/grates/fence01.tga textures/grates/fence01_norm.tga
+		alphaFunc GE128
+		depthWrite
+	}
+}
+
 textures/grates/simplegrid
 {
 	qer_trans 0.5

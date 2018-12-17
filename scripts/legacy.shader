@@ -13,6 +13,7 @@ textures/cha0s_ws/sw_xlight
 		map textures/lights/blacktrim02.tga
 	}
 }
+
 textures/cha0s_ws/realflat_lt
 {
 	qer_editorimage textures/cha0s_ws/flat_lt.tga
@@ -21,6 +22,7 @@ textures/cha0s_ws/realflat_lt
 		material textures/cha0s_ws/flat_lt.tga
 	}
 }
+
 textures/wsw_city1/concrete1_red
 {
 	qer_editorimage textures/concrete/plasterred01.tga
@@ -29,6 +31,7 @@ textures/wsw_city1/concrete1_red
 		material textures/concrete/plasterred01.tga
 	}
 }
+
 textures/wsw_city1/concrete2
 {
 	qer_editorimage textures/concrete/stucco01.tga
@@ -37,6 +40,7 @@ textures/wsw_city1/concrete2
 		material textures/concrete/stucco01.tga
 	}
 }
+
 textures/wsw_city1/concrete2c
 {
 	qer_editorimage textures/concrete/stucco01c.tga
@@ -45,6 +49,7 @@ textures/wsw_city1/concrete2c
 		material textures/concrete/stucco01c.tga textures/concrete/stucco01_norm.tga
 	}
 }
+
 textures/wsw_city1/concrete4
 {
 	qer_editorimage textures/concrete/blueplaster.tga
@@ -53,6 +58,7 @@ textures/wsw_city1/concrete4
 		material textures/concrete/blueplaster.tga
 	}
 }
+
 textures/wsw_city1/ceil02
 {
 	qer_editorimage textures/cleansurface/pantone432c
@@ -61,6 +67,7 @@ textures/wsw_city1/ceil02
 		material textures/cleansurface/pantone432c $blankbumpimage
 	}
 }
+
 textures/wsw_city1/tech_concrete1
 {
 	qer_editorimage textures/concrete/concretecold01
@@ -70,6 +77,7 @@ textures/wsw_city1/tech_concrete1
 		tcMod scale 2 2
 	}
 }
+
 textures/wsw_city1/tech_concrete2
 {
 	qer_editorimage textures/concrete/concretecold02
@@ -79,6 +87,7 @@ textures/wsw_city1/tech_concrete2
 		tcMod scale 2 2
 	}
 }
+
 textures/wsw_city1/stepup01
 {
 	qer_editorimage textures/cleansurface/pantone425c
@@ -87,6 +96,7 @@ textures/wsw_city1/stepup01
 		material textures/cleansurface/pantone425c $blankbumpimage
 	}
 }
+
 textures/wsw_city1/stepup02
 {
 	qer_editorimage textures/cleansurface/pantone7536c
@@ -95,6 +105,7 @@ textures/wsw_city1/stepup02
 		material textures/cleansurface/pantone7536c $blankbumpimage
 	}
 }
+
 textures/wsw_city1/window_tall01
 {
 	qer_editorimage textures/window/purple01.tga
@@ -103,6 +114,7 @@ textures/wsw_city1/window_tall01
 		material textures/window/purple01
 	}
 }
+
 textures/blx_wtest3/blx_wt3_dgrey
 {
 	qer_editorimage textures/cleansurface/pantonecoolgray10c.tga
@@ -111,6 +123,7 @@ textures/blx_wtest3/blx_wt3_dgrey
 		material textures/cleansurface/pantonecoolgray10c $blankbumpimage
 	}
 }
+
 textures/blx_wtest3/blx_wt3_pillar3
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_pillar3.tga
@@ -119,6 +132,7 @@ textures/blx_wtest3/blx_wt3_pillar3
 		material textures/blx_wtest3/blx_wt3_pillar3.tga textures/blx_wtest3/blx_wt3_pillar3_norm.tga textures/blx_wtest3/blx_wt3_pillar3_gloss.tga
 	}
 }
+
 textures/wsw_cave1/light_sphere1
 {
 	qer_editorimage textures/lights/oc3.tga
@@ -136,6 +150,7 @@ textures/wsw_cave1/light_sphere1
 		map textures/lights/oc3.tga
 	}
 }
+
 textures/wdm7/grid_tile
 {
 	qer_editorimage textures/metal/bigtreadplateg.tga
@@ -156,6 +171,7 @@ textures/wdm7/grid_tile
 	}
 	endif
 }
+
 textures/refly_wood/wood3
 {
 	qer_editorimage textures/wood/woodtables01.tga
@@ -176,6 +192,7 @@ textures/refly_wood/wood3
 	}
 	endif
 }
+
 textures/terrain/rockwall01b
 {
 	qer_editorimage textures/terrain/rockwall01.tga

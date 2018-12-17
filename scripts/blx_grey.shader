@@ -14,6 +14,7 @@ textures/blx_grey/blx_grey_wall_1
 		blendFunc add
 	}
 }
+
 textures/blx_grey/blx_grey_tile
 {
 	qer_editorimage textures/blx_grey/blx_grey_tile.jpg
@@ -30,6 +31,7 @@ textures/blx_grey/blx_grey_tile
 		blendFunc add
 	}
 }
+
 textures/blx_grey/blx_grey_wall_2
 {
 	qer_editorimage textures/blx_grey/blx_grey_wall_2.jpg

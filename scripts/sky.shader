@@ -32,6 +32,7 @@ textures/sky/indigosky
 		blendFunc add
 	}
 }
+
 textures/sky/stormydays
 {
 	qer_editorimage env/stormydays/stormydays_ft.tga

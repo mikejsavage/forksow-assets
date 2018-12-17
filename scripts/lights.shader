@@ -11,6 +11,7 @@ textures/lights/01neutrel
 		map textures/lights/01neutrel.tga
 	}
 }
+
 textures/lights/01neutrel_500
 {
 	qer_editorimage textures/lights/01neutrel.tga
@@ -26,6 +27,7 @@ textures/lights/01neutrel_500
 		map textures/lights/01neutrel.tga
 	}
 }
+
 textures/lights/01neutrel_5000
 {
 	qer_editorimage textures/lights/01neutrel.tga
@@ -41,6 +43,7 @@ textures/lights/01neutrel_5000
 		map textures/lights/01neutrel.tga
 	}
 }
+
 textures/lights/01neutres
 {
 	qer_editorimage textures/lights/01neutres.tga
@@ -54,6 +57,7 @@ textures/lights/01neutres
 		map textures/lights/01neutres.tga
 	}
 }
+
 textures/lights/01neutres_500
 {
 	qer_editorimage textures/lights/01neutres.tga
@@ -69,6 +73,7 @@ textures/lights/01neutres_500
 		map textures/lights/01neutres.tga
 	}
 }
+
 textures/lights/01neutres_5000
 {
 	qer_editorimage textures/lights/01neutres.tga
@@ -84,6 +89,7 @@ textures/lights/01neutres_5000
 		map textures/lights/01neutres.tga
 	}
 }
+
 textures/lights/01bluel
 {
 	qer_editorimage textures/lights/01bluel.tga
@@ -97,6 +103,7 @@ textures/lights/01bluel
 		map textures/lights/01bluel.tga
 	}
 }
+
 textures/lights/01bluel_1000
 {
 	qer_editorimage textures/lights/01bluel.tga
@@ -112,6 +119,7 @@ textures/lights/01bluel_1000
 		map textures/lights/01bluel.tga
 	}
 }
+
 textures/lights/01bluel_10000
 {
 	qer_editorimage textures/lights/01bluel.tga
@@ -127,6 +135,7 @@ textures/lights/01bluel_10000
 		map textures/lights/01bluel.tga
 	}
 }
+
 textures/lights/01blues
 {
 	qer_editorimage textures/lights/01blues.tga
@@ -140,6 +149,7 @@ textures/lights/01blues
 		map textures/lights/01blues.tga
 	}
 }
+
 textures/lights/01blues_500
 {
 	qer_editorimage textures/lights/01blues.tga
@@ -155,6 +165,7 @@ textures/lights/01blues_500
 		map textures/lights/01blues.tga
 	}
 }
+
 textures/lights/01blues_1000
 {
 	qer_editorimage textures/lights/01blues.tga
@@ -170,6 +181,7 @@ textures/lights/01blues_1000
 		map textures/lights/01blues.tga
 	}
 }
+
 textures/lights/01blues_5000
 {
 	qer_editorimage textures/lights/01blues.tga
@@ -185,6 +197,7 @@ textures/lights/01blues_5000
 		map textures/lights/01blues.tga
 	}
 }
+
 textures/lights/01blues_10000
 {
 	qer_editorimage textures/lights/01blues.tga
@@ -200,6 +213,7 @@ textures/lights/01blues_10000
 		map textures/lights/01blues.tga
 	}
 }
+
 textures/lights/blacktrim01
 {
 	qer_editorimage textures/lights/blacktrim01
@@ -214,6 +228,7 @@ textures/lights/blacktrim01
 		map textures/lights/blacktrim01.tga
 	}
 }
+
 textures/lights/blacktrim01_1000
 {
 	qer_editorimage textures/lights/blacktrim01
@@ -229,6 +244,7 @@ textures/lights/blacktrim01_1000
 		map textures/lights/blacktrim01.tga
 	}
 }
+
 textures/lights/blacktrim02
 {
 	qer_editorimage textures/lights/blacktrim02.tga
@@ -243,6 +259,7 @@ textures/lights/blacktrim02
 		map textures/lights/blacktrim02.tga
 	}
 }
+
 textures/lights/blacktrim02_2500
 {
 	qer_editorimage textures/lights/blacktrim02.tga
@@ -258,6 +275,7 @@ textures/lights/blacktrim02_2500
 		map textures/lights/blacktrim02.tga
 	}
 }
+
 textures/lights/neonlamp
 {
 	qer_editorimage textures/lights/neonlamp.tga
@@ -281,6 +299,7 @@ textures/lights/neonlamp
 		blendfunc add
 	}
 }
+
 textures/lights/tech
 {
 	qer_editorimage textures/lights/tech.tga
@@ -310,6 +329,7 @@ textures/lights/tech
 	}
 	endif
 }
+
 textures/lights/tech_1000
 {
 	qer_editorimage textures/lights/tech.tga
@@ -342,6 +362,7 @@ textures/lights/tech_1000
 	}
 	endif
 }
+
 textures/lights/square_light_tile
 {
 	qer_editorimage textures/lights/square_light_tile.tga
@@ -354,6 +375,7 @@ textures/lights/square_light_tile
 		map textures/lights/square_light_tile.tga
 	}
 }
+
 textures/lights/square_light_tile_2000
 {
 	qer_editorimage textures/lights/square_light_tile.tga
@@ -369,6 +391,7 @@ textures/lights/square_light_tile_2000
 		map textures/lights/square_light_tile.tga
 	}
 }
+
 textures/lights/panel1
 {
 	qer_editorimage textures/lights/panel1.tga
@@ -381,6 +404,7 @@ textures/lights/panel1
 		map textures/lights/panel1.tga
 	}
 }
+
 textures/lights/panel1_500
 {
 	qer_editorimage textures/lights/panel1.tga
@@ -395,6 +419,7 @@ textures/lights/panel1_500
 		map textures/lights/panel1.tga
 	}
 }
+
 textures/lights/purewhite
 {
 	qer_editorimage textures/lights/purewhite.tga
@@ -407,6 +432,7 @@ textures/lights/purewhite
 		map textures/lights/purewhite.tga
 	}
 }
+
 textures/lights/purewhite_1000
 {
 	qer_editorimage textures/lights/purewhite.tga
@@ -422,6 +448,7 @@ textures/lights/purewhite_1000
 		map textures/lights/purewhite.tga
 	}
 }
+
 textures/lights/bluetrim
 {
 	qer_editorimage textures/lights/bluetrim.tga
@@ -434,6 +461,7 @@ textures/lights/bluetrim
 		map textures/lights/bluetrim.tga
 	}
 }
+
 textures/lights/bluetrim_1000
 {
 	qer_editorimage textures/lights/bluetrim.tga
@@ -449,6 +477,7 @@ textures/lights/bluetrim_1000
 		map textures/lights/bluetrim.tga
 	}
 }
+
 textures/lights/bright2
 {
 	qer_editorimage textures/lights/bright2.tga
@@ -461,6 +490,7 @@ textures/lights/bright2
 		map textures/lights/bright2.tga
 	}
 }
+
 textures/lights/bright2_1000
 {
 	qer_editorimage textures/lights/bright2.tga
@@ -476,6 +506,7 @@ textures/lights/bright2_1000
 		map textures/lights/bright2.tga
 	}
 }
+
 textures/lights/bright2_2500
 {
 	qer_editorimage textures/lights/bright2.tga
@@ -491,6 +522,7 @@ textures/lights/bright2_2500
 		map textures/lights/bright2.tga
 	}
 }
+
 textures/lights/turqs2
 {
 	qer_editorimage textures/lights/turqs2.tga
@@ -523,6 +555,7 @@ textures/lights/turqs2
 		blendFunc blend
 	}
 }
+
 textures/lights/turqs2_1000
 {
 	qer_editorimage textures/lights/turqs2.tga
@@ -557,6 +590,7 @@ textures/lights/turqs2_1000
 		blendFunc blend
 	}
 }
+
 textures/lights/oc3
 {
 	qer_editorimage textures/lights/oc3.tga
@@ -569,6 +603,7 @@ textures/lights/oc3
 		map textures/lights/oc3.tga
 	}
 }
+
 textures/lights/oc3_1000
 {
 	qer_editorimage textures/lights/oc3.tga
@@ -584,6 +619,7 @@ textures/lights/oc3_1000
 		map textures/lights/oc3.tga
 	}
 }
+
 textures/lights/oc3_10000
 {
 	qer_editorimage textures/lights/oc3.tga
@@ -599,6 +635,7 @@ textures/lights/oc3_10000
 		map textures/lights/oc3.tga
 	}
 }
+
 textures/lights/strip
 {
 	qer_editorimage textures/lights/strip.blend.tga
@@ -631,6 +668,7 @@ textures/lights/strip
 	}
 	endif
 }
+
 textures/lights/stripred
 {
 	qer_editorimage textures/lights/stripred.blend.tga
