@@ -204,7 +204,7 @@ textures/grates/fence01nolightmap
 		}
 		endif
 		}
-textures/emtown/red1nonsolid
+		textures/emtown/red1nonsolid
 		{
 		qer_editorimage textures/8x8/red1.tga
 		surfaceparm nolightmap
@@ -224,7 +224,7 @@ textures/emtown/red1nonsolid
 		rgbGen Vertex
 		}
 		}
-textures/metalset/metalwholes
+		textures/metalset/metalwholes
 		{
 		qer_trans 0.5
 		qer_editorimage textures/metalset/metalwholes.tga
@@ -242,27 +242,27 @@ textures/metalset/metalwholes
 
 		if deluxe
 		{
-			// notice: 01 doesn't use the gloss map
-			material textures/metalset/metalwholes.tga textures/metalset/metalwholes_norm.tga
-			alphaFunc GE128
-			blendFunc blend
-			depthWrite
-			}
-			endif
+		// notice: 01 doesn't use the gloss map
+		material textures/metalset/metalwholes.tga textures/metalset/metalwholes_norm.tga
+		alphaFunc GE128
+		blendFunc blend
+		depthWrite
+	}
+	endif
 
-			if ! deluxe
-			{
-			map textures/metalset/metalwholes.tga
-			blendfunc blend
-			alphaFunc GE128
-			depthWrite
-			}
+	if ! deluxe
+	{
+		map textures/metalset/metalwholes.tga
+		blendfunc blend
+		alphaFunc GE128
+		depthWrite
+	}
 
-			{
-			map $lightmap
-			rgbGen identity
-			blendFunc filter
-			depthFunc equal
-			}
-			endif
-			}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc filter
+		depthFunc equal
+	}
+	endif
+}

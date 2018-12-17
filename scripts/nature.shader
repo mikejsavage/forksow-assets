@@ -17,7 +17,7 @@ textures/leaves/leaves0108_s
 	depthWrite
 	}
 	}
-vertex/trees/barkdecidious048
+	vertex/trees/barkdecidious048
 	{
 	qer_editorimage textures/trees/barkdecidious048.tga
 	surfaceparm nolightmap

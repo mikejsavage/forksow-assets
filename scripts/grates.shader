@@ -19,7 +19,7 @@ textures/grates/fence01
 		depthWrite
 		}
 		}
-textures/grates/fence01_noshadow
+		textures/grates/fence01_noshadow
 		{
 		qer_trans 0.5
 		qer_editorimage textures/grates/fence01.tga

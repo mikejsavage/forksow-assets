@@ -14,8 +14,8 @@ models/mapobjects/nateleaf1/tree2
 	rgbGen vertex
 	}
 	}
-textures/natestah/nateswater
-{
+	textures/natestah/nateswater
+	{
 	qer_editorimage textures/natestah/nateswater.tga
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -25,16 +25,16 @@ textures/natestah/nateswater
 	qer_trans 0.5
 	q3map_globaltexture
 	{
-		map textures/natestah/nateswater.tga
-		blendfunc add
-		rgbGen identity
-		tcMod scale 0.5 0.5
-		tcMod scroll 0.025 0.01
+	map textures/natestah/nateswater.tga
+	blendfunc add
+	rgbGen identity
+	tcMod scale 0.5 0.5
+	tcMod scroll 0.025 0.01
 	}
 
 	{
-		map $lightmap
-		blendfunc filter
-		rgbGen identity
+	map $lightmap
+	blendfunc filter
+	rgbGen identity
 	}
-}
+	}
