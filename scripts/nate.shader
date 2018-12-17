@@ -14,28 +14,6 @@ models/mapobjects/nateleaf1/tree2
 	rgbGen vertex
 	}
 	}
-
-	textures/natestah/leaf2
-	{
-	surfaceparm lightfilter      // Use texture's RGB and alpha channels to generate colored alpha
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	surfaceparm noimpact
-	cull disable
-	{
-		map textures/natestah/leaf2.tga
-		rgbGen Vertex
-		depthWrite
-		alphaFunc GE128
-	}
-	{
-		map $lightmap
-		blendfunc filter
-		rgbGen identity
-	}
-}
-
 textures/natestah/nateswater
 {
 	qer_editorimage textures/natestah/nateswater.tga
@@ -58,21 +36,5 @@ textures/natestah/nateswater
 		map $lightmap
 		blendfunc filter
 		rgbGen identity
-	}
-}
-
-textures/natestah/nateweb
-{
-	qer_editorimage textures/natestah/nateweb.tga
-	surfaceparm noimpact
-	surfaceparm nomarks
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nolightmap
-	cull disable
-	{
-		map textures/natestah/nateweb.tga
-		blendfunc add
-		rgbgen identity
 	}
 }

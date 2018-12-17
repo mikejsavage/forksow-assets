@@ -8,7 +8,6 @@ textures/blx_wtest3_vertex/vertex_blx_wt3_pillar
 		rgbgen vertex
 	}
 }
-
 textures/blx_wtest3_vertex/vertex_blx_wt3_pillar2
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_pillar2.tga
@@ -19,7 +18,6 @@ textures/blx_wtest3_vertex/vertex_blx_wt3_pillar2
 		rgbgen vertex
 	}
 }
-
 textures/blx_wtest3_vertex/vertex_blx_wt3_pillar3
 {
 	qer_editorimage textures/blx_wtest3/blx_wt3_pillar3.tga
@@ -27,17 +25,6 @@ textures/blx_wtest3_vertex/vertex_blx_wt3_pillar3
 
 	{
 		map textures/blx_wtest3/blx_wt3_pillar3.tga
-		rgbgen vertex
-	}
-}
-
-textures/blx_wtest3_vertex/vertex_blx_wt3_pillar3d
-{
-	qer_editorimage textures/blx_wtest3/blx_wt3_pillar3d.tga
-	surfaceparm nolightmap
-
-	{
-		map textures/blx_wtest3/blx_wt3_pillar3d.tga
 		rgbgen vertex
 	}
 }

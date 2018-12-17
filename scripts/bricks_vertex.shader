@@ -1,4 +1,3 @@
-
 textures/bricks_vertex/vertex_redbricks_base_01
 {
 	qer_editorimage textures/bricks/redbricks_base_01

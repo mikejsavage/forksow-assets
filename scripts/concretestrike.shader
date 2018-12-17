@@ -11,7 +11,6 @@ textures/concretestrike/sky
 
 	skyparms env/cssky/cube 512 -
 }
-
 textures/concretestrike/sky_newlight
 {
 	qer_editorimage env/cssky/cube_bk.tga
@@ -23,7 +22,6 @@ textures/concretestrike/sky_newlight
 
 	skyparms env/cssky/cube 512 -
 }
-
 textures/concretestrike/sky_surfacelight
 {
 	qer_editorimage env/cssky/cube_bk.tga
@@ -41,7 +39,6 @@ textures/concretestrike/sky_surfacelight
 
 	skyparms env/cssky/cube 512 -
 }
-
 textures/concretestrike/stucco01b_nobounce
 {
 	qer_editorimage textures/concrete/stucco01b.tga
@@ -51,7 +48,6 @@ textures/concretestrike/stucco01b_nobounce
 		material textures/concrete/stucco01b.tga textures/concrete/stucco01_norm.tga
 	}
 }
-
 concretestrike/terrain01
 {
 	qer_editorimage textures/terrain/rocks002_512x512
@@ -59,18 +55,4 @@ concretestrike/terrain01
 	{
 		material textures/terrain/rocks002_512x512 textures/terrain/rocks001_512x512_norm
 	}
-}
-
-textures/concretestrike/distancefog
-{
-	qer_editorimage textures/null.tga
-
-	surfaceparm fog
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm	nolightmap
-	qer_nocarve
-	//fogparms ( 0.6 0.6 0.6 ) 24000 1000
-	fogparms ( 0.51 0.49 0.44 ) 17000 1100
 }

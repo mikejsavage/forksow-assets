@@ -1,4 +1,3 @@
-
 textures/shepas/sky_s
 {
 	qer_editorimage env/alleyskybox/grimmnight_ft.tga

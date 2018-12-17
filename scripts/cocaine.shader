@@ -15,7 +15,6 @@ textures/cocaine/s_lazery_blue
 		tcmod rotate 120
 	}
 }
-
 textures/cocaine/s_lazery_red
 {
 	qer_editorimage textures/cocaine/lazery_red
@@ -33,7 +32,6 @@ textures/cocaine/s_lazery_red
 		tcmod rotate 120
 	}
 }
-
 textures/cocaine/s_lazery_green
 {
 	qer_editorimage textures/cocaine/lazery_green

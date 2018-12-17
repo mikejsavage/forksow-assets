@@ -29,7 +29,6 @@ textures/billboard/board_512_256_1
 		tcmod scroll 10 .15
 	}
 }
-
 textures/billboard/board_512_256_2
 {
 	qer_editorimage textures/billboard/bigbill5.tga
@@ -61,12 +60,6 @@ textures/billboard/board_512_256_2
 		tcmod scroll 10 .15
 	}
 }
-
-
-//------------
-// simple images
-//------------
-
 textures/billboard/bigbill1
 {
 	qer_editorimage textures/billboard/bigbill1.tga
@@ -82,83 +75,6 @@ textures/billboard/bigbill1
 		clampmap textures/billboard/bigbill1.tga
 	}
 }
-
-
-textures/billboard/bigbill2
-{
-	qer_editorimage textures/billboard/bigbill2.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill2.tga
-	}
-}
-
-textures/billboard/bigbill3
-{
-	qer_editorimage textures/billboard/bigbill3.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill1.tga
-	}
-}
-
-textures/billboard/bigbill4
-{
-	qer_editorimage textures/billboard/bigbill2.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill2.tga
-	}
-}
-
-textures/billboard/bigbill5
-{
-	qer_editorimage textures/billboard/bigbill5.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill5.tga
-	}
-}
-
-textures/billboard/bigbill6
-{
-	qer_editorimage textures/billboard/bigbill6.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill6.tga
-	}
-}
-
 textures/billboard/bigbill7
 {
 	qer_editorimage textures/billboard/bigbill7.tga
@@ -173,22 +89,6 @@ textures/billboard/bigbill7
 		clampmap textures/billboard/bigbill1.tga
 	}
 }
-
-textures/billboard/bigbill8
-{
-	qer_editorimage textures/billboard/bigbill1.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/bigbill1.tga
-	}
-}
-
 textures/billboard/bigbill9
 {
 	qer_editorimage textures/billboard/bigbill9.tga
@@ -203,7 +103,6 @@ textures/billboard/bigbill9
 		clampmap textures/billboard/bigbill9.tga
 	}
 }
-
 textures/billboard/small1
 {
 	qer_editorimage textures/billboard/small1.tga
@@ -228,7 +127,6 @@ textures/billboard/small1
 		blendFunc blend
 	}
 }
-
 textures/billboard/small2
 {
 	qer_editorimage textures/billboard/small2.tga
@@ -253,7 +151,6 @@ textures/billboard/small2
 		blendFunc blend
 	}
 }
-
 textures/billboard/small3
 {
 	qer_editorimage textures/billboard/small3.tga
@@ -278,7 +175,6 @@ textures/billboard/small3
 		blendFunc blend
 	}
 }
-
 textures/billboard/small4
 {
 	qer_editorimage textures/billboard/small4.tga
@@ -303,11 +199,6 @@ textures/billboard/small4
 		blendFunc blend
 	}
 }
-
-//------------
-//refly vertical
-//------------
-
 textures/billboard/bigver1
 {
 	qer_editorimage textures/billboard/bigver1.tga
@@ -322,7 +213,6 @@ textures/billboard/bigver1
 		clampmap textures/billboard/bigver1.tga
 	}
 }
-
 textures/billboard/neon1
 {
 	qer_editorimage textures/billboard/neon1.tga
@@ -337,52 +227,6 @@ textures/billboard/neon1
 		clampmap textures/billboard/neon1.tga
 	}
 }
-
-textures/billboard/ver1
-{
-	qer_editorimage textures/billboard/ver1.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/ver1.tga
-	}
-}
-
-textures/billboard/ver2
-{
-	qer_editorimage textures/billboard/ver2.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/ver2.tga
-	}
-}
-
-textures/billboard/ver3
-{
-	qer_editorimage textures/billboard/ver3.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/ver3.tga
-	}
-}
-
 textures/billboard/terebi
 {
 	qer_editorimage textures/billboard/terebi.tga
@@ -399,43 +243,6 @@ textures/billboard/terebi
 		animmap 1 textures/billboard/terebi_01.jpg textures/billboard/terebi_02.jpg textures/billboard/terebi_03.jpg textures/billboard/terebi_04.jpg textures/billboard/terebi_05.jpg textures/billboard/terebi_06.jpg textures/billboard/terebi_07.jpg
 	}
 }
-
-
-textures/billboard/jujitsu_sign
-{
-	qer_editorimage textures/neon/jujitsu_sign5.tga
-	q3map_lightimage   textures/neon/jujitsu_sign5.tga
-	q3map_surfacelight 500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm trans
-	surfaceparm nonsolid
-	nopicmip
-	{
-		animmap 1 textures/neon/jujitsu_sign1.tga textures/neon/jujitsu_sign2.tga textures/neon/jujitsu_sign3.tga textures/neon/jujitsu_sign4.tga textures/neon/jujitsu_sign5.tga
-		blendfunc add
-	}
-}
-
-textures/billboard/kohi
-{
-	qer_editorimage textures/billboard/c1.jpg
-	q3map_lightimage   textures/billboard/c1.jpg
-	q3map_surfacelight 500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm trans
-	surfaceparm nonsolid
-	nopicmip
-	{
-		animmap 1 textures/billboard/c6.jpg textures/billboard/c5.jpg textures/billboard/c4.jpg textures/billboard/c3.jpg textures/billboard/c2.jpg textures/billboard/c1.jpg
-	}
-}
-
 textures/billboard/bullets
 {
 	surfaceparm nomarks
@@ -448,7 +255,6 @@ textures/billboard/bullets
 		blendfunc add
 	}
 }
-
 textures/billboard/bulletsblue
 {
 	surfaceparm nomarks
@@ -461,7 +267,6 @@ textures/billboard/bulletsblue
 		blendfunc add
 	}
 }
-
 textures/billboard/bulletsblue2
 {
 	surfaceparm nomarks
@@ -474,33 +279,6 @@ textures/billboard/bulletsblue2
 		blendfunc add
 	}
 }
-
-textures/billboard/bulletsblue3
-{
-	surfaceparm nomarks
-	surfaceparm nonsolid
-	qer_editorimage textures/billboard/bulletsblue3.jpg
-	q3map_lightimage textures/billboard/bulletsblue3.jpg
-	q3map_surfacelight 500
-	{
-		map textures/billboard/bulletsblue3.jpg
-		blendfunc add
-	}
-}
-
-textures/billboard/bulletsorange
-{
-	surfaceparm nomarks
-	surfaceparm nonsolid
-	qer_editorimage textures/billboard/bulletsorange.jpg
-	q3map_lightimage textures/billboard/bulletsorange.jpg
-	q3map_surfacelight 500
-	{
-		map textures/billboard/bulletsorange.jpg
-		blendfunc add
-	}
-}
-
 textures/billboard/bulletspurple
 {
 	surfaceparm nomarks
@@ -513,7 +291,6 @@ textures/billboard/bulletspurple
 		blendfunc add
 	}
 }
-
 textures/billboard/PorkyPie
 {
 	qer_editorimage textures/billboard/PorkyPie.tga
@@ -526,35 +303,5 @@ textures/billboard/PorkyPie
 	nopicmip
 	{
 		clampmap textures/billboard/PorkyPie.tga
-	}
-}
-
-textures/billboard_001/PorkyPie
-{
-	qer_editorimage textures/billboard/PorkyPie.tga
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		clampmap textures/billboard/PorkyPie.tga
-	}
-}
-
-textures/billboard/IntroVideo
-{
-	qer_editorimage textures/billboard/introvid.jpg
-	q3map_surfacelight   500
-	q3map_forceMeta
-	q3map_lightmapSampleSize 64
-	q3map_lightsubdivide 64
-	surfaceparm	nomarks
-	surfaceparm nonsolid
-	nopicmip
-	{
-		videomap intro
 	}
 }

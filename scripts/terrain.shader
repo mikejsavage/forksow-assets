@@ -8,7 +8,6 @@ textures/terrain/sand
 		material textures/terrain/sand.tga textures/terrain/sand_norm.tga
 	}
 }
-
 textures/terrain/rocks002_512x512
 {
 	qer_editorimage textures/terrain/rocks002_512x512.tga

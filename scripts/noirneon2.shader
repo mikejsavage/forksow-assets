@@ -14,9 +14,6 @@ textures/noir/noirelmoto
 		blendFunc add
 	}
 }
-
-
-
 textures/noir/noirclownfart
 {
 	qer_editorimage textures/noir/clownfart.tga
@@ -33,23 +30,6 @@ textures/noir/noirclownfart
 		blendFunc add
 	}
 }
-
-textures/noir/noirmotonism
-{
-	qer_editorimage textures/noir/motonism.tga
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	polygonOffset
-	nopicmip
-
-	{
-		map textures/noir/motonism.tga
-		blendFunc add
-	}
-}
-
 textures/noir/noirrelectronics
 {
 	qer_editorimage textures/noir/relectronics.tga
@@ -66,7 +46,6 @@ textures/noir/noirrelectronics
 		blendFunc add
 	}
 }
-
 textures/noir/neonbigvic
 {
 	qer_editorimage textures/noir/neonbigvic.tga
@@ -83,7 +62,6 @@ textures/noir/neonbigvic
 		blendFunc add
 	}
 }
-
 textures/noir/pose
 {
 	qer_editorimage textures/noir/pose.tga
@@ -97,7 +75,6 @@ textures/noir/pose
 		blendFunc add
 	}
 }
-
 textures/noir/graffitiraqn
 {
 	qer_editorimage textures/noir/graffitiraqn.tga
@@ -118,7 +95,6 @@ textures/noir/graffitiraqn
 		rgbGen Vertex
 	}
 }
-
 textures/noir/raqn2
 {
 	qer_editorimage textures/noir/raqn2.tga
@@ -139,7 +115,6 @@ textures/noir/raqn2
 		rgbGen Vertex
 	}
 }
-
 textures/noir/windownoir
 {
 	qer_editorimage textures/noir/windownoir.tga
@@ -160,7 +135,6 @@ textures/noir/windownoir
 		rgbGen Vertex
 	}
 }
-
 textures/noir/noirposter
 {
 	qer_editorimage textures/noir/noirposter.tga
@@ -177,9 +151,6 @@ textures/noir/noirposter
 		map textures/noir/noirposter.tga
 	}
 }
-
-
-
 textures/noir/neon_02_red
 {
 	nopicmip
@@ -196,41 +167,6 @@ textures/noir/neon_02_red
 		rgbgen constant 1 0 0
 	}
 }
-
-textures/noir/neon_02_blue
-{
-	nopicmip
-	qer_editorimage textures/supersymmetry/neon_02_team.tga
-	q3map_surfacelight   50
-	polygonOffset
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-
-	{
-		map textures/supersymmetry/neon_02_team.tga
-		blendFunc add
-		rgbgen constant 0 0 1
-	}
-}
-
-textures/noir/neon_02_green
-{
-	nopicmip
-	qer_editorimage textures/supersymmetry/neon_02_team.tga
-	q3map_surfacelight   50
-	polygonOffset
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-
-	{
-		map textures/supersymmetry/neon_02_team.tga
-		blendFunc add
-		rgbgen constant 0 1 0
-	}
-}
-
 textures/noir/neon_02_pink
 {
 	nopicmip

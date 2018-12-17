@@ -7,7 +7,6 @@ textures/plastic/pvc_grey
 		material textures/plastic/pvc_grey.tga $blankbumpimage textures/plastic/pvc_grey_gloss.tga
 	}
 }
-
 textures/plastic/grey35
 {
 	qer_editorimage textures/plastic/grey35.tga
@@ -17,7 +16,6 @@ textures/plastic/grey35
 		material textures/plastic/grey35.tga $blankbumpimage textures/plastic/grey35_gloss.tga
 	}
 }
-
 textures/plastic/grey50
 {
 	qer_editorimage textures/plastic/grey50.tga
@@ -27,7 +25,6 @@ textures/plastic/grey50
 		material textures/plastic/grey50.tga $blankbumpimage textures/plastic/grey50_gloss.tga
 	}
 }
-
 textures/plastic/grey65
 {
 	qer_editorimage textures/plastic/grey65.tga
@@ -37,7 +34,6 @@ textures/plastic/grey65
 		material textures/plastic/grey65.tga $blankbumpimage textures/plastic/grey65_gloss.tga
 	}
 }
-
 textures/plastic/grey75
 {
 	qer_editorimage textures/plastic/grey75.tga
@@ -47,7 +43,6 @@ textures/plastic/grey75
 		material textures/plastic/grey65.tga $blankbumpimage textures/plastic/grey75_gloss.tga
 	}
 }
-
 textures/plastic/grey85
 {
 	qer_editorimage textures/plastic/grey85.tga

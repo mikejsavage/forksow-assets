@@ -1,4 +1,3 @@
-
 textures/leaves/leaves0108_s
 {
 	qer_editorimage textures/leaves/leaves0108_s.tga
@@ -18,24 +17,13 @@ textures/leaves/leaves0108_s
 	depthWrite
 	}
 	}
-
-	vertex/trees/barkdecidious048
+vertex/trees/barkdecidious048
 	{
 	qer_editorimage textures/trees/barkdecidious048.tga
 	surfaceparm nolightmap
 
 	{
 	rgbgen vertex
-	material textures/trees/barkdecidious048.tga
-	}
-	}
-
-	textures/trees/barkdecidious048
-	{
-	qer_editorimage textures/trees/barkdecidious048.tga
-	q3map_forceMeta
-
-	{
 	material textures/trees/barkdecidious048.tga
 	}
 	}
