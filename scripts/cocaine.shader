@@ -7,13 +7,13 @@ textures/cocaine/s_lazery_blue
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_blue.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_blue.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }
 
 textures/cocaine/s_lazery_red
@@ -25,13 +25,13 @@ textures/cocaine/s_lazery_red
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_red.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_red.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }
 
 textures/cocaine/s_lazery_green
@@ -43,13 +43,13 @@ textures/cocaine/s_lazery_green
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_green.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_green.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }
 textures/cocaine/s_lazery_orange
 {
@@ -60,13 +60,13 @@ textures/cocaine/s_lazery_orange
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_orange.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_orange.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }
 textures/cocaine/s_lazery_white
 {
@@ -77,13 +77,13 @@ textures/cocaine/s_lazery_white
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_white.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_white.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }
 textures/cocaine/s_lazery_kush
 {
@@ -94,11 +94,11 @@ textures/cocaine/s_lazery_kush
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-{
-	map textures/cocaine/lazery_kush.tga
-	blendfunc GL_ONE GL_ONE
-	tcGen base
-      tcmod scroll 2 -2.0
-	tcmod rotate 120
-}
+	{
+		map textures/cocaine/lazery_kush.tga
+		blendfunc GL_ONE GL_ONE
+		tcGen base
+		tcmod scroll 2 -2.0
+		tcmod rotate 120
+	}
 }

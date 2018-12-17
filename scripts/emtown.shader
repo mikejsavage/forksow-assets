@@ -47,19 +47,19 @@ textures/emtown/wallpaper1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen Vertex
 	}
-	  if deluxe
-    {
-        rgbgen lightingDiffuse
-        material textures/emtown/wallpaper1
-    }
-    endif
+	if deluxe
+	{
+		rgbgen lightingDiffuse
+		material textures/emtown/wallpaper1
+	}
+	endif
 
-    if ! deluxe 
-    {
-        map textures/emtown/wallpaper1
-        rgbgen vertex
-    }    
-    endif
+	if ! deluxe
+	{
+		map textures/emtown/wallpaper1
+		rgbgen vertex
+	}
+	endif
 }
 
 
@@ -518,7 +518,7 @@ textures/emtown/lightf4a460
 
 
 textures/grates/fence01nolightmap
-{	
+{
 	qer_trans 0.5
 	qer_editorimage textures/grates/fence01.tga
 	surfaceparm trans
@@ -532,117 +532,117 @@ textures/grates/fence01nolightmap
 	nomipmaps
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64
-	
-if deluxe
+
+	if deluxe
 	{
 		// notice: 01 doesn't use the gloss map
 		material textures/grates/fence01.tga textures/grates/fence01_norm.tga
 		alphaFunc GE128
 		blendFunc blend
 		depthWrite
-	}
-endif
+		}
+		endif
 
-if ! deluxe
-	{
+		if ! deluxe
+		{
 		map textures/grates/fence01.tga
 		blendfunc blend
 		alphaFunc GE128
 		depthWrite
-	}
+		}
 
-	{
+		{
 		map $lightmap
 		rgbGen identity
 		blendFunc filter
 		depthFunc equal
-	}
-endif
-}
+		}
+		endif
+		}
 
 
-textures/emtown/red1nonsolid
-{
-	qer_editorimage textures/8x8/red1.tga
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-	nopicmip
+		textures/emtown/red1nonsolid
+		{
+		qer_editorimage textures/8x8/red1.tga
+		surfaceparm nolightmap
+		surfaceparm nomarks
+		surfaceparm nodlight
+		surfaceparm nonsolid
+		surfaceparm trans
+		polygonOffset
+		nopicmip
 
-	{
+		{
 		detail
 		map textures/8x8/red1.tga
 		//blendFunc filter
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen Vertex
-	}
-}
+		}
+		}
 
 
-textures/emtown/nonsoliddeb887
-{
-	qer_editorimage textures/8x8/deb887.tga
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-	nopicmip
+		textures/emtown/nonsoliddeb887
+		{
+		qer_editorimage textures/8x8/deb887.tga
+		surfaceparm nolightmap
+		surfaceparm nomarks
+		surfaceparm nodlight
+		surfaceparm nonsolid
+		surfaceparm trans
+		polygonOffset
+		nopicmip
 
-	{
+		{
 		detail
 		map textures/8x8/deb887.tga
 		//blendFunc filter
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen Vertex
-	}
-}
+		}
+		}
 
-textures/metalset/metalwholes
-{	
-	qer_trans 0.5
-	qer_editorimage textures/metalset/metalwholes.tga
-	surfaceparm trans
-	surfaceparn nolightmap
-	surfaceparm nomarks
-	//surfaceparm	nonsolid
-	surfaceparm alphashadow
-	sort additive
-	cull none
-	nopicmip
-	nomipmaps
-	q3map_forceMeta
-	q3map_lightmapsamplesize 64
-	
-if deluxe
-	{
-		// notice: 01 doesn't use the gloss map
-		material textures/metalset/metalwholes.tga textures/metalset/metalwholes_norm.tga
-		alphaFunc GE128
-		blendFunc blend
-		depthWrite
-	}
-endif
+		textures/metalset/metalwholes
+		{
+		qer_trans 0.5
+		qer_editorimage textures/metalset/metalwholes.tga
+		surfaceparm trans
+		surfaceparn nolightmap
+		surfaceparm nomarks
+		//surfaceparm	nonsolid
+		surfaceparm alphashadow
+		sort additive
+		cull none
+		nopicmip
+		nomipmaps
+		q3map_forceMeta
+		q3map_lightmapsamplesize 64
 
-if ! deluxe
-	{
-		map textures/metalset/metalwholes.tga
-		blendfunc blend
-		alphaFunc GE128
-		depthWrite
-	}
+		if deluxe
+		{
+			// notice: 01 doesn't use the gloss map
+			material textures/metalset/metalwholes.tga textures/metalset/metalwholes_norm.tga
+			alphaFunc GE128
+			blendFunc blend
+			depthWrite
+			}
+			endif
 
-	{
-		map $lightmap
-		rgbGen identity
-		blendFunc filter
-		depthFunc equal
-	}
-endif
-}	
+			if ! deluxe
+			{
+			map textures/metalset/metalwholes.tga
+			blendfunc blend
+			alphaFunc GE128
+			depthWrite
+			}
+
+			{
+			map $lightmap
+			rgbGen identity
+			blendFunc filter
+			depthFunc equal
+			}
+			endif
+			}

@@ -15,10 +15,10 @@ textures/shepas/sky_s
 	{
 		map textures/cha0s_ws/ch_sky_night_front.tga
 		blendfunc add
-		tcMod scale 2 2 
+		tcMod scale 2 2
 		tcMod scroll 0.01 0.01
 	}
 
-	
-	
+
+
 }

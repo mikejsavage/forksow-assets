@@ -1,7 +1,7 @@
 textures/gladiator/gladiator1
 {
 	skyparms env/gladiator1/gladiator1 - -
-	
+
 	qer_editorimage env/gladiator1/gladiator1_ft.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -10,7 +10,7 @@ textures/gladiator/gladiator1
 
 	nopicmip
 	nomipmaps
-	
+
 	q3map_sunExt 255 126 105 80 45 75 3 16
 	q3map_skyLight 150 5
 	q3map_lightsubdivide 512
@@ -19,7 +19,7 @@ textures/gladiator/gladiator1
 textures/gladiator/gladiator2
 {
 	skyparms env/gladiator2/gladiator2 - -
-	
+
 	qer_editorimage env/gladiator2/gladiator2_ft.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -28,7 +28,7 @@ textures/gladiator/gladiator2
 
 	nopicmip
 	nomipmaps
-	
+
 	q3map_sunExt 30 30 60 50 0 35 3 16
 	q3map_sunExt 30 30 60 50 45 35 3 16
 	q3map_sunExt 30 30 60 50 90 35 3 16
@@ -49,7 +49,7 @@ textures/gladiator/gladiator3
 	surfaceparm sky
 	q3map_sunExt 255 50 40 140 280 60 1 16
 	q3map_skyLight 100 3
-	
+
 	skyparms env/gladiator3/gladiator3 - -
 }
 
@@ -61,7 +61,7 @@ textures/gladiator/gladiator4
 	surfaceparm sky
 	q3map_sunExt 234 111 209 140 280 60 1 16
 	q3map_skyLight 100 3
-	
+
 	skyparms env/gladiator4/gladiator4 - -
 }
 
@@ -96,7 +96,7 @@ textures/gladiator/flare01
 	deformVertexes autosprite
 	nopicmip
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/gladiator/flare01.tga
@@ -110,7 +110,7 @@ textures/gladiator/light_gradient
 	qer_editorimage textures/gladiator/light_gradient.tga
 	q3map_lightimage textures/gladiator/light_gradient.tga
 	q3map_surfacelight 1000
-  	q3map_lightsubdivide 128
+	q3map_lightsubdivide 128
 	surfaceparm nomarks
 	surfaceparm nodlight
 	q3map_forceMeta
@@ -133,7 +133,7 @@ textures/gladiator/death
 	deformVertexes autosprite
 	nopicmip
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/gladiator/death.tga

@@ -35,7 +35,7 @@ textures/common/mirror1
 	qer_editorimage textures/common/mirror.tga
 	surfaceparm nolightmap
 	portal
-  
+
 	{
 		map textures/common/mirror.tga
 		blendfunc GL_ZERO GL_ONE
@@ -53,10 +53,10 @@ textures/common/mirror2
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
-        {
-               map textures/sfx/mirror.tga
-	       blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-        }
+	{
+		map textures/sfx/mirror.tga
+		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+	}
 
 }
 

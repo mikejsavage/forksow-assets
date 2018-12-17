@@ -10,7 +10,7 @@ textures/world/lava
 	q3map_surfacelight 200
 	tesssize 64
 	qer_editorimage textures/world/sh/lava2.tga
-	
+
 	deformVertexes wave 100 sin 3 2 .1 0.1
 
 	{
@@ -33,18 +33,18 @@ textures/world/lava_intense
 	qer_editorimage textures/world/sh/lava2.tga
 
 	deformVertexes wave 100 sin 3 2 .1 0.1
-	
-        {
+
+	{
 		map textures/world/sh/lava1_glow.tga
-                //tcmod scale .2 .2
-                //tcmod scroll .04 .03
+		//tcmod scale .2 .2
+		//tcmod scroll .04 .03
 		tcmod scroll .005 .005
-                tcMod turb 0 .1 0 .05
-                blendFunc GL_ONE GL_ZERO
+		tcMod turb 0 .1 0 .05
+		blendFunc GL_ONE GL_ZERO
 	}
 	{
 		map textures/world/sh/lava2.tga
-            	blendfunc add
+		blendfunc add
 		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod turb 0 .2 0 .1
 		tcmod scroll .0025 .0025
@@ -53,35 +53,35 @@ textures/world/lava_intense
 
 textures/world/slime
 {
-    qer_editorimage textures/world/sh/slime1.tga
-    q3map_globaltexture
-    surfaceparm trans
-    surfaceparm water
-    surfaceparm slime
-    surfaceparm nolightmap
+	qer_editorimage textures/world/sh/slime1.tga
+	q3map_globaltexture
+	surfaceparm trans
+	surfaceparm water
+	surfaceparm slime
+	surfaceparm nolightmap
 	surfaceparm nomarks
-    q3map_surfacelight 25
-    cull none
-    nopicmip
+	q3map_surfacelight 25
+	cull none
+	nopicmip
 	sort underwater
-	
-    //deformVertexes wave <div> <func> <base> <amplitude> <phase> <freq>
-    tesssize 128
-    deformVertexes wave 64 sin 1 1 0.25 0.6 
 
-    { 
-            map textures/world/sh/slime2.tga
-            blendFunc GL_dst_color GL_one
+	//deformVertexes wave <div> <func> <base> <amplitude> <phase> <freq>
+	tesssize 128
+	deformVertexes wave 64 sin 1 1 0.25 0.6
+
+	{
+		map textures/world/sh/slime2.tga
+		blendFunc GL_dst_color GL_one
 		tcmod scale -.5 -.5
 		tcmod scroll .02 .02
-    }
+	}
 
-    { 
-            map textures/world/sh/slime1.tga
-            blendFunc GL_dst_color GL_one
-            tcmod scale -.25 -.25
-            tcmod scroll .02 .02
-    }
+	{
+		map textures/world/sh/slime1.tga
+		blendFunc GL_dst_color GL_one
+		tcmod scale -.25 -.25
+		tcmod scroll .02 .02
+	}
 }
 
 textures/world/calmwater
@@ -96,7 +96,7 @@ textures/world/calmwater
 	surfaceparm nomarks
 	q3map_lightmapsamplesize 64
 	sort underwater
-	
+
 	if portalMaps
 
 	portal
@@ -146,7 +146,7 @@ textures/world/bluewater
 	surfaceparm water
 	surfaceparm nomarks
 	cull disable
-	deformVertexes wave 100 sin 3 2 0.1 0.1 
+	deformVertexes wave 100 sin 3 2 0.1 0.1
 	qer_trans 0.5
 	q3map_lightsubdivide 32
 	q3map_globaltexture
@@ -181,7 +181,7 @@ textures/world/blueportalwater
 		tcmod scale 0.2 0.2
 		tcmod scroll 0.008 -0.002
 	}
-	
+
 	{
 		material $whiteimage textures/world/water/norm textures/world/water/wat_gloss
 		blendfunc GL_ONE GL_DST_COLOR
@@ -192,7 +192,7 @@ textures/world/blueportalwater
 	endif
 
 	if ! portalMaps
-	
+
 	sort underwater
 
 	{
@@ -226,7 +226,7 @@ textures/world/blueportalwater2
 	surfaceparm nomarks
 	cull none
 	sort underwater
-	
+
 	if portalMaps
 
 	portal
@@ -288,7 +288,7 @@ textures/world/bluewater1
 	surfaceparm nolightmap
 	cull none
 	sort underwater
-	
+
 	{
 		map $whiteImage
 		rgbgen const 0.2 0.6 1.0
@@ -346,7 +346,7 @@ textures/world/blueglosswater
 	surfaceparm nomarks
 	cull none
 	sort underwater
-	
+
 	{
 		map textures/world/sh/water2.tga
 		blendFunc GL_dst_color GL_one
@@ -385,8 +385,8 @@ textures/world/blueglosswater2
 	surfaceparm nomarks
 	cull none
 	sort underwater
-	
-// distortion the water
+
+	// distortion the water
 	if portalMaps
 
 	portal
@@ -401,14 +401,14 @@ textures/world/blueglosswater2
 
 	endif
 
-// darken the water
+	// darken the water
 	{
 		map $whiteimage
 		blendFunc filter
 		rgbgen const 0.45 0.66 0.74
 	}
 
-// gloss
+	// gloss
 	if deluxe
 
 	{
@@ -583,11 +583,11 @@ textures/world/launchpad1_beta
 textures/world/teleshader2
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/baxandall/teleglow_01.tga
@@ -608,11 +608,11 @@ textures/world/teleshader2
 textures/world/teleshader2_alpha
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/baxandall/teleglow_01.tga
@@ -633,11 +633,11 @@ textures/world/teleshader2_alpha
 textures/world/teleshader2_beta
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/baxandall/teleglow_01.tga

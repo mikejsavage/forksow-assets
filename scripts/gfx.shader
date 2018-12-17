@@ -8,7 +8,7 @@ gfx/decals/shadow
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen const 0 0 0
 		alphaGen vertex
-	}	
+	}
 }
 
 particle
@@ -18,7 +18,7 @@ particle
 	entityMergable		// allow all the sprites to be merged together
 	{
 		map $particleimage
-//		blendfunc GL_SRC_ALPHA GL_ONE
+		//		blendfunc GL_SRC_ALPHA GL_ONE
 		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen vertex
 		alphagen vertex
@@ -262,7 +262,7 @@ models/weapon_hits/plasmagun/plasmagun_hit
 	cull none
 	{
 		map models/weapon_hits/plasmagun/plasmagun_hit
-		rgbgen entity 
+		rgbgen entity
 		alphagen entity
 		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod stretch sawtooth 0.9 0.8 0 1.4
@@ -484,7 +484,7 @@ capturePoint_Template
 		rgbGen entity
 		alphaGen const 0.3
 	}
-	
+
 	{
 		map gfx/simpleitems/capture_indicators/capture_$1_letter.tga
 		blendFunc add
@@ -593,7 +593,7 @@ gfx/misc/toxicbubble
 	cull none
 	nopicmip
 	softParticle
-	
+
 	{
 		clampmap gfx/misc/toxicbubble.tga
 		blendfunc blend
@@ -605,7 +605,7 @@ gfx/misc/teleportshell
 {
 	cull front
 	deformVertexes bulge 2 5 -1.5 1
-	
+
 	{
 		map gfx/misc/teleportshell.jpg
 		blendfunc GL_ONE GL_ONE

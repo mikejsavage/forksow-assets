@@ -16,19 +16,19 @@ textures/common/caulk
 {
 	qer_editorimage textures/common/caulk.tga
 	surfaceparm nodraw
-    	surfaceparm nolightmap
+	surfaceparm nolightmap
 	surfaceparm nomarks
 }
 
 textures/common/black
 {
-    surfaceparm noimpact
-    surfaceparm nomarks
-    surfaceparm nolightmap
+	surfaceparm noimpact
+	surfaceparm nomarks
+	surfaceparm nolightmap
 
-    {
-        map *black
-    }
+	{
+		map *black
+	}
 }
 
 textures/common/playerclip
@@ -63,7 +63,7 @@ textures/common/fullclip // same as weapclip in Q3
 	qer_trans 0.40
 	qer_editorimage textures/common/fullclip.tga
 	surfaceparm nodraw
-    	surfaceparm nolightmap
+	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nomarks
 }

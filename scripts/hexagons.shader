@@ -4,7 +4,7 @@ textures/hexagons/hx_jumpad
 	q3map_surfacelight 400
 
 	{
-		map $lightmap 
+		map $lightmap
 	}
 	{
 		map textures/hexagons/darkblue.tga
@@ -13,14 +13,14 @@ textures/hexagons/hx_jumpad
 	{
 		clampmap textures/hexagons/hexabump.tga
 		blendfunc add
-		rgbGen wave sin 0.5 0.5 0.25 1.5 
-		tcMod stretch sin 0.5 0.5 0 1.5 
+		rgbGen wave sin 0.5 0.5 0.25 1.5
+		tcMod stretch sin 0.5 0.5 0 1.5
 	}
 	{
 		clampmap textures/hexagons/hexabump.tga
 		blendfunc add
-		rgbGen wave square 0.5 0.5 0.25 1.5 
-		tcMod stretch sin 1 0.5 0 1.5 
+		rgbGen wave square 0.5 0.5 0.25 1.5
+		tcMod stretch sin 1 0.5 0 1.5
 	}
 }
 

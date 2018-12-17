@@ -1,8 +1,8 @@
 textures/blx_grey/blx_grey_spacer
 {
-	qer_editorimage textures/blx_grey/blx_grey_spacer.tga	
+	qer_editorimage textures/blx_grey/blx_grey_spacer.tga
 	forceoverlays
- 	surfaceparm nolightmap
+	surfaceparm nolightmap
 	{
 		map textures/blx_grey/blx_grey_spacer.tga
 		tcmod scroll .4 0
@@ -17,9 +17,9 @@ textures/blx_grey/blx_grey_spacer
 
 textures/blx_grey/blx_grey_wall_alpha
 {
-	qer_editorimage textures/blx_grey/blx_grey_wall_alpha.jpg	
+	qer_editorimage textures/blx_grey/blx_grey_wall_alpha.jpg
 	forceoverlays
- 	surfaceparm nolightmap
+	surfaceparm nolightmap
 	{
 		map textures/blx_grey/blx_grey_wall_alpha.jpg
 		blendfunc add
@@ -28,9 +28,9 @@ textures/blx_grey/blx_grey_wall_alpha
 
 textures/blx_grey/blx_grey_tech_1
 {
-	qer_editorimage textures/blx_grey/blx_grey_tech_1.jpg	
+	qer_editorimage textures/blx_grey/blx_grey_tech_1.jpg
 	forceoverlays
- 	surfaceparm nolightmap
+	surfaceparm nolightmap
 	{
 		map textures/blx_grey/blx_grey_tech_1.jpg
 		blendfunc add
@@ -39,7 +39,7 @@ textures/blx_grey/blx_grey_tech_1
 
 textures/blx_grey/blx_grey_wall_1
 {
-	qer_editorimage textures/blx_grey/blx_grey_wall_1.jpg	
+	qer_editorimage textures/blx_grey/blx_grey_wall_1.jpg
 	{
 		map $lightmap
 		rgbGen identity
@@ -56,7 +56,7 @@ textures/blx_grey/blx_grey_wall_1
 
 textures/blx_grey/blx_grey_grid
 {
-	qer_editorimage textures/blx_grey/blx_grey_grid.tga	
+	qer_editorimage textures/blx_grey/blx_grey_grid.tga
 	{
 		map $lightmap
 		rgbGen identity
@@ -226,8 +226,8 @@ textures/blx_grey/blx_grey_ecel_bounce
 	q3map_lightimage textures/blx_grey/blx_grey_ecel_bounce_blend.tga
 	surfaceparm nodamage
 	forceoverlays
-	polygonOffset 
- 	surfaceparm nolightmap
+	polygonOffset
+	surfaceparm nolightmap
 	q3map_surfacelight 400
 	{
 		map textures/blx_grey/blx_grey_ecel_bounce.tga
@@ -237,19 +237,19 @@ textures/blx_grey/blx_grey_ecel_bounce
 	{
 		map textures/blx_grey/blx_grey_ecel_bounce_blend.tga
 		blendfunc add
-		rgbGen wave sin 0.5 0.5 0 1.5 
+		rgbGen wave sin 0.5 0.5 0 1.5
 	}
 	{
 		clampmap textures/blx_grey/blx_grey_ecel_bounce_small.jpg
 		blendfunc add
-		rgbGen wave square 0.5 0.5 0.25 1.5 
-		tcMod stretch sin 1.2 0.8 0 1.5 
+		rgbGen wave square 0.5 0.5 0.25 1.5
+		tcMod stretch sin 1.2 0.8 0 1.5
 	}
 }
 
 
 textures/blx_grey/blx_grey_dark_ws
-{	
+{
 	qer_editorimage textures/blx_grey/blx_grey_dark_ws.jpg
 	{
 		map $lightmap
@@ -266,11 +266,11 @@ textures/blx_grey/blx_grey_dark_ws
 }
 
 textures/blx_grey/blx_grey_circle
-{	
-  nopicmip
+{
+	nopicmip
 	qer_editorimage textures/blx_grey/blx_grey_circle.tga
 	forceoverlays
- 	surfaceparm nolightmap
+	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nonsolid
 	{
@@ -282,9 +282,9 @@ textures/blx_grey/blx_grey_circle
 textures/blx_grey/blx_grey_circuits_blue
 {
 	qer_editorimage textures/blx_grey/blx_grey_circuits_surface_512.tga
-	
+
 	noModulativeDlights
-	
+
 	{
 		map $lightmap
 	}
@@ -301,5 +301,5 @@ textures/blx_grey/blx_grey_circuits_blue
 		map textures/blx_grey/blx_grey_circuits_white_512.tga
 		rgbGen wave sin 0 1 0 0.2
 		blendfunc blend
-	}	   
+	}
 }

@@ -6,9 +6,9 @@ gfx/bomb/carriericon
 	{
 		map gfx/bomb/carriericon.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        alphagen vertex
-        rgbgen vertex
-	}    
+		alphagen vertex
+		rgbgen vertex
+	}
 }
 
 bombSiteSprite2_Template
@@ -17,11 +17,11 @@ bombSiteSprite2_Template
 
 	deformVertexes autosprite
 
-    {
-        clampmap gfx/bomb/radar_$1.tga
+	{
+		clampmap gfx/bomb/radar_$1.tga
 		alphagen wave distanceramp 0 0.6 800 1600
 		blendFunc blend
-    }
+	}
 
 }
 
@@ -32,5 +32,5 @@ gfx/bomb/radar_a
 
 gfx/bomb/radar_b
 {
-    template bombSiteSprite2_Template b
+	template bombSiteSprite2_Template b
 }

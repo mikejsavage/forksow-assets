@@ -17,7 +17,7 @@ textures/noir/natsbar
 		alphaGen wave sin 1 1 0.5 1
 
 	}
-	
+
 }
 
 textures/noir/animatedthisway
@@ -30,7 +30,7 @@ textures/noir/animatedthisway
 	surfaceparm nonsolid
 	nopicmip
 	{
-		animmap 1 textures/noir/thisway01.tga	textures/noir/thisway02.tga	textures/noir/thisway03.tga	
+		animmap 1 textures/noir/thisway01.tga	textures/noir/thisway02.tga	textures/noir/thisway03.tga
 		blendfunc add
 	}
 	{
@@ -39,7 +39,7 @@ textures/noir/animatedthisway
 		alphaGen wave sin 1 1 0.5 1
 
 	}
-	
+
 }
 
 textures/noir/badabing
@@ -61,7 +61,7 @@ textures/noir/badabing
 		alphaGen wave sin 1 1 0.5 1
 
 	}
-	
+
 }
 
 

@@ -1,6 +1,6 @@
 
 textures/metal_vertex/vertex_metalbaseyellow0033
-{	
+{
 	qer_editorimage textures/metal/metalbaseyellow0033.tga
 	glossExponent 256
 	surfaceparm nolightmap
@@ -12,7 +12,7 @@ textures/metal_vertex/vertex_metalbaseyellow0033
 }
 
 textures/metal_vertex/vertex_metalbaseyellow0033dirt
-{	
+{
 	qer_editorimage textures/metal/metalbaseyellow0033dirt.tga
 	glossExponent 256
 	surfaceparm nolightmap
@@ -24,7 +24,7 @@ textures/metal_vertex/vertex_metalbaseyellow0033dirt
 }
 
 textures/metal_vertex/vertex_aluminium
-{	
+{
 	qer_editorimage textures/metal/aluminium.tga
 	surfaceparm nolightmap
 
@@ -35,7 +35,7 @@ textures/metal_vertex/vertex_aluminium
 }
 
 textures/metal_vertex/vertex_orangewall
-{	
+{
 	qer_editorimage textures/metal/orangewall.tga
 	surfaceparm nolightmap
 
@@ -46,7 +46,7 @@ textures/metal_vertex/vertex_orangewall
 }
 
 textures/metal_vertex/vertex_redwall
-{	
+{
 	qer_editorimage textures/metal/redwall.tga
 	surfaceparm nolightmap
 
@@ -57,7 +57,7 @@ textures/metal_vertex/vertex_redwall
 }
 
 textures/metal_vertex/vertex_redmetalbase
-{	
+{
 	qer_editorimage textures/metal/redmetalbase.tga
 	surfaceparm nolightmap
 
@@ -68,7 +68,7 @@ textures/metal_vertex/vertex_redmetalbase
 }
 
 textures/metal_vertex/vertex_treadplate0015
-{	
+{
 	qer_editorimage textures/metal/treadplate0015.tga
 	surfaceparm nolightmap
 
@@ -79,7 +79,7 @@ textures/metal_vertex/vertex_treadplate0015
 }
 
 textures/metal_vertex/vertex_treadplate0015b
-{	
+{
 	qer_editorimage textures/metal/treadplate0015b.tga
 	surfaceparm nolightmap
 
@@ -91,7 +91,7 @@ textures/metal_vertex/vertex_treadplate0015b
 
 
 textures/metal_vertex/vertex_treadplate0015c
-{	
+{
 	qer_editorimage textures/metal/treadplate0015c.tga
 	surfaceparm nolightmap
 
@@ -102,7 +102,7 @@ textures/metal_vertex/vertex_treadplate0015c
 }
 
 textures/metal_vertex/vertex_treadplate0015d
-{	
+{
 	qer_editorimage textures/metal/treadplate0015d.tga
 	surfaceparm nolightmap
 
@@ -113,7 +113,7 @@ textures/metal_vertex/vertex_treadplate0015d
 }
 
 textures/metal_vertex/vertex_treadplate0015e
-{	
+{
 	qer_editorimage textures/metal/treadplate0015e.tga
 	surfaceparm nolightmap
 
@@ -124,7 +124,7 @@ textures/metal_vertex/vertex_treadplate0015e
 }
 
 textures/metal_vertex/vertex_treadplate0015f
-{	
+{
 	qer_editorimage textures/metal/treadplate0015f.tga
 	surfaceparm nolightmap
 
@@ -135,7 +135,7 @@ textures/metal_vertex/vertex_treadplate0015f
 }
 
 textures/metal_vertex/vertex_treadplate0015g
-{	
+{
 	qer_editorimage textures/metal/treadplate0015g.tga
 	surfaceparm nolightmap
 

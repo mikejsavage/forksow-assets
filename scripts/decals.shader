@@ -1,6 +1,6 @@
 
 textures/decals/graffityPERON32
-{	
+{
 	qer_editorimage textures/decals/graffityPERON32.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -21,7 +21,7 @@ textures/decals/graffityPERON32
 }
 
 textures/decals/graffityPERON32_darken
-{	
+{
 	qer_editorimage textures/decals/graffityPERON32.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -40,7 +40,7 @@ textures/decals/graffityPERON32_darken
 }
 
 textures/decals/graffityTEAMZISSOU32
-{	
+{
 	qer_editorimage textures/decals/graffityTEAMZISSOU32.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -61,7 +61,7 @@ textures/decals/graffityTEAMZISSOU32
 }
 
 textures/decals/graffityTEAMZISSOU32_darken
-{	
+{
 	qer_editorimage textures/decals/graffityTEAMZISSOU32.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -82,7 +82,7 @@ textures/decals/graffityTEAMZISSOU32_darken
 }
 
 textures/decals/graffiti_01
-{	
+{
 	qer_editorimage textures/decals/graffiti_01.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -103,7 +103,7 @@ textures/decals/graffiti_01
 }
 
 textures/decals/graffiti_02
-{	
+{
 	qer_editorimage textures/decals/graffiti_02.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -124,7 +124,7 @@ textures/decals/graffiti_02
 }
 
 textures/decals/graffiti_03
-{	
+{
 	qer_editorimage textures/decals/graffiti_03.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -145,7 +145,7 @@ textures/decals/graffiti_03
 }
 
 textures/decals/kiki
-{	
+{
 	qer_editorimage textures/decals/kiki.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -166,7 +166,7 @@ textures/decals/kiki
 }
 
 textures/decals/orangearrows
-{	
+{
 	qer_editorimage textures/decals/orangearrows.tga
 	qer_trans 0.6
 	surfaceparm nolightmap
@@ -184,7 +184,7 @@ textures/decals/orangearrows
 }
 
 textures/decals/orangearrows_outlined
-{	
+{
 	qer_editorimage textures/decals/orangearrows_outlined.tga
 	qer_trans 0.6
 	surfaceparm nolightmap
@@ -251,7 +251,7 @@ template_Dirt
 }
 
 textures/decals/dirt_01
-{	
+{
 	qer_editorimage textures/decals/dirt_01.tga
 	qer_trans 0.3
 	surfaceparm nomarks
@@ -264,7 +264,7 @@ textures/decals/dirt_01
 }
 
 textures/decals/dirt_02
-{	
+{
 	qer_editorimage textures/decals/dirt_02.tga
 	qer_trans 0.3
 	surfaceparm nomarks
@@ -277,7 +277,7 @@ textures/decals/dirt_02
 }
 
 textures/decals/dirt_scratch_01
-{	
+{
 	qer_editorimage textures/decals/dirt_scratch_01.tga
 	qer_trans 0.3
 	surfaceparm nomarks
@@ -290,7 +290,7 @@ textures/decals/dirt_scratch_01
 }
 
 textures/decals/dirt_scratch_02
-{	
+{
 	qer_editorimage textures/decals/dirt_scratch_02.tga
 	qer_trans 0.3
 	surfaceparm nomarks
@@ -303,7 +303,7 @@ textures/decals/dirt_scratch_02
 }
 
 textures/decals/sign_warning01
-{	
+{
 	qer_editorimage textures/decals/sign_warning01.tga
 	qer_trans 0.6
 	surfaceparm nolightmap
@@ -323,7 +323,7 @@ textures/decals/sign_warning01
 }
 
 textures/decals/sign_up01
-{	
+{
 	qer_editorimage textures/decals/sign_up01.tga
 	qer_trans 0.6
 	surfaceparm nolightmap
@@ -343,7 +343,7 @@ textures/decals/sign_up01
 }
 
 textures/decals/poster01
-{	
+{
 	qer_editorimage textures/decals/poster01.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -361,7 +361,7 @@ textures/decals/poster01
 }
 
 textures/decals/poster_bobot
-{	
+{
 	qer_editorimage textures/decals/poster_bobot.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -379,7 +379,7 @@ textures/decals/poster_bobot
 }
 
 textures/decals/poster_monada
-{	
+{
 	qer_editorimage textures/decals/poster_monada.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -397,7 +397,7 @@ textures/decals/poster_monada
 }
 
 textures/decals/poster_padpork
-{	
+{
 	qer_editorimage textures/decals/poster_padpork.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -416,7 +416,7 @@ textures/decals/poster_padpork
 }
 
 textures/decals/poster_smallbunch
-{	
+{
 	qer_editorimage textures/decals/poster_smallbunch.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -434,7 +434,7 @@ textures/decals/poster_smallbunch
 }
 
 textures/decals/poster_weapons
-{	
+{
 	qer_editorimage textures/decals/poster_weapons.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -453,7 +453,7 @@ textures/decals/poster_weapons
 
 
 textures/decals/posterbigbobot
-{	
+{
 	qer_editorimage textures/decals/posterbigbobot.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -471,7 +471,7 @@ textures/decals/posterbigbobot
 }
 
 textures/decals/posterbigpadpork
-{	
+{
 	qer_editorimage textures/decals/posterbigpadpork.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -489,7 +489,7 @@ textures/decals/posterbigpadpork
 }
 
 textures/decals/posterbigmonada
-{	
+{
 	qer_editorimage textures/decals/posterbigmonada.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -507,7 +507,7 @@ textures/decals/posterbigmonada
 }
 
 textures/decals/posterbigwarsow
-{	
+{
 	qer_editorimage textures/decals/posterbigwarsow.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -526,7 +526,7 @@ textures/decals/posterbigwarsow
 
 
 textures/decals/plasterbroken01
-{	
+{
 	qer_editorimage textures/decals/plasterbroken01.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -545,7 +545,7 @@ textures/decals/plasterbroken01
 }
 
 textures/decals/plasterworn0030
-{	
+{
 	qer_editorimage textures/decals/plasterworn0030.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -565,7 +565,7 @@ textures/decals/plasterworn0030
 }
 
 textures/decals/leavedead01
-{	
+{
 	qer_editorimage textures/decals/leavedead01.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -583,7 +583,7 @@ textures/decals/leavedead01
 }
 
 textures/decals/leavesdead01
-{	
+{
 	qer_editorimage textures/decals/leavesdead01.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -929,7 +929,7 @@ textures/decals/a
 }
 
 textures/decals/thewall
-{	
+{
 	qer_editorimage textures/decals/thewall.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -948,7 +948,7 @@ textures/decals/thewall
 }
 
 textures/decals/0080
-{	
+{
 	qer_editorimage textures/decals/0080.tga
 	qer_trans 0.3
 	surfaceparm nolightmap
@@ -970,7 +970,7 @@ textures/decals/0080
 
 
 textures/decals/alpha
-{	
+{
 	qer_editorimage textures/decals/alpha.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -991,7 +991,7 @@ textures/decals/alpha
 
 
 textures/decals/beta
-{	
+{
 	qer_editorimage textures/decals/beta.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1012,7 +1012,7 @@ textures/decals/beta
 
 
 textures/decals/stain001
-{	
+{
 	qer_editorimage textures/decals/stain001.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1034,7 +1034,7 @@ textures/decals/stain001
 }
 
 textures/decals/stain002
-{	
+{
 	qer_editorimage textures/decals/stain002.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1056,7 +1056,7 @@ textures/decals/stain002
 }
 
 textures/decals/stain003
-{	
+{
 	qer_editorimage textures/decals/stain003.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1078,7 +1078,7 @@ textures/decals/stain003
 }
 
 textures/decals/stain004
-{	
+{
 	qer_editorimage textures/decals/stain004.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1100,7 +1100,7 @@ textures/decals/stain004
 }
 
 textures/decals/stain005
-{	
+{
 	qer_editorimage textures/decals/stain005.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1124,7 +1124,7 @@ textures/decals/stain005
 //ALPHA//
 
 textures/decals/team_alpha_stain001
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain001.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1148,7 +1148,7 @@ textures/decals/team_alpha_stain001
 }
 
 textures/decals/team_alpha_stain002
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain002.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1172,7 +1172,7 @@ textures/decals/team_alpha_stain002
 }
 
 textures/decals/team_alpha_stain003
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain003.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1196,7 +1196,7 @@ textures/decals/team_alpha_stain003
 }
 
 textures/decals/team_alpha_stain004
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain004.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1220,7 +1220,7 @@ textures/decals/team_alpha_stain004
 }
 
 textures/decals/team_alpha_stain005
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain005.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1244,7 +1244,7 @@ textures/decals/team_alpha_stain005
 }
 
 textures/decals/team_alpha_stain006
-{	
+{
 	qer_editorimage textures/decals/team_alpha_stain006.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1272,7 +1272,7 @@ textures/decals/team_alpha_stain006
 
 
 textures/decals/team_beta_stain001
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain001.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1297,7 +1297,7 @@ textures/decals/team_beta_stain001
 
 
 textures/decals/team_beta_stain002
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain002.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1322,7 +1322,7 @@ textures/decals/team_beta_stain002
 
 
 textures/decals/team_beta_stain003
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain003.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1347,7 +1347,7 @@ textures/decals/team_beta_stain003
 
 
 textures/decals/team_beta_stain004
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain004.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1372,7 +1372,7 @@ textures/decals/team_beta_stain004
 
 
 textures/decals/team_beta_stain005
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain005.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1397,7 +1397,7 @@ textures/decals/team_beta_stain005
 
 
 textures/decals/team_beta_stain006
-{	
+{
 	qer_editorimage textures/decals/team_beta_stain006.tga
 	qer_trans 0.8
 	surfaceparm nolightmap
@@ -1421,7 +1421,7 @@ textures/decals/team_beta_stain006
 }
 
 textures/decals/decal_danger
-{	
+{
 	qer_editorimage textures/decals/decal_danger.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1439,7 +1439,7 @@ textures/decals/decal_danger
 }
 
 textures/decals/decal_dirt1
-{	
+{
 	qer_editorimage textures/decals/decal_dirt1.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1457,7 +1457,7 @@ textures/decals/decal_dirt1
 }
 
 textures/decals/decal_dirt2
-{	
+{
 	qer_editorimage textures/decals/decal_dirt2.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1476,7 +1476,7 @@ textures/decals/decal_dirt2
 
 
 textures/decals/decal_health
-{	
+{
 	qer_editorimage textures/decals/decal_health.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1495,7 +1495,7 @@ textures/decals/decal_health
 
 
 textures/decals/decal_telesign_left
-{	
+{
 	qer_editorimage textures/decals/decal_telesign_left.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1512,7 +1512,7 @@ textures/decals/decal_telesign_left
 }
 
 textures/decals/decal_telesign_right
-{	
+{
 	qer_editorimage textures/decals/decal_telesign_right.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1529,7 +1529,7 @@ textures/decals/decal_telesign_right
 }
 
 textures/decals/decal_drop
-{	
+{
 	qer_editorimage textures/decals/decal_drop.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1547,7 +1547,7 @@ textures/decals/decal_drop
 }
 
 textures/decals/wdm17easteregg
-{	
+{
 	qer_editorimage textures/decals/wdm17easteregg.tga
 	qer_trans 0.6
 	surfaceparm nomarks
@@ -1565,7 +1565,7 @@ textures/decals/wdm17easteregg
 }
 
 textures/decals/xmarksthespot_decal
-{	
+{
 	qer_editorimage textures/decals/xmarksthespot_decal.tga
 	qer_trans 0.1
 	surfaceparm nolightmap

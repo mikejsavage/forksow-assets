@@ -1,16 +1,16 @@
 // GRIMM NIGHT
 // high res 1024^2 environment map
 // ships as TGA.
-// 
-// 
+//
+//
 // By Jockum Skoglund aka hipshot
 // hipshot@zfight.com
 // www.zfight.com
 // Stockholm, 2005 08 25
-// 
-// 
+//
+//
 // Modify however you like, just cred me for my work, maybe link to my page.
-// 
+//
 // (Grimm is not a typo of Grim, some people understand the meaning)
 
 textures/alley/oldsky
@@ -57,7 +57,7 @@ textures/alley/terrainblend
 		material textures/terrain/soilsand0104
 		alphagen vertex
 		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		
+
 	}
 }
 
@@ -76,19 +76,19 @@ textures/alley/terraintunel
 		tcmod scale 1.25 1.25
 	}
 
-//	{
-//		map textures/world/sh/water2.tga
-//		tcmod scale .35 .35
-//		tcmod turb 0 0.5 0 0.1
-//		rgbgen const 0.00 0.12 0.13
-//		blendfunc add
-//	}
+	//	{
+		//		map textures/world/sh/water2.tga
+		//		tcmod scale .35 .35
+		//		tcmod turb 0 0.5 0 0.1
+		//		rgbgen const 0.00 0.12 0.13
+		//		blendfunc add
+	//	}
 
 	{
 		material textures/terrain/rockwall01
 		tcmod scale 1.25 1.25
 		alphagen vertex
-		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
+		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 	}
 }
 

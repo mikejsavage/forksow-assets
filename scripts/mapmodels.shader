@@ -18,11 +18,11 @@ lambert1
 {
 	qer_editorimage gfx/colors/white
 	q3map_baseShader terrainmodel_baseshader
-	q3map_shadeangle 60 
+	q3map_shadeangle 60
 
 	{
 		map $lightmap
-	} 
+	}
 
 	{
 		map $whiteImage

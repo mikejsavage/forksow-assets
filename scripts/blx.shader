@@ -1,7 +1,7 @@
 textures/blx/blx_display_1
 {
 	nopicmip
-	qer_editorimage textures/blx/blx_display_1.jpg	
+	qer_editorimage textures/blx/blx_display_1.jpg
 	{
 		map textures/blx/blx_display_1.jpg
 		blendfunc add
@@ -9,17 +9,17 @@ textures/blx/blx_display_1
 	{
 		map textures/billboard/blx/code.jpg
 		blendfunc add
-		tcmod scroll 3 1 
+		tcmod scroll 3 1
 	}
 	{
 		map gfx/colors/chrome.tga
 		tcgen environment
-  		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-   		alphaGen constant 0.4 
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen constant 0.4
 	}
 	{
 		map textures/blx/circuits_blue_512.tga
- 		blendfunc add
+		blendfunc add
 		tcmod scroll 0 0.1
 		rgbGen wave sin 0 0.5 0 .25
 	}
@@ -31,7 +31,7 @@ textures/blx/blx_spacer
 	surfaceparm noimpact
 	surfaceparm nomarks
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 
 	{
 		map textures/blx/blx_spacer.tga
@@ -47,9 +47,9 @@ textures/blx/blx_spacer
 
 textures/blx/blx_wall_alpha
 {
-	qer_editorimage textures/blx/blx_wall_alpha.jpg	
+	qer_editorimage textures/blx/blx_wall_alpha.jpg
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	{
 		map textures/blx/blx_wall_alpha.jpg
 		blendfunc decal
@@ -58,9 +58,9 @@ textures/blx/blx_wall_alpha
 
 textures/blx/blx_tech_1
 {
-	qer_editorimage textures/blx/blx_tech_1.jpg	
+	qer_editorimage textures/blx/blx_tech_1.jpg
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	{
 		map textures/blx/blx_tech_1.jpg
 		blendfunc decal
@@ -69,14 +69,14 @@ textures/blx/blx_tech_1
 
 textures/blx/blx_wall_1
 {
-	qer_editorimage textures/blx/blx_wall_1.jpg	
-	
+	qer_editorimage textures/blx/blx_wall_1.jpg
+
 	if deluxe
 	{
 		material
 	}
 	endif
-	
+
 	if ! deluxe
 	{
 		map $lightmap
@@ -95,7 +95,7 @@ textures/blx/blx_wall_1
 
 textures/blx/blx_grid
 {
-	qer_editorimage textures/blx/blx_grid.tga	
+	qer_editorimage textures/blx/blx_grid.tga
 	if deluxe
 	{
 		material
@@ -338,7 +338,7 @@ textures/blx/blx_ecel_bounce
 	q3map_lightimage textures/blx/blx_ecel_bounce_blend.tga
 	surfaceparm nodamage
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	q3map_surfacelight 400
 	nopicmip
 
@@ -350,13 +350,13 @@ textures/blx/blx_ecel_bounce
 	{
 		clampmap textures/blx/blx_ecel_bounce_blend.tga
 		blendfunc add
-		rgbGen wave sin 0.5 0.5 0 1.5 
+		rgbGen wave sin 0.5 0.5 0 1.5
 	}
 	{
 		clampmap textures/blx/blx_ecel_bounce_small.jpg
 		blendfunc add
-		rgbGen wave square 0.5 0.5 0.25 1.5 
-		tcMod stretch sin 1.2 0.8 0 1.5 
+		rgbGen wave square 0.5 0.5 0.25 1.5
+		tcMod stretch sin 1.2 0.8 0 1.5
 	}
 }
 
@@ -388,14 +388,14 @@ textures/blx/blx_ecel_bounce_nooffset
 }
 
 textures/blx/blx_glow2
-{	
+{
 	nopicmip
 	qer_editorimage textures/blx/blx_glow2.jpg
 	cull back
 	surfaceparm trans
 	surfaceparm nonsolid
 	qer_trans 0.5
-	{	
+	{
 		map textures/blx/blx_glow2.jpg
 		blendfunc add
 		tcmod scale 1 0.98
@@ -403,14 +403,14 @@ textures/blx/blx_glow2
 }
 
 textures/blx/blx_glow2a
-{	
+{
 	nopicmip
 	qer_editorimage textures/blx/blx_glow2b.jpg
 	cull back
 	surfaceparm trans
 	surfaceparm nonsolid
 	qer_trans 0.1
-	{	
+	{
 		map textures/blx/blx_glow2b.jpg
 		blendfunc add
 		alphaGen const .01
@@ -420,7 +420,7 @@ textures/blx/blx_glow2a
 
 
 textures/blx/blx_glow
-{	
+{
 	nopicmip
 	qer_editorimage textures/blx/blx_glow.jpg
 	cull front
@@ -434,10 +434,10 @@ textures/blx/blx_glow
 }
 
 textures/blx/blx_white_line
-{	
+{
 	qer_editorimage textures/blx/blx_white_line.tga
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
 	{
@@ -447,7 +447,7 @@ textures/blx/blx_white_line
 }
 
 textures/blx/blx_dark_ws
-{	
+{
 	qer_editorimage textures/blx/blx_dark_ws.jpg
 	if deluxe
 	{
@@ -471,10 +471,10 @@ textures/blx/blx_dark_ws
 }
 
 textures/blx/blx_white_edge1
-{	
+{
 	qer_editorimage textures/blx/blx_white_edge1.jpg
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
 	{
@@ -484,9 +484,9 @@ textures/blx/blx_white_edge1
 }
 
 textures/blx/blx_white_stripe1
-{	
+{
 	qer_editorimage textures/blx/blx_white_stripe1.jpg
-	polygonOffset 
+	polygonOffset
 	{
 		map textures/blx/blx_white_stripe1.jpg
 		blendfunc add
@@ -494,9 +494,9 @@ textures/blx/blx_white_stripe1
 }
 
 textures/blx/blx_white_stripe
-{	
+{
 	qer_editorimage textures/blx/blx_white_stripe.jpg
-	polygonOffset 
+	polygonOffset
 	{
 		map textures/blx/blx_white_stripe.jpg
 		blendfunc add
@@ -504,10 +504,10 @@ textures/blx/blx_white_stripe
 }
 
 textures/blx/blx_white_edge
-{	
+{
 	qer_editorimage textures/blx/blx_white_edge.jpg
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -518,11 +518,11 @@ textures/blx/blx_white_edge
 }
 
 textures/blx/blx_circle
-{	
+{
 	nopicmip
 	qer_editorimage textures/blx/blx_circle.tga
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -572,10 +572,10 @@ textures/blx/elec
 	q3map_globaltexture
 	q3map_lightimage textures/blx/circuits_red_512.tga
 	q3map_surfacelight 600
-	surfaceparm trans	
+	surfaceparm trans
 	surfaceparm noimpact
 	surfaceparm lava
-	cull disable	
+	cull disable
 	tesssize 128
 
 	{
@@ -601,7 +601,7 @@ textures/blx/elec
 textures/blx/circuits_blue
 {
 	qer_editorimage textures/blx/circuits_surface_512.tga
-	
+
 	{
 		map $lightmap
 	}

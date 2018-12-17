@@ -1,5 +1,5 @@
 textures/plastic/pvc_grey
-{	
+{
 	qer_editorimage textures/plastic/pvc_grey.tga
 	glossExponent 150
 
@@ -9,7 +9,7 @@ textures/plastic/pvc_grey
 }
 
 textures/plastic/grey35
-{	
+{
 	qer_editorimage textures/plastic/grey35.tga
 	glossExponent 150
 
@@ -19,7 +19,7 @@ textures/plastic/grey35
 }
 
 textures/plastic/grey50
-{	
+{
 	qer_editorimage textures/plastic/grey50.tga
 	glossExponent 150
 
@@ -29,7 +29,7 @@ textures/plastic/grey50
 }
 
 textures/plastic/grey65
-{	
+{
 	qer_editorimage textures/plastic/grey65.tga
 	glossExponent 150
 
@@ -39,7 +39,7 @@ textures/plastic/grey65
 }
 
 textures/plastic/grey75
-{	
+{
 	qer_editorimage textures/plastic/grey75.tga
 	glossExponent 150
 
@@ -49,7 +49,7 @@ textures/plastic/grey75
 }
 
 textures/plastic/grey85
-{	
+{
 	qer_editorimage textures/plastic/grey85.tga
 	glossExponent 150
 

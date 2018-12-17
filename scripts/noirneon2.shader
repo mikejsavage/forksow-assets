@@ -50,7 +50,7 @@ textures/noir/noirmotonism
 	}
 }
 
-textures/noir/noirrelectronics	
+textures/noir/noirrelectronics
 {
 	qer_editorimage textures/noir/relectronics.tga
 	q3map_surfacelight   500
@@ -67,7 +67,7 @@ textures/noir/noirrelectronics
 	}
 }
 
-textures/noir/neonbigvic	
+textures/noir/neonbigvic
 {
 	qer_editorimage textures/noir/neonbigvic.tga
 	q3map_surfacelight   500
@@ -171,12 +171,12 @@ textures/noir/noirposter
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	
+
 	{
 		detail
 		map textures/noir/noirposter.tga
 	}
-}		
+}
 
 
 
@@ -185,10 +185,10 @@ textures/noir/neon_02_red
 	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
-  	surfaceparm nomarks
+	surfaceparm nomarks
 
 	{
 		map textures/supersymmetry/neon_02_team.tga
@@ -202,10 +202,10 @@ textures/noir/neon_02_blue
 	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
-  	surfaceparm nomarks
+	surfaceparm nomarks
 
 	{
 		map textures/supersymmetry/neon_02_team.tga
@@ -219,10 +219,10 @@ textures/noir/neon_02_green
 	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
-  	surfaceparm nomarks
+	surfaceparm nomarks
 
 	{
 		map textures/supersymmetry/neon_02_team.tga
@@ -236,10 +236,10 @@ textures/noir/neon_02_pink
 	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
-	polygonOffset 
+	polygonOffset
 	surfaceparm trans
 	surfaceparm nonsolid
-  	surfaceparm nomarks
+	surfaceparm nomarks
 
 	{
 		map textures/supersymmetry/neon_02_team.tga

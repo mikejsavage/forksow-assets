@@ -111,19 +111,19 @@ textures/blx_houses/ctf_sky
 
 textures/blx_houses/portal
 {
-   portal   //flags surface to behave as a portal
-   qer_editorImage textures/blx/blx_dark.tga
-   surfaceparm nolightmap
-   {
-      map textures/blx/blx_dark.tga
-   }
-   {
-      map textures/blx_houses/blx_streets1.jpg
-      blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-      alphaGen portal 512   //fades to opaque after a
-               //distance of 512 game units
-   }
-} 
+	portal   //flags surface to behave as a portal
+	qer_editorImage textures/blx/blx_dark.tga
+	surfaceparm nolightmap
+	{
+		map textures/blx/blx_dark.tga
+	}
+	{
+		map textures/blx_houses/blx_streets1.jpg
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen portal 512   //fades to opaque after a
+		//distance of 512 game units
+	}
+}
 
 textures/blx_houses/blx_ctf_alpha
 {

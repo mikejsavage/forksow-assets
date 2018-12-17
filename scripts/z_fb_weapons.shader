@@ -1,13 +1,13 @@
 //textures
-fullbright_weapon 
+fullbright_weapon
 {
-    nopicmip
-    cull front
- 
-    {
-        map $whiteImage
-        rgbGen const $1 $2 $3
-    }
+	nopicmip
+	cull front
+
+	{
+		map $whiteImage
+		rgbGen const $1 $2 $3
+	}
 }
 
 models/weapons/electrobolt/electrobolt          { template fullbright_weapon 0.314 0.953 1.000 }

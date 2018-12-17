@@ -3,9 +3,9 @@ textures/wdm7/light_tile
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	q3map_lightRGB 1 0.88 0.47
-   	qer_editorimage   textures/wdm7/light_tile.tga
-   	q3map_surfacelight   5000
-  	q3map_lightsubdivide   16
+	qer_editorimage   textures/wdm7/light_tile.tga
+	q3map_surfacelight   5000
+	q3map_lightsubdivide   16
 	{
 		map textures/wdm7/light_tile.tga
 	}
@@ -20,7 +20,7 @@ textures/wdm7/bounce
 	surfaceparm nodamage
 	surfaceparm nomarks
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	nopicmip
 	q3map_surfacelight 400
 	{
@@ -30,13 +30,13 @@ textures/wdm7/bounce
 	{
 		map textures/wdm7/cx_ecel_bounce_blend.tga
 		blendfunc add
-		rgbGen wave sin 0.5 0.5 0 1.5 
+		rgbGen wave sin 0.5 0.5 0 1.5
 	}
 	{
 		clampmap textures/wdm7/cx_ecel_bounce_small.jpg
 		blendfunc add
-		rgbGen wave square 0.5 0.5 0.25 1.5 
-		tcMod stretch sin 1.2 0.8 0 1.5 
+		rgbGen wave square 0.5 0.5 0.25 1.5
+		tcMod stretch sin 1.2 0.8 0 1.5
 	}
 }
 

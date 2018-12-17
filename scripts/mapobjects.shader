@@ -173,7 +173,7 @@ models/mapobjects/jumppad/jumppad1
 	}
 	endif
 
-	if ! deluxe 
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -201,7 +201,7 @@ models/mapobjects/jumppad1/diffuse
 	}
 
 	{
-		animmap 8 models/mapobjects/jumppad1/glow_01.jpg models/mapobjects/jumppad1/glow_02.jpg  models/mapobjects/jumppad1/glow_03.jpg 
+		animmap 8 models/mapobjects/jumppad1/glow_01.jpg models/mapobjects/jumppad1/glow_02.jpg  models/mapobjects/jumppad1/glow_03.jpg
 		blendfunc add
 	}
 }
@@ -219,7 +219,7 @@ models/mapobjects/jumppad1/diffuse_a
 	}
 
 	{
-		animmap 8 models/mapobjects/jumppad1/glow_a_01.jpg models/mapobjects/jumppad1/glow_a_02.jpg  models/mapobjects/jumppad1/glow_a_03.jpg 
+		animmap 8 models/mapobjects/jumppad1/glow_a_01.jpg models/mapobjects/jumppad1/glow_a_02.jpg  models/mapobjects/jumppad1/glow_a_03.jpg
 		blendfunc add
 	}
 }
@@ -317,7 +317,7 @@ mapobjects_wdm4_tubes_blueline
 	qer_editorimage textures/factory/trim_03.tga
 	surfaceparm nomarks
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -331,13 +331,13 @@ if ! deluxe
 		map textures/factory/trim_03_blend.tga
 		blendFunc blend
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/trim_03.tga textures/factory/trim_03_norm.tga textures/factory/trim_02_verygloss.tga textures/factory/trim_03_blend.tga
 	}
-endif
+	endif
 }
 
 mapobjects_wdm4_trim05_blueline
@@ -349,7 +349,7 @@ mapobjects_wdm4_trim05_blueline
 	q3map_lightsubdivide 72
 	q3map_forceMeta
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -363,13 +363,13 @@ if ! deluxe
 		map textures/factory/trim_05_blend.tga
 		blendFunc blend
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/trim_05.tga textures/factory/trim_05_norm.tga textures/factory/trim_05_gloss.tga textures/factory/trim_05_blend.tga
 	}
-endif
+	endif
 }
 
 mapobjects_wdm4_trim05
@@ -508,7 +508,7 @@ mapobjects_wdm4_ra_spot
 	qer_editorimage textures/blxbis/ratowerskin1_spot.tga
 	surfaceparm nomarks
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -517,13 +517,13 @@ if ! deluxe
 		map textures/blxbis/ratowerskin1_spot.tga
 		blendFunc filter
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/blxbis/ratowerskin1_spot.tga
 	}
-endif
+	endif
 
 	{
 		clampmap textures/baxandall/item_indi_1.tga
@@ -601,7 +601,7 @@ mapobjects_leds_iron_frame
 }
 
 mapobjects_leds_orange
-{	
+{
 	qer_editorimage models/mapobjects/lights/leds_light_orange.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -737,7 +737,7 @@ models/mapobjects/teleporter/telenodefx
 }
 
 models/mapobjects/crates/container_red
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_red.tga
 	q3map_forceMeta
 	glossExponent 96
@@ -748,7 +748,7 @@ models/mapobjects/crates/container_red
 }
 
 models/mapobjects/crates/container_red_trans
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_red.tga
 	qer_trans 0.8
 	surfaceparm trans
@@ -766,7 +766,7 @@ models/mapobjects/crates/container_red_trans
 
 
 models/mapobjects/crates/container_blue
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_blue.tga
 	q3map_forceMeta
 	glossExponent 96
@@ -777,7 +777,7 @@ models/mapobjects/crates/container_blue
 }
 
 models/mapobjects/crates/container_blue_trans
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_blue.tga
 	qer_trans 0.8
 	surfaceparm trans
@@ -795,7 +795,7 @@ models/mapobjects/crates/container_blue_trans
 
 
 models/mapobjects/crates/container_green
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_green.tga
 	q3map_forceMeta
 	glossExponent 96
@@ -806,7 +806,7 @@ models/mapobjects/crates/container_green
 }
 
 models/mapobjects/crates/container_green_trans
-{	
+{
 	qer_editorimage models/mapobjects/crates/container_green.tga
 	qer_trans 0.8
 	surfaceparm trans
@@ -826,7 +826,7 @@ models/mapobjects/crates/container_green_trans
 
 models/mapobjects/decor_misc/aircondition_01
 {
-   	qer_editorimage models/mapobjects/decor_misc/aircondition_01.tga
+	qer_editorimage models/mapobjects/decor_misc/aircondition_01.tga
 	surfaceparm nolightmap
 
 	{
@@ -837,7 +837,7 @@ models/mapobjects/decor_misc/aircondition_01
 
 models/mapobjects/decor_misc/aircondition_02
 {
-   	qer_editorimage models/mapobjects/decor_misc/aircondition_02.tga
+	qer_editorimage models/mapobjects/decor_misc/aircondition_02.tga
 	surfaceparm nolightmap
 
 	{
@@ -848,7 +848,7 @@ models/mapobjects/decor_misc/aircondition_02
 
 models/mapobjects/decor_misc/aircondition_02a
 {
-   	qer_editorimage models/mapobjects/decor_misc/aircondition_02a.tga
+	qer_editorimage models/mapobjects/decor_misc/aircondition_02a.tga
 	surfaceparm nolightmap
 
 	{
@@ -859,7 +859,7 @@ models/mapobjects/decor_misc/aircondition_02a
 
 models/mapobjects/decor_misc/aircondition_fan_01
 {
-   	qer_editorimage models/mapobjects/decor_misc/aircondition_fan_01.tga
+	qer_editorimage models/mapobjects/decor_misc/aircondition_fan_01.tga
 	qer_trans 0.25
 	surfaceparm nolightmap
 
@@ -875,17 +875,17 @@ models/mapobjects/decor_misc/aircondition_fan_01
 
 models/mapobjects/lights/coldlight_01
 {
-   	qer_editorimage models/mapobjects/lights/coldlight_01.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01.tga
 	surfaceparm nolightmap
 
 	{
 		rgbgen vertex
 		material models/mapobjects/lights/coldlight_01.tga models/mapobjects/lights/coldlight_01_norm.tga models/mapobjects/lights/coldlight_01_gloss.tga
-	}   
+	}
 }
 models/mapobjects/lights/coldlight_01_refl
 {
-   	qer_editorimage models/mapobjects/lights/coldlight_01.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
@@ -894,7 +894,7 @@ models/mapobjects/lights/coldlight_01_refl
 		rgbgen vertex
 	}
 	{
-		map env/2d/map1.tga 
+		map env/2d/map1.tga
 		tcGen environment
 		alphagen const 0.35
 		blendFunc blend
@@ -902,7 +902,7 @@ models/mapobjects/lights/coldlight_01_refl
 }
 models/mapobjects/lights/coldlight_01_tube
 {
-   	qer_editorimage models/mapobjects/lights/coldlight_01.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
@@ -912,24 +912,24 @@ models/mapobjects/lights/coldlight_01_tube
 }
 models/mapobjects/lights/coldlight_01_glass
 {
-    qer_editorimage models/mapobjects/lights/coldlight_01_glass.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01_glass.tga
 	qer_trans 0.25
-      	surfaceparm nolightmap
+	surfaceparm nolightmap
 	surfaceparm nomarks
 	{
 		map models/mapobjects/lights/grad.tga
 		blendfunc add
-		tcGen environment 		
+		tcGen environment
 	}
-	{ 
-      		map models/mapobjects/lights/coldlight_01_glass.tga
+	{
+		map models/mapobjects/lights/coldlight_01_glass.tga
 		blendFunc blend
 	}
 }
 
 models/mapobjects/lights/coldlight_01a
 {
-    qer_editorimage models/mapobjects/lights/coldlight_01a.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01a.tga
 	surfaceparm nolightmap
 
 	{
@@ -939,7 +939,7 @@ models/mapobjects/lights/coldlight_01a
 }
 models/mapobjects/lights/coldlight_01a_refl
 {
-    qer_editorimage models/mapobjects/lights/coldlight_01a.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01a.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
@@ -948,7 +948,7 @@ models/mapobjects/lights/coldlight_01a_refl
 		rgbgen vertex
 	}
 	{
-		map env/2d/map1.tga 
+		map env/2d/map1.tga
 		tcGen environment
 		alphagen const 0.35
 		blendFunc blend
@@ -956,7 +956,7 @@ models/mapobjects/lights/coldlight_01a_refl
 }
 models/mapobjects/lights/coldlight_01a_tube
 {
-    qer_editorimage models/mapobjects/lights/coldlight_01a.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01a.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
@@ -966,18 +966,18 @@ models/mapobjects/lights/coldlight_01a_tube
 }
 models/mapobjects/lights/coldlight_01a_glass
 {
-    qer_editorimage models/mapobjects/lights/coldlight_01_glass.tga
+	qer_editorimage models/mapobjects/lights/coldlight_01_glass.tga
 	qer_trans 0.25
-    surfaceparm nolightmap
+	surfaceparm nolightmap
 	surfaceparm nomarks
 
 	{
 		map models/mapobjects/lights/grad.tga
 		blendfunc add
-		tcGen environment 		
-	} 
-	{ 
-      		map models/mapobjects/lights/coldlight_01_glass.tga
+		tcGen environment
+	}
+	{
+		map models/mapobjects/lights/coldlight_01_glass.tga
 		blendFunc blend
 	}
 }
@@ -1097,7 +1097,7 @@ models/mapobjects/orb/orb
 	qer_editorimage models/mapobjects/orb/orb
 	surfaceparm pointlight
 	surfaceparm nolightmap
-	
+
 	{
 		material models/mapobjects/orb/orb
 		rgbgen vertex

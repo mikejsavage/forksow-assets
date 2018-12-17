@@ -178,14 +178,14 @@ textures/sky/orangesky
 // MIRAMAR
 // high res 1024^2 environment map
 // ships as TGA.
-// 
-// 
+//
+//
 // By Jockum Skoglund aka hipshot
 // hipshot@zfight.com
 // www.zfight.com
 // Stockholm, 2005 08 25
-// 
-// 
+//
+//
 // Modify however you like, just cred me for my work, maybe link to my page.
 
 textures/sky/miramar
@@ -222,6 +222,6 @@ textures/sky/stormydays
 	q3map_sunExt 1 1 1 100 315 40 3 16
 	q3map_lightmapFilterRadius 0 8
 	q3map_skyLight 100 3
-	
+
 	skyparms env/stormydays/stormydays - -
 }

@@ -4,7 +4,7 @@ vsay_HUD_template
 	//deformVertexes autosprite
 	nopicmip
 	cull none
-	{	
+	{
 		map gfx/hud/icons/vsay/$1.tga
 		blendfunc blend
 	}

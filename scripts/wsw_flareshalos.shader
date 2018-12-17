@@ -154,7 +154,7 @@ textures/wsw_flareshalos/glow_neontube_blue
 }
 
 textures/wsw_flareshalos/glow_ellipse_white1
-{	
+{
 	nopicmip
 	qer_editorimage textures/wsw_flareshalos/glow_ellipse_white1.tga
 	qer_trans 0.25
@@ -185,7 +185,7 @@ textures/wsw_flareshalos/flare_sphere_white
 	deformVertexes autosprite
 	nopicmip
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/wsw_flareshalos/flare_sphere_white.tga
@@ -205,7 +205,7 @@ textures/wsw_flareshalos/glow_halo_white
 	deformVertexes autosprite2
 	nopicmip
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/wsw_flareshalos/glow_halo_white.tga
@@ -288,7 +288,7 @@ textures/wsw_flareshalos/glow_cone_cyan
 	deformVertexes autosprite2
 	nopicmip
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/wsw_flareshalos/glow_cone_cyan.tga
@@ -468,7 +468,7 @@ textures/wsw_flareshalos/flare_sphere_white_front
 	nopicmip
 	deformVertexes autosprite
 	softParticle
-	
+
 	{
 		detail
 		clampmap textures/wsw_flareshalos/flare_sphere_white.tga

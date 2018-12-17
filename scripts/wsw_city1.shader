@@ -58,7 +58,7 @@ textures/wsw_city1/clouds_layer2
 	qer_editorimage textures/wsw_city1/clouds_layer2_norm.tga
 	surfaceparm trans
 
-	{	
+	{
 		material
 		blendfunc blend
 		tcmod scroll 0.02 0
@@ -353,7 +353,7 @@ textures/wsw_city1/circle1
 	surfaceparm nomarks
 	surfaceparm	trans
 	forceoverlays
-	polygonOffset 
+	polygonOffset
 	qer_editorimage textures/wsw_city1/circle1.tga
 	{
 		map textures/wsw_city1/circle1.tga
@@ -369,9 +369,9 @@ textures/wsw_city1/circle1
 models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap
 {
 	qer_editorimage models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap.tga
-	
+
 	{
-		material models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap.tga models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap_norm.tga models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap_gloss.tga 
+		material models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap.tga models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap_norm.tga models/mapobjects/Pillar_Statue/Titan_PillarCompleteMap_gloss.tga
 	}
 }
 

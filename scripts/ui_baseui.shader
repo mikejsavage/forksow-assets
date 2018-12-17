@@ -22,8 +22,8 @@ ui/baseui/gfx/background2
 	{
 		map ui/baseui/gfx/bandes2.tga
 		blendFunc blend
-  		alphagen wave sin 0.05 0.1 0 0.05
-  		tcmod scroll 0 -.08
+		alphagen wave sin 0.05 0.1 0 0.05
+		tcmod scroll 0 -.08
 	}
 }
 

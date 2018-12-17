@@ -8,7 +8,7 @@ textures/format/fence
 	cull none
 	nopicmip
 	nomipmaps
-	
+
 	{
 		material textures/grates/fence01
 		alphaFunc GE128
@@ -38,8 +38,8 @@ textures/format/jump_pad
 }
 
 textures/format/sign_jump_pad
-{	
-  	nopicmip
+{
+	nopicmip
 	q3map_lightimage textures/format/sign_jump_pad.tga
 	qer_editorimage textures/format/sign_jump_pad.tga
 	q3map_surfacelight 500
@@ -66,7 +66,7 @@ textures/format/glow_baby
 	qer_editorimage textures/format/glow_baby.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_baby.tga
 		blendfunc add
@@ -84,7 +84,7 @@ textures/format/glow_blue
 	qer_editorimage textures/format/glow_blue.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_blue.tga
 		blendfunc add
@@ -102,7 +102,7 @@ textures/format/glow_green
 	qer_editorimage textures/format/glow_green.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_green.tga
 		blendfunc add
@@ -120,7 +120,7 @@ textures/format/glow_red
 	qer_editorimage textures/format/glow_red.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_red.tga
 		blendfunc add
@@ -138,7 +138,7 @@ textures/format/glow_yellow
 	qer_editorimage textures/format/glow_yellow.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_yellow.tga
 		blendfunc add
@@ -156,7 +156,7 @@ textures/format/glow_purple
 	qer_editorimage textures/format/glow_purple.tga
 	cull front
 	surfaceparm trans
-//	qer_trans 0.5
+	//	qer_trans 0.5
 	{
 		map textures/format/glow_purple.tga
 		blendfunc add
@@ -168,11 +168,11 @@ textures/format/glow_purple
 textures/format/teleglow_red
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/format/teleglow_red.tga
@@ -193,11 +193,11 @@ textures/format/teleglow_red
 textures/format/teleglow_green
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/format/teleglow_green.tga
@@ -218,11 +218,11 @@ textures/format/teleglow_green
 textures/format/teleglow_yellow
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/format/teleglow_yellow.tga
@@ -243,11 +243,11 @@ textures/format/teleglow_yellow
 textures/format/teleglow_purple
 {
 	deformVertexes autosprite
-     	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm noimpact
-     	nomipmaps
+	nomipmaps
 	nopicmip
 	{
 		clampmap textures/format/teleglow_purple.tga

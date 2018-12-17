@@ -10,32 +10,32 @@ textures/leaves/leaves0108_s
 	cull none
 	nopicmip
 	surfaceparm nolightmap
-	
-	{
-		map textures/leaves/leaves0108_s.tga
-		alphaFunc GE128
-		rgbGen vertex
-		depthWrite
-	}
-}
 
-vertex/trees/barkdecidious048
-{
+	{
+	map textures/leaves/leaves0108_s.tga
+	alphaFunc GE128
+	rgbGen vertex
+	depthWrite
+	}
+	}
+
+	vertex/trees/barkdecidious048
+	{
 	qer_editorimage textures/trees/barkdecidious048.tga
 	surfaceparm nolightmap
 
 	{
-		rgbgen vertex
-		material textures/trees/barkdecidious048.tga
+	rgbgen vertex
+	material textures/trees/barkdecidious048.tga
 	}
-}
+	}
 
-textures/trees/barkdecidious048
-{
+	textures/trees/barkdecidious048
+	{
 	qer_editorimage textures/trees/barkdecidious048.tga
 	q3map_forceMeta
 
 	{
-		material textures/trees/barkdecidious048.tga
+	material textures/trees/barkdecidious048.tga
 	}
-}
+	}

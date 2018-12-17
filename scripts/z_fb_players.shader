@@ -1,12 +1,12 @@
 fullbright
 {
-    nopicmip
-    cull front
-   
-    {
-        map $whiteimage
-        rgbGen entity
-    }
+	nopicmip
+	cull front
+
+	{
+		map $whiteimage
+		rgbGen entity
+	}
 }
 
 models/players/bigvic/bigvic_head       { template fullbright }

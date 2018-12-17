@@ -111,7 +111,7 @@ textures/concrete/concretecold02
 textures/concrete/roadbarrier_concrete
 {
 	qer_editorimage textures/concrete/roadbarrier_concrete
-	
+
 	{
 		material
 	}

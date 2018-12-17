@@ -24,7 +24,7 @@ gfx/hud/zoomscreen
 {
 	nomipmaps
 	{
-    	map gfx/hud/zoomscreenlines.tga
+		map gfx/hud/zoomscreenlines.tga
 		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod scroll -.1  0
 		tcMod scale 4 4

@@ -43,7 +43,7 @@ textures/concretestrike/sky_surfacelight
 }
 
 textures/concretestrike/stucco01b_nobounce
-{	
+{
 	qer_editorimage textures/concrete/stucco01b.tga
 	q3map_bounceScale 0.01
 

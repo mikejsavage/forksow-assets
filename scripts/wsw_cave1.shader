@@ -9,7 +9,7 @@ textures/wsw_cave1/water_flow
 	cull none
 	deformVertexes wave 16 sin 0.3 2.5 0 0.5
 
-	if deluxe 
+	if deluxe
 	{
 		material textures/wsw_cave1/water_flow
 		blendfunc GL_ONE GL_DST_COLOR
@@ -46,46 +46,46 @@ textures/wsw_cave1/ball_glowb_portal
 	surfaceparm nodlight
 	deformVertexes autosprite
 	nopicmip
-	
+
 	if portalMaps
-		portal
-		{
-			clampmap textures/wsw_cave1/ball_mask.tga
-			alphaFunc gt0
-			blendFunc blend
-			depthWrite
-		}
-		{
-			map $portalmap
-			blendFunc filter
-			depthFunc equal
-		}
-		{
-			map textures/wsw_cave1/ball_noise.tga
-			blendfunc blend
-			depthFunc equal
-			alphagen wave distanceramp 0 1 150 350 
-			tcmod scroll 20 .15
-		}
-		{
-			clampmap textures/wsw_cave1/ball_glowb_sphere_cyan.tga
-			blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
-			depthFunc equal
-		}
-		{
-			clampmap textures/wsw_cave1/ball_glowb_alpha.tga
-			blendfunc blend
-			tcmod rotate 5
-			depthFunc lequal
-		}
+	portal
+	{
+		clampmap textures/wsw_cave1/ball_mask.tga
+		alphaFunc gt0
+		blendFunc blend
+		depthWrite
+	}
+	{
+		map $portalmap
+		blendFunc filter
+		depthFunc equal
+	}
+	{
+		map textures/wsw_cave1/ball_noise.tga
+		blendfunc blend
+		depthFunc equal
+		alphagen wave distanceramp 0 1 150 350
+		tcmod scroll 20 .15
+	}
+	{
+		clampmap textures/wsw_cave1/ball_glowb_sphere_cyan.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+		depthFunc equal
+	}
+	{
+		clampmap textures/wsw_cave1/ball_glowb_alpha.tga
+		blendfunc blend
+		tcmod rotate 5
+		depthFunc lequal
+	}
 	endif
-	
+
 	if ! portalMaps
-		{
-			clampmap textures/wsw_cave1/ball_glowb.tga
-			blendfunc add
-			tcmod rotate 5
-		}
+	{
+		clampmap textures/wsw_cave1/ball_glowb.tga
+		blendfunc add
+		tcmod rotate 5
+	}
 	endif
 }
 
@@ -99,36 +99,36 @@ textures/wsw_cave1/ball_glowb_videoportal_06
 	surfaceparm nodlight
 	deformVertexes autosprite
 	nopicmip
-	
-		{
-			clampmap textures/wsw_cave1/ball_mask.tga
-			alphaFunc gt0
-			blendFunc blend
-			depthWrite
-		}
-		{
-			videomap backsequence_06
-			blendFunc filter
-			depthFunc equal
-		}
-		{
-			map textures/wsw_cave1/ball_noise.tga
-			blendfunc blend
-			depthFunc equal
-			alphagen const 0.4
-			tcmod scroll 20 .15
-		}
-		{
-			clampmap textures/wsw_cave1/ball_glowb_sphere_cyan.tga
-			blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
-			depthFunc equal
-		}
-		{
-			clampmap textures/wsw_cave1/ball_glowb_alpha.tga
-			blendfunc blend
-			tcmod rotate 5
-			depthFunc lequal
-		}
+
+	{
+		clampmap textures/wsw_cave1/ball_mask.tga
+		alphaFunc gt0
+		blendFunc blend
+		depthWrite
+	}
+	{
+		videomap backsequence_06
+		blendFunc filter
+		depthFunc equal
+	}
+	{
+		map textures/wsw_cave1/ball_noise.tga
+		blendfunc blend
+		depthFunc equal
+		alphagen const 0.4
+		tcmod scroll 20 .15
+	}
+	{
+		clampmap textures/wsw_cave1/ball_glowb_sphere_cyan.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+		depthFunc equal
+	}
+	{
+		clampmap textures/wsw_cave1/ball_glowb_alpha.tga
+		blendfunc blend
+		tcmod rotate 5
+		depthFunc lequal
+	}
 }
 
 textures/wsw_cave1/fog-white

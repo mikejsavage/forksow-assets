@@ -48,17 +48,17 @@ textures/factory/blx_wt3_sky_orange_shader
 }
 
 textures/factory/scroll_beam
-{	
+{
 	nopicmip
 	qer_editorimage textures/factory/beam_beam.tga
-	polygonOffset 
+	polygonOffset
 	surfaceparm nolightmap
 	sutfaceparm nonsolid
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm noimpact
 	qer_trans 0.75
-	{	
+	{
 		map textures/factory/beam_beam.tga
 		tcmod scroll 0 4
 		blendfunc add
@@ -76,27 +76,27 @@ textures/factory/deadly_lasers
 	q3map_surfacelight 250
 	qer_editorimage textures/factory/laser_beam.tga
 	qer_trans 0.25
-        {
+	{
 		map textures/factory/laser_beam.tga
 		blendfunc add
 		tcmod scroll 0 -2
-                blendFunc add
+		blendFunc add
 	}
 	{
 		map textures/factory/laser_beam.tga
-          	blendfunc add
+		blendfunc add
 		tcmod scroll 0 2
 	}
 }
 
 
 textures/factory/blx_glow2sides
-{	
+{
 	nopicmip
 	qer_editorimage textures/blx/blx_glow2.jpg
 	cull none
 	surfaceparm nonsolid
-	{	
+	{
 		map textures/blx/blx_glow2.jpg
 		blendfunc add
 		tcmod scale 1 0.98
@@ -153,14 +153,14 @@ textures/factory/pillar03_fx3
 {
 	nopicmip
 	qer_editorimage textures/factory/pillar03.tga
-	
-if deluxe
+
+	if deluxe
 	{
 		material textures/factory/pillar03.tga $blankbumpimage - textures/factory/pillar03_alpha.tga
 	}
-endif
+	endif
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -172,7 +172,7 @@ if ! deluxe
 		map textures/factory/pillar03_alpha.tga
 		blendfunc add
 	}
-endif
+	endif
 	{
 		map textures/factory/pillar03_fx.tga
 		blendFunc add
@@ -187,13 +187,13 @@ textures/factory/wall01_shader
 	nopicmip
 	qer_editorimage textures/factory/wall01.tga
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/wall01.tga $blankbumpimage - textures/factory/wall01_alpha.tga
 	}
-endif
+	endif
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -205,7 +205,7 @@ if ! deluxe
 		map textures/factory/wall01_alpha.tga
 		blendfunc add
 	}
-endif
+	endif
 }
 
 textures/factory/blx_wt3_floor4_shader
@@ -229,13 +229,13 @@ textures/factory/trim01_fx
 	nopicmip
 	qer_editorimage textures/factory/trim01.tga
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/trim01.tga $blankbumpimage - textures/factory/trim01_alpha.tga
 	}
-endif
+	endif
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -247,7 +247,7 @@ if ! deluxe
 		map textures/factory/trim01_alpha.tga
 		blendfunc add
 	}
-endif
+	endif
 	{
 		map textures/factory/trim01_glow.tga
 		blendfunc add
@@ -302,13 +302,13 @@ textures/factory/trim01
 	nopicmip
 	qer_editorimage textures/factory/trim01.tga
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/trim01.tga $blankbumpimage - textures/factory/trim01_alpha.tga
 	}
-endif
+	endif
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -320,7 +320,7 @@ if ! deluxe
 		map textures/factory/trim01_alpha.tga
 		blendfunc add
 	}
-endif	
+	endif
 	{
 		map textures/factory/trim01_glow.tga
 		blendfunc add
@@ -357,14 +357,14 @@ textures/factory/elec_floor
 	nopicmip
 	qer_editorimage textures/factory/elec_floor.tga
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/elec_floor.tga $blankbumpimage - textures/factory/elec_floor_alpha.tga
 		rgbGen wave sin 0.5 -1 0 0.25
 	}
-endif
+	endif
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -377,7 +377,7 @@ if ! deluxe
 		blendfunc add
 		rgbGen wave sin 0.5 -1 0 0.25
 	}
-endif
+	endif
 }
 
 
@@ -405,10 +405,10 @@ textures/factory/base
 	surfaceparm trans
 	qer_editorimage textures/factory/base.tga
 	qer_trans 0.75
-//	{
-//		map $lightmap
-//		rgbGen identity
-//	}
+	//	{
+		//		map $lightmap
+		//		rgbGen identity
+	//	}
 	{
 		map textures/factory/base.tga
 		blendfunc add
@@ -499,7 +499,7 @@ textures/factory/armor_base
 
 textures/factory/blx_spacer_2
 {
-	qer_editorimage textures/blx/blx_spacer_2.tga	
+	qer_editorimage textures/blx/blx_spacer_2.tga
 	surfaceparm nomarks
 
 	{
@@ -537,7 +537,7 @@ textures/factory/glass
 	qer_editorimage textures/factory/glass.tga
 	qer_trans .5
 	surfaceparm trans
-	surfaceparm nolightmap 
+	surfaceparm nolightmap
 	cull disable
 
 	{
@@ -552,7 +552,7 @@ textures/factory/glass_singlesided_distancebloom
 	qer_editorimage textures/factory/glass.tga
 	qer_trans .5
 	surfaceparm trans
-	surfaceparm nolightmap 
+	surfaceparm nolightmap
 
 	{
 		map textures/factory/glass.tga
@@ -573,7 +573,7 @@ textures/factory/glass_softadd
 {
 	qer_trans .5
 	surfaceparm trans
-	surfaceparm nolightmap 
+	surfaceparm nolightmap
 
 	{
 		map textures/factory/glass.tga
@@ -663,7 +663,7 @@ textures/factory/factory_wall_red
 {
 	qer_editorimage textures/factory/factory_wall_team.tga
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -677,21 +677,21 @@ if ! deluxe
 		rgbgen const 1 0 0
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/factory_wall_team.tga textures/factory/factory_wall_team_norm.tga textures/factory/factory_wall_team_gloss.tga textures/factory/factory_wall_team_color.tga
 		rgbgen const 1 0 0
 	}
-endif
+	endif
 }
 
 textures/factory/factory_wall_green
 {
 	qer_editorimage textures/factory/factory_wall_team.tga
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -705,21 +705,21 @@ if ! deluxe
 		rgbgen const 0 1 0
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/factory_wall_team.tga textures/factory/factory_wall_team_norm.tga textures/factory/factory_wall_team_gloss.tga textures/factory/factory_wall_team_color.tga
 		rgbgen const 0 1 0
 	}
-endif
+	endif
 }
 
 textures/factory/factory_wall_blue
 {
 	qer_editorimage textures/factory/factory_wall_team.tga
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -733,21 +733,21 @@ if ! deluxe
 		rgbgen const 0 0 1
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/factory_wall_team.tga textures/factory/factory_wall_team_norm.tga textures/factory/factory_wall_team_gloss.tga textures/factory/factory_wall_team_color.tga
 		rgbgen const 0 0 1
 	}
-endif
+	endif
 }
 
 textures/factory/factory_wall_yellow
 {
 	qer_editorimage textures/factory/factory_wall_team.tga
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -761,21 +761,21 @@ if ! deluxe
 		rgbgen const 1 0.85 0
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/factory_wall_team.tga textures/factory/factory_wall_team_norm.tga textures/factory/factory_wall_team_gloss.tga textures/factory/factory_wall_team_color.tga
 		rgbgen const 1 0.85 0
 	}
-endif
+	endif
 }
 
 textures/factory/factory_wall_violet
 {
 	qer_editorimage textures/factory/factory_wall_team.tga
 
-if ! deluxe
+	if ! deluxe
 	{
 		map $lightmap
 	}
@@ -789,12 +789,12 @@ if ! deluxe
 		rgbgen const 0.65 0 0.65
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
-endif
+	endif
 
-if deluxe
+	if deluxe
 	{
 		material textures/factory/factory_wall_team.tga textures/factory/factory_wall_team_norm.tga textures/factory/factory_wall_team_gloss.tga textures/factory/factory_wall_team_color.tga
 		rgbgen const 0.35 0 0.65
 	}
-endif
+	endif
 }

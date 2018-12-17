@@ -18,7 +18,7 @@ textures/billboard/board_512_256_1
 	{
 		clampmap textures/billboard/code.jpg
 		blendfunc add
-		tcmod scroll 0 0.3 
+		tcmod scroll 0 0.3
 		rgbGen wave sawtooth 0.1 0.3 0 .1
 	}
 
@@ -26,7 +26,7 @@ textures/billboard/board_512_256_1
 		map textures/billboard/scanlinenoise.tga
 		blendfunc add
 		rgbGen wave sin 0.4 0.4 0 .5
-		tcmod scroll 10 .15 
+		tcmod scroll 10 .15
 	}
 }
 
@@ -50,7 +50,7 @@ textures/billboard/board_512_256_2
 	{
 		clampmap textures/billboard/code.jpg
 		blendfunc add
-		tcmod scroll 0 0.3 
+		tcmod scroll 0 0.3
 		rgbGen wave sawtooth 0.1 0.3 0 .1
 	}
 
@@ -58,7 +58,7 @@ textures/billboard/board_512_256_2
 		map textures/billboard/scanlinenoise.tga
 		blendfunc add
 		rgbGen wave sin 0.4 0.4 0 .5
-		tcmod scroll 10 .15 
+		tcmod scroll 10 .15
 	}
 }
 
@@ -289,7 +289,7 @@ textures/billboard/small4
 	surfaceparm	nomarks
 	surfaceparm nonsolid
 	nopicmip
-	
+
 	{
 		map $lightmap
 	}
@@ -432,86 +432,86 @@ textures/billboard/kohi
 	surfaceparm nonsolid
 	nopicmip
 	{
-		animmap 1 textures/billboard/c6.jpg textures/billboard/c5.jpg textures/billboard/c4.jpg textures/billboard/c3.jpg textures/billboard/c2.jpg textures/billboard/c1.jpg 
+		animmap 1 textures/billboard/c6.jpg textures/billboard/c5.jpg textures/billboard/c4.jpg textures/billboard/c3.jpg textures/billboard/c2.jpg textures/billboard/c1.jpg
 	}
 }
 
 textures/billboard/bullets
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bullets.jpg  
-	q3map_lightimage textures/billboard/bullets.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bullets.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bullets.jpg
+	q3map_lightimage textures/billboard/bullets.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bullets.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/bulletsblue
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bulletsblue.jpg  
-	q3map_lightimage textures/billboard/bulletsblue.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bulletsblue.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bulletsblue.jpg
+	q3map_lightimage textures/billboard/bulletsblue.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bulletsblue.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/bulletsblue2
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bulletsblue2.jpg  
-	q3map_lightimage textures/billboard/bulletsblue2.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bulletsblue2.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bulletsblue2.jpg
+	q3map_lightimage textures/billboard/bulletsblue2.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bulletsblue2.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/bulletsblue3
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bulletsblue3.jpg  
-	q3map_lightimage textures/billboard/bulletsblue3.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bulletsblue3.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bulletsblue3.jpg
+	q3map_lightimage textures/billboard/bulletsblue3.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bulletsblue3.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/bulletsorange
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bulletsorange.jpg  
-	q3map_lightimage textures/billboard/bulletsorange.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bulletsorange.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bulletsorange.jpg
+	q3map_lightimage textures/billboard/bulletsorange.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bulletsorange.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/bulletspurple
 {
-    surfaceparm nomarks
-    surfaceparm nonsolid
-    qer_editorimage textures/billboard/bulletspurple.jpg  
-	q3map_lightimage textures/billboard/bulletspurple.jpg  
-    q3map_surfacelight 500
-    {
-        map textures/billboard/bulletspurple.jpg  
-        blendfunc add
-    }
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	qer_editorimage textures/billboard/bulletspurple.jpg
+	q3map_lightimage textures/billboard/bulletspurple.jpg
+	q3map_surfacelight 500
+	{
+		map textures/billboard/bulletspurple.jpg
+		blendfunc add
+	}
 }
 
 textures/billboard/PorkyPie

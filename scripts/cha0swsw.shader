@@ -85,7 +85,7 @@ textures/cha0s_ws/glass
 	{
 		map textures/cha0s_ws/chrome4.tga
 		blendfunc add
-		tcGen environment 
+		tcGen environment
 		tcmod scale 2 2
 	}
 	{

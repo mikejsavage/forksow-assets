@@ -123,7 +123,7 @@ models/weapons/gunblade/gunblade
 {
 	nopicmip
 	cull front
-	
+
 	{
 		material models/weapons/gunblade/gunblade.tga
 		rgbgen entity
@@ -135,7 +135,7 @@ models/weapons/gunblade/barrel
 {
 	nopicmip
 	cull front
-	
+
 	{
 		material models/weapons/gunblade/barrel.tga
 		rgbgen entity
@@ -208,14 +208,14 @@ models/weapons/lg_fx
 models/objects/projectile/plasmagun/plnew
 {
 	nopicmip
- 	//sort additive
- 	cull disable
- 	{
- 		map models/objects/projectile/plasmagun/plnew.tga
- 		blendFunc add
+	//sort additive
+	cull disable
+	{
+		map models/objects/projectile/plasmagun/plnew.tga
+		blendFunc add
 		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcmod rotate -150
- 	}
+	}
 }
 
 models/objects/projectile/gunblade/proj_gunblade
@@ -277,10 +277,10 @@ models/objects/projectile/glauncher/grenadestrong
 	}
 	// just fullbright
 	//{
-	//	map gfx/colors/celshade.tga
-	//	blendfunc filter
-	//	rgbGen identity
-	//	tcGen environment
+		//	map gfx/colors/celshade.tga
+		//	blendfunc filter
+		//	rgbGen identity
+		//	tcGen environment
 	//}
 }
 
@@ -367,10 +367,10 @@ models/v_weapons/generic/f_generic
 	cull disable
 	softParticle
 	{
-	map models/weapons/generic/f_generic.tga
-	rgbgen entity
-	tcmod rotate 90
-	blendFunc add
+		map models/weapons/generic/f_generic.tga
+		rgbgen entity
+		tcmod rotate 90
+		blendFunc add
 	}
 }
 
@@ -381,10 +381,10 @@ models/weapons/plasmagun/f_plasma
 	cull disable
 	softParticle
 	{
-	map models/weapons/plasmagun/f_plasma.tga
-	rgbgen entity
-	tcmod rotate 90
-	blendFunc add
+		map models/weapons/plasmagun/f_plasma.tga
+		rgbgen entity
+		tcmod rotate 90
+		blendFunc add
 	}
 }
 models/weapons/plasmagun/f_plasma_2
@@ -415,7 +415,7 @@ models/weapons/glauncher/f_glaunch
 	{
 		map models/weapons/glauncher/f_glaunch_spark.tga
 		rgbgen entity
-		tcMod stretch sawtooth .65 .3 0 8 
+		tcMod stretch sawtooth .65 .3 0 8
 		blendFunc add
 	}
 }
@@ -457,7 +457,7 @@ models/weapons/riotgun/f_riot
 	{
 		map models/weapons/riotgun/f_riot_spark.tga
 		rgbgen entity
-		tcMod stretch sawtooth .65 .3 0 8 
+		tcMod stretch sawtooth .65 .3 0 8
 		blendFunc add
 	}
 }
@@ -492,16 +492,16 @@ models/weapons/gunblade/f_gunblade
 	cull disable
 	softParticle
 	{
-	map models/weapons/gunblade/f_gunblade.tga
-	rgbgen entity
-	tcmod rotate 200
-	blendFunc add
+		map models/weapons/gunblade/f_gunblade.tga
+		rgbgen entity
+		tcmod rotate 200
+		blendFunc add
 	}
 	{
-	map models/weapons/gunblade/f_gunblade_1.tga
-	rgbgen entity
-	tcmod rotate -175
-	blendFunc add
+		map models/weapons/gunblade/f_gunblade_1.tga
+		rgbgen entity
+		tcmod rotate -175
+		blendFunc add
 	}
 }
 models/weapons/gunblade/f_gunblade_2
@@ -524,10 +524,10 @@ models/weapons/rlauncher/f_rlaunch
 	cull disable
 	softParticle
 	{
-	map models/weapons/rlauncher/f_rlaunch.tga
-	rgbgen entity
-	//tcmod rotate 90
-	blendFunc add
+		map models/weapons/rlauncher/f_rlaunch.tga
+		rgbgen entity
+		//tcmod rotate 90
+		blendFunc add
 	}
 }
 
@@ -552,10 +552,10 @@ models/weapons/electrobolt/f_electrobolt
 	cull disable
 	softParticle
 	{
-	map models/weapons/electrobolt/f_electro.tga
-	rgbgen entity
-	tcmod rotate 90
-	blendFunc add
+		map models/weapons/electrobolt/f_electro.tga
+		rgbgen entity
+		tcmod rotate 90
+		blendFunc add
 	}
 }
 
@@ -592,10 +592,10 @@ models/weapons/lasergun/f_laser
 	cull disable
 	softParticle
 	{
-	map models/weapons/lasergun/f_laser.tga
-	rgbgen entity
-	tcmod rotate 180
-	blendFunc add
+		map models/weapons/lasergun/f_laser.tga
+		rgbgen entity
+		tcmod rotate 180
+		blendFunc add
 	}
 }
 models/weapons/lasergun/f_laser_2
@@ -605,10 +605,10 @@ models/weapons/lasergun/f_laser_2
 	cull disable
 	softParticle
 	{
-	map models/weapons/lasergun/f_laser_2.tga
-	rgbgen entity
-	tcmod scroll 0 3
-	blendFunc add
+		map models/weapons/lasergun/f_laser_2.tga
+		rgbgen entity
+		tcmod scroll 0 3
+		blendFunc add
 	}
 }
 
@@ -766,9 +766,9 @@ models/powerups/instant/quad_light
 		tcMod rotate 90
 		//tcMod stretch sin 1.25 0.05 0 .4
 		tcMod stretch sin 1.2 0.05 0 .7
-		
+
 	}
-		
+
 }
 
 
@@ -828,7 +828,7 @@ models/powerups/instant/warshell_sphere
 	{
 		map models/powerups/instant/warshell_sphere.tga
 		//rgbgen wave sin 0.5 1 0 3
-		blendfunc blend	
+		blendfunc blend
 		tcMod rotate 90
 	}
 }
@@ -872,7 +872,7 @@ models/objects/flag/flag_light
 {
 	nopicmip
 	cull none
-	
+
 	{
 		map models/objects/flag/flag_light.tga
 		blendFunc blend
@@ -885,7 +885,7 @@ models/objects/flag/Flag_holo
 	nopicmip
 	cull none
 	deformVertexes wave 20 noise 0.5 0.6 0 1.6
-	
+
 	{
 		map models/objects/flag/flag_holo.tga
 		blendFunc blend

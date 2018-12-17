@@ -1,5 +1,5 @@
 textures/metal/treadplate0015
-{	
+{
 	qer_editorimage textures/metal/treadplate0015.tga
 
 	{
@@ -8,7 +8,7 @@ textures/metal/treadplate0015
 }
 
 textures/metal/treadplate0015b
-{	
+{
 	qer_editorimage textures/metal/treadplate0015b.tga
 
 	{
@@ -17,7 +17,7 @@ textures/metal/treadplate0015b
 }
 
 textures/metal/treadplate0015c
-{	
+{
 	qer_editorimage textures/metal/treadplate0015c.tga
 
 	{
@@ -26,7 +26,7 @@ textures/metal/treadplate0015c
 }
 
 textures/metal/treadplate0015d
-{	
+{
 	qer_editorimage textures/metal/treadplate0015d.tga
 
 	{
@@ -35,7 +35,7 @@ textures/metal/treadplate0015d
 }
 
 textures/metal/treadplate0015e
-{	
+{
 	qer_editorimage textures/metal/treadplate0015e.tga
 
 	{
@@ -44,7 +44,7 @@ textures/metal/treadplate0015e
 }
 
 textures/metal/treadplate0015f
-{	
+{
 	qer_editorimage textures/metal/treadplate0015f.tga
 
 	{
@@ -53,7 +53,7 @@ textures/metal/treadplate0015f
 }
 
 textures/metal/treadplate0015g
-{	
+{
 	qer_editorimage textures/metal/treadplate0015g.tga
 
 	{
@@ -62,7 +62,7 @@ textures/metal/treadplate0015g
 }
 
 textures/metal/metalbaseyellow0033
-{	
+{
 	qer_editorimage textures/metal/metalbaseyellow0033.tga
 	glossExponent 256
 
@@ -72,7 +72,7 @@ textures/metal/metalbaseyellow0033
 }
 
 textures/metal/corrugated0023green
-{	
+{
 	qer_editorimage textures/metal/corrugated0023green.tga
 	glossExponent 256
 
@@ -82,7 +82,7 @@ textures/metal/corrugated0023green
 }
 
 textures/metal/corrugated0023oxid
-{	
+{
 	qer_editorimage textures/metal/corrugated0023oxid.tga
 	glossExponent 256
 
@@ -92,7 +92,7 @@ textures/metal/corrugated0023oxid
 }
 
 textures/metal/aluminium
-{	
+{
 	qer_editorimage textures/metal/aluminium.tga
 
 	glossExponent 24
@@ -104,12 +104,12 @@ textures/metal/aluminium
 }
 
 textures/metal/chrome
-{	
+{
 	qer_editorimage textures/metal/chrome
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	{
-		map env/2d/chrome1.tga 
+		map env/2d/chrome1.tga
 		tcGen environment
 		rgbgen vertex
 	}
@@ -122,7 +122,7 @@ textures/metal/chrome
 	}
 
 	{
-		map env/2d/chrome1.tga 
+		map env/2d/chrome1.tga
 		tcGen environment
 		rgbgen vertex
 		alphagen const 0.6
@@ -131,7 +131,7 @@ textures/metal/chrome
 }
 
 textures/metal/chrome2
-{	
+{
 	qer_editorimage textures/metal/chrome
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -142,7 +142,7 @@ textures/metal/chrome2
 	}
 
 	{
-		map env/2d/map1.tga 
+		map env/2d/map1.tga
 		tcGen environment
 		alphagen const 0.35
 		blendFunc blend
@@ -150,12 +150,12 @@ textures/metal/chrome2
 }
 
 textures/metal/chrome_rusty
-{	
+{
 	qer_editorimage textures/metal/chrome
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	{
-		map env/2d/chrome1.tga 
+		map env/2d/chrome1.tga
 		tcGen environment
 		rgbgen vertex
 	}
@@ -168,7 +168,7 @@ textures/metal/chrome_rusty
 	}
 
 	{
-		map env/2d/chrome1.tga 
+		map env/2d/chrome1.tga
 		tcGen environment
 		rgbgen vertex
 		alphagen const 0.6

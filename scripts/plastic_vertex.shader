@@ -1,6 +1,6 @@
 
 textures/plastic_vertex/vertex_pvc_grey
-{	
+{
 	qer_editorimage textures/plastic/pvc_grey.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -12,7 +12,7 @@ textures/plastic_vertex/vertex_pvc_grey
 }
 
 textures/plastic_vertex/vertex_grey35
-{	
+{
 	qer_editorimage textures/plastic/grey35.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -24,7 +24,7 @@ textures/plastic_vertex/vertex_grey35
 }
 
 textures/plastic_vertex/vertex_grey50
-{	
+{
 	qer_editorimage textures/plastic/grey50.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -36,7 +36,7 @@ textures/plastic_vertex/vertex_grey50
 }
 
 textures/plastic_vertex/vertex_grey65
-{	
+{
 	qer_editorimage textures/plastic/grey65.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -48,7 +48,7 @@ textures/plastic_vertex/vertex_grey65
 }
 
 textures/plastic_vertex/vertex_grey75
-{	
+{
 	qer_editorimage textures/plastic/grey75.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -60,7 +60,7 @@ textures/plastic_vertex/vertex_grey75
 }
 
 textures/plastic_vertex/vertex_grey75_nonsolid
-{	
+{
 	qer_editorimage textures/plastic/grey75.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -73,7 +73,7 @@ textures/plastic_vertex/vertex_grey75_nonsolid
 }
 
 textures/plastic_vertex/vertex_grey85
-{	
+{
 	qer_editorimage textures/plastic/grey85.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -85,7 +85,7 @@ textures/plastic_vertex/vertex_grey85
 }
 
 textures/plastic_vertex/vertex_red
-{	
+{
 	qer_editorimage textures/plastic/red.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -97,7 +97,7 @@ textures/plastic_vertex/vertex_red
 }
 
 textures/plastic_vertex/vertex_red_anim
-{	
+{
 	qer_editorimage textures/plastic/red.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -115,7 +115,7 @@ textures/plastic_vertex/vertex_red_anim
 }
 
 textures/plastic_vertex/vertex_green
-{	
+{
 	qer_editorimage textures/plastic/green.tga
 	surfaceparm nolightmap
 	glossExponent 150
@@ -127,7 +127,7 @@ textures/plastic_vertex/vertex_green
 }
 
 textures/plastic_vertex/vertex_blue
-{	
+{
 	qer_editorimage textures/plastic/blue.tga
 	surfaceparm nolightmap
 	glossExponent 150

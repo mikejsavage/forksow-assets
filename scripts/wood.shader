@@ -1,5 +1,5 @@
 textures/wood/woodplank01
-{	
+{
 	qer_editorimage textures/wood/woodplank01.tga
 
 	{
@@ -8,7 +8,7 @@ textures/wood/woodplank01
 }
 
 textures/wood/woodplank02
-{	
+{
 	qer_editorimage textures/wood/woodplank02.tga
 
 	{
@@ -17,7 +17,7 @@ textures/wood/woodplank02
 }
 
 textures/wood/woodplank03
-{	
+{
 	qer_editorimage textures/wood/woodplank03.tga
 
 	{
