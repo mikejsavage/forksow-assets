@@ -7,7 +7,6 @@ textures/noir/noirelmoto
 	surfaceparm nodlight
 	surfaceparm nonsolid
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/noir/elmoto.tga
@@ -24,7 +23,6 @@ textures/noir/noirclownfart
 	surfaceparm nodlight
 	surfaceparm nonsolid
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/noir/clownfart.tga
@@ -41,7 +39,6 @@ textures/noir/noirrelectronics
 	surfaceparm nodlight
 	surfaceparm nonsolid
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/noir/relectronics.tga
@@ -58,7 +55,6 @@ textures/noir/neonbigvic
 	surfaceparm nodlight
 	surfaceparm nonsolid
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/noir/neonbigvic.tga
@@ -73,7 +69,6 @@ textures/noir/pose
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm nonsolid
-	nopicmip
 	{
 		map textures/noir/pose.tga
 		blendFunc add
@@ -162,7 +157,6 @@ textures/noir/noirposter
 
 textures/noir/neon_02_red
 {
-	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
 	polygonOffset
@@ -179,7 +173,6 @@ textures/noir/neon_02_red
 
 textures/noir/neon_02_pink
 {
-	nopicmip
 	qer_editorimage textures/supersymmetry/neon_02_team.tga
 	q3map_surfacelight   50
 	polygonOffset

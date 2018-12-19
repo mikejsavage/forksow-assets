@@ -1,6 +1,5 @@
 gfx/bomb/carriericon
 {
-	nopicmip
 	nomipmaps
 
 	{
@@ -13,8 +12,6 @@ gfx/bomb/carriericon
 
 bombSiteSprite2_Template
 {
-	nopicmip
-
 	deformVertexes autosprite
 
 	{

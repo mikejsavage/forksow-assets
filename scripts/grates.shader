@@ -7,7 +7,6 @@ textures/grates/fence01
 	//surfaceparm	nonsolid
 	surfaceparm alphashadow
 	cull none
-	nopicmip
 	nomipmaps
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64
@@ -26,7 +25,6 @@ textures/grates/fence01_noshadow
 	surfaceparm trans
 	surfaceparm nomarks
 	cull none
-	nopicmip
 	nomipmaps
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64
@@ -46,7 +44,6 @@ textures/grates/simplegrid
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
-	nopicmip
 	smallestmipmapsize 8
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64

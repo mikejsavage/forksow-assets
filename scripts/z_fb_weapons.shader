@@ -1,7 +1,6 @@
 //textures
 fullbright_weapon
 {
-	nopicmip
 	cull front
 
 	{
@@ -22,7 +21,6 @@ models/weapons/rl           					{ template fullbright_weapon 1.000 0.227 0.259 
 //flashes
 models/weapons/rl_flash1
 {
-	nopicmip
 	cull front
 	sort nearest
 	{
@@ -35,7 +33,6 @@ models/weapons/rl_flash1
 
 models/weapons/rl_flash2
 {
-	nopicmip
 	cull front
 	sort nearest
 	{

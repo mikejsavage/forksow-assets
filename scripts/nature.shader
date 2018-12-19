@@ -7,7 +7,6 @@ textures/leaves/leaves0108_s
 	surfaceparm lightfilter      // Use texture's RGB and alpha channels to generate colored alpha
 	surfaceparm trans
 	cull none
-	nopicmip
 	surfaceparm nolightmap
 
 	{

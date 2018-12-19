@@ -67,7 +67,6 @@ textures/scifi_interior/01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -85,7 +84,6 @@ textures/scifi_interior/02
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail

@@ -4,7 +4,6 @@ textures/format/glow_purple
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nomarks
-	nopicmip
 	nomipmaps
 	qer_editorimage textures/format/glow_purple.tga
 	cull front

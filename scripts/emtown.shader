@@ -21,7 +21,6 @@ textures/emtown/vine1
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -43,7 +42,6 @@ textures/emtown/emtag
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -65,7 +63,6 @@ textures/emtown/fztag
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -87,7 +84,6 @@ textures/emtown/ilverdi2
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -109,7 +105,6 @@ textures/emtown/b
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -150,7 +145,6 @@ textures/emtown/lightwhite
 	surfaceparm trans
 	surfaceparm nonsolid
 	cull none
-	nopicmip
 	{
 		clampmap textures/8x8/fafad2.tga
 	}
@@ -165,7 +159,6 @@ textures/emtown/lightf4a460
 	surfaceparm trans
 	surfaceparm nonsolid
 	cull none
-	nopicmip
 	{
 		clampmap textures/8x8/f4a460.tga
 	}
@@ -182,7 +175,6 @@ textures/grates/fence01nolightmap
 	//surfaceparm alphashadow
 	sort additive
 	cull none
-	nopicmip
 	nomipmaps
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64
@@ -222,7 +214,6 @@ textures/emtown/red1nonsolid
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -245,7 +236,6 @@ textures/metalset/metalwholes
 	surfaceparm alphashadow
 	sort additive
 	cull none
-	nopicmip
 	nomipmaps
 	q3map_forceMeta
 	q3map_lightmapsamplesize 64

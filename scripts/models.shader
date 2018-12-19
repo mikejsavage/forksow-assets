@@ -5,7 +5,6 @@
 //AMMO BOXES
 models/items/ammo/ammobox/ammobox
 {
-	nopicmip
 	cull front
 
 	{
@@ -16,7 +15,6 @@ models/items/ammo/ammobox/ammobox
 
 models/items/ammo/pack/ammopack
 {
-	nopicmip
 	cull front
 
 	{
@@ -33,7 +31,6 @@ models/items/ammo/pack/ammopack
 
 models/weapons/electrobolt/electrobolt
 {
-	nopicmip
 	cull front
 
 	{
@@ -45,7 +42,6 @@ models/weapons/electrobolt/electrobolt
 
 models/weapons/electrobolt/electrobolt_fx
 {
-	nopicmip
 	cull disable
 	{
 		map models/weapons/electrobolt/electrobolt_fx.tga
@@ -55,7 +51,6 @@ models/weapons/electrobolt/electrobolt_fx
 }
 models/weapons/electrobolt/electrobolt_fx_1
 {
-	nopicmip
 	cull disable
 	//deformVertexes autosprite2
 	{
@@ -66,7 +61,6 @@ models/weapons/electrobolt/electrobolt_fx_1
 
 models/weapons/glauncher/glauncher
 {
-	nopicmip
 	cull front
 
 	{
@@ -77,7 +71,6 @@ models/weapons/glauncher/glauncher
 
 models/weapons/glauncher/glauncher_fx
 {
-	nopicmip
 	cull disable
 	{
 		map models/weapons/glauncher/glauncher_fx.tga
@@ -88,7 +81,6 @@ models/weapons/glauncher/glauncher_fx
 
 models/weapons/plasmagun/plasmagun
 {
-	nopicmip
 	cull front
 
 	{
@@ -99,7 +91,6 @@ models/weapons/plasmagun/plasmagun
 
 models/weapons/plasmagun/plasmagun_fx
 {
-	nopicmip
 	cull disable
 	{
 		map models/weapons/plasmagun/plasmagun_fx.tga
@@ -110,7 +101,6 @@ models/weapons/plasmagun/plasmagun_fx
 
 models/weapons/riotgun/riotgun
 {
-	nopicmip
 	cull front
 
 	{
@@ -121,7 +111,6 @@ models/weapons/riotgun/riotgun
 
 models/weapons/gunblade/gunblade
 {
-	nopicmip
 	cull front
 
 	{
@@ -133,7 +122,6 @@ models/weapons/gunblade/gunblade
 
 models/weapons/gunblade/barrel
 {
-	nopicmip
 	cull front
 
 	{
@@ -144,7 +132,6 @@ models/weapons/gunblade/barrel
 
 models/weapons/machinegun/machinegun
 {
-	nopicmip
 	cull front
 
 	{
@@ -155,7 +142,6 @@ models/weapons/machinegun/machinegun
 
 models/weapons/rlauncher/rlauncher
 {
-	nopicmip
 	cull front
 
 	{
@@ -166,7 +152,6 @@ models/weapons/rlauncher/rlauncher
 
 models/weapons/rlauncher/rlauncher_fx
 {
-	nopicmip
 	cull disable
 	{
 		map models/weapons/rlauncher/rlauncher_fx.tga
@@ -176,7 +161,6 @@ models/weapons/rlauncher/rlauncher_fx
 }
 models/weapons/lasergun/lasergun
 {
-	nopicmip
 	cull front
 
 	{
@@ -187,7 +171,6 @@ models/weapons/lasergun/lasergun
 
 models/weapons/lg_fx
 {
-	nopicmip
 	cull disable
 	{
 		map models/weapons/lg_fx.tga
@@ -207,7 +190,6 @@ models/weapons/lg_fx
 
 models/objects/projectile/plasmagun/plnew
 {
-	nopicmip
 	//sort additive
 	cull disable
 	{
@@ -220,7 +202,6 @@ models/objects/projectile/plasmagun/plnew
 
 models/objects/projectile/gunblade/proj_gunblade
 {
-	nopicmip
 	//deformVertexes autosprite
 	cull none
 	{
@@ -232,7 +213,6 @@ models/objects/projectile/gunblade/proj_gunblade
 
 models/objects/projectile/gunblade/proj_gunblade_ring
 {
-	nopicmip
 	//deformVertexes autosprite
 	cull none
 	{
@@ -243,7 +223,6 @@ models/objects/projectile/gunblade/proj_gunblade_ring
 
 models/objects/projectile/glauncher/grenade
 {
-	nopicmip
 
 	{
 		celshade models/objects/projectile/glauncher/grenade.tga env/cell
@@ -259,7 +238,6 @@ models/objects/projectile/glauncher/grenade
 
 models/objects/projectile/glauncher/grenadegradstrong
 {
-	nopicmip
 	cull disable
 	{
 		map models/objects/projectile/glauncher/grenadegradstrong.tga
@@ -271,7 +249,6 @@ models/objects/projectile/glauncher/grenadegradstrong
 
 models/objects/projectile/glauncher/grenadestrong
 {
-	nopicmip
 	{
 		map models/objects/projectile/glauncher/grenadestrong.tga
 	}
@@ -286,7 +263,6 @@ models/objects/projectile/glauncher/grenadestrong
 
 models/objects/projectile/glauncher/grenadestrong_flare
 {
-	nopicmip
 	//deformVertexes autosprite
 	cull none
 	{
@@ -297,7 +273,6 @@ models/objects/projectile/glauncher/grenadestrong_flare
 
 models/objects/projectile/rlauncher/rocket_strong
 {
-	nopicmip
 	sort additive
 	cull disable
 	{
@@ -311,7 +286,6 @@ models/objects/projectile/rlauncher/rocket_strong
 
 models/objects/projectile/rlauncher/rocket_flare_2
 {
-	nopicmip
 	sort additive
 	cull disable
 	{
@@ -324,7 +298,6 @@ models/objects/projectile/rlauncher/rocket_flare_2
 
 models/objects/projectile/rlauncher/rocketgradstrong
 {
-	nopicmip
 	cull disable
 	{
 		map models/objects/projectile/rlauncher/rocketgradstrong.tga
@@ -336,7 +309,6 @@ models/objects/projectile/rlauncher/rocketgradstrong
 
 models/objects/projectile/lasergun/laserbeam
 {
-	nopicmip
 	nomipmaps
 	cull none
 	deformVertexes autosprite2
@@ -362,7 +334,6 @@ models/objects/projectile/lasergun/laserbeam
 
 models/v_weapons/generic/f_generic
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -376,7 +347,6 @@ models/v_weapons/generic/f_generic
 
 models/weapons/plasmagun/f_plasma
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -389,7 +359,6 @@ models/weapons/plasmagun/f_plasma
 }
 models/weapons/plasmagun/f_plasma_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	//deformVertexes autosprite2
@@ -403,7 +372,6 @@ models/weapons/plasmagun/f_plasma_2
 
 models/weapons/glauncher/f_glaunch
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -421,7 +389,6 @@ models/weapons/glauncher/f_glaunch
 }
 models/weapons/glauncher/f_glaunch_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -433,7 +400,6 @@ models/weapons/glauncher/f_glaunch_2
 }
 models/weapons/glauncher/f_glaunch_3
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -445,7 +411,6 @@ models/weapons/glauncher/f_glaunch_3
 }
 models/weapons/riotgun/f_riot
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -463,7 +428,6 @@ models/weapons/riotgun/f_riot
 }
 models/weapons/riotgun/f_riot_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -475,7 +439,6 @@ models/weapons/riotgun/f_riot_2
 }
 models/weapons/riotgun/f_riot_3
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -487,7 +450,6 @@ models/weapons/riotgun/f_riot_3
 }
 models/weapons/gunblade/f_gunblade
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -506,7 +468,6 @@ models/weapons/gunblade/f_gunblade
 }
 models/weapons/gunblade/f_gunblade_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -519,7 +480,6 @@ models/weapons/gunblade/f_gunblade_2
 
 models/weapons/rlauncher/f_rlaunch
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -533,7 +493,6 @@ models/weapons/rlauncher/f_rlaunch
 
 models/weapons/rlauncher/f_rlaunch_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	//deformVertexes autosprite2
@@ -547,7 +506,6 @@ models/weapons/rlauncher/f_rlaunch_2
 
 models/weapons/electrobolt/f_electrobolt
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -561,7 +519,6 @@ models/weapons/electrobolt/f_electrobolt
 
 models/weapons/electrobolt/f_electrobolt_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	//deformVertexes autosprite2
@@ -574,7 +531,6 @@ models/weapons/electrobolt/f_electrobolt_2
 }
 models/weapons/electrobolt/f_electrobolt_3
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -587,7 +543,6 @@ models/weapons/electrobolt/f_electrobolt_3
 
 models/weapons/lasergun/f_laser
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -600,7 +555,6 @@ models/weapons/lasergun/f_laser
 }
 models/weapons/lasergun/f_laser_2
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -614,7 +568,6 @@ models/weapons/lasergun/f_laser_2
 
 models/weapons/machinegun/machinegun_flash
 {
-	nopicmip
 	sort nearest
 	cull disable
 	softParticle
@@ -632,7 +585,6 @@ models/weapons/machinegun/machinegun_flash
 
 models/items/health/small/torus
 {
-	nopicmip
 	cull disable
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 	{
@@ -644,7 +596,6 @@ models/items/health/small/torus
 
 models/items/health/small/ball
 {
-	nopicmip
 	{
 		map models/items/health/small/ball2
 		blendfunc GL_ONE GL_ONE
@@ -654,7 +605,6 @@ models/items/health/small/ball
 
 models/items/health/medium/torus
 {
-	nopicmip
 	cull disable
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 	{
@@ -666,7 +616,6 @@ models/items/health/medium/torus
 
 models/items/health/medium/ball
 {
-	nopicmip
 	{
 		map models/items/health/medium/ball2
 		blendfunc GL_ONE GL_ONE
@@ -676,7 +625,6 @@ models/items/health/medium/ball
 
 models/items/health/large/torus
 {
-	nopicmip
 	cull disable
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 	{
@@ -688,7 +636,6 @@ models/items/health/large/torus
 
 models/items/health/large/ball
 {
-	nopicmip
 	{
 		map models/items/health/large/ball2
 		blendfunc GL_ONE GL_ONE
@@ -699,7 +646,6 @@ models/items/health/large/ball
 
 models/items/health/mega/torus
 {
-	nopicmip
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 	{
 		map models/items/health/mega/torus
@@ -710,7 +656,6 @@ models/items/health/mega/torus
 
 models/items/health/mega/ball
 {
-	nopicmip
 	{
 		map models/items/health/mega/ball3
 		blendfunc GL_ONE GL_ONE
@@ -725,7 +670,6 @@ models/items/health/mega/ball
 
 models/items/health/ultra/torus
 {
-	nopicmip
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 	{
 		map models/items/health/ultra/torus
@@ -736,7 +680,6 @@ models/items/health/ultra/torus
 
 models/items/health/ultra/ball
 {
-	nopicmip
 	{
 		map models/items/health/ultra/ball3
 		blendfunc GL_ONE GL_ONE
@@ -753,7 +696,6 @@ models/items/health/ultra/ball
 
 models/powerups/instant/quad_light
 {
-	nopicmip
 	cull disable
 	{
 		map models/powerups/instant/quad_light.tga
@@ -774,7 +716,6 @@ models/powerups/instant/quad_light
 
 models/powerups/instant/regen_torus
 {
-	nopicmip
 	deformVertexes wave 100 sin 0.5 2 0 1.5
 
 	{
@@ -786,7 +727,6 @@ models/powerups/instant/regen_torus
 
 models/powerups/instant/cross
 {
-	nopicmip
 
 	{
 		map models/powerups/instant/cross2
@@ -801,7 +741,6 @@ models/powerups/instant/cross
 }
 models/powerups/instant/quad
 {
-	nopicmip
 	cull front
 	qer_editorimage models/powerups/instant/quad.tga
 
@@ -813,7 +752,6 @@ models/powerups/instant/quad
 
 models/powerups/instant/warshell_belt
 {
-	nopicmip
 	cull front
 
 	{
@@ -823,7 +761,6 @@ models/powerups/instant/warshell_belt
 
 models/powerups/instant/warshell_sphere
 {
-	nopicmip
 	cull none
 	{
 		map models/powerups/instant/warshell_sphere.tga
@@ -834,7 +771,6 @@ models/powerups/instant/warshell_sphere
 }
 models/powerups/instant/warshell_sprite
 {
-	nopicmip
 	cull none
 	deformvertexes autosprite
 	{
@@ -850,7 +786,6 @@ models/powerups/instant/warshell_sprite
 
 models/objects/flag/flag_base
 {
-	nopicmip
 	cull front
 
 	{
@@ -860,7 +795,6 @@ models/objects/flag/flag_base
 
 models/objects/flag/flag_pole
 {
-	nopicmip
 	cull front
 
 	{
@@ -870,7 +804,6 @@ models/objects/flag/flag_pole
 
 models/objects/flag/flag_light
 {
-	nopicmip
 	cull none
 
 	{
@@ -882,7 +815,6 @@ models/objects/flag/flag_light
 
 models/objects/flag/Flag_holo
 {
-	nopicmip
 	cull none
 	deformVertexes wave 20 noise 0.5 0.6 0 1.6
 
@@ -908,7 +840,6 @@ models/objects/flag/Flag_holo
 
 models/objects/capture_point_template
 {
-	nopicmip
 	cull front
 	surfaceparm trans
 
@@ -974,7 +905,6 @@ models/objects/capture_d/capture_d
 // DEBRIS
 models/objects/debris/debris_template
 {
-	nopicmip
 	cull front
 
 	{

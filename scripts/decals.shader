@@ -8,7 +8,6 @@ textures/decals/graffityPERON32
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -29,7 +28,6 @@ textures/decals/graffityPERON32_darken
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -48,7 +46,6 @@ textures/decals/graffityTEAMZISSOU32
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -69,7 +66,6 @@ textures/decals/graffityTEAMZISSOU32_darken
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -90,7 +86,6 @@ textures/decals/graffiti_01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -111,7 +106,6 @@ textures/decals/graffiti_02
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -132,7 +126,6 @@ textures/decals/graffiti_03
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -153,7 +146,6 @@ textures/decals/orangearrows
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/decals/orangearrows.tga
@@ -171,7 +163,6 @@ textures/decals/orangearrows_outlined
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		map textures/decals/orangearrows_outlined.tga
@@ -187,7 +178,6 @@ textures/decals/dirt_01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	template template_Dirt 01
 }
@@ -200,7 +190,6 @@ textures/decals/dirt_02
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	template template_Dirt 02
 }
@@ -213,7 +202,6 @@ textures/decals/dirt_scratch_02
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	template template_Dirt scratch_02
 }
@@ -228,7 +216,6 @@ textures/decals/sign_warning01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -248,7 +235,6 @@ textures/decals/sign_up01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -267,7 +253,6 @@ textures/decals/poster01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -285,7 +270,6 @@ textures/decals/poster_bobot
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -303,7 +287,6 @@ textures/decals/poster_monada
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -322,7 +305,6 @@ textures/decals/poster_padpork
 	surfaceparm trans
 	surfaceparm nolightmap
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -340,7 +322,6 @@ textures/decals/poster_smallbunch
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -358,7 +339,6 @@ textures/decals/poster_weapons
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -376,7 +356,6 @@ textures/decals/plasterbroken01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 	offsetMappingScale 4
 
 	{
@@ -396,7 +375,6 @@ textures/decals/plasterworn0030
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 	q3map_bounceScale 0
 
 	{
@@ -415,7 +393,6 @@ textures/decals/leavedead01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -433,7 +410,6 @@ textures/decals/leavesdead01
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -451,7 +427,6 @@ textures/decals/trafficline04
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -469,7 +444,6 @@ textures/decals/trafficline04b
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -487,7 +461,6 @@ textures/decals/trafficline04stripes
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -505,7 +478,6 @@ textures/decals/trafficline04stripes2
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -523,7 +495,6 @@ textures/decals/trafficline04byellow
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -541,7 +512,6 @@ textures/decals/trafficline04red
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -559,7 +529,6 @@ textures/decals/trafficline04redandwhitestripes2
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -577,7 +546,6 @@ textures/decals/trafficline04orange
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -595,7 +563,6 @@ textures/decals/trafficline04orangestripes
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -613,7 +580,6 @@ textures/decals/trafficline04orangestripes2
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail
@@ -631,7 +597,6 @@ textures/decals/decal_danger
 	surfaceparm nonsolid
 	surfaceparm trans
 	polygonOffset
-	nopicmip
 
 	{
 		detail

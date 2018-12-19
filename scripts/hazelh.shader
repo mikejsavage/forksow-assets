@@ -53,7 +53,6 @@ textures/hazelh/grate
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm trans
-	nopicmip
 	cull none
 
 	{
@@ -67,7 +66,6 @@ textures/hazelh/grate
 textures/hazelh/glow_orange
 {
 	nomipmaps
-	nopicmip
 	qer_editorimage textures/hazelh/glow_orange.tga
 	cull front
 	surfaceparm trans
@@ -82,7 +80,6 @@ textures/hazelh/glow_orange
 textures/hazelh/glow_orange_circle
 {
 	nomipmaps
-	nopicmip
 	qer_editorimage textures/hazelh/glow_orange_circle.tga
 	cull front
 	surfaceparm trans

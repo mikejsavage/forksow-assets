@@ -19,7 +19,6 @@ gfx/dash/dash_burst_2
 gfx/misc/smokepuff1
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -32,7 +31,6 @@ gfx/misc/smokepuff1
 gfx/misc/smokepuff3
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -45,7 +43,6 @@ gfx/misc/smokepuff3
 gfx/misc/smokepuff2
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -58,7 +55,6 @@ gfx/misc/smokepuff2
 gfx/misc/smokepuff2_dark
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -71,7 +67,6 @@ gfx/misc/smokepuff2_dark
 gfx/misc/smokepuff1_dark
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -84,7 +79,6 @@ gfx/misc/smokepuff1_dark
 gfx/misc/smokepuff3_dark
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -98,7 +92,6 @@ gfx/misc/smokepuff3_dark
 models/effects/head_stun
 {
 	cull none
-	nopicmip
 	{
 		map models/effects/head_stun.tga
 		tcMod scroll 1 0
@@ -111,7 +104,6 @@ models/effects/head_stun
 gfx/misc/cartoonhit
 {
 	cull none
-	nopicmip
 	softParticle
 	{
 		clampmap gfx/misc/cartoonhit.tga
@@ -124,7 +116,6 @@ gfx/misc/cartoonhit
 gfx/misc/cartoonhit2
 {
 	cull none
-	nopicmip
 	softParticle
 	{
 		clampmap gfx/misc/cartoonhit2.tga
@@ -137,7 +128,6 @@ gfx/misc/cartoonhit2
 gfx/misc/cartoonhit3
 {
 	cull none
-	nopicmip
 	softParticle
 	{
 		clampmap gfx/misc/cartoonhit3.tga

@@ -6,7 +6,6 @@ textures/noir/natsbar
 	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	{
 		animmap 1 textures/noir/natsbar01.tga textures/noir/natsbar02.tga textures/noir/natsbar03.tga textures/noir/natsbar04.tga
 		blendfunc add
@@ -28,7 +27,6 @@ textures/noir/badabing
 	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/noir/badabing.tga
 		blendfunc add

@@ -8,7 +8,6 @@ textures/cocaine_diesel/ui_sky
 
 models/objects/gibs/gib
 {
-	nopicmip
 	cull front
 
 	{
@@ -19,7 +18,6 @@ models/objects/gibs/gib
 
 models/weapon_hits/lasergun/hit_blastexp
 {
-	nopicmip
 	cull none
 	softParticle
 	{

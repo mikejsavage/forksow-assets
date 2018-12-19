@@ -6,7 +6,6 @@ textures/wsw_flareshalos/flare_sphere_orange
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	deformVertexes autosprite
 	softParticle
 
@@ -22,7 +21,6 @@ textures/wsw_flareshalos/flare_sphere_cyan
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_cyan.tga
 	qer_trans 0.25
 	cull back
-	nopicmip
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -42,7 +40,6 @@ textures/wsw_flareshalos/flare_sphere_fog_white
 	qer_editorimage textures/wsw_flareshalos/flare_sphere_fog_white.tga
 	qer_trans 0.25
 	cull back
-	nopicmip
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -62,7 +59,6 @@ textures/wsw_flareshalos/glow_neontube_blue
 	qer_editorimage textures/wsw_flareshalos/glow_neontube_blue.tga
 	qer_trans 0.25
 	cull back
-	nopicmip
 	surfaceparm	nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -86,7 +82,6 @@ textures/wsw_flareshalos/flare_sphere_white
 	surfaceparm trans
 	surfaceparm nonsolid
 	deformVertexes autosprite
-	nopicmip
 	softParticle
 
 	{
@@ -106,7 +101,6 @@ textures/wsw_flareshalos/glow_halo_white
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	deformVertexes autosprite2
-	nopicmip
 	softParticle
 
 	{
@@ -147,7 +141,6 @@ textures/wsw_flareshalos/glow_cone_cyan
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	deformVertexes autosprite2
-	nopicmip
 	softParticle
 
 	{
@@ -168,7 +161,6 @@ textures/wsw_flareshalos/glow_cone_verycyan
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	deformVertexes autosprite2
-	nopicmip
 	softParticle
 
 	{
@@ -187,7 +179,6 @@ textures/wsw_flareshalos/glow_neontube_red
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	deformVertexes autosprite2
 	softParticle
 
@@ -208,7 +199,6 @@ textures/wsw_flareshalos/small_light_halo
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	deformVertexes autosprite2
-	nopicmip
 	softParticle
 
 	{
@@ -228,7 +218,6 @@ textures/wsw_flareshalos/flare_sphere_white_front
 	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	deformVertexes autosprite
 	softParticle
 
@@ -249,7 +238,6 @@ textures/wsw_flareshalos/flare_sphere_white_front_soft
 	surfaceparm nolightmap
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	deformVertexes autosprite
 	softParticle
 

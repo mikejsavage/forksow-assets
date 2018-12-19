@@ -4,7 +4,6 @@ textures/wsw_city1/cables1
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm trans
-	nopicmip
 	qer_editorimage textures/wsw_city1/cables1.tga
 	surfaceparm nolightmap
 
@@ -23,7 +22,6 @@ textures/wsw_city1/cables2
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm trans
-	nopicmip
 	qer_editorimage textures/wsw_city1/cables2.tga
 	surfaceparm nolightmap
 
@@ -42,7 +40,6 @@ textures/wsw_city1/wires1
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm trans
-	nopicmip
 	qer_editorimage textures/wsw_city1/wires1.tga
 	surfaceparm nolightmap
 
@@ -99,7 +96,6 @@ textures/wsw_city1/grate_nosolid
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		material textures/wsw_city1/grate.tga
@@ -126,7 +122,6 @@ textures/wsw_city1/townsign01
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	cull none
-	nopicmip
 
 	{
 		rgbgen vertex
@@ -144,7 +139,6 @@ textures/wsw_city1/light_bulb_side
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	cull none
-	nopicmip
 	sort banner
 	deformVertexes autosprite2
 
@@ -164,7 +158,6 @@ textures/wsw_city1/light_bulb_top
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	//cull none
-	nopicmip
 	sort additive
 
 	deformVertexes autosprite
@@ -187,7 +180,6 @@ textures/wsw_city1/light_bulb_corona
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	//cull none
-	nopicmip
 	sort 7
 
 	deformVertexes autosprite

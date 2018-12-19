@@ -8,7 +8,6 @@ textures/billboard/board_512_256_1
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		animClampMap 0.1 textures/billboard/bigbill1.tga textures/billboard/bigbill2.tga textures/billboard/bigbill5.tga
@@ -40,7 +39,6 @@ textures/billboard/board_512_256_2
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		animClampMap 0.1 textures/billboard/bigbill1.tga textures/billboard/bigbill6.tga textures/billboard/bigbill9.tga
@@ -71,7 +69,6 @@ textures/billboard/bigbill1
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		clampmap textures/billboard/bigbill1.tga
@@ -87,7 +84,6 @@ textures/billboard/bigbill7
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/billboard/bigbill1.tga
 	}
@@ -102,7 +98,6 @@ textures/billboard/bigbill9
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/billboard/bigbill9.tga
 	}
@@ -117,7 +112,6 @@ textures/billboard/small1
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		map $lightmap
@@ -142,7 +136,6 @@ textures/billboard/small2
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		map $lightmap
@@ -167,7 +160,6 @@ textures/billboard/small3
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		map $lightmap
@@ -192,7 +184,6 @@ textures/billboard/small4
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 
 	{
 		map $lightmap
@@ -217,7 +208,6 @@ textures/billboard/bigver1
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/billboard/bigver1.tga
 	}
@@ -232,7 +222,6 @@ textures/billboard/neon1
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/billboard/neon1.tga
 	}
@@ -249,7 +238,6 @@ textures/billboard/terebi
 	surfaceparm	nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	{
 		animmap 1 textures/billboard/terebi_01.jpg textures/billboard/terebi_02.jpg textures/billboard/terebi_03.jpg textures/billboard/terebi_04.jpg textures/billboard/terebi_05.jpg textures/billboard/terebi_06.jpg textures/billboard/terebi_07.jpg
 	}
@@ -316,7 +304,6 @@ textures/billboard/PorkyPie
 	q3map_lightsubdivide 64
 	surfaceparm	nomarks
 	surfaceparm nonsolid
-	nopicmip
 	{
 		clampmap textures/billboard/PorkyPie.tga
 	}

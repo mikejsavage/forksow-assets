@@ -1,6 +1,5 @@
 models/objects/misc/bomb
 {
-	nopicmip
 	cull front
 
 	{
@@ -11,7 +10,6 @@ models/objects/misc/bomb
 
 models/objects/misc/bomb_active
 {
-	nopicmip
 	cull front
 
 	{

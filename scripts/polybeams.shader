@@ -1,7 +1,6 @@
 gfx/misc/ebbeam
 {
 	cull none
-	nopicmip
 	nomipmaps
 	deformVertexes autosprite2
 	{
@@ -14,7 +13,6 @@ gfx/misc/ebbeam
 
 gfx/misc/lgbeam
 {
-	nopicmip
 	nomipmaps
 	cull none
 	deformVertexes autosprite2
@@ -28,7 +26,6 @@ gfx/misc/lgbeam
 
 gfx/misc/laser
 {
-	nopicmip
 	nomipmaps
 	cull none
 	deformVertexes autosprite2

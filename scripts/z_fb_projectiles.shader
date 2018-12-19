@@ -1,6 +1,5 @@
 models/objects/projectile/glauncher/grenade
 {
-	nopicmip
 	{
 		map models/objects/projectile/glauncher/grenade.tga
 		rgbgen entity
@@ -15,7 +14,6 @@ models/objects/projectile/glauncher/grenade
 
 models/objects/projectile/plasmagun/plnew
 {
-	nopicmip
 	cull disable
 	{
 		map models/objects/projectile/plasmagun/plnew.tga

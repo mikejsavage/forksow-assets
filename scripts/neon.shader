@@ -22,7 +22,6 @@ textures/neon/basskick
 	surfaceparm	nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
-	nopicmip
 	{
 		animmap 1 textures/neon/basskick1.jpg textures/neon/basskick2.jpg textures/neon/basskick3.jpg textures/neon/basskick4.jpg
 	}

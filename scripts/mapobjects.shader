@@ -2,7 +2,6 @@ models_mapobjects_lamp_lamp
 {
 	qer_editorimage models/mapobjects/lamp/lamp.tga
 	surfaceparm nolightmap
-	nopicmip
 	nomipmaps
 	glossExponent 96
 
@@ -22,7 +21,6 @@ models_mapobjects_lamp_lamp_yellow
 {
 	qer_editorimage models/mapobjects/lamp/lamp_yellow.tga
 	surfaceparm nolightmap
-	nopicmip
 	nomipmaps
 	glossExponent 96
 
@@ -42,7 +40,6 @@ models_mapobjects_lamp_lamp_blue
 {
 	qer_editorimage models/mapobjects/lamp/lamp_blue.tga
 	surfaceparm nolightmap
-	nopicmip
 	nomipmaps
 	glossExponent 96
 
@@ -81,7 +78,6 @@ models_mapobjects_lamp_lamp_halo
 models/mapobjects/jumppad/flame
 {
 	cull none
-	nopicmip
 	surfaceparm nolightmap
 	deformVertexes autosprite2
 
@@ -96,7 +92,6 @@ models/mapobjects/jumppad/flame
 models/mapobjects/jumppad/jumppad1
 {
 	cull none
-	nopicmip
 	qer_editorimage models/mapobjects/jumppad/jumppad1.tga
 
 	if deluxe
@@ -125,7 +120,6 @@ models/mapobjects/jumppad1/diffuse
 	qer_editorimage models/mapobjects/jumppad1/diffuse.tga
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	nopicmip
 
 	{
 		rgbgen vertex
@@ -141,7 +135,6 @@ models/mapobjects/jumppad1/diffuse
 models/mapobjects/jumppad/u_ring
 {
 	cull none
-	nopicmip
 	surfaceparm nolightmap
 	deformVertexes move 0 0 4 sin 0 1 0 0.5
 	{
@@ -154,7 +147,6 @@ models/mapobjects/jumppad/u_ring
 models/mapobjects/jumppad/l_ring
 {
 	cull none
-	nopicmip
 	surfaceparm nolightmap
 	deformVertexes move 0 0 8 sin 0 1 0.5 0.6
 
@@ -441,7 +433,6 @@ models/mapobjects/vehicles/forklift
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	//surfaceparm nonsolid
-	nopicmip
 
 	{
 		rgbgen vertex

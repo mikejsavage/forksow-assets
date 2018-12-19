@@ -1,6 +1,5 @@
 fullbright
 {
-	nopicmip
 	cull front
 
 	{

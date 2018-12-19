@@ -1,6 +1,5 @@
 gfx/decals/shadow
 {
-	nopicmip
 	polygonOffset
 	sort banner
 	{
@@ -29,7 +28,6 @@ additiveParticle
 {
 	deformvertexes autoparticle
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	{
 		map $particleimage
@@ -43,7 +41,6 @@ additiveParticleShine
 {
 	deformvertexes autoparticle
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	{
 		clampmap gfx/misc/particle_light_32.tga
@@ -53,7 +50,6 @@ additiveParticleShine
 
 flareShader
 {
-	nopicmip
 	cull none
 	softParticle
 	{
@@ -66,7 +62,6 @@ flareShader
 gfx/misc/ctf_flare
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -88,7 +83,6 @@ gfx/misc/ctf_flare
 alphaBlendedPuff_Template
 {
 	cull none
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	softParticle
 	{
@@ -147,7 +141,6 @@ gfx/misc/bloodtrailliquid_puff
 
 decals_Hit_Exact_Template
 {
-	nopicmip
 	polygonOffset
 	cull none
 	sort banner
@@ -160,7 +153,6 @@ decals_Hit_Exact_Template
 
 decals_Hit_Template
 {
-	nopicmip
 	polygonOffset
 	cull none
 	sort banner
@@ -194,7 +186,6 @@ gfx/decals/d_plasma_hit
 
 gfx/decals/ebimpact
 {
-	nopicmip
 	polygonOffset
 	cull none
 	sort banner
@@ -217,7 +208,6 @@ gfx/decals/ebimpact
 
 weapon_Hit_Template
 {
-	nopicmip
 	cull none
 	{
 		map models/weapon_hits/$1/$2.tga
@@ -244,7 +234,6 @@ models/weapon_hits/gunblade/hit_blastexp
 
 models/weapon_hits/lasergun/hit_blastexp
 {
-	nopicmip
 	cull none
 	softParticle
 	{
@@ -258,7 +247,6 @@ models/weapon_hits/lasergun/hit_blastexp
 
 models/weapon_hits/plasmagun/plasmagun_hit
 {
-	nopicmip
 	cull none
 	{
 		map models/weapon_hits/plasmagun/plasmagun_hit
@@ -276,7 +264,6 @@ models/weapon_hits/electrobolt/hit_electrobolt
 
 models/weapon_hits/glauncher/hit_glauncher
 {
-	nopicmip
 	{
 		rgbgen entity
 		alphagen entity
@@ -289,7 +276,6 @@ models/weapon_hits/glauncher/hit_glauncher
 
 gfx/rocket_explosion
 {
-	nopicmip
 	cull disable
 	softParticle
 	{
@@ -306,7 +292,6 @@ gfx/rocket_explosion
 
 gfx/rocket_explosion_ring
 {
-	nopicmip
 	cull disable
 	softParticle
 	{
@@ -319,7 +304,6 @@ gfx/rocket_explosion_ring
 
 gfx/grenade_explosion
 {
-	nopicmip
 	cull disable
 	softParticle
 	{
@@ -336,7 +320,6 @@ gfx/grenade_explosion
 
 gfx/grenade_explosion_ring
 {
-	nopicmip
 	cull disable
 	softParticle
 	{
@@ -349,7 +332,6 @@ gfx/grenade_explosion_ring
 
 gfx/misc/waterBubble
 {
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	{
 		map gfx/misc/waterBubble.tga
@@ -374,7 +356,6 @@ gfx/raceghost
 
 simpleitem_Template
 {
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	{
 		map gfx/simpleitems/$1/$2.tga
@@ -386,7 +367,6 @@ simpleitem_Template
 
 simpleitem_HUD_Template
 {
-	nopicmip
 	entityMergable		// allow all the sprites to be merged together
 	{
 		map gfx/hud/icons/$1/$2.tga
@@ -477,7 +457,6 @@ gfx/simpleitems/powerup/warshell
 
 capturePoint_Template
 {
-	nopicmip
 	{
 		map gfx/simpleitems/capture_indicators/capture_$1.tga
 		blendFunc add
@@ -514,8 +493,6 @@ gfx/simpleitems/capture_indicators/capture_d
 
 gfx/indicators/radar
 {
-	nopicmip
-
 	{
 		alphamaskclampmap gfx/indicators/radar_1.tga
 		alphagen wave distanceramp 0 1 400 1600
@@ -540,7 +517,6 @@ gfx/indicators/radar
 
 gfx/indicators/radar_decal
 {
-	nopicmip
 	polygonOffset
 
 	{
@@ -566,7 +542,6 @@ gfx/indicators/radar_decal
 gfx/misc/playerspawn
 {
 	cull none
-	nopicmip
 	{
 		clampmap gfx/misc/playerspawn.tga
 		blendfunc blend
@@ -577,7 +552,6 @@ gfx/misc/playerspawn
 
 gfx/misc/playerspawnmarker
 {
-	nopicmip
 	polygonOffset
 	sort banner
 	{
@@ -591,7 +565,6 @@ gfx/misc/playerspawnmarker
 gfx/misc/toxicbubble
 {
 	cull none
-	nopicmip
 	softParticle
 
 	{
@@ -618,7 +591,6 @@ gfx/misc/teleportshell
 
 gfx/misc/beamring
 {
-	nopicmip
 	nomipmaps
 	entitymergable
 

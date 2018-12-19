@@ -8,7 +8,6 @@ textures/gladiator/gladiator2
 	surfaceparm sky
 	surfaceparm nodlight
 
-	nopicmip
 	nomipmaps
 
 	q3map_sunExt 30 30 60 50 0 35 3 16

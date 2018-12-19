@@ -41,7 +41,6 @@ textures/blx_wtest3/blx_wt3_grid
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
-	nopicmip
 	smallestmipmapsize 8
 
 	{

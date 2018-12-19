@@ -1,6 +1,5 @@
 mipmapped_GFX_Template
 {
-	nopicmip
 	{
 		clampmap gfx/$1.tga
 		blendfunc blend
@@ -11,7 +10,6 @@ mipmapped_GFX_Template
 
 mipmapped_HUD_Template
 {
-	nopicmip
 	{
 		clampmap gfx/hud/$1.tga
 		blendfunc blend
@@ -74,7 +72,6 @@ gfx/hud/damage
 //
 simpleIcon_HUD_Template
 {
-	nopicmip
 	{
 		// not clampmap to avoid loading the textures twice when simple items are on and because these have wide empty areas near the edges
 		map gfx/hud/icons/$1.tga
@@ -84,7 +81,6 @@ simpleIcon_HUD_Template
 
 weaponIcon_HUD_Template
 {
-	nopicmip
 	{
 		map gfx/hud/icons/$1.tga
 		blendfunc blend
@@ -220,7 +216,6 @@ gfx/hud/icons/powerup/regen
 
 key_HUD_Template
 {
-	nopicmip
 	{
 		clampmap gfx/hud/keys/$1.tga
 		blendfunc blend
@@ -306,78 +301,6 @@ gfx/hud/keys/act_quickmenu_flip
 gfx/hud/keys/touch_movedir
 {
 	template key_HUD_Template touch_movedir
-}
-
-//
-// flag and bomb icons
-//
-template_HUD_Iconflag_Teamed
-{
-	nopicmip
-
-	{
-		clampmap gfx/hud/icons/flags/iconflag
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen teamcolor $1
-	}
-}
-
-gfx/hud/icons/flags/iconflag_alpha
-{
-	template template_HUD_Iconflag_Teamed 2
-}
-
-gfx/hud/icons/flags/iconflag_beta
-{
-	template template_HUD_Iconflag_Teamed 3
-}
-
-gfx/hud/icons/flags/iconflag
-{
-	nopicmip
-
-	{
-		clampmap gfx/hud/icons/flags/iconflag
-		blendFunc blend
-		rgbgen vertex
-	}
-}
-
-template_HUD_Iconflag_State
-{
-	nopicmip
-
-	{
-		clampmap gfx/hud/icons/flags/iconflag
-		blendFunc blend
-		rgbgen vertex
-	}
-
-	{
-		clampmap gfx/hud/icons/$1
-		blendFunc blend
-		rgbgen identity
-	}
-}
-
-gfx/hud/icons/flags/iconflag_stolen
-{
-	template template_HUD_Iconflag_State pmark
-}
-
-gfx/hud/icons/flags/iconflag_lost
-{
-	template template_HUD_Iconflag_State qmarkuh
-}
-
-gfx/hud/icons/flags/iconflag_carrier
-{
-	template template_HUD_Iconflag_State arrowmark
-}
-
-gfx/hud/icons/drop/flag
-{
-	template mipmapped_HUD_Template icons/drop/flag
 }
 
 gfx/hud/icons/drop/bomb
