@@ -539,7 +539,7 @@ models/objects/debris/debris_template
 		map models/objects/debris/debris$1.tga
 	}
 
-	shadecubemap env/cell
+	cubemap env/cell
 	blendFunc filter
 }
 
