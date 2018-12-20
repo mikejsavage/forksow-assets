@@ -10,7 +10,7 @@ textures/shepas/sky_s
 	q3map_surfacelight 150
 	q3map_skyLight 80 6
 
-	skyparms env/alleyskybox/grimmnight - -
+	skyparms env/sky - -
 	{
 		map textures/cha0s_ws/ch_sky_night_front.tga
 		blendfunc add

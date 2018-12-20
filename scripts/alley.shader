@@ -7,5 +7,5 @@ textures/alley/newsky
 	surfaceparm sky
 	q3map_sun 0.52021 0.711518 1 75 350 45
 
-	skyparms env/alleyskybox/grimmnight - -
+	skyparms env/sky - -
 }

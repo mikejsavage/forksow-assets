@@ -8,7 +8,7 @@ textures/emtown/townsky
 	q3map_sun 1 1 0.85 110 170 70 // <red> <green> <blue> <intensity> <degrees> <elevation>
 	skyParms - 512	 -
 
-	skyparms textures/emtown/sky/cube 512 -
+	skyparms env/sky - -
 }
 
 textures/emtown/vine1

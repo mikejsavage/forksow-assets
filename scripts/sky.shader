@@ -43,5 +43,5 @@ textures/sky/stormydays
 	q3map_lightmapFilterRadius 0 8
 	q3map_skyLight 100 3
 
-	skyparms env/stormydays/stormydays - -
+	skyparms env/sky - -
 }

@@ -5,5 +5,5 @@ textures/36_others/36sky3
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
-	skyparmssides env/36sky rt rt rt rt rt 512 -
+	skyparmssides env/sky rt rt rt rt rt 512 -
 }

@@ -1,6 +1,6 @@
 textures/gladiator/gladiator2
 {
-	skyparms env/gladiator2/gladiator2 - -
+	skyparms env/sky - -
 
 	qer_editorimage env/gladiator2/gladiator2_ft.tga
 	surfaceparm noimpact
