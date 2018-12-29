@@ -75,48 +75,6 @@ textures/noir/pose
 	}
 }
 
-textures/noir/graffitiraqn
-{
-	qer_editorimage textures/noir/graffitiraqn.tga
-	qer_trans 0.3
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-
-	{
-		detail
-		map textures/noir/graffitiraqn.tga
-		blendFunc blend
-		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen Vertex
-	}
-}
-
-textures/noir/raqn2
-{
-	qer_editorimage textures/noir/raqn2.tga
-	qer_trans 0.3
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-
-	{
-		detail
-		map textures/noir/raqn2.tga
-		blendFunc blend
-		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen Vertex
-	}
-}
-
 textures/noir/windownoir
 {
 	qer_editorimage textures/noir/windownoir.tga
@@ -135,23 +93,6 @@ textures/noir/windownoir
 		//blendFunc GL_SRC_ALPHA GL_ONE // blendfunc add the alphamasked part only
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen Vertex
-	}
-}
-
-textures/noir/noirposter
-{
-	qer_editorimage textures/noir/noirposter.tga
-	qer_trans 0.3
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-
-	{
-		detail
-		map textures/noir/noirposter.tga
 	}
 }
 
