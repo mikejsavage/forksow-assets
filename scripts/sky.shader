@@ -1,35 +1,7 @@
 textures/sky/indigosky
 {
-	qer_editorimage textures/sky/indigosky1.blend.tga
-	surfaceparm noimpact
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	surfaceparm sky
-	surfaceparm nodlight
-
-	skyParms - 2048 -
-
 	{
-		map textures/sky/indigosky2.blend.tga
-		tcMod scale 4 4
-		tcMod scroll 0 -0.05
-		rgbgen const 0.25 0.25 0.25
-	}
-
-	{
-		map textures/sky/indigosky1.blend.tga
-		tcMod scale 4 4
-		tcMod scroll 0 0.05
-		rgbgen const 0.25 0.25 0.275
-		blendFunc add
-	}
-
-	{
-		map textures/sky/indigosky2.blend.tga
-		tcMod scale 4 4
-		tcMod scroll 0 0.045
-		rgbgen const 0.25 0.25 0.25
-		blendFunc add
+		map $whiteimage
 	}
 }
 
