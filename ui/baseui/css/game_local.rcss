@@ -1,7 +1,0 @@
-#maps-datagrid { 
-	overflow-y: auto;
-}
-
-#maps-datagrid datagridrow:hover, #maps-datagrid datagridrow:active, #maps-datagrid datagridrow:selected { 
-	font-weight: bold;
-}
