@@ -1,7 +1,6 @@
 textures/terrain/sand
 {
 	qer_editorimage textures/terrain/sand.tga
-	offsetMappingScale 4.5
 	surfaceparm dust
 
 	{
