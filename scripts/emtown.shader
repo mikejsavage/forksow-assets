@@ -1,16 +1,3 @@
-textures/emtown/townsky
-{
-	qer_editorimage textures/emtown/sky/cube_pz.tga
-	surfaceparm noimpact
-	surfaceparm nolightmap
-	surfaceparm sky
-	q3map_surfacelight 110
-	q3map_sun 1 1 0.85 110 170 70 // <red> <green> <blue> <intensity> <degrees> <elevation>
-	skyParms - 512	 -
-
-	skyparms env/sky - -
-}
-
 textures/emtown/vine1
 {
 	qer_editorimage textures/emtown/vine1.tga

@@ -105,10 +105,3 @@ textures/cocaine/s_lazery_kush
 		tcmod rotate 120
 	}
 }
-
-textures/blx/new_sky
-{
-	{
-		map $whiteimage
-	}
-}

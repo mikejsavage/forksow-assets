@@ -28,3 +28,26 @@ models/weapon_hits/lasergun/hit_blastexp
 		tcMod turb 0 0.5 0 30
 	}
 }
+
+whitesky
+{
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	{
+		map $whiteimage
+	}
+}
+
+textures/sky/stormydays { template whitesky }
+textures/36_others/36sky3 { template whitesky }
+textures/shepas/sky_s { template whitesky }
+textures/skies_goochie/x { template whitesky }
+textures/alley/newsky { template whitesky }
+textures/blx/new_sky { template whitesky }
+textures/gladiator/gladiator2 { template whitesky }
+textures/emtown/townsky { template whitesky }
+textures/sky/indigosky { template whitesky }
+textures/concretestrike/sky { template whitesky }
+textures/concretestrike/sky_newlight { template whitesky }
+textures/concretestrike/sky_surfacelight { template whitesky }
