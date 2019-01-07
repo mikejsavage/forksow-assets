@@ -17,7 +17,7 @@ if %CAN_PLANT_BOMB
 	drawPicByName $whiteimage
 
 	setColor 1, 1, 1, 1
-	drawBindString "Press %s to plant" "+movedown"
+	drawBindString "Press %s to plant" "+crouch"
 endif
 
 if %CAN_CHANGE_LOADOUT
