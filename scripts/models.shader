@@ -229,9 +229,8 @@ models/objects/projectile/rlauncher/rocket_strong
 	{
 		map models/objects/projectile/rlauncher/rocket_strong.tga
 		blendFunc add
-		rgbGen wave triangle .2 .25 0 5
+		rgbGen entity
 		tcmod rotate -250
-		//blendFunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
