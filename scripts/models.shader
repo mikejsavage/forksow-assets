@@ -230,7 +230,7 @@ models/objects/projectile/rlauncher/rocket_strong
 		map models/objects/projectile/rlauncher/rocket_strong.tga
 		blendFunc add
 		rgbGen entity
-		tcmod rotate -250
+		tcmod rotate -360
 	}
 }
 
