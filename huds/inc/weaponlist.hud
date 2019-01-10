@@ -26,7 +26,3 @@ if %TEAM != #TEAM_SPECTATOR
 		setFontStyle normal
 	endif
 endif
-
-setCursor 100, 100
-setSize 100, 100
-drawModelByIndex #ITEM_GUNBLADE
