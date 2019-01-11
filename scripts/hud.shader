@@ -18,43 +18,9 @@ mipmapped_HUD_Template
 	}
 }
 
-gfx/hud/zoomscreen
-{
-	nomipmaps
-	{
-		map gfx/hud/zoomscreenlines.tga
-		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		tcMod scroll -.1  0
-		tcMod scale 4 4
-	}
-}
-
-
-// numbers
-number_HUD_Template
-{
-	nomipmaps
-	{
-		clampmap gfx/hud/$1.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-		alphagen vertex
-	}
-}
-
 gfx/hud/net
 {
 	template mipmapped_HUD_Template net
-}
-
-gfx/hud/select
-{
-	nomipmaps
-	{
-		clampmap gfx/hud/select.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbgen vertex
-	}
 }
 
 gfx/hud/damage
@@ -123,95 +89,6 @@ gfx/hud/icons/weapon/gunblade_blast
 gfx/hud/icons/weapon/laser
 {
 	template weaponIcon_HUD_Template weapon/laser
-}
-
-//
-// ammo icons
-//
-
-gfx/hud/icons/ammo/electroammo
-{
-	template simpleIcon_HUD_Template ammo/electroammo
-}
-gfx/hud/icons/ammo/grenadeammo
-{
-	template simpleIcon_HUD_Template ammo/grenadeammo
-}
-gfx/hud/icons/ammo/plasmaammo
-{
-	template simpleIcon_HUD_Template ammo/plasmaammo
-}
-gfx/hud/icons/ammo/riotammo
-{
-	template simpleIcon_HUD_Template ammo/riotammo
-}
-gfx/hud/icons/ammo/bulletsammo
-{
-	template simpleIcon_HUD_Template ammo/bulletsammo
-}
-gfx/hud/icons/ammo/rocketammo
-{
-	template simpleIcon_HUD_Template ammo/rocketammo
-}
-gfx/hud/icons/ammo/gunbladeammo
-{
-	template simpleIcon_HUD_Template ammo/gunbladeammo
-}
-gfx/hud/icons/ammo/laserammo
-{
-	template simpleIcon_HUD_Template ammo/laserammo
-}
-gfx/hud/icons/ammo/pack
-{
-	template simpleIcon_HUD_Template ammo/pack
-}
-
-//
-// health icons
-//
-gfx/hud/icons/health/5
-{
-	template simpleIcon_HUD_Template health/5
-}
-gfx/hud/icons/health/25
-{
-	template simpleIcon_HUD_Template health/25
-}
-gfx/hud/icons/health/50
-{
-	template simpleIcon_HUD_Template health/50
-}
-gfx/hud/icons/health/100
-{
-	template simpleIcon_HUD_Template health/100
-}
-gfx/hud/icons/health/100ultra
-{
-	template simpleIcon_HUD_Template health/100ultra
-}
-
-//
-// quad icon
-//
-gfx/hud/icons/powerup/quad
-{
-	template simpleIcon_HUD_Template powerup/quad
-}
-
-//
-// bs icon
-//
-gfx/hud/icons/powerup/warshell
-{
-	template simpleIcon_HUD_Template powerup/warshell
-}
-
-//
-// regen icon
-//
-gfx/hud/icons/powerup/regen
-{
-	template simpleIcon_HUD_Template powerup/regen
 }
 
 key_HUD_Template
@@ -313,73 +190,6 @@ gfx/bomb/carriericon
 	template mipmapped_GFX_Template bomb/carriericon
 }
 
-gfx/bomb/minimap_a
-{
-	template mipmapped_GFX_Template bomb/minimap_a
-}
-
-gfx/bomb/minimap_b
-{
-	template mipmapped_GFX_Template bomb/minimap_b
-}
-
-//
-// player classes
-//
-gfx/hud/icons/playerclass/engi
-{
-	template mipmapped_HUD_Template icons/playerclass/engi
-}
-
-gfx/hud/icons/playerclass/grunt
-{
-	template mipmapped_HUD_Template icons/playerclass/grunt
-}
-
-gfx/hud/icons/playerclass/medic
-{
-	template mipmapped_HUD_Template icons/playerclass/medic
-}
-
-gfx/hud/icons/playerclass/runner
-{
-	template mipmapped_HUD_Template icons/playerclass/runner
-}
-
-gfx/hud/icons/classactions/engineer1
-{
-	template mipmapped_HUD_Template icons/classactions/engineer1
-}
-
-gfx/hud/icons/classactions/engineer2
-{
-	template mipmapped_HUD_Template icons/classactions/engineer2
-}
-
-gfx/hud/icons/classactions/grunt1
-{
-	template mipmapped_HUD_Template icons/classactions/grunt1
-}
-
-gfx/hud/icons/classactions/grunt2
-{
-	template mipmapped_HUD_Template icons/classactions/grunt2
-}
-
-gfx/hud/icons/classactions/medic1
-{
-	template mipmapped_HUD_Template icons/classactions/medic1
-}
-
-gfx/hud/icons/classactions/runner1
-{
-	template mipmapped_HUD_Template icons/classactions/runner1
-}
-
-gfx/hud/icons/classactions/runner2
-{
-	template mipmapped_HUD_Template icons/classactions/runner2
-}
 
 //
 // strafe helper

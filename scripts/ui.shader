@@ -6,19 +6,3 @@ gfx/ui/console
 		blendFunc blend
 	}
 }
-
-gfx/ui/backtile
-{
-	nomipmaps
-	{
-		map $blackimage
-	}
-}
-
-gfx/ui/whitetile
-{
-	nomipmaps
-	{
-		map $whiteimage
-	}
-}

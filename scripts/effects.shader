@@ -16,6 +16,7 @@ gfx/dash/dash_burst_2
 	}
 
 }
+
 gfx/misc/smokepuff1
 {
 	cull none
@@ -28,6 +29,7 @@ gfx/misc/smokepuff1
 		alphaGen	vertex
 	}
 }
+
 gfx/misc/smokepuff3
 {
 	cull none
@@ -40,6 +42,7 @@ gfx/misc/smokepuff3
 		alphaGen	vertex
 	}
 }
+
 gfx/misc/smokepuff2
 {
 	cull none
@@ -52,6 +55,7 @@ gfx/misc/smokepuff2
 		alphaGen	vertex
 	}
 }
+
 gfx/misc/smokepuff2_dark
 {
 	cull none
@@ -64,6 +68,7 @@ gfx/misc/smokepuff2_dark
 		alphaGen	vertex
 	}
 }
+
 gfx/misc/smokepuff1_dark
 {
 	cull none
@@ -76,6 +81,7 @@ gfx/misc/smokepuff1_dark
 		alphaGen	vertex
 	}
 }
+
 gfx/misc/smokepuff3_dark
 {
 	cull none
@@ -83,54 +89,6 @@ gfx/misc/smokepuff3_dark
 	softParticle
 	{
 		clampmap gfx/misc/cartoon_smokepuff3_dark.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen		vertex
-		alphaGen	vertex
-	}
-}
-
-models/effects/head_stun
-{
-	cull none
-	{
-		map models/effects/head_stun.tga
-		tcMod scroll 1 0
-		blendfunc blend
-		rgbGen entity
-		alphagen entity
-	}
-}
-
-gfx/misc/cartoonhit
-{
-	cull none
-	softParticle
-	{
-		clampmap gfx/misc/cartoonhit.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen		vertex
-		alphaGen	vertex
-	}
-}
-
-gfx/misc/cartoonhit2
-{
-	cull none
-	softParticle
-	{
-		clampmap gfx/misc/cartoonhit2.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen		vertex
-		alphaGen	vertex
-	}
-}
-
-gfx/misc/cartoonhit3
-{
-	cull none
-	softParticle
-	{
-		clampmap gfx/misc/cartoonhit3.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen		vertex
 		alphaGen	vertex
