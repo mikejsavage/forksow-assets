@@ -269,32 +269,6 @@ textures/billboard/bulletsblue
 	}
 }
 
-textures/billboard/bulletsblue2
-{
-	surfaceparm nomarks
-	surfaceparm nonsolid
-	qer_editorimage textures/billboard/bulletsblue2.jpg
-	q3map_lightimage textures/billboard/bulletsblue2.jpg
-	q3map_surfacelight 500
-	{
-		map textures/billboard/bulletsblue2.jpg
-		blendfunc add
-	}
-}
-
-textures/billboard/bulletspurple
-{
-	surfaceparm nomarks
-	surfaceparm nonsolid
-	qer_editorimage textures/billboard/bulletspurple.jpg
-	q3map_lightimage textures/billboard/bulletspurple.jpg
-	q3map_surfacelight 500
-	{
-		map textures/billboard/bulletspurple.jpg
-		blendfunc add
-	}
-}
-
 textures/billboard/PorkyPie
 {
 	qer_editorimage textures/billboard/PorkyPie.tga

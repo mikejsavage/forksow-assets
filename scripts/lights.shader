@@ -214,21 +214,6 @@ textures/lights/01blues_10000
 	}
 }
 
-textures/lights/blacktrim01
-{
-	qer_editorimage textures/lights/blacktrim01
-	q3map_lightRGB 1 1 1
-	q3map_lightsubdivide 128
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	surfaceparm nolightmap
-
-	{
-		map textures/lights/blacktrim01.tga
-	}
-}
-
 textures/lights/blacktrim01_1000
 {
 	qer_editorimage textures/lights/blacktrim01
@@ -242,61 +227,6 @@ textures/lights/blacktrim01_1000
 
 	{
 		map textures/lights/blacktrim01.tga
-	}
-}
-
-textures/lights/blacktrim02
-{
-	qer_editorimage textures/lights/blacktrim02.tga
-	q3map_lightRGB 1 1 1
-	q3map_lightsubdivide 128
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	surfaceparm nolightmap
-
-	{
-		map textures/lights/blacktrim02.tga
-	}
-}
-
-textures/lights/blacktrim02_2500
-{
-	qer_editorimage textures/lights/blacktrim02.tga
-	q3map_lightRGB 1 1 1
-	q3map_surfacelight 2500
-	q3map_lightsubdivide 128
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	surfaceparm nolightmap
-
-	{
-		map textures/lights/blacktrim02.tga
-	}
-}
-
-textures/lights/neonlamp
-{
-	qer_editorimage textures/lights/neonlamp.tga
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	q3map_lightmapSampleSize 128
-
-	{
-		map $lightmap
-		rgbGen identity
-	}
-
-	{
-		map textures/lights/neonlamp.tga
-		blendFunc filter
-	}
-
-	{
-		map textures/lights/neonlamp.blend.tga
-		blendfunc add
 	}
 }
 
@@ -446,35 +376,6 @@ textures/lights/purewhite_1000
 
 	{
 		map textures/lights/purewhite.tga
-	}
-}
-
-textures/lights/bluetrim
-{
-	qer_editorimage textures/lights/bluetrim.tga
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	surfaceparm nolightmap
-
-	{
-		map textures/lights/bluetrim.tga
-	}
-}
-
-textures/lights/bluetrim_1000
-{
-	qer_editorimage textures/lights/bluetrim.tga
-	q3map_lightimage textures/lights/bluetrim.tga
-	q3map_surfacelight 1000
-	q3map_lightsubdivide 128
-	surfaceparm nomarks
-	surfaceparm nodlight
-	q3map_forcemeta
-	surfaceparm nolightmap
-
-	{
-		map textures/lights/bluetrim.tga
 	}
 }
 

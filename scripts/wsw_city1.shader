@@ -1,39 +1,3 @@
-textures/wsw_city1/cables1
-{
-	cull none
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm trans
-	qer_editorimage textures/wsw_city1/cables1.tga
-	surfaceparm nolightmap
-
-	{
-		rgbgen vertex
-		material
-		alphafunc GT0
-		depthWrite
-		blendfunc blend
-	}
-}
-
-textures/wsw_city1/cables2
-{
-	cull none
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm trans
-	qer_editorimage textures/wsw_city1/cables2.tga
-	surfaceparm nolightmap
-
-	{
-		rgbgen vertex
-		material
-		alphafunc GT0
-		depthWrite
-		blendfunc blend
-	}
-}
-
 textures/wsw_city1/wires1
 {
 	cull none

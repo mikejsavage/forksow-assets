@@ -17,19 +17,7 @@ textures/decals/orangearrows
 
 textures/decals/orangearrows_outlined
 {
-	qer_editorimage textures/decals/orangearrows_outlined.tga
-	qer_trans 0.6
-	surfaceparm nolightmap
-	surfaceparm nomarks
-	surfaceparm nodlight
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonOffset
-
-	{
-		map textures/decals/orangearrows_outlined.tga
-		blendFunc blend
-	}
+	template textures/decals/orangearrows
 }
 
 textures/decals/dirt_01

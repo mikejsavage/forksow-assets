@@ -268,23 +268,6 @@ models/mapobjects/crates/container_red
 	}
 }
 
-models/mapobjects/crates/container_red_trans
-{
-	qer_editorimage models/mapobjects/crates/container_red.tga
-	qer_trans 0.8
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm alphashadow
-	cull none
-	q3map_forceMeta
-	glossExponent 96
-
-	{
-		material models/mapobjects/crates/container_red.tga models/mapobjects/crates/container_norm.tga models/mapobjects/crates/container_gloss.tga
-		blendFunc blend
-	}
-}
-
 models/mapobjects/crates/container_blue
 {
 	qer_editorimage models/mapobjects/crates/container_blue.tga
