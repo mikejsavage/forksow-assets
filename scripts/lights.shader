@@ -359,7 +359,7 @@ textures/lights/purewhite
 	surfaceparm nolightmap
 
 	{
-		map textures/lights/purewhite.tga
+		map $whiteimage
 	}
 }
 
@@ -375,7 +375,7 @@ textures/lights/purewhite_1000
 	surfaceparm nolightmap
 
 	{
-		map textures/lights/purewhite.tga
+		map $whiteimage
 	}
 }
 

@@ -280,12 +280,12 @@ gfx/rocket_explosion
 	softParticle
 	{
 		animmap 8 gfx/misc/rlexplo1.tga  gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga
-		rgbGen wave inversesawtooth 0 1 0 8
+		rgbGen entitycolorwave 1 1 1 inversesawtooth 0 1 0 8
 		blendfunc add
 	}
 	{
 		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga gfx/colors/black.tga
-		rgbGen wave sawtooth 0 1 0 8
+		rgbGen entitycolorwave 1 1 1 sawtooth 0 1 0 8
 		blendfunc add
 	}
 }
@@ -296,7 +296,7 @@ gfx/rocket_explosion_ring
 	softParticle
 	{
 		Clampmap gfx/misc/rlexplo_ring.tga
-		rgbGen wave Inversesawtooth 0 1 0 4
+		rgbGen entitycolorwave 1 1 1 Inversesawtooth 0 1 0 4
 		blendfunc add
 		tcMod stretch sawtooth .75 .5 0 4
 	}
@@ -308,12 +308,12 @@ gfx/grenade_explosion
 	softParticle
 	{
 		animmap 8 gfx/misc/rlexplo1.tga  gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga
-		rgbGen wave inversesawtooth 0 1 0 8
+		rgbGen entitycolorwave 1 1 1 inversesawtooth 0 1 0 8
 		blendfunc add
 	}
 	{
 		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga gfx/colors/black.tga
-		rgbGen wave sawtooth 0 1 0 8
+		rgbGen entitycolorwave 1 1 1 sawtooth 0 1 0 8
 		blendfunc add
 	}
 }
@@ -324,7 +324,7 @@ gfx/grenade_explosion_ring
 	softParticle
 	{
 		Clampmap gfx/misc/rlexplo_ring.tga
-		rgbGen wave Inversesawtooth 0 1 0 4
+		rgbGen entitycolorwave 1 1 1 Inversesawtooth 0 1 0 4
 		blendfunc add
 		tcMod stretch sawtooth .75 .5 0 4
 	}

@@ -29,6 +29,16 @@ models/weapon_hits/lasergun/hit_blastexp
 	}
 }
 
+sky
+{
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	{
+		map $whiteimage
+	}
+}
+
 whitesky
 {
 	surfaceparm sky
