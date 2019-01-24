@@ -36,7 +36,6 @@ include teammate_indicators
 include strafe
 include speed
 include fps
-include help_message
 include download
 include net
 include damage_numbers
