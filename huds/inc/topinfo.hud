@@ -5,10 +5,8 @@ setColor 0, 0, 0, 0.5
 if %MATCH_STATE < #MATCH_STATE_PLAYTIME
 	// background
 	setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 32
-	if %MATCH_STATE < #MATCH_STATE_COUNTDOWN
-		if %TEAM != #TEAM_SPECTATOR
-			setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
-		endif
+	if %TEAM != #TEAM_SPECTATOR
+		setSize 120 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 48
 	endif
 	drawPicByName $whiteimage
 
@@ -20,21 +18,19 @@ if %MATCH_STATE < #MATCH_STATE_PLAYTIME
 	drawString "WARMUP"
 	setFontStyle normal
 
-	if %MATCH_STATE < #MATCH_STATE_COUNTDOWN
-		if %TEAM != #TEAM_SPECTATOR
-			moveCursor 0, 17
-			setFontSize %VIDHEIGHT / 64
-			setFontStyle bold
+	if %TEAM != #TEAM_SPECTATOR
+		moveCursor 0, 17
+		setFontSize %VIDHEIGHT / 64
+		setFontStyle bold
 
-			if %READY != 0
-				setColor 0.32, 0.99, 0.37, 1
-				drawString "READY"
-			endif
+		if %READY || %MATCH_STATE == #MATCH_STATE_COUNTDOWN
+			setColor 0.32, 0.99, 0.37, 1
+			drawString "READY"
+		endif
 
-			if %READY == 0
-				setColor 1, 0.23, 0.26, 1
-				drawString "NOT READY"
-			endif
+		ifnot %READY || %MATCH_STATE == #MATCH_STATE_COUNTDOWN
+			setColor 1, 0.23, 0.26, 1
+			drawString "NOT READY"
 		endif
 	endif
 endif
