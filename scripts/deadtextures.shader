@@ -31,3 +31,16 @@ textures/window/windowbrown { polygonoffset }
 
 textures/wsw_city1/cables1 { polygonoffset }
 textures/wsw_city1/cables2 { polygonoffset }
+
+textures/sky/stormydays { polygonoffset }
+textures/36_others/36sky3 { polygonoffset }
+textures/shepas/sky_s { polygonoffset }
+textures/skies_goochie/x { polygonoffset }
+textures/alley/newsky { polygonoffset }
+textures/blx/new_sky { polygonoffset }
+textures/gladiator/gladiator2 { polygonoffset }
+textures/emtown/townsky { polygonoffset }
+textures/sky/indigosky { polygonoffset }
+textures/concretestrike/sky { polygonoffset }
+textures/concretestrike/sky_newlight { polygonoffset }
+textures/concretestrike/sky_surfacelight { polygonoffset }
