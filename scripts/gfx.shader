@@ -284,7 +284,7 @@ gfx/rocket_explosion
 		blendfunc add
 	}
 	{
-		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga gfx/colors/black.tga
+		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga $blackimage
 		rgbGen entitycolorwave 1 1 1 sawtooth 0 1 0 8
 		blendfunc add
 	}
@@ -312,7 +312,7 @@ gfx/grenade_explosion
 		blendfunc add
 	}
 	{
-		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga gfx/colors/black.tga
+		animmap 8 gfx/misc/rlexplo2.tga gfx/misc/rlexplo3.tga gfx/misc/rlexplo4.tga gfx/misc/rlexplo5.tga gfx/misc/rlexplo6.tga gfx/misc/rlexplo7.tga gfx/misc/rlexplo8.tga $blackimage
 		rgbGen entitycolorwave 1 1 1 sawtooth 0 1 0 8
 		blendfunc add
 	}
