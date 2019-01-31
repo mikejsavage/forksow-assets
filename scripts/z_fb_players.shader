@@ -1,7 +1,5 @@
 fullbright
 {
-	cull front
-
 	{
 		map $whiteimage
 		rgbGen entity

@@ -1,8 +1,6 @@
 //textures
 fullbright_weapon
 {
-	cull front
-
 	{
 		map $whiteImage
 		rgbGen const $1 $2 $3
