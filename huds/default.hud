@@ -33,7 +33,6 @@ include chasing
 
 include teammate_indicators
 
-include strafe
 include speed
 include fps
 include download
