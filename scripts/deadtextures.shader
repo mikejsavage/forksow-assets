@@ -44,3 +44,4 @@ textures/sky/indigosky { polygonoffset }
 textures/concretestrike/sky { polygonoffset }
 textures/concretestrike/sky_newlight { polygonoffset }
 textures/concretestrike/sky_surfacelight { polygonoffset }
+textures/devtex/whitesky { polygonoffset }
