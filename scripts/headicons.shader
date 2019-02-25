@@ -14,21 +14,6 @@ gfx/hud/icons/vsay/generic
 	template vsay_HUD_template generic
 }
 
-gfx/hud/icons/vsay/needhealth
-{
-	template vsay_HUD_template needhealth
-}
-
-gfx/hud/icons/vsay/needweapon
-{
-	template vsay_HUD_template needweapon
-}
-
-gfx/hud/icons/vsay/needarmor
-{
-	template vsay_HUD_template needarmor
-}
-
 gfx/hud/icons/vsay/affirmative
 {
 	template vsay_HUD_template affirmative
@@ -129,11 +114,6 @@ gfx/hud/icons/vsay/roger
 	template vsay_HUD_template roger
 }
 
-gfx/hud/icons/vsay/armorfree
-{
-	template vsay_HUD_template armorfree
-}
-
 gfx/hud/icons/vsay/areasecured
 {
 	template vsay_HUD_template areasecured
@@ -147,16 +127,6 @@ gfx/hud/icons/vsay/shutup
 gfx/hud/icons/vsay/boomstick
 {
 	template vsay_HUD_template boomstick
-}
-
-gfx/hud/icons/vsay/gotopowerup
-{
-	template vsay_HUD_template gotopowerup
-}
-
-gfx/hud/icons/vsay/gotoquad
-{
-	template vsay_HUD_template gotoquad
 }
 
 gfx/hud/icons/vsay/ok
