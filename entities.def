@@ -367,6 +367,12 @@ LIGHT : enable light on the particles
 EXPAND_EFFECT : The particle expands during its lifetime
 SHRINK_EFFECT : The particle shrinks during its lifetime
 
+/*QUAKED target_delay (1 0 0) (-8 -8 -8) (8 8 8)
+Delays
+-------- KEYS --------
+wait : seconds to pause before firing targets.
+random : delay variance, total delay = delay +/- random seconds*/
+
 /*QUAKED target_position (0 .5 0) (-8 -8 -8) (8 8 8)
 Aiming target for entities like light, misc_portal_camera and trigger_push (jump pads) in particular.
 -------- KEYS --------
