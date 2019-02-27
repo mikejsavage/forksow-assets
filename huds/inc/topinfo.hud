@@ -16,7 +16,6 @@ if %MATCH_STATE < #MATCH_STATE_PLAYTIME
 	setFontStyle bold
 	setColor 1, 1, 1, 1
 	drawString "WARMUP"
-	setFontStyle normal
 
 	if %TEAM != #TEAM_SPECTATOR
 		moveCursor 0, 17
@@ -33,6 +32,8 @@ if %MATCH_STATE < #MATCH_STATE_PLAYTIME
 			drawString "NOT READY"
 		endif
 	endif
+
+	setFontStyle normal
 endif
 
 if %MATCH_STATE == #MATCH_STATE_PLAYTIME
