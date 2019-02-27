@@ -1,6 +1,0 @@
-.ui-map, .ui1-map {
-	worldmodel: ui/background.bsp;
-	vieworigin: 0 0 -50;
-	viewangles: 0 90 0;
-	wave-yaw: 0.1 0 100;
-}
