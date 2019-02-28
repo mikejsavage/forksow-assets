@@ -15,6 +15,7 @@ models/weapons/lg                               { template fullbright_weapon 0.3
 models/weapons/plasmagun/plasmagun              { template fullbright_weapon 0.675 0.314 1.000 }
 models/weapons/riotgun/riotgun                  { template fullbright_weapon 1.000 0.675 0.118 }
 models/weapons/rl                               { template fullbright_weapon 1.000 0.227 0.259 }
+models/weapons/machinegun/machinegun            { template fullbright_weapon 0.250 0.250 0.250 }
 
 //flashes
 models/weapons/rl_flash1
