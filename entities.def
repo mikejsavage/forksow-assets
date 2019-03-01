@@ -397,3 +397,8 @@ GLOBAL : &8 Overrides attenuation setting. Sound will play full volume throughou
 ACTIVATOR : &16 sound will play only for the player that activated the target.
 -------- NOTES --------
 The path portion value of the "noise" key can be replaced by the implicit folder character "*" for triggered sounds that belong to a particular player model. For example, if you want to create a "bottomless pit" in which the player screams and dies when he falls into, you would place a trigger_multiple over the floor of the pit and target a target_speaker with it. Then, you would set the "noise" key to "*falling1.wav". The * character means the current player model's sound folder. So if your current player model is Visor, * = sound/player/visor, if your current player model is Sarge, * = sound/player/sarge, etc. This cool feature provides an excellent way to create "player-specific" triggered sounds in your levels.*/
+
+/*QUAKED model (1 0 0) (-8 -8 -8) (8 8 8)
+Place a model to be loaded at runtime
+-------- KEYS --------
+model : Path to model*/
