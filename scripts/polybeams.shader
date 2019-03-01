@@ -30,10 +30,10 @@ gfx/misc/laser
 	cull none
 	deformVertexes autosprite2
 	{
-		//clamp
 		map gfx/misc/laser.tga
-		rgbgen vertex
-		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen const 1 0.5 0
+		alphaGen const 0.5
 		tcMod scroll 10 0
 	}
 }
